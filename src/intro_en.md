@@ -1,20 +1,20 @@
 ---
 title: Cohiradia
 card1:
-  name: Aufnahmen
-  desc: "Download von Aufnahmen."
+  name: Recordings
+  desc: "Download of recordings."
   link: "#recording"
 card2:
   name: "Report 2023"
-  desc: "Der Jahresbericht 2023."
+  desc: "Cohiradia report 2023."
   link: "https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf"
 card3:
-  name: Dokumentationen
-  desc: "Download der Dokumentationen."
+  name: Documentations
+  desc: "Download of documentations."
   link: "https://www.radiomuseum.org/cohiradia/documentation.html"
 card4:
   name: Software
-  desc: "Download von Software."
+  desc: "Software download."
   link: "https://www.radiomuseum.org/cohiradia/software.html"
 ---
 ## Introduction
