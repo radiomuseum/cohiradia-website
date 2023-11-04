@@ -10,28 +10,28 @@ COHIRADIA verfolgt im Wesentlichen zwei Ziele:
 
 2) aktuelle Rundfunkbänder insbesondere im AM-Bereich an verschiedenen Stellen weltweit aufzuzeichnen, um die noch existierende Landschaft aktiver Sender rechtzeitig in Archivdateien abzubilden, bevor die Technologie endgültig ausgestorben ist.
 
-# Lösung
+# Technische Lösung
 Ermöglicht wird dies durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Breitbandige Aufzeichnung direkt von einer Antenne ist mittlerweile relativ einfach mit mehreren auf dem Markt befindliche SDRs möglich, die Wiedergabe erfordert allerdings SDRs mit Transmit-Ausgang. Der Initiator von COHIRADIA benutzt dafür das STEMLAB125‐14 von RedPitaya, das mit 14 Bit ADC-Auflösung aud 125MS/s Samplingrate eine gute Aufnahme- und Wiedergabequalität bietet. Alternative TX-fähige SDRS mit ähnlichen oder besseren Leistungsdaten existieren ebenfalls.
 
 Die Aufzeichnungen können von jeder Person abgespielt werden die ebenfalls über ein STEMLAB125‐14 oder ein geeignetes TX-fähiges SDR verfügt. Die Verwendung eines einheitlichen Datenformats garantiert dabei die Austauschbarkeit zwischen verschiedenen Plattformen.
 
 Um in möglichst kurzer Zeit ein reichhaltiges Archiv aufzubauen, werden InteressentInnen eingeladen, eigene Aufzeichnungen zu machen und die Daten dem Radiomuseum zur Verfügung zu stellen bzw. über das erfolgreiche Abspielen von Dateien auf historischen Radio-Geräten zu berichten. Auch kreative Ideen für anderweitige Anwendungen (Aktivitäten, Museen, ...) sind sehr willkommen.
 
-Bei Interesse sind genauere Details zur verwendeten Technik, Software und den Qualitätskriterien im Report 2023 nachzulesen.
+Bei Interesse sind genauere Details zur verwendeten Technik, Software und den Qualitätskriterien im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf) nachzulesen.
 
 Die ältesten bisher existierenden Aufzeichnungen auf MW und KW wurden vom Initiator in den Jahren 2006 – 2009 analog auf einem Videorecorder erstellt und 2021 digitalisiert. Alle weiteren Aufnahmen, besonders ab 2015 wurden direkt digital von verschiedenen an COHIRADIA mitwirkenden Radioamateuern produziert, schwerpunktmäßig auf Lang‐, Mittel- und Kurzwelle bis 30 MHz. Auf den älteren Aufnahmen finden sich noch viele Europäische Sender, die mittlerweile abgeschaltet worden sind.
 
 Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen auf dem STEMLAB125-14 wurde eine erste Softwareversion in Python erstellt und ist für Windows10 als exe-Programm verfügbar. Für die Sourcen wurde vom Autor bereits ein GITHub-Repository angelegt, eine Freigabe als open‐Source Projekt ist für die nächste Zukunft geplant.
 
-* Beschreibungen für die Installation der nötigen Hard- und Software sind unter https://cohiradia.radiomuseum.org/download/docs/ downloadbar
+* [Beschreibungen für die Installation der nötigen Hard- und Software](https://cohiradia.radiomuseum.org/download/docs/) 
+* [Verfügbare Software‐Installationspakete](https://cohiradia.radiomuseum.org/download/software/)
+* [Datenfiles aus archivierten Aufnahmen](https://cohiradia.radiomuseum.org/download/data/)
 
-* Weiters finden sich die verfügbaren Software‐Installationspakete unter https://cohiradia.radiomuseum.org/download/software/
-* Datenfiles aus archivierten Aufnahmen finden sich unter https://cohiradia.radiomuseum.org/download/data/
+[Hermann Scharfetter](mailto:hermann.scharfetter@gmail.com) initiierte das Projekt COHIRADIA und ist die treibende Kraft dahinter. Über sein [Profil](/dsp_profile.cfm?Member_Id=3642) können sie gerne mit ihm in Kontakt treten und das Projekt gemeinsam mit ihm weiterentwickeln.
 
-Hermann Scharfetter (hermann.scharfetter[at]gmail.com) initiierte das Projekt COHIRADIA und ist die treibende Kraft dahinter. Über sein Profil können sie gerne mit ihm in Kontakt treten und das Projekt gemeinsam mit ihm weiterentwickeln.
-
+# Weitere Archive
 Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes Breitbandmaterial beinhalten:
 
-* Viele lateinamerikanische Aufzeichnungen und ein paar LW-Aufnahmen auf denen auch europäische Sender auftauchen: My DX Travel Logs
-* Aufzeichnungen aus USA, z.T digitalisierte Analog-Aufnahmen mit Videorecordern bis zurück nach 1986
-* Europäisches Archiv mit eher kurzen Sequenzen ab 2009
+* [My DX Travel Logs](https://www.donmooredxer.com): Viele lateinamerikanische Aufzeichnungen und ein paar LW-Aufnahmen auf denen auch europäische Sender auftauchen. 
+* [The Radio Spectrum Archive](https://spectrumarchive.org): Aufzeichnungen aus USA, z.T digitalisierte Analog-Aufnahmen mit Videorecordern bis zurück nach 1986
+* [Perseus WAV Files by Günter Lorenz](http://pira.fmlist.org/perseus/): Europäisches Archiv mit eher kurzen Sequenzen ab 2009
