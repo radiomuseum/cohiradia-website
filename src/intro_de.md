@@ -3,15 +3,19 @@ title: Cohiradia
 card1:
   name: Aufnahmen
   desc: "Download von Aufnahmen."
+  link: "##recording"
 card2:
   name: "Report 2023"
   desc: "Der Jahresbericht 2023."
+  link: "https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf"
 card3:
   name: Dokumentationen
   desc: "Download der Dokumentationen."
+  link: "https://www.radiomuseum.org/cohiradia/documentation.html"
 card4:
   name: Software
   desc: "Download von Software."
+  link: "https://www.radiomuseum.org/cohiradia/software.html"
 ---
 ## Einführung
 Stellen Sie sich vor, Sie könnten auf Ihrem historischen Radioempfänger jederzeit alle Sender des Mittelwellenbandes an einem Tag im Jahr 2006 durchstimmen und anhören, so als ob alle enthaltenen Stationen gerade jetzt senden würden. Klarerweise sollte die Wiedergabe nicht auf einer künstlichen Montage, sondern auf einer authentischen historischen Aufzeichnung beruhen. Das entspricht wohl dem Wunsch vieler Sammler, deren schöne und wertvolle Geräte aufgrund der rasch fortschreitenden endgültigen Abschaltung von AM-Sendern zunehmend ‚stumm‘ bleiben werden. Genau diesen Wunsch erfüllt das Projekt COHIRADIA, wie dieses Demovideo zeigt.
