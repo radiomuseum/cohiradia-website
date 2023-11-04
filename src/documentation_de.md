@@ -1,8 +1,5 @@
 ---
 title: Cohiradia Dokumentation
-card1:
-  name: Aufnahmen
-  desc: "Download von Aufnahmen."
 ---
 ## Bedienungsanleitungen
 * [Bedienungsanleitung RFCorder v2.0](https://cohiradia.radiomuseum.org/download/docs/RFcorder_v2_Bedienungsanleitung.pdf)
