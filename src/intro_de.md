@@ -3,7 +3,7 @@ title: Cohiradia
 card1:
   name: Aufnahmen
   desc: "Download von Aufnahmen."
-  link: "##recording"
+  link: "#recording"
 card2:
   name: "Report 2023"
   desc: "Der Jahresbericht 2023."
