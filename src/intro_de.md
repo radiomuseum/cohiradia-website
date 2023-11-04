@@ -34,5 +34,7 @@ Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes 
 
 * [My DX Travel Logs](https://www.donmooredxer.com)  
   Viele lateinamerikanische Aufzeichnungen und ein paar LW-Aufnahmen auf denen auch europäische Sender auftauchen. 
-* [The Radio Spectrum Archive](https://spectrumarchive.org): Aufzeichnungen aus USA, z.T digitalisierte Analog-Aufnahmen mit Videorecordern bis zurück nach 1986
-* [Perseus WAV Files by Günter Lorenz](http://pira.fmlist.org/perseus/): Europäisches Archiv mit eher kurzen Sequenzen ab 2009
+* [The Radio Spectrum Archive](https://spectrumarchive.org)  
+  Aufzeichnungen aus USA, z.T digitalisierte Analog-Aufnahmen mit Videorecordern bis zurück nach 1986
+* [Perseus WAV Files by Günter Lorenz](http://pira.fmlist.org/perseus/)  
+   Europäisches Archiv mit eher kurzen Sequenzen ab 2009
