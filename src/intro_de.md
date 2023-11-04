@@ -1,16 +1,16 @@
-# Einführung
+## Einführung
 Stellen Sie sich vor, Sie könnten auf Ihrem historischen Radioempfänger jederzeit alle Sender des Mittelwellenbandes an einem Tag im Jahr 2006 durchstimmen und anhören, so als ob alle enthaltenen Stationen gerade jetzt senden würden. Klarerweise sollte die Wiedergabe nicht auf einer künstlichen Montage, sondern auf einer authentischen historischen Aufzeichnung beruhen. Das entspricht wohl dem Wunsch vieler Sammler, deren schöne und wertvolle Geräte aufgrund der rasch fortschreitenden endgültigen Abschaltung von AM-Sendern zunehmend ‚stumm‘ bleiben werden. Genau diesen Wunsch erfüllt das Projekt COHIRADIA, wie dieses Demovideo zeigt.
 
 COHIRADIA steht als Akronym für **CO**nservation of **HI**storical **RA**diofrequency bands by **DI**gital Archiving (Konservierung historischer Radiofrequenzbänder durch digitale Archivierung).
 
-# Ziele
+## Ziele
 COHIRADIA verfolgt im Wesentlichen zwei Ziele:
 
 1) interessierten Rundfunkfreunden und Sammlern die Möglichkeit zu geben, auf historischen Radioempfängern Original‐Radiosignale abzuspielen, die in der Vergangenheit aufgezeichnet worden sind. Diese Signale sollen nicht nur einen einzelnen Sender beinhalten, sondern ein ganzes Frequenzband (z.B. Mittelwelle) mit allen darin enthaltenen Rundfunkstationen auf den korrekten, zum Aufnahmezeitpunkt bestehenden Trägerfrequenzen. Damit können alle Sender auf dem Radioempfänger wieder durchgestimmt werden.
 
 2) aktuelle Rundfunkbänder insbesondere im AM-Bereich an verschiedenen Stellen weltweit aufzuzeichnen, um die noch existierende Landschaft aktiver Sender rechtzeitig in Archivdateien abzubilden, bevor die Technologie endgültig ausgestorben ist.
 
-# Technische Lösung
+## Technische Lösung
 Ermöglicht wird dies durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Breitbandige Aufzeichnung direkt von einer Antenne ist mittlerweile relativ einfach mit mehreren auf dem Markt befindliche SDRs möglich, die Wiedergabe erfordert allerdings SDRs mit Transmit-Ausgang. Der Initiator von COHIRADIA benutzt dafür das STEMLAB125‐14 von RedPitaya, das mit 14 Bit ADC-Auflösung aud 125MS/s Samplingrate eine gute Aufnahme- und Wiedergabequalität bietet. Alternative TX-fähige SDRS mit ähnlichen oder besseren Leistungsdaten existieren ebenfalls.
 
 Die Aufzeichnungen können von jeder Person abgespielt werden die ebenfalls über ein STEMLAB125‐14 oder ein geeignetes TX-fähiges SDR verfügt. Die Verwendung eines einheitlichen Datenformats garantiert dabei die Austauschbarkeit zwischen verschiedenen Plattformen.
@@ -29,7 +29,7 @@ Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen au
 
 [Hermann Scharfetter](mailto:hermann.scharfetter@gmail.com) initiierte das Projekt COHIRADIA und ist die treibende Kraft dahinter. Über sein [Profil](/dsp_profile.cfm?Member_Id=3642) können sie gerne mit ihm in Kontakt treten und das Projekt gemeinsam mit ihm weiterentwickeln.
 
-# Weitere Archive
+## Weitere Archive
 Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes Breitbandmaterial beinhalten:
 
 * [My DX Travel Logs](https://www.donmooredxer.com)  

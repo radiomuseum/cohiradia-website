@@ -1,4 +1,6 @@
-# Cohiradia Dokumentation
+---
+title: Cohiradia Dokumentation
+---
 
 ## Bedienungsanleitungen
 * [Bedienungsanleitung RFCorder v2.0](https://cohiradia.radiomuseum.org/download/docs/RFcorder_v2_Bedienungsanleitung.pdf)
