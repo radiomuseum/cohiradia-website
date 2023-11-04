@@ -20,7 +20,7 @@ card4:
 ## Einführung
 Stellen Sie sich vor, Sie könnten auf Ihrem historischen Radioempfänger jederzeit alle Sender des Mittelwellenbandes an einem Tag im Jahr 2006 durchstimmen und anhören, so als ob alle enthaltenen Stationen gerade jetzt senden würden. Klarerweise sollte die Wiedergabe nicht auf einer künstlichen Montage, sondern auf einer authentischen historischen Aufzeichnung beruhen. Das entspricht wohl dem Wunsch vieler Sammler, deren schöne und wertvolle Geräte aufgrund der rasch fortschreitenden endgültigen Abschaltung von AM-Sendern zunehmend ‚stumm‘ bleiben werden. Genau diesen Wunsch erfüllt das Projekt COHIRADIA, wie dieses Demovideo zeigt.
 
-COHIRADIA steht als Akronym für **CO**nservation of **HI**storical **RA**diofrequency bands by **DI**gital Archiving (Konservierung historischer Radiofrequenzbänder durch digitale Archivierung).
+COHIRADIA steht als Akronym für **CO**nservation of **HI**storical **RA**diofrequency bands by **DI**gital **A**rchiving (Konservierung historischer Radiofrequenzbänder durch digitale Archivierung).
 
 ## Ziele
 COHIRADIA verfolgt im Wesentlichen zwei Ziele:
