@@ -2,7 +2,7 @@
 title: Cohiradia Software
 ---
 ## RFCorder Version 2.0 (November 2023)
-Es gibt nun eine [neue Version des RFCorders](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip), die ab sofort heruntergeladen werden kann. Die Beschreibung ist im zip-File mit eingepackt. Das Programm kann derzeit wie die Version v1 zwar Aufnahmen lediglich abspielen, dafür gibt es eine Reihe nützlicher neuer Features:
+Es gibt nun eine [neue Version des RFCorders](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip), die ab sofort heruntergeladen werden kann. Die Beschreibung ist im zip-File mit eingepackt. Das Programm kann derzeit im Gegensatz zu Version v1.2 zwar Aufnahmen lediglich abspielen, dafür gibt es eine Reihe nützlicher neuer Features:
 
 * Man kann nun auch wav-Dateien abspielen. Das ist sinnvoll, da alle externen Archive von Breitbanddateien dieses Format anbieten. Weiters werden alle neuen Aufnahmen im Archiv nun ausschließlich mit wav-Header generiert. Dies erlaubt es, die Files auch mit gängiger SDR-Software wie SDRUno oder SDR# auf dem PC wiederzugeben und Metadaten können so viel kompakter an den RFCorder übergeben und dargestellt werden.
 * Man kann nun mit einem Rollbalken auf der Zeitleiste hin und herspringen, also sehr einfach unterschiedliche Stellen in der Aufnahme aufsuchen.
