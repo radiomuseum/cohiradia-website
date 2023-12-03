@@ -3,7 +3,7 @@ title: Cohiradia Software
 card1:
   name: RfCorder v1.2
   desc: "Aufnahme/Wiedergabetool v1.2"
-  link: "#recording"
+  link: "https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip"
 ---
 ## RFCoder Version 2.0 (November 2023)
 Es gibt nun eine [neue Version des RFCorders](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip), die ab sofort heruntergeladen werden kann. Die Beschreibung ist im zip-File mit eingepackt. Das Programm kann derzeit wie die Version v1 zwar Aufnahmen lediglich abspielen, dafür gibt es eine Reihe nützlicher neuer Features:
