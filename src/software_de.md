@@ -19,8 +19,8 @@ Da es sich um eine sehr starke Änderung gegenüber der Vorgängerversion handel
 
 ## RFCorder Version 1.2 (April 2022)
 <!-- This is the text of the comment -->
-<!-- ![Image](https://cohiradia.radiomuseum.org/download/software/RFCorder1.2_Screenshot.png) -->
-<img src=[drawing.jpg](https://cohiradia.radiomuseum.org/download/software/RFCorder1.2_Screenshot.png) alt="drawing" style="width:200px;"/>
+![Image](https://cohiradia.radiomuseum.org/download/software/RFCorder1.2_Screenshot.png =100x20)
+
 [RFCorder v1.2](https://cohiradia.radiomuseum.org/download/software/cohiradia_V1.2.zip) ist die erste voll funktionsfähige Software für die Aufnahme von Breitbandaufzeichnungen mittels des STEMLAB125-14 und deren analoge Wiedergabe auf angeschlossenen Rundfunkempfängern. Das einzige unterstützte Fileformat sind bei dieser Version Rohfiles mit 32-byte Complex-Format mit der Extension '.dat'. Die Filenamen müssen der alten COHIRDIA Namenskonvention entsprechen (siehe Jahresbericht 2023) und daher auch in diesem Format aus dem Archiv heruntergeladen werden.
 
 Das Abspielen von wav-Dateien, wie sie die meisten SDRs benutzen, ist nur bedingt möglich, nämlich wenn man sie entsprechend umbenennt (dat statt wav und Umschreiben des Namens gemäß Namenskonvenion) und wenn die Samplingrate einer der vom STEMLAB unterstützten Raten entspricht. Andere Formate als 2 channels int16 werden nicht unterstützt.
