@@ -33,7 +33,7 @@ Bei Aufnahmen ermöglicht das Programm den automatischen Start einer Aufnahme mi
 
 ## COHIWizard 1.0 (Jänner 2024)
 
-<img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0.zip)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0.zip)
 
 Der [COHIWizard](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0.zip) ist ein umfangreiches Programm, das neben der vollen Funktionalität des RFCorders2.0 auch viele Zusatzfunktionen bereitstellt. Diese umfassen:
 * ein einfaches Spektralanalyst-Fenster für die Bandspektren, der eine rasche statische Beurteilung von Aufnahmen ermöglicht.
