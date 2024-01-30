@@ -4,12 +4,14 @@ title:  Hardware-Plattform STEMLAB125-14
 ## Benötigte Hardware
 
 1.	RedPitaya STEMLAB125-14 Grundpaket bestehend aus:
+   
 ** STEMLAB125-14 Hauptgerät
 ** STEMLAB-Steckernetzteil
 ** LAN-Kabel
 ** SD-Karte mit typ. 16GB
+
   
-2. Optional: Gehäuse für das STEMLAB
+3. Optional: Gehäuse für das STEMLAB
 
 (3)	AM-Radio mit externem Eingang für ‚Antenne‘ und ‚Erde‘
 
