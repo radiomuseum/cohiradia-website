@@ -27,7 +27,9 @@ Normalerweise wird beim Kauf eines STEMLAB125-14 eine SD-Karte mit dem Betriebss
 Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen folgende Schritte unternommen werden:
 
 1. Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
+   
    `ht<span>tp://</span>rp-######.local`
+   
    eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
  
 3. Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
