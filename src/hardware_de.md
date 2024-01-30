@@ -28,7 +28,7 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 1. Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
    
-   `ht<span>tp://</span>rp-######.local`
+   `http://rp-######.local`
    
    eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
  
