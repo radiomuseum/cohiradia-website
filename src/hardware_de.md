@@ -29,7 +29,11 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
  
 (2)	Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
 
-(3) Danach den Folder „System“ durck Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="200" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2_sm.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.
+(3) Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="200" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2_sm.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
+
+
+
+                                                                            
 
 (4)	Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
 
