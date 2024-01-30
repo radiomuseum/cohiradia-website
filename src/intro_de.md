@@ -42,7 +42,7 @@ Die ältesten bisher existierenden Aufzeichnungen auf MW und KW wurden vom Initi
 
 Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen auf dem STEMLAB125-14 wurde eine erste Softwareversion in Python erstellt und ist für Windows10 als exe-Programm verfügbar. Für die Sourcen wurde vom Autor bereits ein GITHub-Repository angelegt, eine Freigabe als open‐Source Projekt ist für die nächste Zukunft geplant.
 
-* [Beschreibungen für die Installation der nötigen Hard- und Software](https://cohiradia.radiomuseum.org/download/docs/) 
+* [Beschreibungen für die Installation der nötigen Hard- und Software]([https://cohiradia.radiomuseum.org/download/docs/](https://www.radiomuseum.org/cohiradia/hardware.html)) 
 * [Verfügbare Software‐Installationspakete](https://www.radiomuseum.org/cohiradia/software.html)
 * [Datenfiles aus archivierten Aufnahmen](https://cohiradia.radiomuseum.org/download/data/)
 
