@@ -64,18 +64,26 @@ Danach ist das System für den Gebrauch im Sinne von COHIRADIA bereit.
 ## Wiedergabe-App vorbereiten
 
 (1)	Das ZIP-File ‚cohiradia_v1 ‘.zip vom Radiomuseum herunterladen und auf dem lokalen PC speichern
+
 (2)	Das File auf ein lokales Directory (ich nenne es ~\LOCAL) entpacken. Hier werden die Files Cohiradia_Player_v1.1 und COHIRADIA_Bedienungsanleitung_V#.pdf (# ist die Versionsnummer) angelegt.
+
 (3)	Nun muss nur noch das gewünschte AM-Breitband-Datenfile, z.B. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat vom Radiomuseum heruntergeladen und gespeichert werden. Es empfiehlt sich, auch dieses File in dasselbe Directory ~\LOCAL speichert, weil man es dann von der Wiedergabe-App aus am bequemsten finden kann (Default-Suchpfad).
 
 ## Zusammenbau Der Hardware
 
 (1)	Das STEMLAB vom Router trennen und über das LAN-Kabel direkt mit der LAN-Buchse des PC verbinden. **) 
+
 (2)	SMA-Ausgangsbuchse ‚OUT1‘ über ein 50-Koaxkabel mit der niederohmigen Seite des Hf-Trenntrafos /Baluns verbinden. 
+
 (3)	Antenneneingang des AM-Radios mit der hochohmigen Seite des Hf-Trenntrafos/Baluns verbinden.
+
 (4)	Steckernetzteil  des STEMLAB am Mikro-USB-Port für ‚Power‘ anschließen. Alternativ kann das STEMLAB auch über ein geeignetes Mikro-USB-Kabel direkt von einem USB-Port des PC aus versorgt werden.
 
 Siehe dazu auch  das Video-Tutorial.
 
+**) Alternativ zum LAN-Kabel kann laut Hersteller auch eine WLAN-Verbindung eingerichtet werden, wenn ein WLAN-Dongle mitgekauft wurde. Diese Option hat der Autor selbst jedoch noch nicht ausprobiert. 
+
+Als zweite Alternative kann das STEMLAB wahrscheinlich auch am Router verbleiben, allerdings müsste dann als IP-Adresse die vom Router zugewiesene benutzt werden. Dieser Modus wird vermutlich in der Praxis selten verwendet, da das zu bespielende Radio wahrscheinlich nicht gleich neben dem Router steht. Auch diese Betriebsart wurde vom Autor nicht getestet.
 
 
 
