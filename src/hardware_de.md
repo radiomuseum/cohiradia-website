@@ -22,7 +22,7 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 (1)	Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld ht<span>tp://</span>rp-######.local' eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
  
-(2)	Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. <img src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" width="400" height="200" />
+(2)	Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). Der Anblick sollte etwa wie in der folgenden Abbildung sein: <img src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" width="400" height="200" />
 
 Eine genaue Zusammenfassung aller bisher getesteten Komponenten und eine Übersicht über alternative Hardware findet sich im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
 
