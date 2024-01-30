@@ -35,6 +35,10 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 (4)	Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
 
 ssh root@###.###.###.###, 	Password: root
