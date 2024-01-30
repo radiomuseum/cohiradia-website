@@ -63,6 +63,8 @@ Danach ist das System für den Gebrauch im Sinne von COHIRADIA bereit.
 
 ## Wiedergabe-App vorbereiten
 
+Für das Abspielen gibt es mittlerweile mehrere Software-Versionen, die von der Software-Seiter herunterladbar sind.
+
 (1)	Das ZIP-File ‚cohiradia_v1 ‘.zip vom Radiomuseum herunterladen und auf dem lokalen PC speichern
 
 (2)	Das File auf ein lokales Directory (ich nenne es ~\LOCAL) entpacken. Hier werden die Files Cohiradia_Player_v1.1 und COHIRADIA_Bedienungsanleitung_V#.pdf (# ist die Versionsnummer) angelegt.
@@ -79,7 +81,7 @@ Danach ist das System für den Gebrauch im Sinne von COHIRADIA bereit.
 
 (4)	Steckernetzteil  des STEMLAB am Mikro-USB-Port für ‚Power‘ anschließen. Alternativ kann das STEMLAB auch über ein geeignetes Mikro-USB-Kabel direkt von einem USB-Port des PC aus versorgt werden.
 
-Siehe dazu auch  das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4).
+Siehe dazu auch  das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4). Dieses bezieht sich allerdings noch auf die Verwendung der allerersten RFCorder-Version, sinngemäß können natürlich alle höheren Versionen verwendet werden.
 
 **) Alternativ zum LAN-Kabel kann laut Hersteller auch eine WLAN-Verbindung eingerichtet werden, wenn ein WLAN-Dongle mitgekauft wurde. Diese Option hat der Autor selbst jedoch noch nicht ausprobiert. 
 
