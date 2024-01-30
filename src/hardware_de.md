@@ -43,9 +43,9 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 (4)	Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
 
-ssh root@###.###.###.###, 	Password: root
+    ssh root@###.###.###.###, 	Password: root
 
-    ###.###.###.### ist die IP-Adresse.
+###.###.###.### ist die IP-Adresse.
 
 (5)	Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit apt update durchführen danach mit apt upgrade die Pakete installieren.
 
