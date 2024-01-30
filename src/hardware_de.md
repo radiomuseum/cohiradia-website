@@ -31,9 +31,9 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 (3) Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="200" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2_sm.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
 
+&nbsp;
 
-
-                                                                            
+&nbsp;
 
 (4)	Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
 
