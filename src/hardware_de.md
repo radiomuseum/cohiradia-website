@@ -44,7 +44,7 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 4. Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
 
-    ssh root@###.###.###.###, 	Password: root
+    `ssh root@###.###.###.###, 	Password: root`
 
    ###.###.###.### ist die IP-Adresse.
 
@@ -53,9 +53,10 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 6. Nach dem Upgrade den folgenden Befehl in einer Zeile eingeben:
 
     `curl --silent --cookie "SCHLUESSEL=1" ht<span>tps://</span>cohiradia.radiomuseum.org/install.sh |bash`
+   
     Damit führt das STEMLAB das Installationsskript aus und legt ein Directory mit den nötigen Shell-Scripts, dem Serverprogramm und dem Bit-File für das FPGA an. 
 
-7. Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
+8. Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
 `halt`
 Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist kann das Netzteil des Geräts wieder abgesteckt werden
 
