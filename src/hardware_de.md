@@ -29,6 +29,29 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
  
 (2)	Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" width="400" height="200" /> Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein.
 
+(3) Danach den Folder „System“ öffnen und dort die App „Network Manager“ aufrufen und dort die vom Router vergebene IP Adresse auslesen.
+
+(4)	Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
+
+ssh root@###.###.###.###, 	Password: root
+
+###.###.###.### ist die IP-Adresse.
+
+(5)	Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit apt update durchführen danach mit apt upgrade die Pakete installieren.
+
+(6)	Nach dem Upgrade den folgenden Befehl in einer Zeile eingeben:
+curl --silent --cookie "SCHLUESSEL=1" https://cohiradia.radiomuseum.org/install.sh |bash
+Damit führt das STEMLAB das Installationsskript aus und legt ein Directory mit den nötigen Shell-Scripts, dem Serverprogramm und dem Bit-File für das FPGA an. 
+(7)	Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
+halt
+Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist kann das Netzteil des Geräts wieder abgesteckt werden
+
+Danach ist das System für den Gebrauch im Sinne von COHIRADIA bereit.
+
+
+
+
+
 Eine genaue Zusammenfassung aller bisher getesteten Komponenten und eine Übersicht über alternative Hardware findet sich im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
 
 <!-- comment -->
