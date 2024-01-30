@@ -63,13 +63,13 @@ Danach ist das System für den Gebrauch im Sinne von COHIRADIA bereit.
 
 ## Wiedergabe-App vorbereiten
 
-Für das Abspielen gibt es mittlerweile mehrere Software-Versionen, die von der Software-Seiter herunterladbar sind.
+Für das Abspielen gibt es mittlerweile mehrere Software-Versionen, die von der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) herunterladbar sind. Dabei ist zu beachten, dass erst spätere Versionen auch wav-Files abspielen können, die erste Version kann nur das ursprünglich verwendete dat-Format erkennen.
 
-(1)	Das ZIP-File ‚cohiradia_v1 ‘.zip vom Radiomuseum herunterladen und auf dem lokalen PC speichern
+(1)	Das ZIP-File der gewünschten Software-Variante auf den PC herunterladen.
 
-(2)	Das File auf ein lokales Directory (ich nenne es ~\LOCAL) entpacken. Hier werden die Files Cohiradia_Player_v1.1 und COHIRADIA_Bedienungsanleitung_V#.pdf (# ist die Versionsnummer) angelegt.
+(2)	Das File auf ein lokales Directory (ich nenne es ~\LOCAL) entpacken. Dort werden nun das exe-File sowie einige Hilfsdateien und Icons sowie die Bedienungsanleitung als pdf angelegt.
 
-(3)	Nun muss nur noch das gewünschte AM-Breitband-Datenfile, z.B. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat vom Radiomuseum heruntergeladen und gespeichert werden. Es empfiehlt sich, auch dieses File in dasselbe Directory ~\LOCAL speichert, weil man es dann von der Wiedergabe-App aus am bequemsten finden kann (Default-Suchpfad).
+(3)	Nun muss nur noch das gewünschte AM-Breitband-Datenfile, z.B. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat von der COHIRADIA-Hauptseite heruntergeladen und gespeichert werden. Es empfiehlt sich, dieses File in ein separates Directory zu speichern.
 
 ## Zusammenbau Der Hardware
 
