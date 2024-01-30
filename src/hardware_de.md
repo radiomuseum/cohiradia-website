@@ -45,7 +45,7 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 ssh root@###.###.###.###, 	Password: root
 
-###.###.###.### ist die IP-Adresse.
+    ###.###.###.### ist die IP-Adresse.
 
 (5)	Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit apt update durchführen danach mit apt upgrade die Pakete installieren.
 
