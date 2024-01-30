@@ -56,7 +56,7 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
     Damit führt das STEMLAB das Installationsskript aus und legt ein Directory mit den nötigen Shell-Scripts, dem Serverprogramm und dem Bit-File für das FPGA an. 
 
 7. Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
-halt
+`halt`
 Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist kann das Netzteil des Geräts wieder abgesteckt werden
 
 Danach ist das System für den Gebrauch im Sinne von COHIRADIA bereit.
