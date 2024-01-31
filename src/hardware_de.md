@@ -91,7 +91,7 @@ Für das Abspielen von Archivaufnahmen gibt es mittlerweile mehrere Software-Ver
 
 2. Das File auf ein lokales Directory (ich nenne es ~\LOCAL) entpacken. Dort werden nun das exe-File sowie einige Hilfsdateien und Icons sowie die Bedienungsanleitung als pdf angelegt.
 
-3. Nun müssen nur noch die gewünschten AM-Breitband-Datenfiles (z.B. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat ...) von der COHIRADIA-Hauptseite heruntergeladen werden. Es empfiehlt sich, diese Files in separate Directories zu speichern.
+3. Nun müssen nur noch die gewünschten AM-Breitband-Datenfiles (z.B. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat ...) vom [Archiv](https://www.radiomuseum.org/cohiradia/#recording) heruntergeladen werden. Es empfiehlt sich, diese Files in separate Directories zu speichern.
 
 In allen zip-Files sind auch die jeweiligen Bedienungsanleitungen enthalten. Das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4) ist zwar bezüglich einiger Inhalte (z.B. Benutzung von RFCorder Version 1.0) nicht mehr ganz up to date, kann aber grundsätzlich als Ergänzung zur Bedienungsanleitung hilfreich sein.
 
