@@ -46,11 +46,15 @@ You can then connect STEMLAB to the Internet and call up an installation script 
 
 &nbsp;
 
-5. Open a command prompt window under Windows and log in via ssh on the STEMLAB125-15 with the IP address assigned by the router, username and password are 'root' and 'root'.  (Port = port22). Typical call: 
+4. Open a command prompt window under Windows and log in via ssh on the STEMLAB125-15 with the IP address assigned by the router, username and password are 'root' and 'root'.  (Port = port22). Typical call: 
 
     `ssh root@###.###.###.###, 	Password: root`
 
    ###.###.###.### is the IP-address.
+
+5. after Ubuntu has reported with the command line prompt, it is best to carry out a system update with 'apt update' and then install the packages with 'apt upgrade'.
+
+6. after the upgrade, enter the following command in one line:
 
 6. Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit apt update durchführen danach mit apt upgrade die Pakete installieren.
 
