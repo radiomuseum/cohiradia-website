@@ -1,7 +1,7 @@
 ---
 title: Cohiradia Documentations
 ---
-## Bedienungsanleitungen
+## Manuals
 * [User Manual RFCorder v2.0](https://cohiradia.radiomuseum.org/download/docs/RFCorder_v2_0_User_manual_en.pdf)
 * [User Manual RFCorder v1.x](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_users_guide_V3_en.pdf)
 
