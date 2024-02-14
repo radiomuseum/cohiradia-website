@@ -38,18 +38,11 @@ However, the latter feature currently only works for Europe, the USA and New Zea
 <!-- comment -->
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder1.2_Screenshot.png" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/cohiradia_V1.2.zip)
 
-RFCorder v1.2 is the first fully functional software for making broadband recordings using the STEMLAB125-14 and for the analog playback of the signals on connected radio receivers. The only supported file format in this version are raw files in 32-byte complex format with the extension '.dat'. The file names must comply with the old COHIRDIA naming convention (see Annual Report 2023) and must therefore also be downloaded from the archive in this format.
+RFCorder v1.2 is the first fully functional software for making broadband recordings using the STEMLAB125-14 and for the analog playback of the signals on connected radio receivers. The only supported file format in this version are raw files in 32-byte complex format with the extension '.dat'. The file names must comply with the old COHIRDIA naming convention (see [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf)) and must therefore also be downloaded from the archive in this format.
 
-The playback of wav files, as used by most SDRs, is only possible to a limited extent, namely if they are renamed accordingly (dat instead of wav and the name is rewritten in accordance with the naming convention) and if the sampling rate corresponds to one of the rates supported by STEMLAB. Formats other than 2 channels int16 are not supported.
+The playback of wav files, as used by most SDRs, is only possible to a limited extent, namely if they are renamed accordingly (dat instead of wav and the name is rewritten in accordance with the naming convention) and if the sampling rate corresponds to one of the rates supported by the STEMLAB. Formats other than 2 channels/int16 are not supported.
 
 A special feature is the possibility to shift the frequency band in the spectrum during playback, e.g. to play a long wave band in the medium wave range of a radio. To do this, an offset to the center frequency of the band must be specified.
+
 When recording, the program allows you to start a recording automatically using a timer. 
-
-
-RFCorder v1.2 ist die erste voll funktionsfähige Software für die Aufnahme von Breitbandaufzeichnungen mittels des STEMLAB125-14 und deren analoge Wiedergabe auf angeschlossenen Rundfunkempfängern. Das einzige unterstützte Fileformat sind bei dieser Version Rohfiles mit 32-byte Complex-Format mit der Extension '.dat'. Die Filenamen müssen der alten COHIRDIA Namenskonvention entsprechen (siehe Jahresbericht 2023) und daher auch in diesem Format aus dem Archiv heruntergeladen werden.
-
-Das Abspielen von wav-Dateien, wie sie die meisten SDRs benutzen, ist nur bedingt möglich, nämlich wenn man sie entsprechend umbenennt (dat statt wav und Umschreiben des Namens gemäß Namenskonvenion) und wenn die Samplingrate einer der vom STEMLAB unterstützten Raten entspricht. Andere Formate als 2 channels int16 werden nicht unterstützt.
-
-Ein spezielles Feature ist die Möglichkeit, das Frequenzband während des Abspielens im Spektrum zu verschieben, also z.B. ein Langwellenband im Mittelwellenbereich eines Radios abzuspielen. Dazu muss ein Offset zur Bandmittenfrequenz angegeben werden.
-Bei Aufnahmen ermöglicht das Programm den automatischen Start einer Aufnahme mittels eines Timers. 
 
