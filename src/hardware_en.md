@@ -20,7 +20,20 @@ title:  Hardware-Platform STEMLAB125-14
 
 6. RF isolating transformer (e.g. a balun) with a suitable transformation ratio from the 50 output of the STEMLAB to the radio. Usually an impedance transformation 1:9 to 1:16 (turns ratio 1:3 or 1:4) works for typical tube devices. In principle, any balun suitable for the respective frequency range can be used if the primary and secondary sides are completely separated (no common ground!). The author now uses a toroidal core FT114, material 43 with 15:60 turns, CuL 0.25 (inductance 120uH : 2mH), STEMLAB : Radio. 
 
-##	Installation der Server-Software auf dem STEMLAB125-14
+##	Installation of the server software on the STEMLAB125-14
+
+Normally, an SD card with the operating system (Ubuntu) is supplied with the purchase of a STEMLAB125-14. This must now be inserted into the SD card slot of the STEMLAB. If you do not have this SD card, you have to create one yourself, the instructions for this and the required image file can be found on the 
+[Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html)
+You can then connect STEMLAB to the Internet and call up an installation script kindly created by Ueli Kurmann. The connection can be made either by Ethernet cable or by WLAN dongle via a standard router. The following steps must then be taken:
+
+1. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
+   
+   `http://rp-######.local`
+   
+   where ###### stands for the MAC address (e.g. rp-f03e25.local). The MAC address is printed on the Ethernet connector of each STEMLAB.
+ 
+3. wait until the STEMLAB apps are loaded in the web browser (this can sometimes take a while) <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> The view should be similar to the adjacent image. You can see a series of icons with which you can call up various functions on the STEMLAB. Only the 'System' icon is relevant for COHIRADIA.
+
 
 Normalerweise wird beim Kauf eines STEMLAB125-14 eine SD-Karte mit dem Betriebssystem (Ubuntu) mitgeliefert. Diese muss man nun in den SD-Kartenslot des STEMLAB einschieben. Sollte man nicht über diese SD-Karte verfügen, muss man sich selbst eine erstellen, die Anleitung dazu sowie die  benötigte  Image-Datei findet sich auf der 
 [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html)
