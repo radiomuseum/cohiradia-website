@@ -24,7 +24,7 @@ title:  Hardware-Platform STEMLAB125-14
 
 Normally, an SD card with the operating system (Ubuntu) is supplied with the purchase of a STEMLAB125-14. This must now be inserted into the SD card slot of the STEMLAB. If you do not have this SD card, you have to create one yourself, the instructions for this and the required image file can be found on the 
 [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html)
-You can then connect STEMLAB to the Internet and call up an installation script kindly created by Ueli Kurmann. The connection can be made either by Ethernet cable or by WLAN dongle via a standard router. The following steps must then be taken:
+You can then connect STEMLAB to the Internet and call up an installation script kindly created by Ueli Kurmann. The connection can be made either by Ethernet cable or by a WLAN dongle via a standard router. The following steps must then be taken:
 
 1. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
    
