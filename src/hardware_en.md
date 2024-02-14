@@ -34,7 +34,7 @@ You can then connect STEMLAB to the Internet and call up an installation script 
  
 3. wait until the STEMLAB apps are loaded in the web browser (this can sometimes take a while) <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> The view should be similar to the adjacent image. You can see a series of icons with which you can call up various functions on the STEMLAB. Only the 'System' icon is relevant for COHIRADIA.
 
-4. Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
+4. Open the folder „System“ by clicking on it and afterwards call the App „Network Manager“. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In this manager the IP address can be read out which has been assigned by the router.                           
 
 &nbsp;
 
@@ -46,15 +46,15 @@ You can then connect STEMLAB to the Internet and call up an installation script 
 
 &nbsp;
 
-4. Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
+5. Open a command prompt window under Windows and log in via ssh on the STEMLAB125-15 with the IP address assigned by the router, username and password are 'root' and 'root'.  (Port = port22). Typical call: 
 
     `ssh root@###.###.###.###, 	Password: root`
 
-   ###.###.###.### ist die IP-Adresse.
+   ###.###.###.### is the IP-address.
 
-5. Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit apt update durchführen danach mit apt upgrade die Pakete installieren.
+6. Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit apt update durchführen danach mit apt upgrade die Pakete installieren.
 
-6. Nach dem Upgrade den folgenden Befehl in einer Zeile eingeben:
+7. Nach dem Upgrade den folgenden Befehl in einer Zeile eingeben:
 
     `curl --silent --cookie "SCHLUESSEL=1" ht<span>tps://</span>cohiradia.radiomuseum.org/install.sh |bash`
    
