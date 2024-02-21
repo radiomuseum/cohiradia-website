@@ -44,8 +44,8 @@ Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen au
 
 * [Beschreibungen für die Installation der nötigen Hard- und Software](https://www.radiomuseum.org/cohiradia/hardware.html) 
 * [Verfügbare Software‐Installationspakete](https://www.radiomuseum.org/cohiradia/software.html)
-* [Datenfiles aus archivierten Aufnahmen](https://cohiradia.radiomuseum.org/download/data/)
-
+* [Datenfiles aus archivierten Aufnahmen]([https://cohiradia.radiomuseum.org/download/data/](https://www.radiomuseum.org/cohiradia/#recording))
+  
 [Hermann Scharfetter](mailto:hermann.scharfetter@gmail.com) initiierte das Projekt COHIRADIA und ist die treibende Kraft dahinter. Über sein [Profil](/dsp_profile.cfm?Member_Id=3642) können sie gerne mit ihm in Kontakt treten und das Projekt gemeinsam mit ihm weiterentwickeln.
 
 ## Weitere Archive
