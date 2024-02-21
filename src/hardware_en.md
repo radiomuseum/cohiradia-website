@@ -64,26 +64,23 @@ STEMLAB then executes the installation script and creates a directory with the n
    
     `halt`
 
-When the console reports that the connection has been closed and the red flashing heartbeat LED on the STEMLAB has gone out, the device's power supply can be unplugged again
+When the console reports that the connection has been closed and the red heartbeat LED on the STEMLAB has stopped flashing, the device's power supply can be unplugged again. The system is then configured for use in accordance with COHIRADIA.
 
-The system is then configured for use in accordance with COHIRADIA.
+## Assembling the hardware
 
+1. disconnect the STEMLAB from the router and connect it directly to the LAN socket of the PC using the LAN cable. **) 
 
-## Zusammenbau Der Hardware
+2. connect the SMA output socket 'OUT1' to the low-impedance side of the RF isolating transformer/balun via a 50&Omega coaxial cable. 
 
-1.	Das STEMLAB vom Router trennen und über das LAN-Kabel direkt mit der LAN-Buchse des PC verbinden. **) 
+3. connect the antenna input of the AM radio to the high-impedance side of the isolating RF transformer/balun.
 
-2.	SMA-Ausgangsbuchse ‚OUT1‘ über ein 50-Koaxkabel mit der niederohmigen Seite des Hf-Trenntrafos /Baluns verbinden. 
+4. connect the plug-in power supply of the STEMLAB to the micro USB port for 'Power'. Alternatively, the STEMLAB can also be powered directly from a USB port on the PC using a suitable micro-USB cable.
 
-3. Antenneneingang des AM-Radios mit der hochohmigen Seite des Hf-Trenntrafos/Baluns verbinden.
+See also the [video tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4). Although this tutorial refers to the use of the very first RFCorder version 1.0 (no longer supported), all higher versions can of course be used essentially in the same way.
 
-4.	Steckernetzteil  des STEMLAB am Mikro-USB-Port für ‚Power‘ anschließen. Alternativ kann das STEMLAB auch über ein geeignetes Mikro-USB-Kabel direkt von einem USB-Port des PC aus versorgt werden.
+**) According to the manufacturer, a WLAN connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. 
 
-Siehe dazu auch das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4). Dieses bezieht sich zwar noch auf die Verwendung der allerersten RFCorder-Version 1.0 (nicht mehr unterstützt), sinngemäß können aber natürlich alle höheren Versionen verwendet werden.
-
-**) Alternativ zum LAN-Kabel kann laut Hersteller auch eine WLAN-Verbindung eingerichtet werden, wenn ein WLAN-Dongle mitgekauft wurde. Diese Option hat der Autor selbst jedoch noch nicht ausprobiert. 
-
-Als zweite Alternative kann das STEMLAB wahrscheinlich auch am Router verbleiben, allerdings müsste dann als IP-Adresse die vom Router zugewiesene benutzt werden. Dieser Modus wird vermutlich in der Praxis selten verwendet, da das zu bespielende Radio wahrscheinlich nicht gleich neben dem Router steht. Auch diese Betriebsart wurde vom Autor nicht getestet.
+As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author.
 
 ## Wiedergabe-App vorbereiten
 
