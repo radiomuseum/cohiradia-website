@@ -45,7 +45,7 @@ For the playback of the data files as well as for the creation of own recordings
 * [Available software installation packages](https://www.radiomuseum.org/cohiradia/software.html)
 * [Data files from archived recordings](https://www.radiomuseum.org/cohiradia/#recording)
 
-[Hermann Scharfetter](mailto:hermann.scharfetter@gmail.com) initiated and drives the project COHIRADIA. You can contact him via his [profile](/dsp_profile.cfm?Member_Id=3642) to further develop the project.
+Hermann Scharfetter initiated and drives the project COHIRADIA. You can contact him as member of rmorg via his [profile](/dsp_profile.cfm?Member_Id=3642) or as a guest via [email](mailto:hermann.scharfetter@gmail.com) to further develop the project.
 
 ## Other Archives
 Besides COHIRADIA, the following archives are known to contain interesting wideband material as well:
