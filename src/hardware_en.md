@@ -80,6 +80,21 @@ See also the [video tutorial](https://cohiradia.radiomuseum.org/download/COHIRAD
 
 **)  According to the manufacturer, a WLAN connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author.
 
+## Prepare playback app
+
+There are several software versions available for playing archived recordings. All software can be downloaded from the [Software page](https://www.radiomuseum.org/cohiradia/software.html). It should be noted that RFCorder can only play wav files from version 2.0 onwards, the first version can only recognize the 'dat' format originally used in the first version. So far, only RFCorder v1.2 has a recording function. In addition to the full functionality of RFCorder 2.0, COHIWizard 1.0 offers many useful auxiliary functions for advanced COHIRADIA users. General procedure:
+
+1. download the ZIP file of the desired software version to the PC.
+
+2. unzip the file to a local directory (let's call it ~\LOCAL). The exe file as well as some auxiliary files and icons and the operating instructions (as pdf) are now created there.
+
+3. afterwards the desired AM broadband data files (e.g. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat ...) need to be downloaded from [Archive](https://www.radiomuseum.org/cohiradia/#recording). It is recommended to save these files in separate directories.
+
+All zip files contain the respective operating instructions.  Although the [video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4) is no longer completely up to date with regard to some content (e.g. use of RFCorder version 1.0), it can generally be helpful as a supplement to the operating instructions.
+
+A detailed summary of all components tested to date and an overview of alternative hardware can be found in [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
+
+
 ## Wiedergabe-App vorbereiten
 
 Für das Abspielen von Archivaufnahmen gibt es mittlerweile mehrere Software-Versionen, die von der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) herunterladbar sind. Dabei ist zu beachten, dass der RFCorder erst ab Version 2.0 auch wav-Files abspielen kann, die erste Version kann nur das ursprünglich verwendete dat-Format erkennen. Dafür gibt es nur beim RFCorder v1.2 eine Aufnahmefunktion. Der COHIWizard 1.0 bietet neben der vollen Funktionalität des RFCorders 2.0 viele nützliche Hilfsfunktionen für fortgeschrittene COHIRADIA-Nutzer*innen. Generelle Vorgangsweise:
