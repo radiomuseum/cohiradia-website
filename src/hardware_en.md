@@ -46,29 +46,27 @@ You can then connect STEMLAB to the Internet and call up an installation script 
 
 &nbsp;
 
-4. Open a command prompt window under Windows and log in via ssh on the STEMLAB125-15 with the IP address assigned by the router, username and password are 'root' and 'root'.  (Port = port22). Typical call: 
+5. Open a command prompt window under Windows and log in via ssh on the STEMLAB125-15 with the IP address assigned by the router, username and password are 'root' and 'root'.  (Port = port22). Typical call: 
 
     `ssh root@###.###.###.###, 	Password: root`
 
    ###.###.###.### is the IP-address.
 
-5. after Ubuntu has reported with the command line prompt, it is best to carry out a system update with 'apt update' and then install the packages with 'apt upgrade'.
+6. after Ubuntu has reported with the command line prompt, it is best to carry out a system update with 'apt update' and then install the packages with 'apt upgrade'.
 
-6. after the upgrade, enter the following command in one line:
-
-6. Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit apt update durchführen danach mit apt upgrade die Pakete installieren.
-
-7. Nach dem Upgrade den folgenden Befehl in einer Zeile eingeben:
+7. after the upgrade, enter the following command in one line:
 
     `curl --silent --cookie "SCHLUESSEL=1" ht<span>tps://</span>cohiradia.radiomuseum.org/install.sh |bash`
+
+STEMLAB then executes the installation script and creates a directory with the necessary shell scripts, the server program and the bit file for the FPGA. 
+
+8. after successful installation, shut down STEMLAB properly with the command:
    
-    Damit führt das STEMLAB das Installationsskript aus und legt ein Directory mit den nötigen Shell-Scripts, dem Serverprogramm und dem Bit-File für das FPGA an. 
+    `halt`
 
-8. Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
-`halt`
-Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist kann das Netzteil des Geräts wieder abgesteckt werden
+When the console reports that the connection has been closed and the red flashing heartbeat LED on the STEMLAB has gone out, the device's power supply can be unplugged again
 
-Danach ist das System für den Gebrauch im Sinne von COHIRADIA konfiguriert.
+The system is then configured for use in accordance with COHIRADIA.
 
 
 ## Zusammenbau Der Hardware
