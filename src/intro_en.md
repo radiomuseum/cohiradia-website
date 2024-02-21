@@ -42,7 +42,7 @@ The oldest existing recordings on MW and KW were made by the initiator in the ye
 For the playback of the data files as well as for the creation of own recordings on the STEMLAB125-14 a first software version was created in Python and is available for Windows10 as exe program. The author has already created a GITHub repository for the sources, a release as an open source project is planned for the near future.
 
 * [Descriptions for the installation of the necessary hard- and software](https://cohiradia.radiomuseum.org/download/docs/)
-* [Available software installation packages](https://cohiradia.radiomuseum.org/download/software/)
+* [Available software installation packages](https://www.radiomuseum.org/cohiradia/software.html)
 * [Data files from archived recordings](#recordings)
 
 [Hermann Scharfetter](mailto:hermann.scharfetter@gmail.com) initiated and drives the project COHIRADIA. You can contact him via his [profile](/dsp_profile.cfm?Member_Id=3642) to further develop the project.
