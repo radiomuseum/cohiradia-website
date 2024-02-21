@@ -18,7 +18,7 @@ title:  Hardware-Platform STEMLAB125-14
 
 5. PC with sufficient disk space for the data files.
 
-6. RF isolating transformer (e.g. a balun) with a suitable transformation ratio from the 50 output of the STEMLAB to the radio. Usually an impedance transformation 1:9 to 1:16 (turns ratio 1:3 or 1:4) works for typical tube devices. In principle, any balun suitable for the respective frequency range can be used if the primary and secondary sides are completely separated (no common ground!). The author now uses a toroidal core FT114, material 43 with 15:60 turns, CuL 0.25 (inductance 120uH : 2mH), STEMLAB : Radio. 
+6. RF isolating transformer (e.g. a balun) with a suitable transformation ratio from the 50&Omega; output of the STEMLAB to the radio. Usually an impedance transformation 1:9 to 1:16 (turns ratio 1:3 or 1:4) works for typical tube devices. In principle, any balun suitable for the respective frequency range can be used if the primary and secondary sides are completely separated (no common ground!). The author now uses a toroidal core FT114, material 43 with 15:60 turns, CuL 0.25 (inductance 120uH : 2mH), STEMLAB : Radio. 
 
 ##	Installation of the server software on the STEMLAB125-14
 
@@ -70,7 +70,7 @@ When the console reports that the connection has been closed and the red heartbe
 
 1. disconnect the STEMLAB from the router and connect it directly to the LAN socket of the PC using the LAN cable. **) 
 
-2. connect the SMA output socket 'OUT1' to the low-impedance side of the RF isolating transformer/balun via a 50&Omega coaxial cable. 
+2. connect the SMA output socket 'OUT1' to the low-impedance side of the RF isolating transformer/balun via a 50&Omega; coaxial cable. 
 
 3. connect the antenna input of the AM radio to the high-impedance side of the isolating RF transformer/balun.
 
