@@ -38,6 +38,8 @@ You can then connect STEMLAB to the Internet and call up an installation script 
 
 &nbsp;
 
+&nbsp;
+
 <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step3.png" /> 
 
 &nbsp;
