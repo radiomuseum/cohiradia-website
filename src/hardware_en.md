@@ -92,6 +92,6 @@ There are several software versions available for playing archived recordings. A
 
 All zip files contain the respective operating instructions.  Although the [video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4) is no longer completely up to date with regard to some content (e.g. use of RFCorder version 1.0), it can generally be helpful as a supplement to the operating instructions.
 
-A detailed summary of all components tested to date and an overview of alternative hardware can be found in [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_en.pdf).
+A detailed summary of all components tested to date and an overview of alternative hardware can be found in [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
 
 <!-- comment -->
