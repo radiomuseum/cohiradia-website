@@ -71,7 +71,7 @@ Danach ist das System für den Gebrauch im Sinne von COHIRADIA konfiguriert.
 
 1.	Das STEMLAB vom Router trennen und über das LAN-Kabel direkt mit der LAN-Buchse des PC verbinden. **) 
 
-2.	SMA-Ausgangsbuchse ‚OUT1‘ über ein 50-Koaxkabel mit der niederohmigen Seite des Hf-Trenntrafos /Baluns verbinden. 
+2.	SMA-Ausgangsbuchse ‚OUT1‘ über ein 50&Omega-Koaxkabel mit der niederohmigen Seite des Hf-Trenntrafos /Baluns verbinden. 
 
 3. Antenneneingang des AM-Radios mit der hochohmigen Seite des Hf-Trenntrafos/Baluns verbinden.
 
