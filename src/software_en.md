@@ -26,7 +26,7 @@ As this is a major change compared to the previous version, it is quite possible
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0b.zip)
 
 
-The [COHIWizard](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0.zip) is a comprehensive program that provides many additional functions in addition to the full functionality of RFCorder2.0. These include:
+The COHIWizard is a comprehensive program that provides many additional functions in addition to the full functionality of RFCorder2.0. These include:
 
 * a simple spectral analysis window for the band spectra, which enables a quick static evaluation of recordings.
 * a resampler that has been greatly expanded compared to RFCorder 2.0 for resampling recordings whose sampling rate is not STEMLAB-compatible. In contrast to RFCorder 2.0, arbitrary sections of the spectrum can be cut out. Additionally entire lists of related wav files can now be resampled at once and split into 2GB sized files.
