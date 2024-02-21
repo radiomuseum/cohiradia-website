@@ -88,10 +88,10 @@ There are several software versions available for playing archived recordings. A
 
 2. unzip the file to a local directory (let's call it ~\LOCAL). The exe file as well as some auxiliary files and icons and the operating instructions (as pdf) are now created there.
 
-3. afterwards the desired AM broadband data files (e.g. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat ...) need to be downloaded from [Archive](https://www.radiomuseum.org/cohiradia/#recording). It is recommended to save these files in separate directories.
+3. afterwards the desired AM broadband data files (e.g. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat ...) need to be downloaded from the [Archive](https://www.radiomuseum.org/cohiradia/#recording). It is recommended to save these files in separate directories.
 
 All zip files contain the respective operating instructions.  Although the [video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4) is no longer completely up to date with regard to some content (e.g. use of RFCorder version 1.0), it can generally be helpful as a supplement to the operating instructions.
 
-A detailed summary of all components tested to date and an overview of alternative hardware can be found in [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
+A detailed summary of all components tested to date and an overview of alternative hardware can be found in the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
 
 <!-- comment -->
