@@ -64,7 +64,7 @@ Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskri
 
 8. Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
 `halt`
-Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist kann das Netzteil des Geräts wieder abgesteckt werden
+Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist, kann das Netzteil des Geräts wieder abgesteckt werden
 
 Danach ist das System für den Gebrauch im Sinne von COHIRADIA konfiguriert.
 
