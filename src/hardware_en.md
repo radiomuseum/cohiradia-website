@@ -58,7 +58,7 @@ You can then connect STEMLAB to the Internet and call up an installation script 
 
 7. after the upgrade, enter the following command in one line:
 
-    `curl --silent --cookie "SCHLUESSEL=1" ht<span>tps://</span>cohiradia.radiomuseum.org/install.sh |bash`
+    `curl --silent --cookie "SCHLUESSEL=1" https://cohiradia.radiomuseum.org/install.sh |bash`
 
 STEMLAB then executes the installation script and creates a directory with the necessary shell scripts, the server program and the bit file for the FPGA. 
 
