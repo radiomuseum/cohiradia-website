@@ -23,8 +23,8 @@ title:  Hardware-Plattform STEMLAB125-14
 ##	Installation der Server-Software auf dem STEMLAB125-14
 
 Normalerweise wird beim Kauf eines STEMLAB125-14 eine SD-Karte mit dem Betriebssystem (Ubuntu) mitgeliefert. Diese muss man nun in den SD-Kartenslot des STEMLAB einschieben. Sollte man nicht über diese SD-Karte verfügen, muss man sich selbst eine erstellen, die Anleitung dazu sowie die  benötigte  Image-Datei findet sich auf der 
-[Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html)
-Danach kann man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen folgende Schritte unternommen werden:
+[Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html).
+Danach muss man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen folgende Schritte unternommen werden:
 
 1. Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
    
