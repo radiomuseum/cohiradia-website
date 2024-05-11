@@ -23,7 +23,8 @@ title:  Hardware-Plattform STEMLAB125-14
 ##	Installation der Server-Software auf dem STEMLAB125-14
 
 Normalerweise wird beim Kauf eines STEMLAB125-14 eine SD-Karte mit dem Betriebssystem (Ubuntu) mitgeliefert. Diese muss man nun in den SD-Kartenslot des STEMLAB einschieben. Sollte man nicht über diese SD-Karte verfügen, muss man sich selbst eine erstellen, die Anleitung dazu sowie die  benötigte  Image-Datei findet sich auf der 
-[Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html).
+[Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html). WICHTIG: Inzwischen gibt es neuere Versionen des Betriebssystems, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 getestet, es liegt noch keine Erfahrung mit V2.00 vor. Es wird daher empfohlen, für COHIRADIA immer die Version 1.04-28 zu verwenden. Sollte beim Kauf eines neuen STEMLAB die Version 2.00 vorkonfiguriert sein, und die COHIRADIA-Software darauf nicht laufen, so empfiehlt es sich, eine eigene SD-Karte mit Version 1.04-28 anzufertigen und diese zu verwenden.
+
 Danach muss man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen folgende Schritte unternommen werden:
 
 1. Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
