@@ -8,7 +8,6 @@ Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von übliche
 zunächst eine Software zur Generierung solcher AM-Bandsignale unter MATLAB entwickelt und erste Probedaten generiert wurden. Eröffnet wird der Reigen der Recordings nun durch eine Aufnahme **TITEL GESUCHT ?Radio and music from the 1920ies and 1930ies, Volume 1?**, die sehr eindrucksvoll vermittelt, wie Radio damals tatsächlich geklungen haben könnte.
 Auf den unterschiedlichen 'Sendern' findet sich einerseits ein reichhaltiges Musikprogramm aus der Schellack Sammlung von Claus Peter Gallenmiller und andererseits ein Verschnitt von Ausschnitten aus Archivaufnahmen historischer Radiosendungen.</p> 
 
-<p style='text-align: justify;'>Die Aufnahme hat dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnungen und kann mit denselben Softwareprodukten wiedergegeben werden, die auf den Hard/Softwareseiten von COHIRADIA beschrieben sind. Für Nutzer*innen, die 
-gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Es ist geplant, ein entsprechendes Synthese-Tool in den COHIWizard einzubauen, dies wird aber wahrscheinlich noch mehrere Monate dauern.</p> 
+<p style='text-align: justify;'>Die Aufnahme hat dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnungen und kann mit denselben Softwareprodukten wiedergegeben werden, die auf den Hard/Softwareseiten von COHIRADIA beschrieben sind. Für Nutzer*innen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Es ist geplant, ein entsprechendes Synthese-Tool in den COHIWizard einzubauen, dies wird aber wahrscheinlich noch mehrere Monate dauern.</p> 
 
 Wenn die Idee der COHI Jukebox gefällt, freuen wir uns natürlich über entsprechendes Feedback.
