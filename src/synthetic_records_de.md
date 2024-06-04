@@ -12,5 +12,3 @@ Die Aufnahme hat dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnu
 gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Es ist geplant, ein entsprechendes Synthese-Tool in den COHIWizard einzubauen, dies wird aber wahrscheinlich noch mehrere Monate dauern.
 
 Wenn die Idee der COHI Jukebox gefällt, freuen wir uns natürlich über entsprechendes Feedback.
-
---> LINK <--
