@@ -1,6 +1,6 @@
 # **COHI Jukebox**
 
-<p style="color:green;font-weight:700;font-size:80px">markdown color font styles</p>
+<p style=font-size:80px">markdown color font styles</p>
 
 
 
