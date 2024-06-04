@@ -1,7 +1,4 @@
-# **COHI Jukebox**
-
-
-<span style="font-size:2em;">markdown color font styles</p>
+# <span style="font-size:3em;">COHI Jukebox</p>
 
 
 
