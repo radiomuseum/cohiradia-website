@@ -1,6 +1,6 @@
 # COHI Jukebox (draft Titel, bessere Vorschläge willkommen)
 
-<style>body {text-align: justify}</style>
+{: style="text-align: justify" }
 
 <img align="left" width="224" height="318" vspace="10" hspace="30" src="https://www.radiomuseum.org/forumdata/users/24/Radio_hoeren_1924.jpg" /> 
 
