@@ -1,8 +1,7 @@
 # **COHI Jukebox**
 
-<span style="color:green;font-weight:700;font-size:80">
-    markdown color font styles
-</span>
+<span style="color:green;font-weight:700;font-size:80">markdown color font styles</span>
+
 
 
 <img align="left" width="280" height="398" vspace="10" hspace="30" src="https://www.radiomuseum.org/forumdata/users/24/Radio_hoeren_1924.jpg" /> 
