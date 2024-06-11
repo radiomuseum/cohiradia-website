@@ -35,7 +35,7 @@ COHIWizard 1.2.9 Beta ist das letzte Upgrade auf den COHIWizard 1.0 und umfasst 
 * Resampler: deutliche Beschleunigung einiger Signalverarbeitungsschritte sowie Check auf Datei-Konsistenzen bei Listenabarbeitung
 * Annotator: einige Bugfixes sowie die Möglichkeit, auch im nicht ganzzahligen kHz-Raster zu annotieren
 
-Experimentierfreudige Radiofreund*innen seien ermutigt, dieses Tool auszuprobieren (Feedback erwünscht), es ha einen deutlich erweiterten Funktionsumfang.
+Experimentierfreudige Radiofreund*innen seien ermutigt, dieses Tool auszuprobieren (Feedback erwünscht), es hat einen deutlich erweiterten Funktionsumfang.
 
 ## COHIWizard 1.0 (Jänner 2024, letzte stabile Version)
 
