@@ -10,7 +10,7 @@ title: Cohiradia Software
 
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip)
 
-<p style='text-align: justify;'>RFCorder v2.0 dient zur Wiedergabe von Breitbandaufzeichnungen auf analogen Rundfunkempfängern mittels des STEMLAB125-14. Die Beschreibung ist im downloadbaren zip-File mit eingepackt. Diese Version erlaubt zwar derzeit im Gegensatz zur Vorgänger-Version v1.2 keine eigenen Aufzeichnungen, dafür gibt es eine Reihe nützlicher neuer Features:
+<p style='text-align: justify;'>RFCorder v2.0 dient zur Wiedergabe von Breitbandaufzeichnungen auf analogen Rundfunkempfängern mittels des STEMLAB125-14. Die Beschreibung ist im downloadbaren zip-File mit eingepackt. Diese Version erlaubt zwar derzeit im Gegensatz zur Vorgänger-Version v1.2 keine eigenen Aufzeichnungen, dafür gibt es eine Reihe nützlicher neuer Features:</p>
 
 * Man kann neben Aufzeichnungen im ursprünglich für COHIRADIA verwendeten Rohdatenformat (*.dat) nun auch solche im wav-Format abspielen. Das ist sinnvoll, da alle namhaften SDRs dieses Format verwenden und daher alle externen Archive von Breitbanddateien wav-Dateien beinhalten. Daher werden alle neuen Aufnahmen im Archiv mittlerweile ausschließlich mit wav-Header generiert. Damit können die Files auch mit gängiger SDR-Software wie SDRUno oder SDR# auf dem PC wiederzugeben und Metadaten können viel kompakter an den RFCorder übergeben und dargestellt werden.
 * Man kann nun mit einem Rollbalken auf der Zeitleiste hin und herspringen, also sehr einfach unterschiedliche Stellen in der Aufnahme aufsuchen.
@@ -22,7 +22,7 @@ title: Cohiradia Software
 
 Wir empfehlen allen Nutzer:innen, die lediglich Dateien auf ihren Radios wiedergeben möchten (keine eigenen Aufnahmen), nur noch diese Programmversion zu benutzen, da die alten Versionen in Zukunft nicht mehr gewartet werden. Eine Variante mit Recording-Funktion ist in Vorbereitung.
 
-Da es sich um eine sehr starke Änderung gegenüber der Vorgängerversion handelt, kann es durchaus sein, dass noch der eine oder andere kleine Bug vorhanden ist. Für entsprechende [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.</p>
+Da es sich um eine sehr starke Änderung gegenüber der Vorgängerversion handelt, kann es durchaus sein, dass noch der eine oder andere kleine Bug vorhanden ist. Für entsprechende [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
 
 ## COHIWizard 1.2.9 (Juni 2024, Beta-Version)
 
