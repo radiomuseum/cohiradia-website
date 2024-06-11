@@ -7,7 +7,7 @@
 
 # **<span style="font-size:2em;">COHI Jukebox</p>**
 
-<p style='text-align: justify;'>COHIRadia ist von der Grundidee her der Konservierung historischer Breitbandsignale im Bereich des öffentlichen Rundfunks verpflichtet. Ein prinzipielles Problem dabei ist allerdings, dass es gerade aus der Frühzeit des Rundfunks bis herauf in die 80er Jahre praktisch keine Aufzeichnungen gibt.
+<p style='text-align: justify;'>COHIRadia hat sich von der Grundidee her der Konservierung historischer Breitbandsignale im Bereich des öffentlichen Rundfunks verpflichtet. Ein prinzipielles Problem dabei ist allerdings, dass es gerade aus der Frühzeit des Rundfunks bis herauf in die 80er Jahre praktisch keine Aufzeichnungen gibt.
 Nun wäre es aber wünschenswert, gerade auf z.B. Radiogeräten der 20 - 50er Jahre Signale wiedergeben zu können, die zumindest von den Inhalten her zu diesen Geräten 'passen'. Die Rubrik <strong>COHI Jukebox</strong> versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der 
 Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben. Um dies zu ermöglichen wurde von Claus Peter Gallenmiller und Hermann Scharfetter ein gemeinsames Pilotprojekt gestartet, in dem 
 zunächst eine Software zur Generierung solcher AM-Bandsignale unter MATLAB entwickelt und erste Probedaten generiert wurden. Eröffnet wird der Reigen der Recordings nun durch eine Aufnahme <strong> TITEL GESUCHT ?Radio and music from the 1920ies and 1930ies, Volume 1?</strong>, die sehr eindrucksvoll vermittelt, wie Radio damals tatsächlich geklungen haben könnte.
