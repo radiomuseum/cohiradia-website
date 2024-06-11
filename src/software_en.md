@@ -1,13 +1,15 @@
 ---
 title: Cohiradia Software
 ---
+## Selection guide:
 
+Essentially there are two different types of software available, a simple player for the most basic needs (playback of recordings and basic resampling) and a more advanced universal tool for playback, recording and additional features like inspecting the spectra, annotation of own recording and advanced resampling. If you just need a simple, playback tool which is easy to use, then opt for the 'RFCorder', best version 2.0. If you want to have full functionality with many useful features for the post-processing of recordings, then opt for the COHIWizard. The COHIWizard includes all features of the RFCorder and is more frequently updated. All software packages can be downloaded as zip-files which contain also a user's manual. 
 
 ## RFCorder Version 2.0 (November 2023)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip)
 
-RFCorder v2.0 is used to play back broadband recordings on analog radio receivers using the STEMLAB125-14. The description is included in the downloadable zip file. In contrast to the previous version v1.2, this version does not currently allow you to make your own recordings, but there are a number of useful new features:
+RFCorder v2.0 is used to play back broadband recordings on analog radio receivers using the STEMLAB125-14. The description is included in the downloadable zip file. In contrast to the previous version v1.2, this version does not currently allow to make own recordings, but there are a number of useful new features:
 
 * In addition to recordings in the raw data format (*.dat) originally used for COHIRADIA, you can now also play back those in wav format. This is useful because all well-known SDRs use this format and therefore all external archives of broadband files contain wav files. Consequently, all new recordings in the archive are now generated exclusively with wav headers. This means that the files can also be played back on the PC with common SDR software such as SDRUno or SDR#. Metadata can be transferred to the RFCorder and displayed much more compactly.
 * You can now jump back and forth on the timeline with a scroll bar, making it very easy to find different passages in the recording.
@@ -20,6 +22,19 @@ RFCorder v2.0 is used to play back broadband recordings on analog radio receiver
 We recommend that all users who only want to play back files on their radios (not their own recordings) only use this program version, as the old versions will no longer be maintained in the future. A version with recording function is in preparation.
 
 As this is a major change compared to the previous version, it is quite possible that one or two small bugs may still be present. I would be grateful for reporting on such issues [Reports](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html), as this helps to eliminate problems quickly.
+
+## COHIWizard 1.2.9 (June 2024, Beta-Version)
+
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
+
+COHIWizard 1.2.9 Beta is the latest upgrade to COHIWizard 1.0 and includes all previous functions as well as many bug fixes. The main new features are:
+* extended configuration menu
+* Player: full recording function including recording timer as with RFCorder 1.2
+* Scrollable interface for adaptation to low screen resolutions
+* Resampler: significant acceleration of some signal processing steps and check for file consistency during list processing
+* Annotator: some bug fixes as well as the possibility to annotate in non-integer kHz raster
+
+Radio fans who like to experiment are encouraged to try out this tool (feedback welcome), it has a significantly extended range of functions.
 
 ## COHIWizard 1.0 (January 2024)
 
