@@ -2,7 +2,6 @@
 title: Cohiradia Software
 ---
 
-
 ## RFCorder Version 2.0 (November 2023)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip)
@@ -21,7 +20,20 @@ Wir empfehlen allen Nutzer:innen, die lediglich Dateien auf ihren Radios wiederg
 
 Da es sich um eine sehr starke Änderung gegenüber der Vorgängerversion handelt, kann es durchaus sein, dass noch der eine oder andere kleine Bug vorhanden ist. Für entsprechende [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
 
-## COHIWizard 1.0 (Jänner 2024)
+## COHIWizard 1.2.9 (Juni 2024, Beta-Version)
+
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
+
+COHIWizard 1.2.9 Beta ist das letzte Upgrade auf den COHIWizard 1.0 und umfasst alle bisher verfügbaren Funktionen sowie viele Bugfixes. Wesentliche Neuerungen sind:
+* erweitertes Konfigurationsmenü
+* Player: volle Aufnahmefunktion inklusive Aufnahmetimer wie beim RFCorder 1.2
+* scrollbare Oberfläche für Anpassung an niedrige Bildschirmauflösungen
+* Resampler: deutliche Beschleunigung einiger Signalverarbeitungsschritte sowie Check auf Datei-Konsistenzen bei Listenabarbeitung
+* Annotator: einige Bugfixes sowie die Möglichkeit, auch im nicht ganzzahligen kHz-Raster zu annotieren
+
+Experimentierfreudige Radiofreund*innen seien ermutigt, dieses Tool auszuprobieren (Feedback erwünscht), es ha einen deutlich erweiterten Funktionsumfang.
+
+## COHIWizard 1.0 (Jänner 2024, letzte stabile Version)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0b.zip)
 
@@ -36,7 +48,7 @@ Letzteres Feature funktioniert allerdings derzeit erst für Europa und USA sowie
 <!-- comment -->
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder1.2_Screenshot.png" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/cohiradia_V1.2.zip)
 
-RFCorder v1.2 ist die erste voll funktionsfähige Software für die Aufnahme von Breitbandaufzeichnungen mittels des STEMLAB125-14 und deren analoge Wiedergabe auf angeschlossenen Rundfunkempfängern. Das einzige unterstützte Fileformat sind bei dieser Version Rohfiles mit 32-byte Complex-Format mit der Extension '.dat'. Die Filenamen müssen der alten COHIRDIA Namenskonvention entsprechen (siehe [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf)) und daher auch in diesem Format aus dem Archiv heruntergeladen werden.
+RFCorder v1.2 ist die erste voll funktionsfähige Software für die Aufnahme von Breitbandaufzeichnungen mittels des STEMLAB125-14 und deren analoge Wiedergabe auf angeschlossenen Rundfunkempfängern. Diese Version wird nicht mehr empfohlen und wird in Zukunft nicht weiter gewartet. Das einzige unterstützte Fileformat sind bei dieser Version Rohfiles mit 32-byte Complex-Format mit der Extension '.dat'. Die Filenamen müssen der alten COHIRDIA Namenskonvention entsprechen (siehe [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf)) und daher auch in diesem Format aus dem Archiv heruntergeladen werden.
 
 Das Abspielen von wav-Dateien, wie sie die meisten SDRs benutzen, ist nur bedingt möglich, nämlich wenn man sie entsprechend umbenennt (dat statt wav und Umschreiben des Namens gemäß Namenskonvenion) und wenn die Samplingrate einer der vom STEMLAB unterstützten Raten entspricht. Andere Formate als 2 channels int16 werden nicht unterstützt.
 
