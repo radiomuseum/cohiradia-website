@@ -1,6 +1,4 @@
 ---
-
----
 title: Cohiradia
 card1:
   name: Aufnahmen
