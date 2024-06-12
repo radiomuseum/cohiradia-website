@@ -1,7 +1,5 @@
----
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/intropage_zierband.png" width="1000" height="160" /> 
-
-
+---
 title: Cohiradia
 card1:
   name: Aufnahmen
