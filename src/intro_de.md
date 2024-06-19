@@ -52,6 +52,9 @@ Hermann Scharfetter initiierte das Projekt COHIRADIA und ist die treibende Kraft
 
 ## COHI Jukebox
 
+<p style='text-align: justify;'>Leider gibt es gerade aus der Frühzeit des Rundfunks bis herauf in die 80er Jahre praktisch keine Original-Aufzeichnungen von Hf-Breitbandsignalen im Sinne von COHIRADIA.
+Nun wäre es aber wünschenswert, gerade auf z.B. Radiogeräten der 20 - 50er Jahre Signale wiedergeben zu können, die zumindest von den Inhalten her zu diesen Geräten 'passen'. Die Rubrik <strong>[COHI Jukebox](https://www.radiomuseum.org/cohiradia/synthetic_records.html)</strong> versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der 
+Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben.</p>
 
 ## Weitere Archive
 Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes Breitbandmaterial beinhalten:
