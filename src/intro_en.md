@@ -16,6 +16,7 @@ card4:
   name: Software
   desc: "Software download."
   link: "https://www.radiomuseum.org/cohiradia/software.html"
+banner: https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/intropage_zierband2.png
 ---
 ## Introduction
 Imagine that you could tune through and listen to all the stations of the medium wave band, which were active on a certain day in 2006, on your historical radio receiver at any time. You could then get the feeling as if all these stations were broadcasting right now. Of course the playback should not be based on an artificial montage, but on an authentic historical recording. This scenario probably represents a dream of many collectors, whose beautiful and valuable devices will remain increasingly 'mute' due to the rapidly progressing final shutdown of AM transmitters. Exactly this dream is fulfilled by the COHIRADIA project, as this [demo video](https://cohiradia.radiomuseum.org/download/COHIRADIA_Demovideo_v1.mp4) shows.
