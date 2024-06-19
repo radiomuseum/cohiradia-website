@@ -3,7 +3,14 @@
 
 
 
-<img align="left" width="280" height="398" vspace="10" hspace="30" src="https://www.radiomuseum.org/forumdata/users/24/Radio_hoeren_1924.jpg" /> 
+<style>
+    .scaleA {
+      width: 280%;
+      max-width: max-content;
+    }
+    </style>
+
+<img align="left" vspace="10" hspace="30" src="https://www.radiomuseum.org/forumdata/users/24/Radio_hoeren_1924.jpg" class="scaleA"/> 
 
 # **<span style="font-size:2em;">COHI Jukebox</p>**
 
