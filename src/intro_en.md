@@ -47,6 +47,13 @@ For the playback of the data files as well as for the creation of own recordings
 
 Hermann Scharfetter initiated and drives the project COHIRADIA. You can contact him as member of rmorg via his [profile](/dsp_profile.cfm?Member_Id=3642) or as a guest via [email](mailto:hermann.scharfetter@gmail.com) to further develop the project.
 
+## COHI Jukebox
+Unfortunately, there are practically no original recordings of HF broadband signals in the sense of COHIRADIA, especially from the early days of radio up to the 1980s. However, it may feel a bit strange to play back music and other contents from e.g. 2020 on a radio sets from the 20-50s. Thus it would be desirable to have access to recordings the contents of which at least 'fit' these sets. The category
+
+* [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic)
+
+attempts to approach this topic by providing synthetic AM bands (especially MW and LW) with a variety of 'stations' on common frequencies that convey the contents of time.
+
 ## Other Archives
 Besides COHIRADIA, the following archives are known to contain interesting wideband material as well:
 
