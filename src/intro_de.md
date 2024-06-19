@@ -50,6 +50,9 @@ Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen au
   
 Hermann Scharfetter initiierte das Projekt COHIRADIA und ist die treibende Kraft dahinter. Sie können als Mitglied des rmorg über sein [Profil](/dsp_profile.cfm?Member_Id=3642), als Gast per [email](mailto:hermann.scharfetter@gmail.com) gerne mit ihm in Kontakt treten und das Projekt gemeinsam mit ihm weiterentwickeln.
 
+## COHI Jukebox
+
+
 ## Weitere Archive
 Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes Breitbandmaterial beinhalten:
 
