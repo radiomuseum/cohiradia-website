@@ -3,7 +3,7 @@ title: Cohiradia Software
 ---
 ## Selection guide:
 
-<p style='text-align: justify;'>Essentially there are two different types of software available, a simple player for the most basic needs (playback of recordings and basic resampling) and a more advanced universal tool for playback, recording and additional features like inspecting the spectra, annotation of own recording and advanced resampling. If you just need a simple, playback tool which is easy to use, then opt for the **RFCorder**, best version 2.0. If you want to have full functionality with many useful features for the post-processing of recordings, then opt for the **COHIWizard**. The COHIWizard includes all features of the RFCorder and is more frequently updated. All software packages can be downloaded as zip-files which contain also a user's manual.</p>
+<p style='text-align: justify;'>Essentially there are two different types of software available, a simple player for the most basic needs (playback of recordings and basic resampling) and a more advanced universal tool for playback, recording and additional features like inspecting the spectra, annotation of own recording and advanced resampling. If you just need a simple, playback tool which is easy to use, then opt for the <strong>RFCorder</strong>, best version 2.0. If you want to have full functionality with many useful features for the post-processing of recordings, then opt for the <strong>COHIWizard</strong>. The COHIWizard includes all features of the RFCorder and is more frequently updated. All software packages can be downloaded as zip-files which contain also a user's manual.</p>
 
 ## RFCorder Version 2.0 (November 2023)
 
