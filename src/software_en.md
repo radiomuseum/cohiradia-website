@@ -28,6 +28,7 @@ As this is a major change compared to the previous version, it is quite possible
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
 
 <p style='text-align: justify;'>COHIWizard 1.2.9 Beta is the latest upgrade to COHIWizard 1.0 and includes all previous functions as well as many bug fixes. The main new features are:
+  
 * extended configuration menu
 * Player: full recording function including recording timer as with RFCorder 1.2
 * Scrollable interface for adaptation to low screen resolutions
