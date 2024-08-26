@@ -28,6 +28,7 @@ Da es sich um eine sehr starke Änderung gegenüber der Vorgängerversion handel
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
 
 <p style='text-align: justify;'>COHIWizard 1.2.9 Beta ist das letzte Upgrade auf den COHIWizard 1.0 und umfasst alle bisher verfügbaren Funktionen sowie viele Bugfixes. Wesentliche Neuerungen sind:
+  
 * erweitertes Konfigurationsmenü
 * Player: volle Aufnahmefunktion inklusive Aufnahmetimer wie beim RFCorder 1.2
 * scrollbare Oberfläche für Anpassung an niedrige Bildschirmauflösungen
@@ -41,6 +42,7 @@ Experimentierfreudige Radiofreund*innen seien ermutigt, dieses Tool auszuprobier
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0b.zip)
 
 <p style='text-align: justify;'>Der COHIWizard ist ein umfangreiches Programm, das neben der vollen Funktionalität des RFCorders2.0 auch viele Zusatzfunktionen bereitstellt. Diese umfassen:
+  
 * ein einfaches Spektralanalyse-Fenster für die Bandspektren, der eine rasche statische Beurteilung von Aufnahmen ermöglicht.
 * einen im Vergleich zum RFCorder 2.0 stark erweiterten Resampler für das Umcodieren von Aufnahmen, deren Samplingrate nicht STEMLAB-kompatibel sind. Im Gegensatz zum RFCorder2.0 können nun beliebige Bereiche des Spektrums ausgeschnitten werden. Auch ganze Serien zusammengehörender wav-Files können nun auf einmal resampelt werden.
 * ein Annotationstool, das dabei unterstützen kann, die Metadaten-Files halbautomatisch zu generieren. Mit enthalten ist hier auch ein Generator für die yaml-Files, die zwecks Annotation auf dem COHIRADIA-Server erzeugt werden müssen.
