@@ -29,7 +29,11 @@ Stellen Sie sich vor, Sie könnten auf Ihrem historischen Radioempfänger jederz
 
 Klarerweise sollte die Wiedergabe nicht auf einer künstlichen Montage, sondern auf einer authentischen historischen Aufzeichnung beruhen. Das entspricht wohl dem Wunsch vieler Sammler, deren schöne und wertvolle Geräte aufgrund der rasch fortschreitenden endgültigen Abschaltung von AM-Sendern zunehmend ‚stumm‘ bleiben werden. Genau diesen Wunsch erfüllt das Projekt COHIRADIA, wie dieses [Demo-Video](https://cohiradia.radiomuseum.org/download/COHIRADIA_Demovideo_v1.mp4) zeigt.
 
+
+
 COHIRADIA steht als Akronym für **CO**nservation of **HI**storical **RA**diofrequency bands by **DI**gital **A**rchiving (Konservierung historischer Radiofrequenzbänder durch digitale Archivierung).
+
+
 
 ## Ziele
 COHIRADIA verfolgt im Wesentlichen zwei Ziele:
