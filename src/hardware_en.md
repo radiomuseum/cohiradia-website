@@ -82,7 +82,7 @@ When the console reports that the connection has been closed and the red heartbe
 
 4. connect the plug-in power supply of the STEMLAB to the micro USB port for 'Power'. Alternatively, the STEMLAB can also be powered directly from a USB port on the PC using a suitable micro-USB cable.
 
-See also the [video tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4). Although this tutorial refers to the use of the very first RFCorder version 1.0 (no longer supported), all higher versions can of course be used essentially in the same way.
+See also the [video tutorial]([https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_Installation_Guide_part1_playback.mp4)). Although this tutorial refers to the use of the very first RFCorder version 1.0 (no longer supported), all higher versions can of course be used essentially in the same way.
 
 **)  <font size="2"> According to the manufacturer, a WLAN connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author. </font>
 
