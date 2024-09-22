@@ -6,7 +6,7 @@ title: Cohiradia Documentations
 * [User Manual RFCorder v1.x](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_users_guide_V3_en.pdf)
 
 ## Reports and Presentations
-* [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf)
+* [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_engl.pdf)
 
 ## Videos
-* [Demo Video](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_Demovideo_v1.mp4)
+* [Demo Video](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_Installation_Guide_part1_playback.mp4)
