@@ -10,4 +10,4 @@ title: Cohiradia Documentations
 * [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_engl.pdf)
 
 ## Videos
-* [Demo Video (german with English subtitles)](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_Demovideo_v1.mp4)
+* [Demo Video (German with English subtitles)](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_Demovideo_v1.mp4)
