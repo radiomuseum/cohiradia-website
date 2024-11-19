@@ -20,7 +20,10 @@ banner: https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/intro
 ---
 ## Introduction
 
-<iframe align="left" width="320" height="180" src="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4" frameborder="0" allowfullscreen></iframe> 
+<div style="float: left; margin-right: 15px;">
+  <iframe width="320" height="180" src="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4"
+          frameborder="0" allowfullscreen></iframe>
+</div>
 Imagine that you could tune through and listen to all the stations of the medium wave band, which were active on a certain day in 2006, on your historical radio receiver at any time. You could then get the feeling as if all these stations were broadcasting right now. Of course the playback should not be based on an artificial montage, but on an authentic historical recording. This scenario probably represents a dream of many collectors, whose beautiful and valuable devices will remain increasingly 'mute' due to the rapidly progressing final shutdown of AM transmitters. Exactly this dream is fulfilled by the COHIRADIA project, as this [demo video](https://cohiradia.radiomuseum.org/download/COHIRADIA_Demovideo_v1.mp4) shows.
 
 COHIRADIA is an acronym for **CO**nservation of **HI**storical **RA**diofrequency bands by **DI**gital **A**rchiving.
