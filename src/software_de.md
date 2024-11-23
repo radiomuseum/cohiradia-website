@@ -3,7 +3,11 @@ title: Cohiradia Software
 ---
 ## Auswahlhilfe:
 
-<p style='text-align: justify;'>Im Wesentlichen gibt es zwei verschiedene Arten von Software, einen einfachen Player für die grundlegendsten Bedürfnisse (Wiedergabe von Aufnahmen und einfaches Resampling) und ein fortschrittlicheres Universalwerkzeug für die Wiedergabe, Aufnahme und zusätzliche Funktionen wie die Inspektion der Spektren, die Kommentierung der eigenen Aufnahme und das erweiterte Resampling. Wenn Sie nur ein einfaches, leicht zu bedienendes Wiedergabewerkzeug benötigen, dann entscheiden Sie sich für den <strong>RFCorder</strong>, am besten in der Version 2.0. Wenn Sie die volle Funktionalität mit vielen nützlichen Funktionen für die Nachbearbeitung von Aufnahmen haben möchten, dann entscheiden Sie sich für den <strong>COHIWizard</strong>. Der COHIWizard enthält alle Funktionen des RFCorders und wird häufiger aktualisiert. Alle Softwarepakete können als Zip-Dateien heruntergeladen werden, die auch ein Benutzerhandbuch enthalten.</p>
+<p style='text-align: justify;'>Im Wesentlichen gibt es zwei verschiedene Arten von Software, einen einfachen Player für die grundlegendsten Bedürfnisse (Wiedergabe von Aufnahmen und einfaches Resampling) und ein fortschrittlicheres Universalwerkzeug für die Wiedergabe, Aufnahme und zusätzliche Funktionen wie die Inspektion der Spektren, die Kommentierung der eigenen Aufnahme und das erweiterte Resampling. Wenn Sie nur ein einfaches, leicht zu bedienendes Wiedergabewerkzeug benötigen, dann entscheiden Sie sich für den <strong>RFCorder</strong>, am besten in der Version 2.0. Wenn Sie die volle Funktionalität mit vielen nützlichen Funktionen für die Nachbearbeitung von Aufnahmen haben möchten, dann entscheiden Sie sich für den <strong>COHIWizard</strong>. Der COHIWizard enthält alle Funktionen des RFCorders und wird häufiger aktualisiert. Unter Windows ist für alle Versionen eine ausführbare Version (exe) verfügbar. Der COHIWizard ist ab v1.2 als offener Python-Quellcode auf GITHUB sowohl für Windows als auch für [LINUX](#LINUX) verfügbar und kann mit Python ausgeführt werden. </p>
+
+# Windows 10/11
+
+Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). Die exe-Versionen können als Zip-Datei heruntergeladen werden und enthalten auch ein Benutzerhandbuch. 
 
 ## RFCorder Version 2.0 (November 2023)
 
@@ -59,4 +63,10 @@ Letzteres Feature funktioniert allerdings derzeit erst für Europa und USA sowie
 
 Ein spezielles Feature ist die Möglichkeit, das Frequenzband während des Abspielens im Spektrum zu verschieben, also z.B. ein Langwellenband im Mittelwellenbereich eines Radios abzuspielen. Dazu muss ein Offset zur Bandmittenfrequenz angegeben werden.
 Bei Aufnahmen ermöglicht das Programm den automatischen Start einer Aufnahme mittels eines Timers.</p>
+
+# LINUX
+
+Die Python-Version wurde unter Debian 10 erfolgreich gestartet, aber noch nicht ausführlich getestet- Mit dem Player konnten Hf-Signale erfolgreich abgespielt werden und mit dem Synthesizer konnten erfolgreich korrekte SDR-wav-Dateien erstellt werden. Auch eine Annotation mit dem Annotator wurde an einer Aufzeichnung exemplarisch durchgeführt. Umfangreiche Tests werden in der Zukunft durchgeführt werden.
+
+Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v1.3 zugreifen, der der aktuelle Entwicklungsbranch ist und als experimentell eingestuft werden muss.
 
