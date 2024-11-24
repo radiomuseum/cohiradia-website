@@ -29,8 +29,9 @@ As this is a major change compared to the previous version, it is quite possible
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
 
-<p style='text-align: justify;'>COHIWizard 1.2.9 is the latest upgrade to COHIWizard 1.0 and includes all previous functions as well as many bug fixes. The main new features are:
-  
+<p style='text-align: justify;'> COHIWizard 1.2.9 is the last upgrade to the first version COHIWizard 1.0. Although the latter is still available for download below (for users who are still using this version), it is no longer recommended due to its reduced range of functions. V1.2.9 and finally contains many bug fixes and new features such as:
+
+* the option to create your own recordings as with RFCorder v1.2, including the automatic start of a recording using a timer.
 * extended configuration menu
 * Player: full recording function including recording timer as with RFCorder 1.2
 * Scrollable interface for adaptation to low screen resolutions
@@ -69,3 +70,5 @@ When recording, the program allows you to start a recording automatically using 
 # LINUX
 
 The Python version was successfully started under Debian 10, but has not yet been tested extensively - the player was able to successfully play back RF signals and the synthesizer was able to successfully create correct SDR wav files. An annotation with the annotator was also carried out on a recording as an example. More extensive tests will be carried out in the future.
+
+For the installation, please clone the repository from [Github](https://github.com/hermy-sf/COHIWizard). More detailed instructions can be found in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
