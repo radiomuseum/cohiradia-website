@@ -38,7 +38,7 @@ Da es sich um eine sehr starke Änderung gegenüber der Vorgängerversion handel
 * einen im Vergleich zum RFCorder 2.0 stark erweiterten Resampler für das Umcodieren von Aufnahmen, deren Samplingrate nicht STEMLAB-kompatibel sind. Im Gegensatz zum RFCorder2.0 können ganz beliebige Bereiche des Spektrums ausgeschnitten werden. Auch ganze Serien zusammengehörender wav-Files können nun auf einmal resampelt werden.
 * ein Annotationstool, das dabei unterstützen kann, die Metadaten-Files halbautomatisch zu generieren. Mit enthalten ist hier auch ein Generator für die yaml-Files, die zwecks Annotation auf dem COHIRADIA-Server erzeugt werden müssen.
 
-Letzteres Feature funktioniert allerdings derzeit erst für Europa und USA sowie Neuseeland, da die Referenztabellen für andere Kontinente noch nicht eingebaut wurde.</p>
+Letzteres Feature funktioniert allerdings derzeit erst für Europa und USA sowie Neuseeland, da die Referenztabellen für andere Zonen noch nicht eingebaut wurde.</p>
 
 COHIWizard 1.2.9 ist das letzte Upgrade auf die Erstversion COHIWizard 1.0. Letztere wird zwar im Folgenden auch noch zum Download bereitgestellt (für User, die diese Variante noch betreiben), wird allerdings wegen des geringeren Funktionsumfanges nicht mehr empfohlen. V1.2.9  und beinhaltet schließlich viele Bugfixes und neue Features wie:
   
