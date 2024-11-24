@@ -27,31 +27,33 @@ Wir empfehlen allen Nutzer:innen, die lediglich Dateien auf ihren Radios wiederg
 
 Da es sich um eine sehr starke Änderung gegenüber der Vorgängerversion handelt, kann es durchaus sein, dass noch der eine oder andere kleine Bug vorhanden ist. Für entsprechende [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
 
-## COHIWizard 1.2.9 (Juni 2024, Beta-Version)
+## COHIWizard 1.2.9 (Juni 2024)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
 
-<p style='text-align: justify;'>COHIWizard 1.2.9 Beta ist das letzte Upgrade auf den COHIWizard 1.0 und umfasst alle bisher verfügbaren Funktionen sowie viele Bugfixes. Wesentliche Neuerungen sind:
-  
-* erweitertes Konfigurationsmenü
-* Player: volle Aufnahmefunktion inklusive Aufnahmetimer wie beim RFCorder 1.2
-* scrollbare Oberfläche für Anpassung an niedrige Bildschirmauflösungen
-* Resampler: deutliche Beschleunigung einiger Signalverarbeitungsschritte sowie Check auf Datei-Konsistenzen bei Listenabarbeitung
-* Annotator: einige Bugfixes sowie die Möglichkeit, auch im nicht ganzzahligen kHz-Raster zu annotieren
-
-Experimentierfreudige Radiofreund*innen seien ermutigt, dieses Tool auszuprobieren (Feedback erwünscht), es hat einen deutlich erweiterten Funktionsumfang.</p>
-
-## COHIWizard 1.0 (Jänner 2024, letzte stabile Version)
-
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0b.zip)
-
-<p style='text-align: justify;'>Der COHIWizard ist ein umfangreiches Programm, das neben der vollen Funktionalität des RFCorders2.0 auch viele Zusatzfunktionen bereitstellt. Diese umfassen:
+<p style='text-align: justify;'> Der COHIWizard ist ein umfangreiches Programm, das neben der vollen Funktionalität des RFCorders2.0 auch viele Zusatzfunktionen bereitstellt. Diese umfassen:
   
 * ein einfaches Spektralanalyse-Fenster für die Bandspektren, der eine rasche statische Beurteilung von Aufnahmen ermöglicht.
-* einen im Vergleich zum RFCorder 2.0 stark erweiterten Resampler für das Umcodieren von Aufnahmen, deren Samplingrate nicht STEMLAB-kompatibel sind. Im Gegensatz zum RFCorder2.0 können nun beliebige Bereiche des Spektrums ausgeschnitten werden. Auch ganze Serien zusammengehörender wav-Files können nun auf einmal resampelt werden.
+* einen im Vergleich zum RFCorder 2.0 stark erweiterten Resampler für das Umcodieren von Aufnahmen, deren Samplingrate nicht STEMLAB-kompatibel sind. Im Gegensatz zum RFCorder2.0 können ganz beliebige Bereiche des Spektrums ausgeschnitten werden. Auch ganze Serien zusammengehörender wav-Files können nun auf einmal resampelt werden.
 * ein Annotationstool, das dabei unterstützen kann, die Metadaten-Files halbautomatisch zu generieren. Mit enthalten ist hier auch ein Generator für die yaml-Files, die zwecks Annotation auf dem COHIRADIA-Server erzeugt werden müssen.
 
 Letzteres Feature funktioniert allerdings derzeit erst für Europa und USA sowie Neuseeland, da die Referenztabellen für andere Kontinente noch nicht eingebaut wurde.</p>
+
+COHIWizard 1.2.9 ist das letzte Upgrade auf die Erstversion COHIWizard 1.0. Letztere wird zwar im Folgenden auch noch zum Download bereitgestellt (für User, die diese Variante noch betreiben), wird allerdings wegen des geringeren Funktionsumfanges nicht mehr empfohlen. V1.2.9  und beinhaltet schließlich viele Bugfixes und neue Features wie:
+  
+* erweitertes Konfigurationsmenü
+* scrollbare Oberfläche für Anpassung an niedrige Bildschirmauflösungen
+* Player: volle Aufnahmefunktion inklusive Aufnahmetimer wie beim RFCorder 1.2
+* Resampler: deutliche Beschleunigung einiger Signalverarbeitungsschritte sowie Check auf Datei-Konsistenzen bei Listenabarbeitung
+* Annotator: einige Bugfixes sowie die Möglichkeit, auch im nicht ganzzahligen kHz-Raster zu annotieren
+
+</p>
+
+## COHIWizard 1.0 (Jänner 2024, erste stabile Version)
+
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0b.zip)
+
+
 
 ## RFCorder Version 1.2 (April 2022)
 <!-- comment -->
