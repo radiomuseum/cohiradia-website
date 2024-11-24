@@ -49,13 +49,14 @@ COHIWizard 1.2.9 ist das letzte Upgrade auf die Erstversion COHIWizard 1.0. Letz
 
 </p>
 
-## COHIWizard 1.0 (Jänner 2024, erste stabile Version)
+## Vorgänger-Versionen 
+# COHIWizard 1.0 (Jänner 2024, erste stabile Version)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0b.zip)
 
 
 
-## RFCorder Version 1.2 (April 2022)
+# RFCorder Version 1.2 (April 2022)
 <!-- comment -->
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder1.2_Screenshot.png" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/cohiradia_V1.2.zip)
 
