@@ -25,11 +25,11 @@ We recommend that all users who only want to play back files on their radios (no
 
 As this is a major change compared to the previous version, it is quite possible that one or two small bugs may still be present. I would be grateful for reporting on such issues [Reports](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html), as this helps to eliminate problems quickly.</p>
 
-## COHIWizard 1.2.9 (June 2024, Beta-Version)
+## COHIWizard 1.2.9 (June 2024)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
 
-<p style='text-align: justify;'>COHIWizard 1.2.9 Beta is the latest upgrade to COHIWizard 1.0 and includes all previous functions as well as many bug fixes. The main new features are:
+<p style='text-align: justify;'>COHIWizard 1.2.9 is the latest upgrade to COHIWizard 1.0 and includes all previous functions as well as many bug fixes. The main new features are:
   
 * extended configuration menu
 * Player: full recording function including recording timer as with RFCorder 1.2
@@ -38,6 +38,8 @@ As this is a major change compared to the previous version, it is quite possible
 * Annotator: some bug fixes as well as the possibility to annotate in non-integer kHz raster
 
 Radio fans who like to experiment are encouraged to try out this tool (feedback welcome), it has a significantly extended range of functions.</p>
+
+# Previous versions
 
 ## COHIWizard 1.0 (January 2024)
 
