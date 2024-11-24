@@ -29,7 +29,7 @@ As this is a major change compared to the previous version, it is quite possible
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
 
-<p style='text-align: justify;'> COHIWizard 1.2.9 is the last upgrade to the first version COHIWizard 1.0. Although the latter is still available for download below (for users who are still using this version), it is no longer recommended due to its reduced range of functions. V1.2.9 and finally contains many bug fixes and new features such as:
+<p style='text-align: justify;'> COHIWizard 1.2.9 is the last upgrade to the first version COHIWizard 1.0. Although the latter is still available for download below (for users who are still using this version), it is no longer recommended due to its reduced range of functions. V1.2.9 finally contains many bug fixes and new features such as:
 
 * the option to create your own recordings as with RFCorder v1.2, including the automatic start of a recording using a timer.
 * extended configuration menu
