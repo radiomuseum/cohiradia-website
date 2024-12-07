@@ -52,7 +52,9 @@ For the playback of the data files as well as for the creation of own recordings
 * [Available software installation packages](https://www.radiomuseum.org/cohiradia/software.html)
 * [Data files from archived recordings](https://www.radiomuseum.org/cohiradia/#recording)
 
-Hermann Scharfetter initiated and drives the project COHIRADIA. You can contact him as member of rmorg via his [profile](/dsp_profile.cfm?Member_Id=3642) or as a guest via [email](mailto:hermann.scharfetter@gmail.com) to further develop the project.
+## CONTACT
+
+The project coordinator of COHIRADIA is Hermann Scharfetter. As a member of rmorg, you can contact him via his [profile](/dsp_profile.cfm?Member_Id=3642). As a guest please drop him an by [email](mailto:hermann.scharfetter@gmail.com) to ask questions, provide your own recordings for the archive or develop the project further together with him.
 
 ## COHI Jukebox
 Unfortunately, there are practically no original recordings of RF broadband signals in the sense of COHIRADIA, especially from the early days of radio up to the 1980s. However, it may feel a bit strange to play back music and other contents from e.g. 2020 on radio sets from the 20-50s. Thus it would be desirable to have access to recordings the contents of which at least 'fit' these sets. The category
