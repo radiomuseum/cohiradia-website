@@ -59,8 +59,6 @@ Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen au
 * [Verfügbare Software‐Installationspakete](https://www.radiomuseum.org/cohiradia/software.html)
 * [Datenfiles aus archivierten Aufnahmen](https://www.radiomuseum.org/cohiradia/#recording)
   
-Hermann Scharfetter initiierte das Projekt COHIRADIA und ist die treibende Kraft dahinter. Sie können als Mitglied des rmorg über sein [Profil](/dsp_profile.cfm?Member_Id=3642), als Gast per [email](mailto:hermann.scharfetter@gmail.com) gerne mit ihm in Kontakt treten und das Projekt gemeinsam mit ihm weiterentwickeln.
-
 ## COHI Jukebox
 
 <p style='text-align: justify;'>Leider gibt es gerade aus der Frühzeit des Rundfunks bis herauf in die 80er Jahre praktisch keine Original-Aufzeichnungen von Hf-Breitbandsignalen im Sinne von COHIRADIA.
@@ -69,6 +67,10 @@ Nun wäre es aber wünschenswert, gerade auf z.B. Radiogeräten der 20 - 50er Ja
 * [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic)
 
 versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben.</p>
+
+## Kontakt
+Der Projektkoortinator von COHIRADIA ist Hermann Scharfetter. Als Mitglied des rmorg können Sie über sein [Profil](/dsp_profile.cfm?Member_Id=3642), als Gast per [email](mailto:hermann.scharfetter@gmail.com) gerne mit ihm in Kontakt treten um Fragen zu stellen, eigene Aufnahmen für das Archiv bereitzustellen oder das Projekt gemeinsam mit ihm weiterzuentwickeln.
+
 
 ## Weitere Archive
 Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes Breitbandmaterial beinhalten:
