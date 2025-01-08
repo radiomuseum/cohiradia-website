@@ -4,9 +4,10 @@ title: Cohiradia Software
 # Selection guide:
 
 Essentially there are two different types of software available, a simple player for the most basic needs (playback of recordings and basic resampling) and a more advanced universal tool for playback, recording and additional features like inspecting the spectra, annotation of own recording and advanced resampling. If you just need a simple, playback tool which is easy to use, then opt for the <strong>RFCorder</strong>, best version 2.0. If you want to have full functionality with many useful features for the post-processing of recordings, then opt for the <strong>COHIWizard</strong>. The COHIWizard includes all features of the RFCorder and is more frequently updated. 
-An executable version (exe) is available for both versions under Windows. The COHIWizard is also available from v1.2 as open Python source code on [Github](https://github.com/hermy-sf/COHIWizard) for both [Windows](#windows-10/11) and [Linux](#linux). If you want to run the COHIWizard under Python, you can find the installation instructions on the GITHUB repository in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
+An executable version (exe) is available for both versions under Windows. The COHIWizard is also available from v1.2 as open Python source code on [Github](https://github.com/hermy-sf/COHIWizard) for both [Windows](#windows) and [Linux](#linux). If you want to run the COHIWizard under Python, you can find the installation instructions on the GITHUB repository in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
 
 # Windows 10/11
+<a id="windows"></a>
 ## RFCorder Version 2.0 (November 2023)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip)
@@ -68,7 +69,7 @@ A special feature is the possibility to shift the frequency band in the spectrum
 When recording, the program allows you to start a recording automatically using a timer.</a>
 
 # LINUX
-
+<a id="linux"></a>
 The Python version was successfully started under Debian 10, but has not yet been tested extensively - the player was able to successfully play back RF signals and the synthesizer was able to successfully create correct SDR wav files. An annotation with the annotator was also carried out on a recording as an example. More extensive tests will be carried out in the future.
 
 For the installation, please clone the repository from [Github](https://github.com/hermy-sf/COHIWizard). More detailed instructions can be found in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
