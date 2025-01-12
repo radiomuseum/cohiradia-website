@@ -83,10 +83,11 @@ Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes 
    Europäisches Archiv mit eher kurzen Sequenzen ab 2009
 
 ## Interessante Links auf andere Projekte:
-Im Kontext mit COHIRADIA gibt es inzwischen einige Aktivitäten, bei denen aufzeichnungen aus unserem Archiv eingesetzt werden:
+Im Kontext mit COHIRADIA gibt es inzwischen einige Aktivitäten, bei denen Aufzeichnungen aus unserem Archiv eingesetzt werden:
 
-* [Kostengünstige Alternativ-Hardware zum Abspielen von COHIRADIA-Aufnahmen](https://osmocom.org/projects/osmo-fl2k/wiki)  
-  fl2k USB-VGA Konverter, der auch als DAC mit hoher Datenrate benutzt werden kann. Obwohl die Auflösung mit 8-Bit nicht sehr hoch ist, konnte damit ein im Forum von www.radio-bastler.de vorgestelltes interessantes Projekt unter Verwendung von GNU-Radio zum Abspielen von COHIRADIA-Aufzeichnungen realisiert werden:
+* [Kostengünstige Alternativ-Hardware zum Abspielen von COHIRADIA-Aufnahmen](https://osmocom.org/projects/osmo-fl2k/wiki)
+  
+  Hier wird ein fl2k USB-VGA Konverter vorgestellt, der auch als DAC mit hoher Datenrate benutzt werden kann. Obwohl die Auflösung mit 8-Bit nicht sehr hoch ist, konnte damit ein im Forum von www.radio-bastler.de vorgestelltes interessantes Projekt unter Verwendung von GNU-Radio zum Abspielen von COHIRADIA-Aufzeichnungen realisiert werden:
 * [Radiobastler.de](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313)
 
 * [Beispielvideo Anwendung fl2k A](https://youtu.be/RRBtvOd3pog)
