@@ -53,7 +53,7 @@ Bei Interesse sind genauere Details zur verwendeten Technik, Software und den Qu
 
 Die ältesten bisher existierenden Aufzeichnungen auf MW und KW wurden vom Initiator in den Jahren 2006 – 2009 analog auf einem Videorecorder erstellt und 2021 digitalisiert. Alle weiteren Aufnahmen, besonders ab 2015 wurden direkt digital von verschiedenen an COHIRADIA mitwirkenden Radioamateuern produziert, schwerpunktmäßig auf Lang‐, Mittel- und Kurzwelle bis 30 MHz. Auf den älteren Aufnahmen finden sich noch viele Europäische Sender, die mittlerweile abgeschaltet worden sind.
 
-Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen auf dem STEMLAB125-14 wurde eine erste Softwareversion in Python erstellt und ist für Windows10 als exe-Programm verfügbar. Für die Sourcen wurde vom Autor bereits ein GITHub-Repository angelegt, eine Freigabe als open‐Source Projekt ist für die nächste Zukunft geplant.
+Für das Abspielen der Datenfiles sowie für die Erstellung eigener Aufnahmen auf dem STEMLAB125-14 wurde Software in Python erstellt und ist für Windows10 als exe-Programm sowie für LINUX als offener Source-Code unter GITHub verfügbar. Nähere Informationen hierzu finden sich auf der 'Software'-Seite.
 
 * [Beschreibungen für die Installation der nötigen Hard- und Software](https://www.radiomuseum.org/cohiradia/hardware.html) 
 * [Verfügbare Software‐Installationspakete](https://www.radiomuseum.org/cohiradia/software.html)
@@ -69,7 +69,7 @@ Nun wäre es aber wünschenswert, gerade auf z.B. Radiogeräten der 20 - 50er Ja
 
 * [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic)
 
-versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben.</p>
+versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben. </p>
 
 
 ## Weitere Archive
@@ -81,3 +81,16 @@ Neben COHIRADIA sind noch folgende Archive bekannt, die ebenfalls interessantes 
   Aufzeichnungen aus USA, z.T digitalisierte Analog-Aufnahmen mit Videorecordern bis zurück nach 1986
 * [Perseus WAV Files by Günter Lorenz](http://pira.fmlist.org/perseus/)  
    Europäisches Archiv mit eher kurzen Sequenzen ab 2009
+
+## Interessante Links auf andere Projekte:
+Im Kontext mit COHIRADIA gibt es inzwischen einige Aktivitäten, bei denen aufzeichnungen aus unserem Archiv eingesetzt werden:
+
+* [Kostengünstige Alternativ-Hardware zum Abspielen von COHIRADIA-Aufnahmen](https://osmocom.org/projects/osmo-fl2k/wiki)  
+  fl2k USB-VGA Konverter, der auch als DAC mit hoher Datenrate benutzt werden kann. Obwohl die Auflösung mit 8-Bit nicht sehr hoch ist, konnte damit ein im Forum von www.radio-bastler.de vorgestelltes interessantes Projekt unter Verwendung von GNU-Radio zum Abspielen von COHIRADIA-Aufzeichnungen realisiert werden:
+* [Radiobastler.de](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313)
+
+* [Beispielvideo Anwendung fl2k A](https://youtu.be/RRBtvOd3pog)
+* [Beispielvideo Anwendung fl2k A](https://youtu.be/4jC2XtWUFI8)
+
+Diese beiden Videos zeigen sehr schön die Anwendung des fl2k-Systems an zwei alten Empfängern durch Gerald Gauert, der u.a. die Ausstellung [100 Jahre Rundfunk](https://www.youtube.com/watch?v=qlJWguweo4U) im Museumshof Chörau betreut.
+
