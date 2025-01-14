@@ -12,12 +12,13 @@ zunächst eine Software zur Generierung solcher AM-Bandsignale entwickelt und er
 Auf den unterschiedlichen 'Sendern' findet sich einerseits ein reichhaltiges Musikprogramm aus der Schellack Sammlung von Claus Peter Gallenmiller und andererseits eine Auswahl von Ausschnitten aus Archivaufnahmen historischer Radiosendungen.</p> 
 
 <p style='text-align: justify;'>Die Aufnahme hat dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnungen und kann mit denselben Softwareprodukten wiedergegeben werden, die auf den Hard/Softwareseiten von COHIRADIA beschrieben sind. </p>
+
 Für Nutzer*innen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Das Synthese-Tool wurde mittlerweile als neues Modul in eine Beta-Version v2.0 des COHIWizard eingebaut, die auf der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) downloadbar ist. 
 
 Wenn die Idee der COHI Jukebox gefällt, freuen wir uns natürlich über entsprechendes Feedback.
 
 Die folgenden beiden Videos zeigen die Wiedergabe unserer ersten Aufnahme auf zwei alten Empfängern durch Gerald Gauert:
-* [Beispielvideo Anwendung fl2k A](https://youtu.be/RRBtvOd3pog)
-* [Beispielvideo Anwendung fl2k B](https://youtu.be/4jC2XtWUFI8)
+* [Beispielvideo A](https://youtu.be/RRBtvOd3pog)
+* [Beispielvideo B](https://youtu.be/4jC2XtWUFI8)
 
 
