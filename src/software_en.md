@@ -3,7 +3,7 @@ title: Cohiradia Software
 ---
 # Selection guide:
 
-Essentially there are two different types of software available, a simple player for the most basic needs (playback of recordings and basic resampling) and a more advanced universal tool for playback, recording and additional features like inspecting the spectra, annotation of own recording and advanced resampling. If you just need a simple, playback tool which is easy to use, then opt for the <strong>RFCorder</strong>, best version 2.0. If you want to have full functionality with many useful features for the post-processing of recordings, then opt for the <strong>COHIWizard</strong>. The COHIWizard includes all features of the RFCorder and is more frequently updated. 
+Essentially there are two different types of software available, a simple player for the most basic needs (playback of recordings and basic resampling) and a more advanced universal tool for playback, recording and additional features like inspecting the spectra, annotation of own recording and advanced resampling. If you just need a simple, playback tool which is easy to use, then opt for the <strong>RFCorder</strong>. If you want to have full functionality with many useful features for the post-processing of recordings, then opt for the <strong>COHIWizard</strong>. The COHIWizard includes all features of the RFCorder and is more frequently updated. 
 An executable version (exe) is available for both versions under Windows. The COHIWizard is also available from v1.2 as open Python source code on [Github](https://github.com/hermy-sf/COHIWizard) for both [Windows](#windows) and [Linux](#linux). If you want to run the COHIWizard under Python, you can find the installation instructions on the GITHUB repository in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
 
 <a id="windows"></a>
@@ -12,19 +12,16 @@ An executable version (exe) is available for both versions under Windows. The CO
 
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip)
 
-<p style='text-align: justify;'>RFCorder v2.0 is used to play back broadband recordings on analog radio receivers using the STEMLAB125-14. The description is included in the downloadable zip file. In contrast to the previous version v1.2, this version does not currently allow to make own recordings, but there are a number of useful new features:
+<p style='text-align: justify;'>RFCorder v2.0 is used to play back broadband recordings on analog radio receivers using the STEMLAB125-14. The description is included in the downloadable zip file. Typical features are:
 
-* In addition to recordings in the raw data format (*.dat) originally used for COHIRADIA, you can now also play back those in wav format. This is useful because all well-known SDRs use this format and therefore all external archives of broadband files contain wav files. Consequently, all new recordings in the archive are now generated exclusively with wav headers. This means that the files can also be played back on the PC with common SDR software such as SDRUno or SDR#. Metadata can be transferred to the RFCorder and displayed much more compactly.
-* You can now jump back and forth on the timeline with a scroll bar, making it very easy to find different passages in the recording.
-* The current time is displayed correctly, according to the actual time (UTC) at the time of recording. Of course, this only works with wav files, not with *.dat.
-* There is a logarithmic signal strength indicator. If the signal is too weak (bar turns yellow), you can use the 'Gain' control to increase the gain within limits (logarithmically).
-* The play button is now a 'Play/Pause' button.
-* There is an endless play button.
-* There is a simple resampler that allows recordings not originating from COHIRADIA to be resampled to one of the sampling rates required for STEMLAB. This significantly increases compatibility with commercial SDR formats.
+* Recordings can be read and played back in IQ raw data format (*.dat) and in the wav format used by most well-known SDRs.
+* You can use a scroll bar to jump back and forth on the timeline, making it very easy to find different points in the recording.
+* The current time is displayed correctly, according to the actual time (UTC) at the time of recording. Of course, this only works with wav files, not with *.dat files.
+* There is a logarithmic signal strength indicator. If the signal is too weak (bar turns yellow), you can use the 'Gain' control to amplify it within limits (logarithmically).
+* There is an endless playback button.
+* There is a simple resampler that allows you to resample recordings not originating from COHIRADIA to one of the sampling rates required for STEMLAB. This means that all recordings from external archives can also be used.
 
-We recommend that all users who only want to play back files on their radios (not their own recordings) only use this program version, as the old versions will no longer be maintained in the future. A version with recording function is in preparation.
-
-As this is a major change compared to the previous version, it is quite possible that one or two small bugs may still be present. I would be grateful for reporting on such issues [Reports](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html), as this helps to eliminate problems quickly.</p>
+I would be grateful for reporting on such issues [Reports](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html), as this helps to eliminate problems quickly.</p>
 
 ## COHIWizard 1.2.9 (June 2024)
 
