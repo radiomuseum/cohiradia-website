@@ -72,3 +72,18 @@ Besides COHIRADIA, the following archives are known to contain interesting wideb
   Datasets from USA, some of which are digitized recordings made on analogue video recorders back to 1986
 * [Perseus WAV Files by Günter Lorenz](http://pira.fmlist.org/perseus/)  
   European archive with mostly short sequences since 2009
+
+## Interesting links to other projects:
+
+In the context of COHIRADIA, there are now several activities in which recordings from our archive are used. Unfortunately this is a German site, but the idea is probably also accessible to international readers:
+
+* [Radiobastler.de Projekt mit fl2k](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313)
+
+    In this project an fl2k USB-VGA converter is presented, which can also be used as an [inexpensive alternative hardware](https://osmocom.org/projects/osmo-fl2k/wiki) with a high data rate for the playback of HF broadband signals. Although the resolution of the built-in DACs is not very high at 8-bit, an interesting project presented in the forum of [www.radio-bastler.de](https://www.radio-bastler.de) could be realized using GNU-Radio for playing COHIRADIA recordings. A great link for LINUX-affine radio friends!
+
+The following two videos show very nicely the application of the fl2k system on two old receivers by Gerald Gauert, who is in charge of the exhibition [100 years of radio broadcasting](https://www.youtube.com/watch?v=qlJWguweo4U) at the Museumshof Chörau (Germany):
+
+* [Example video application fl2k A](https://youtu.be/RRBtvOd3pog)
+* [Example video application fl2k B](https://youtu.be/4jC2XtWUFI8)
+    
+    
