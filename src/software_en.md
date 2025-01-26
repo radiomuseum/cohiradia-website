@@ -21,7 +21,7 @@ An executable version (exe) is available for both versions under Windows. The CO
 * There is an endless playback button.
 * There is a simple resampler that allows you to resample recordings not originating from COHIRADIA to one of the sampling rates required for STEMLAB. This means that all recordings from external archives can also be used.
 
-I would be grateful for reporting on such issues [Reports](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html), as this helps to eliminate problems quickly.</p>
+I would be grateful for [reports on successful use but also bugs](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html), as this helps to eliminate problems quickly.</p>
 
 ## COHIWizard 1.2.9 (June 2024)
 
