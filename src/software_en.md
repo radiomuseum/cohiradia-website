@@ -27,16 +27,15 @@ I would be grateful for reporting on such issues [Reports](https://www.radiomuse
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
 
-<p style='text-align: justify;'> COHIWizard 1.2.9 is the last upgrade to the first version COHIWizard 1.0. Although the latter is still available for download below (for users who are still using this version), it is no longer recommended due to its reduced range of functions. V1.2.9 finally contains many bug fixes and new features such as:
+<p style='text-align: justify;'>  The COHIWizard is a comprehensive program that provides many additional functions in addition to the full functionality of RFCorder2.0. These include
 
-* the option to create your own recordings as with RFCorder v1.2, including the automatic start of a recording using a timer.
-* extended configuration menu
-* Player: full recording function including recording timer as with RFCorder 1.2
-* Scrollable interface for adaptation to low screen resolutions
-* Resampler: significant acceleration of some signal processing steps and check for file consistency during list processing
-* Annotator: some bug fixes as well as the possibility to annotate in non-integer kHz raster
+* the ability to create your own recordings, including the automatic start of a recording using a timer.
+* a simple spectral analysis window for the band spectra, which enables a quick static assessment of recordings.
+* a resampler that has been greatly expanded compared to RFCorder 2.0 for recoding recordings whose sampling rate is not STEMLAB-compatible. In contrast to RFCorder 2.0, any area of the spectrum can be cut out. Even entire series of related wav files can now be resampled at once.
+* An annotation tool that can support the semi-automatic generation of metadata files. This also includes a generator for the yaml files that have to be created on the COHIRADIA server for annotation purposes.
 
-Radio fans who like to experiment are encouraged to try out this tool (feedback welcome), it has a significantly extended range of functions.</p>
+However, the latter feature currently only works for Europe, the USA and New Zealand, as the reference tables for other zones have not yet been integrated.
+</p>
 
 # Previous versions
 
