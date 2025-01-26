@@ -30,7 +30,7 @@ I would be grateful for reporting on such issues [Reports](https://www.radiomuse
 <p style='text-align: justify;'>  The COHIWizard is a comprehensive program that provides many additional functions in addition to the full functionality of RFCorder2.0. These include
 
 * the ability to create your own recordings, including the automatic start of a recording using a timer.
-* a simple spectral analysis window for the band spectra, which enables a quick static assessment of recordings.
+* a simple spectral analysis window for the band spectra, which enables a quick coarse assessment of recordings.
 * a resampler that has been greatly expanded compared to RFCorder 2.0 for recoding recordings whose sampling rate is not STEMLAB-compatible. In contrast to RFCorder 2.0, any area of the spectrum can be cut out. Even entire series of related wav files can now be resampled at once.
 * An annotation tool that can support the semi-automatic generation of metadata files. This also includes a generator for the yaml files that have to be created on the COHIRADIA server for annotation purposes.
 
