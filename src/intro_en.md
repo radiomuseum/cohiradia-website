@@ -77,7 +77,7 @@ Besides COHIRADIA, the following archives are known to contain interesting wideb
 
 In the context of COHIRADIA, there are now several activities in which recordings from our archive are used. Unfortunately this is a German site, but the idea is probably also accessible to international readers:
 
-* [Radiobastler.de Projekt mit fl2k](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313)
+* [Radiobastler.de, project with fl2k](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313)
 
     In this project an fl2k USB-VGA converter is presented, which can also be used as an [inexpensive alternative hardware](https://osmocom.org/projects/osmo-fl2k/wiki) with a high data rate for the playback of HF broadband signals. Although the resolution of the built-in DACs is not very high at 8-bit, an interesting project presented in the forum of [www.radio-bastler.de](https://www.radio-bastler.de) could be realized using GNU-Radio for playing COHIRADIA recordings. A great link for LINUX-affine radio friends!
 
