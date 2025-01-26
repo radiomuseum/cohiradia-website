@@ -51,3 +51,5 @@ Besides a few small changes (e.g. a monitor for the currently playing spectrum) 
 The Python version was successfully started under Debian 10, but has not yet been tested extensively - the player was able to successfully play back RF signals and the synthesizer was able to successfully create correct SDR wav files. An annotation with the annotator was also carried out on a recording as an example. More extensive tests will be carried out in the future.
 
 For the installation, please clone the repository from [Github](https://github.com/hermy-sf/COHIWizard). More detailed instructions can be found in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
+
+If you use a local git, then you can also access the branch cohiwizard_v1.3 which contains the synthesizer. However, this is the current development branch and must thus be considered as experimantal.
