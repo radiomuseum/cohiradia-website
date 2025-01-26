@@ -11,3 +11,9 @@ developed software to generate such AM band signals under MATLAB and generated i
 <p style='text-align: justify;'>The recording has the same wav-IQ format as all previous COHIRADIA recordings and can be played back with the same software products described on the COHIRADIA hardware/software pages. For users who would like to compile their own AM bands according to their own taste, we would like to announce that there are plans to incorporate a corresponding synthesis tool into the COHIWizard, but this will probably take several months.</p>
 
 If you like the idea of the COHI Jukebox, we would of course be delighted to receive your feedback.
+
+The following two videos show the playback of our first recording on two old radio receivers by Gerald Gauert:
+
+* [Demo video A](https://youtu.be/RRBtvOd3pog)
+* [Demo video B](https://youtu.be/4jC2XtWUFI8)
+
