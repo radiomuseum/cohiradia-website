@@ -31,7 +31,7 @@ I would be grateful for reporting on such issues [Reports](https://www.radiomuse
 
 * the ability to create your own recordings, including the automatic start of a recording using a timer.
 * a simple spectral analysis window for the band spectra, which enables a quick coarse assessment of recordings.
-* a resampler that has been greatly expanded compared to RFCorder 2.0 for recoding recordings whose sampling rate is not STEMLAB-compatible. In contrast to RFCorder 2.0, any area of the spectrum can be cut out. Even entire series of related wav files can now be resampled at once.
+* a resampler that has been greatly expanded compared to RFCorder 2.0 for resampling recordings whose sampling rate is not STEMLAB-compatible. In contrast to RFCorder 2.0, any section of the spectrum can be cut out. Even entire series of related wav files can now be resampled at once.
 * An annotation tool that can support the semi-automatic generation of metadata files. This also includes a generator for the yaml files that have to be created on the COHIRADIA server for annotation purposes.
 
 However, the latter feature currently only works for Europe, the USA and New Zealand, as the reference tables for other zones have not yet been integrated.
