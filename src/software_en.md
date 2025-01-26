@@ -37,32 +37,13 @@ I would be grateful for reporting on such issues [Reports](https://www.radiomuse
 However, the latter feature currently only works for Europe, the USA and New Zealand, as the reference tables for other zones have not yet been integrated.
 </p>
 
-# Previous versions
+## COHIWizard 1.3.3 (January 2025, first stable version)
 
-## COHIWizard 1.0 (January 2024)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1_3_3_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.3.3.zip)
 
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1.0_resampler_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.0b.zip)
+Besides a few small changes (e.g. a monitor for the currently playing spectrum) this version contains a completely new module: The <strong>synthesizer</strong> which can be found under a new tab. This tool enables you to create your own RF bands with individual playlists containing arbitrary audios in either wav- or mp3-format according to your own taste. In that way one can e.g. generate a medium wave band with music from the 60ies and/or spoken (historic) texts which then can be played back in the same way as one of the original recordings from the archive. An example is given in the [Youtube video](https://www.youtube.com/watch?v=NR0I252d4oQ) (in fact the intro section stems from such a synthetic band). A detailed user's manual is still lacking. There is a small, not fully updated [video-tutorial](https://cohiradia.radiomuseum.org/download/software/Tutorial_synthesizer_v0.mp4) for a previous version, which may serve for getting started. A complete documentation will, of course, be provided soon. This software version has not yet been tested excessively, thus bug-reports are welcome. A small preview of the GUI can be seen here:
+<img src="https://cohiradia.radiomuseum.org/download/software/Synthesizer_Screenshot_v0.PNG" width="400" height="200" />
 
-
-<p style='text-align: justify;'>The COHIWizard is a comprehensive program that provides many additional functions in addition to the full functionality of RFCorder2.0. These include:
-
-* a simple spectral analysis window for the band spectra, which enables a quick static evaluation of recordings.
-* a resampler that has been greatly expanded compared to RFCorder 2.0 for resampling recordings whose sampling rate is not STEMLAB-compatible. In contrast to RFCorder 2.0, arbitrary sections of the spectrum can be cut out. Additionally entire lists of related wav files can now be resampled at once and split into 2GB sized files.
-* an annotation tool that can support the semi-automatic generation of metadata files. This also includes a generator for the yaml files that have to be created on the COHIRADIA server for annotation purposes.
-
-However, the latter feature currently only works for Europe, the USA and New Zealand, as the reference tables for other areas have not yet been integrated.</p>
-
-## RFCorder Version 1.2 (April 2022)
-<!-- comment -->
-<img src="https://cohiradia.radiomuseum.org/download/software/RFCorder1.2_Screenshot.png" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/cohiradia_V1.2.zip)
-
-<a style='text-align: justify;'>RFCorder v1.2 is the first fully functional software for making broadband recordings using the STEMLAB125-14 and for the analog playback of the signals on connected radio receivers. The only supported file format in this version are raw files in 32-byte complex format with the extension '.dat'. The file names must comply with the old COHIRDIA naming convention (see [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_engl.pdf)) and must therefore also be downloaded from the archive in this format.
-
-The playback of wav files, as used by most SDRs, is only possible to a limited extent, namely if they are renamed accordingly (dat instead of wav and the name is rewritten in accordance with the naming convention) and if the sampling rate corresponds to one of the rates supported by the STEMLAB. Formats other than 2 channels/int16 are not supported.
-
-A special feature is the possibility to shift the frequency band in the spectrum during playback, e.g. to play a long wave band in the medium wave range of a radio. To do this, an offset to the center frequency of the band must be specified.
-
-When recording, the program allows you to start a recording automatically using a timer.</a>
 
 # LINUX
 <a id="linux"></a>
