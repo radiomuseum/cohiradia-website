@@ -1,11 +1,13 @@
 ---
-title:  Hardware-Platform STEMLAB125-14
+title:  Hardware-Platform STEMLAB125-14 or STEMLAB125-10
 ---
 ## Required Hardware
 
-1. basic RedPitaya STEMLAB125-14 package consisting of:
+As the software was initially developed specifically for the STEMLAB 125-14, all of the following descriptions are tailored to this device. Alternatively, COHIRADIA recordings have already been played back on the much cheaper STEMLAB 125-10 without any subjectively perceived loss of quality. This variant has not yet been extensively tested, but is most likely also sufficient for AM playback purposes with good level control. For this reason, the type designation is written STEMLAB 125-XX below, XX = 14 (fully recommended) or XX = 10 (not fully tested). In any case, we recommend the STEMLAB 125-14 for recording purposes.
+
+1. basic RedPitaya STEMLAB125-XX package consisting of:
    
-      * STEMLAB125-14 main unit
+      * STEMLAB125-XX main unit
       * STEMLAB plug-in power supply unit
       * LAN cable
       * SD card with typ. 16GB
@@ -20,9 +22,9 @@ title:  Hardware-Platform STEMLAB125-14
 
 6. RF isolating transformer (e.g. a balun) with a suitable transformation ratio from the 50&Omega; output of the STEMLAB to the radio. Usually an impedance transformation 1:9 to 1:16 (turns ratio 1:3 or 1:4) works for typical tube devices. In principle, any balun suitable for the respective frequency range can be used if the primary and secondary sides are completely separated (no common ground!). The author now uses a toroidal core FT114, material 43 with 15:60 turns, CuL 0.25 (inductance 120uH : 2mH), STEMLAB : Radio. 
 
-##	Installation of the server software on the STEMLAB125-14
+##	Installation of the server software on the STEMLAB125-XX
 
-Normally, an SD card with the operating system (Ubuntu) is supplied with the purchase of a STEMLAB125-14. This must now be inserted into the SD card slot of the STEMLAB. If you do not have this SD card, you have to create one yourself, the instructions for this and the required image file can be found on the 
+Normally, an SD card with the operating system (Ubuntu) is supplied with the purchase of a STEMLAB125-XX. This must now be inserted into the SD card slot of the STEMLAB. If you do not have this SD card, you have to create one yourself, the instructions for this and the required image file can be found on the 
 [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html)
 
 **IMPORTANT**: There are now newer versions of the operating system, most recently OS2.00. All previous COHIRADIA software versions have been tested under version 1.04, there is no experience with V2.00 yet. It is therefore recommended that you always use version 1.04-28 for COHIRADIA. If version 2.00 is preconfigured when purchasing a new STEMLAB and the COHIRADIA software does not run on it, it is recommended that you make your own SD card with version 1.04-28 and use this.
