@@ -3,7 +3,7 @@ title:  Hardware-Plattform STEMLAB125-14 oder STEMLAB125-10
 ---
 ## Benötigte Hardware
 
-Da die Software zunächst speziell für das STEMLAB 125-14 entwickelt wurde, sind alle folgenden Beschreibungen auf dieses Gerät abgestimmt. Alternativ wurden COHIRADIA-Aufnahmen auch bereits das deutlich kostengünstigere  STEMLAB 125-10 wiedergegeben, ohne dass ein subjekiv empfundener Qualitätsverlst festgestellt wurde. Diese Variante wurde nicht umfassend getestet, ist aber bei guter Aussteuerung höchstwahrscheinlich für AM-Wiedergabezwecke ebenfalls ausreichend. Daher wird für die Typenbezeichnung im Folgenden STEMLAB 125-XX geschrieben, XX = 14 (uneingeschränkt empfohlen) oder XX = 10 (nicht umfassend getestet). Für Aufzeichnungszwecke empfehlen wir jedenfalls das STEMLAB 125-14.
+Da die Software zunächst speziell für das STEMLAB 125-14 entwickelt wurde, sind alle folgenden Beschreibungen auf dieses Gerät abgestimmt. Alternativ wurden COHIRADIA-Aufnahmen auch bereits auf dem deutlich kostengünstigeren  STEMLAB 125-10 wiedergegeben, ohne dass ein subjekiv empfundener Qualitätsverlst festgestellt wurde. Diese Variante wurde noch nicht umfassend getestet, ist aber bei guter Aussteuerung höchstwahrscheinlich für AM-Wiedergabezwecke ebenfalls ausreichend. Daher wird für die Typenbezeichnung im Folgenden STEMLAB 125-XX geschrieben, XX = 14 (uneingeschränkt empfohlen) oder XX = 10 (nicht umfassend getestet). Für Aufzeichnungszwecke empfehlen wir jedenfalls das STEMLAB 125-14.
 
 1.	RedPitaya STEMLAB125-XX auch Grundpaket bestehend aus:
    
