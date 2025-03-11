@@ -67,6 +67,6 @@ Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v
 
 Coming soon: Beta-Version 2.0 mit Unterstützung eines USB-VGA-Dongles als alternative Wiedergabe-Hardware. Release geplant bis Ende März 2025.
 
-Wenn Sie ein lokales git und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0[(https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) zugreifen der der aktuelle Entwicklungsbranch für Version 2.0 ist und als experimentell eingestuft werden muss.
+Wenn Sie ein lokales git und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) zugreifen der der aktuelle Entwicklungsbranch für Version 2.0 ist und als experimentell eingestuft werden muss.
 
 Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
