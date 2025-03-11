@@ -60,11 +60,12 @@ Die Python-Version wurde unter Debian 10 erfolgreich gestartet, aber noch nicht 
 
 Für die Installation klonen Sie bitte das Repository von [Github](https://github.com/hermy-sf/COHIWizard). Genauere Hinweise finden sich in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
 
-Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v1.3 zugreifen, der der aktuelle Entwicklungsbranch ist und als experimentell eingestuft werden muss.
+Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v1.3 zugreifen der der aktuelle Entwicklungsbranch für Version 1.3. 
 
 <a id="experimentelle Versionen"></a>
 
 # Experimentelle Versionen
 
-Coming soon: Beta-Version 2.0 mit Unterstützung eines USB-VGA-Dongles als alternative Wiedergabe-Hardware. release geplant bis Ende März 2025.
+Coming soon: Beta-Version 2.0 mit Unterstützung eines USB-VGA-Dongles als alternative Wiedergabe-Hardware. Release geplant bis Ende März 2025.
 
+Wenn Sie ein lokales git und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch cohiwizard_v2.0 zugreifen der der aktuelle Entwicklungsbranch für Version 2.0 ist und als experimentell eingestuft werden muss.
