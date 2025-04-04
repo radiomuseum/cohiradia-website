@@ -21,12 +21,12 @@ TODO: write description
    
           HS_2025A-SDRuno_20250330_185100Z_1125kHz.yaml 
   
-  * Author = H.S. (here Hermann Scharfetter), 
-  * Recording year 2025, 
-  * A: first folder in the 2025 series
-  * SDRuno_20250330_185100Z_1125kHz is the stem of SDRuno_20250330_185100Z_1125kHz.wav, the first file of the recording
-  * .yaml: extension of a yaml-File
-  
+        * Author = H.S. (here Hermann Scharfetter), 
+        * Recording year 2025, 
+        * A: first folder in the 2025 series
+        * SDRuno_20250330_185100Z_1125kHz is the stem of SDRuno_20250330_185100Z_1125kHz.wav, the first file of the recording
+        * .yaml: extension of a yaml-File
+        
 4) copy all files of the recording to that folder
 5) go to https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml. You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
 6) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf)
