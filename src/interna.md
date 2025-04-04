@@ -2,7 +2,9 @@
 title: Cohiradia Internal procedures
 ---
 
-# Process for preparing a recording for the upload to the archive
+# Process for preparing a recording before uploading to the archive
+
+TODO: write description
 
 
 # Process for upload of  a new recording
