@@ -8,7 +8,9 @@ title: Cohiradia Internal procedures
 2) upload the file to the file system of the archive. There is a standard nomenclature: The server provides the subdirectory 'data' which is the root directory for all recordings.
 3) Please connect to the server with any file transfer software like Filezilla, WinSCP or similar. Navigate to the directory 'data'
 4) Within this direcory create a new folder for the recording. There is a standard nomenclature fur the naming of such directories which is
+   
            XX_YYYYS-<1stfilenamstem>.yaml
+   
    XX are initals of the author, YYYY is the year of the recording, S is a uppercase letter from A - Z in ascending order and <1stfilenamstem> is the stem (without extension)
    of the name of the first file in the recording. Example
    
@@ -22,4 +24,4 @@ title: Cohiradia Internal procedures
   
 5) copy all files of the recording to that folder
 6) go to https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml. You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
-7) create a new file (or push one from your local git) which complies with the general formatting rules   
+7) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the report 2023
