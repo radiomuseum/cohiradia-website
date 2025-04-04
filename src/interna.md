@@ -9,7 +9,7 @@ TODO: write description
 
 # Process for upload of  a new recording
 
-1) The recording must consist on 1 - N wav-files, while the wav header must comply with the format for SDR-IQ-Files as used by e.g. SDRUno. This wav header is automatically produced by SDR software like SDRUno and the COHIWizard.
+1) The recording must consist of one or several wav-files, while the wav header must comply with the format for SDR-IQ-Files as used by e.g. SDRUno. This wav header is automatically produced by SDR software like SDRUno and the COHIWizard.
   Each header must contain the name of the subsequent file in the field 'nextfilename'. This name can be edited with the COHIWizard in the tab 'Wavheader editor'. The last file of the series MUST NOT CONTAIN any name. Otherwise there will occur an error when committing the annotation yaml
 2) upload the file to the file system of the archive. There is a standard nomenclature: The server provides the subdirectory 'data' which is the root directory for all recordings.
 3) Please connect to the server with any file transfer software like Filezilla, WinSCP or similar. Navigate to the directory 'data'
