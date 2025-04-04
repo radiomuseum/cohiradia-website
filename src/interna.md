@@ -14,22 +14,33 @@ TODO: write description
 2) Please connect to the server with any file transfer software like Filezilla, WinSCP or similar. Navigate to the directory 'data'.
 3) Within this direcory create a new folder for the recording. There is a standard nomenclature fur the naming of such directories which is
    
-           XX_YYYYS-<1stfilenamstem>.yaml
+           XX_YYYYS
    
    XX are initals of the author, YYYY is the year of the recording, S is a uppercase letter from A - Z in ascending order and <1stfilenamstem> is the stem (without extension)
    of the name of the first file in the recording. Example
    
-          HS_2025A-SDRuno_20250330_185100Z_1125kHz.yaml 
+          HS_2025A
+  
+        * Author = H.S. (here Hermann Scharfetter), 
+        * Recording year 2025, 
+        * A: first folder in the 2025 series
+        
+4) copy all files of the recording to that folder
+5) go to https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml. You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
+6) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf). There is a standard nomenclature fur the naming of such files which is
+
+  XX_YYYYS-<1stfilenamstem>.yaml
+
+  Example
+   
+        HS_2025A-SDRuno_20250330_185100Z_1125kHz.yaml 
   
         * Author = H.S. (here Hermann Scharfetter), 
         * Recording year 2025, 
         * A: first folder in the 2025 series
         * SDRuno_20250330_185100Z_1125kHz is the stem of SDRuno_20250330_185100Z_1125kHz.wav, the first file of the recording
         * .yaml: extension of a yaml-File
-        
-4) copy all files of the recording to that folder
-5) go to https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml. You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
-6) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf)
+
 7) fill in all required informations. You can either do that manually, using as a template any other yaml-file already provided in the repository, or generate it automatically with the COHIWizard. The COHIWizard has a tab 'annotator' which provides all tools for generating a valid annotation yaml and which guides you through the annotation process interactively. For details see the users guide of the COHIWizard. It is recommended to use the COHIWizard, because this helps avoiding errors during the validation of the annotation by the respective server routines.
 8) commit the yaml to the repository and wait until the validation procedure has been accomplished. This will be visible by a green hook, something like that:
 
