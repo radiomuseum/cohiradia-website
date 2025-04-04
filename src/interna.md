@@ -30,10 +30,12 @@ title: Cohiradia Internal procedures
 6) go to https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml. You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
 7) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf)
 8) fill in all required informations. You can either do that manually, using as a template any other yaml-file already provided in the repository, or generate it automatically with the COHIWizard. The COHIWizard has a tab 'annotator' which provides all tools for generating a valid annotation yaml and which guides you through the annotation process interactively. For details see the users guide of the COHIWizard. It is recommended to use the COHIWizard, because this helps avoiding errors during the validation of the annotation by the respective server routines.
-9) commit the yaml to the repository and wait until the validation procedure has been accomplished. This will be visible by a green hook, something [like that:[(https://cohiradia.radiomuseum.org/download/docs/Documentation/Ann_yaml_valid.PNG)
+9) commit the yaml to the repository and wait until the validation procedure has been accomplished. This will be visible by a green hook, something like that:
 
-10) If there appears a red cross, the validation has failed. Clicking on 'Details' opens a logfile which then shows the error messages. Mostly they show useful details on what went wrong. Then you should correct your yaml accordingly. If you cannot find any solution, contact the RMOrg system admin for help.
-11) If validation went o.k., open GITBash and enter the command:
+ <img src="[https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG](https://cohiradia.radiomuseum.org/download/docs/Documentation/Ann_yaml_valid.PNG)" width="400" height="200" /> 
+
+11) If there appears a red cross, the validation has failed. Clicking on 'Details' opens a logfile which then shows the error messages. Mostly they show useful details on what went wrong. Then you should correct your yaml accordingly. If you cannot find any solution, contact the RMOrg system admin for help.
+12) If validation went o.k., open GITBash and enter the command:
 
   curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import
 
