@@ -27,7 +27,7 @@ TODO: write description
         
 4) copy all files of the recording to that folder
 5) go to https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml. You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
-6) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf). There is a standard nomenclature fur the naming of such files which is
+6) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf). Name the file appropriately. There is a standard nomenclature for the naming of such files which is
 
   XX_YYYYS-<1stfilenamstem>.yaml
 
