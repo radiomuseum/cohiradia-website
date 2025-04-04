@@ -37,7 +37,7 @@ title: Cohiradia Internal procedures
 11) If there appears a red cross, the validation has failed. Clicking on 'Details' opens a logfile which then shows the error messages. Mostly they show useful details on what went wrong. Then you should correct your yaml accordingly. If you cannot find any solution, contact the RMOrg system admin for help.
 12) If validation went o.k., open GITBash and enter the command:
 
-  curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import
+  `curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import`
 
 After that a new entry for the recording should appear in the list of recordings on the landing page.
 
