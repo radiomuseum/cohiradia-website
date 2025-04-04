@@ -39,5 +39,5 @@ title: Cohiradia Internal procedures
 
   `curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import`
 
-After that a new entry for the recording should appear in the list of recordings on the landing page.
+13) After that a new entry for the recording should appear in the list of recordings on the landing page. Now click on 'Download' and check, if there appears a list of files corresponding to what you have uploaded to the repository. If this list does not appear or some strange message is visible, please chack for errors. One common error is that the last file of the recording contains a non-empty filename in the field 'nextfilename'. Please remove that in any case and re-upload the file. Also wrong names of the files following one another in 'nextfilename' can cause this error.
 
