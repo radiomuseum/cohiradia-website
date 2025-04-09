@@ -26,7 +26,7 @@ TODO: write description
         * A: first folder in the 2025 series
         
 4) copy all files of the recording to that folder
-5) go to https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml. You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
+5) go to the [yaml-Repository](https://github.com/radiomuseum/cohiradia-metadata/commits/main/yaml). You need to be authorized to access this GITHub repository. Please ask the RMOrg-sysadmin for admission if you don't have any.
 6) create a new file (or push one from your local git) which complies with the general formatting rules specified in Appendix 7.1 of the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf). Name the file appropriately. There is a standard nomenclature for the naming of such files which is
 
   XX_YYYYS-<1stfilenamstem>.yaml
@@ -58,7 +58,7 @@ TODO: write description
 ## change of the annotation
 Sometimes it is necessary to change an entry in the annotation files, i.e. in the yaml-Files which contain all the metadata of a recording. This may be necessary for te correction of errors or because some additional information should be entered. The procedure is:
 
-1) Navigate to https://github.com/radiomuseum/cohiradia-metadata/tree/main/yaml, go to the correct folder and edit the yaml-File therein. Correct/modify the respective entries and commit the file with either <ctrl-S> or by pressing the 'commit'-button in GITHub.
+1) Navigate to the [yaml-repository](https://github.com/radiomuseum/cohiradia-metadata/tree/main/yaml), go to the correct folder and edit the yaml-File therein. Correct/modify the respective entries and commit the file with either <ctrl-S> or by pressing the 'commit'-button in GITHub.
 2) If the subsequent validation went o.k., open GITBash and enter the command:
 
   `curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import`
@@ -78,5 +78,5 @@ In this case the procedure is:
    `curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import/###`
    
    where ### stands for the ID of the recording as listed in the corresponding yaml-File for annotation
-If you are uncertain about the ID number, navigate to https://github.com/radiomuseum/cohiradia-metadata/tree/main/yaml, go to the correct folder and inspect the yaml-File therein. The ID is listed in the second line as "ID: ###"
+If you are uncertain about the ID number, navigate to the [yaml-repository](https://github.com/radiomuseum/cohiradia-metadata/tree/main/yaml), go to the correct folder and inspect the yaml-File therein. The ID is listed in the second line as "ID: ###"
 
