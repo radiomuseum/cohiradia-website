@@ -53,3 +53,21 @@ TODO: write description
 
 11) After that a new entry for the recording should appear in the list of recordings on the landing page. Now click on 'Download' and check, if there appears a list of files corresponding to what you have uploaded to the repository. If this list does not appear or some strange message is visible, please chack for errors. One common error is that the last file of the recording contains a non-empty filename in the field 'nextfilename'. Please remove that in any case and re-upload the file. Also wrong names of the files following one another in 'nextfilename' can cause this error.
 
+# Process for modifications of  an existing recording
+
+## change of the annotation
+
+## change of the fileset
+Sometimes it is necessary to exchange one or several files of a recording. Reasons may be a gain correction, the extension by additional files in order to prolongue the archived version, the correction of short gaps between individual files due to hardware delays etc...
+In this case the procedure is:
+
+1) Connect to the server with any file transfer software like Filezilla, WinSCP or similar. Navigate to the directory 'data'.
+2) Navigate to the respective directory.
+3) Copy all new files of the recording to that folder.
+4) Open GitBash and type
+   
+   `curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import/###`
+   
+   where ### stands for the ID of the recording as listed in the corresponding yaml-File for annotation
+If you are uncertain about the ID number, navigate to https://github.com/radiomuseum/cohiradia-metadata/tree/main/yaml, go to the correct folder and inspect the yaml-File therein. The ID is listed in the second line as "ID: ###"
+
