@@ -56,6 +56,15 @@ TODO: write description
 # Process for modifications of  an existing recording
 
 ## change of the annotation
+Sometimes it is necessary to change an entry in the annotation files, i.e. in the yaml-Files which contain all the metadata of a recording. This may be necessary for te correction of errors or because some additional information should be entered. The procedure is:
+
+1) Navigate to https://github.com/radiomuseum/cohiradia-metadata/tree/main/yaml, go to the correct folder and edit the yaml-File therein. Correct/modify the respective entries and commit the file with either <ctrl-S> or by pressing the 'commit'-button in GITHub.
+2) If the subsequent validation went o.k., open GITBash and enter the command:
+
+  `curl --verbose -s -XPOST https://cohiradia.radiomuseum.org/api/metadata/import`
+
+In principle the procedure is the same as described in the section for uploading a new recording under bullet items 5 - 11.
+
 
 ## change of the fileset
 Sometimes it is necessary to exchange one or several files of a recording. Reasons may be a gain correction, the extension by additional files in order to prolongue the archived version, the correction of short gaps between individual files due to hardware delays etc...
