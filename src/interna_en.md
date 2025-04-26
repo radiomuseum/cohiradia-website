@@ -1,5 +1,6 @@
 ---
 title: Cohiradia Internal procedures
+permission: cohiradia
 ---
 
 # Process for preparing a recording before uploading to the archive
