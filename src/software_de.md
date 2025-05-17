@@ -65,8 +65,15 @@ Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v
 
 # Experimentelle Versionen
 
-Coming soon: Beta-Version 2.0 mit Unterstützung eines USB-VGA-Dongles als alternative Wiedergabe-Hardware. Release geplant bis Ende März 2025.
+Nach Überarbeitung der Player-Architektur gibt es nun eine Version 2 des COHIWizard. Dabei ist der Player-Teil des COHIWizard mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, nicht nur das STEMLAB als Aufnahme/Wiedergabegerät auszuwählen, sondern auch alternative Hardware. So können in Zukunft weitere SDRs betrieben werden, die mit den Erfordernissen für COHIRADIA kompatibel sind. Ein erster alternativer Treiber wurde für das experimentelle System 'fl2k'eingebaut. Dabei handelt es sich um einen ##USB zu VGA-Adapter##LINK, der von verschiedenen Usergruppen als schneller 8-Bit DAC verwendet wird und auch bei einigen Hochfrequenz-Projekten eingesetzt wurde (siehe[fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). Mit seinen nur 8 Bit Auflösung ist dieses billige Gerät natürlich kein hochwertiger Ersatz für das STEMLAB, aber es mag für manche Einsatzzwecke durchaus genügen, wie ###Beispiele### zeigen.
 
-Wenn Sie ein lokales git und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) zugreifen der der aktuelle Entwicklungsbranch für Version 2.0 ist und als experimentell eingestuft werden muss.
+Es ist geplant, in Zukunft weitere Treiber zu entwickeln, mögliche Targets könnten z.B. der ADALM Pluto oder ADALM2000 sein.
+
+Weiters wurde der Synthesizer überarbeitet und mit einem deutlich schnelleren, auf ffmpeg beruhenden Modulator ausgestattet. Damit sind Synthesen eigener Breitbandfiles fast fünfmal schneller möglich als bisher. Dieses Feature wurde allerdings noch nicht ausführlich getestet und daher vorläufig als Beta-Modul optional eingebaut. Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen.
+
+Bugreports zu Version 2.1 sind aufgrund der noch nicht sehr exzessiven Tests willkommen.
+
+
+Wenn Sie ein lokales git und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) zugreifen der der aktuelle Entwicklungsbranch für Version 2 ist und als experimentell eingestuft werden muss.
 
 Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
