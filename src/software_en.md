@@ -68,4 +68,4 @@ The synthesiser has also been revised and equipped with a significantly faster m
 
 If you use a local git and the source codes, you can already access the branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) which is the current development branch for version 2 and must be classified as experimental.
 
-Bug reports for version 2.1.1 are welcome due to the not yet very excessive testing.
+Bug reports for version 2.1.1 are welcome due to the not yet very excessive testing. For reports see my CONTACT on the main page.
