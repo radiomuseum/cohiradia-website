@@ -56,16 +56,16 @@ If you use a local git, then you can also access the branch cohiwizard_v1.3 whic
 
 
 <a id="experimentelleV"></a>
-# Newest experimental version: COHIWizard 2.1.1
+# Newest experimental version: COHIWizard 2.1.2
 
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.1.1.zip)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.1.2.zip)
 
 Following a revision of the player architecture, version 2 of the COHIWizard is now available. The player part of the COHIWizard is equipped with a device driver system. This makes it possible to select not only the STEMLAB as a recording/playback device, but also alternative hardware. This means that other SDRs that are compatible with the requirements for COHIRADIA can be operated in the future. A first alternative driver has been installed for the experimental system “fl2k”. This is a [USB to VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki) that is used by various user groups as a fast 8-bit DAC and has also been used in some radiofrequency projects (see [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). With its only 8-bit resolution, this cheap device is of course not a high-quality replacement for the STEMLAB, but it may be sufficient for some purposes, as [examples](https://youtu.be/4jC2XtWUFI8) show.
 
 It is planned to develop further drivers in the future, possible targets could be e.g. the [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) or [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html).
 
-The synthesiser has also been revised and equipped with a significantly faster modulator based on ffmpeg. This makes it possible to synthesise your own broadband files almost five times faster than before. However, this feature has not yet been extensively tested and has therefore been installed as an optional beta module for the time being. If the new tool proves its worth, it will replace the old version in future releases. Version 2.1.1 is currently available for download (version 2.0 was never officially released).
+The synthesiser has also been revised and equipped with a significantly faster modulator based on ffmpeg. This makes it possible to synthesise your own broadband files almost five times faster than before. However, this feature has not yet been extensively tested and has therefore been installed as an optional beta module for the time being. If the new tool proves its worth, it will replace the old version in future releases. Version 2.1.2 is currently available for download (version 2.0 was never officially released).
 
 If you use a local git and the source codes, you can already access the branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) which is the current development branch for version 2 and must be classified as experimental.
 
-Bug reports for version 2.1.1 are welcome due to the not yet very excessive testing. For reports see my CONTACT on the main page.
+Bug reports for version 2.1.2 are welcome due to the not yet very excessive testing. For reports see my CONTACT on the main page.
