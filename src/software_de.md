@@ -67,7 +67,9 @@ Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.1.3.zip)
 
-Nach Überarbeitung der Player-Architektur gibt es nun eine Version 2 des COHIWizard. Dabei ist der Player-Teil des COHIWizard mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, nicht nur das STEMLAB als Aufnahme/Wiedergabegerät auszuwählen, sondern auch alternative Hardware. So können in Zukunft weitere SDRs betrieben werden, die mit den Erfordernissen für COHIRADIA kompatibel sind. Bislang wurden zwei alternativer Treiber als experimentelle Versionen eingebaut:
+Nach Überarbeitung der Player-Architektur gibt es nun eine Version 2 des COHIWizard. Dabei ist der Player-Teil des COHIWizard mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, nicht nur das STEMLAB als Aufnahme/Wiedergabegerät auszuwählen, sondern auch alternative Hardware. So können in Zukunft weitere SDRs betrieben werden, die mit den Erfordernissen für COHIRADIA kompatibel sind. Weiters wurde in V2.x.y der Synthesizer überarbeitet und mit einem deutlich schnelleren, auf ffmpeg beruhenden Modulator ausgestattet. Damit sind Synthesen eigener Breitbandfiles fast fünfmal schneller möglich als bisher. Dieses Feature wurde allerdings noch nicht ausführlich getestet und daher vorläufig als Beta-Modul optional eingebaut. 
+
+Bislang wurden zwei neue Geräte-Treiber als experimentelle Versionen implementiert:
 
 (1) 'fl2k': Dabei handelt es sich um einen  [USB zu VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki), der von verschiedenen Usergruppen als schneller 8-Bit DAC verwendet wird und auch bei einigen Hochfrequenz-Projekten eingesetzt wurde (siehe [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). Mit seinen nur 8 Bit Auflösung ist dieses billige Gerät natürlich kein hochwertiger Ersatz für das STEMLAB, aber es mag für manche Einsatzzwecke durchaus genügen, wie [Beispiele](https://youtu.be/4jC2XtWUFI8) zeigen.
 
@@ -77,7 +79,7 @@ Sowohl (1) als auch (2) erfordern einen einigermaßen leistungsfähigen PC für 
 
 Es ist geplant, in Zukunft weitere Treiber zu entwickeln, sofern Bedarf danach besteht. Ein mögliches Target könnte z.B. der [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) sein.
 
-Weiters wurde in V2.x.y der Synthesizer überarbeitet und mit einem deutlich schnelleren, auf ffmpeg beruhenden Modulator ausgestattet. Damit sind Synthesen eigener Breitbandfiles fast fünfmal schneller möglich als bisher. Dieses Feature wurde allerdings noch nicht ausführlich getestet und daher vorläufig als Beta-Modul optional eingebaut. Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen. Aktuell ist Version 2.1.3 zum Download bereit (Version 2.0 wurde nie offiziell released).
+Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen. Aktuell ist Version 2.1.3 zum Download bereit (Version 2.0 wurde nie offiziell released).
 
 Bugreports zu Version 2.1.x sind aufgrund der noch nicht sehr exzessiven Tests willkommen.
 
