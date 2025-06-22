@@ -75,12 +75,12 @@ Nach Überarbeitung der Player-Architektur gibt es nun eine Version 2 des COHIWi
 
 Sowohl (1) als auch (2) erfordern einen einigermaßen leistungsfähigen PC für die Umcodierung der komplexen Basisbanddaten in das für die Devices nötige Datenformat. Wir empfehlen daher weder das ADALM2000 noch das fl2k als echte Alternativen zum STEMLAB, dessen Leistung aufgrund der Auslagerung rechenintensiver Operationen auf das FPGA nach wie vor unübertroffen bleibt. Wer aber etwa bereits über ein ADALM2000 verfügt, kann dieses nun ansteuern und das Radiosignal am DAC Ausgang 1 (W1) abgreifen. 
 
-Es ist geplant, in Zukunft weitere Treiber zu entwickeln, sofern Bedarf danach besteht. Ein mögliches Targets könnte z.B. der [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) sein.
+Es ist geplant, in Zukunft weitere Treiber zu entwickeln, sofern Bedarf danach besteht. Ein mögliches Target könnte z.B. der [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) sein.
 
 Weiters wurde in V2.x.y der Synthesizer überarbeitet und mit einem deutlich schnelleren, auf ffmpeg beruhenden Modulator ausgestattet. Damit sind Synthesen eigener Breitbandfiles fast fünfmal schneller möglich als bisher. Dieses Feature wurde allerdings noch nicht ausführlich getestet und daher vorläufig als Beta-Modul optional eingebaut. Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen. Aktuell ist Version 2.1.3 zum Download bereit (Version 2.0 wurde nie offiziell released).
 
 Bugreports zu Version 2.1.x sind aufgrund der noch nicht sehr exzessiven Tests willkommen.
 
-Wenn Sie ein lokales git und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) zugreifen der der aktuelle Entwicklungsbranch für Version 2 ist und als experimentell eingestuft werden muss.
+Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) zugreifen der der aktuelle Entwicklungsbranch für Version 2 ist und als experimentell eingestuft werden muss.
 
 Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
