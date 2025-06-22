@@ -56,11 +56,17 @@ If you use a local git, then you can also access the branch cohiwizard_v1.3 whic
 
 
 <a id="experimentelleV"></a>
-# Newest experimental version: COHIWizard 2.1.2
+# Newest experimental version: COHIWizard 2.1.3
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.1.2.zip)
 
-Following a revision of the player architecture, version 2 of the COHIWizard is now available. The player part of the COHIWizard is equipped with a device driver system. This makes it possible to select not only the STEMLAB as a recording/playback device, but also alternative hardware. This means that other SDRs that are compatible with the requirements for COHIRADIA can be operated in the future. A first alternative driver has been installed for the experimental system “fl2k”. This is a [USB to VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki) that is used by various user groups as a fast 8-bit DAC and has also been used in some radiofrequency projects (see [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). With its only 8-bit resolution, this cheap device is of course not a high-quality replacement for the STEMLAB, but it may be sufficient for some purposes, as [examples](https://youtu.be/4jC2XtWUFI8) show.
+Following a revision of the player architecture, version 2 of the COHIWizard is now available. The player part of the COHIWizard is equipped with a device driver system. This makes it possible to select not only the STEMLAB as a recording/playback device, but also alternative hardware. This means that other SDRs that are compatible with the requirements for COHIRADIA can be operated in the future. 
+
+So far two alternative drivers have been implemented:
+
+(1)“fl2k”: This is a [USB to VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki) that is used by various user groups as a fast 8-bit DAC and has also been used in some radiofrequency projects (see [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). With its only 8-bit resolution, this cheap device is of course not a high-quality replacement for the STEMLAB, but it may be sufficient for some purposes, as [examples](https://youtu.be/4jC2XtWUFI8) show.
+
+(2) "ADALM2000": 
 
 It is planned to develop further drivers in the future, possible targets could be e.g. the [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) or [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html).
 
