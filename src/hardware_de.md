@@ -26,7 +26,7 @@ Da die Software zunächst speziell für das STEMLAB 125-14 entwickelt wurde, sin
 
 **ACHTUNG ! BEVOR SIE BEGINNEN**: 
 
-** Inzwischen wird das STEMLAB mit einer SDKarte ausgeliefert, die eine neuere Versionen des Betriebssystems beinhaltet, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 entwickelt, V2.00 ist aktuell nicht mit unserer Software kompatibel. Für COHIRADIA muss immer die Version 1.04-28 zu verwenden.** Sollte beim Kauf eines neuen STEMLAB also die Version 2.00 vorkonfiguriert sein, so muss eine eigene SD-Karte mit Version 1.04-28 angefertigt werden. Das entsprechende Image finden Sie ["hier"](https://github.com/RedPitaya/RedPitaya/blob/master/CHANGELOG.md). Wir bemühen uns, in Zukunft unsere Software auch für V2.00 umzurüsten.
+**Inzwischen wird das STEMLAB mit einer SDKarte ausgeliefert, die eine neuere Versionen des Betriebssystems beinhaltet, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 entwickelt, V2.00 ist aktuell nicht mit unserer Software kompatibel. Für COHIRADIA muss immer die Version 1.04-28 zu verwenden.** Sollte beim Kauf eines neuen STEMLAB also die Version 2.00 vorkonfiguriert sein, so muss eine eigene SD-Karte mit Version 1.04-28 angefertigt werden. Das entsprechende Image finden Sie ["hier"](https://github.com/RedPitaya/RedPitaya/blob/master/CHANGELOG.md). Wir bemühen uns, in Zukunft unsere Software auch für V2.00 umzurüsten.
 
 Unter [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html) befindet sich die Anleitung dazu sowie auch nochmals der obige Link auf die benötigte  Image-Datei . 
 
