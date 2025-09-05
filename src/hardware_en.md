@@ -28,11 +28,11 @@ As the software was initially developed specifically for the STEMLAB 125-14, all
 
 **STEMLAB now comes with an SD card containing a newer version of the operating system, most recently OS2.00. All previous COHIRADIA software versions were developed under version 1.04; V2.00 is currently not compatible with our software. For COHIRADIA, you must always use version 1.04-28.**
 
-If version 2.00 is preconfigured when you purchase a new STEMLAB, you must create your own SD card with version 1.04-28. You can find the corresponding image “here.” We are working to convert our software for V2.00 in the future.
+If version 2.00 is preconfigured when you purchase a new STEMLAB, you must create your own SD card with version 1.04-28. You can find the corresponding image ["here"](https://github.com/RedPitaya/RedPitaya/blob/master/CHANGELOG.md). We are working to convert our software for V2.00 in the future.
 
 The instructions for this can be found on the [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html), as well as the above link to the required image file.
 
-You can then connect STEMLAB to the Internet and call up an installation script kindly created by Ueli Kurmann. The connection can be made either by Ethernet cable or by a WLAN dongle via a standard router. The following steps must then be taken:
+After inserting the correctly configured SD-card you have to connect STEMLAB to the Internet and call up an installation script kindly created by Ueli Kurmann. The connection can be made either by Ethernet cable or by a WLAN dongle via a standard router. The following steps must then be taken:
 
 1. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
    
