@@ -24,12 +24,11 @@ Da die Software zunächst speziell für das STEMLAB 125-14 entwickelt wurde, sin
 
 ##	Installation der Server-Software auf dem STEMLAB125-XX
 
-Normalerweise wird beim Kauf eines STEMLAB125-XX eine SD-Karte mit dem Betriebssystem (Ubuntu) mitgeliefert. Diese muss man nun in den SD-Kartenslot des STEMLAB einschieben. Sollte man nicht über diese SD-Karte verfügen, muss man sich selbst eine erstellen, die Anleitung dazu sowie die  benötigte  Image-Datei findet sich auf der 
-[Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html). 
+**ACHTUNG ! BEVOR SIE BEGINNEN:**: Inzwischen wird das STEMLAB mit einer SDKarte ausgeliefert, die eine neuere Versionen des Betriebssystems beinhaltet, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 entwickelt, V2.00 ist aktuell nicht mit unserer Software kompatibel. Für COHIRADIA muss immer die Version 1.04-28 zu verwenden. Sollte beim Kauf eines neuen STEMLAB also die Version 2.00 vorkonfiguriert sein, so muss eine eigene SD-Karte mit Version 1.04-28 angefertigt werden. Das entsprechende Image finden Sie ["hier"](https://github.com/RedPitaya/RedPitaya/blob/master/CHANGELOG.md). Wir bemühen uns, in Zukunft unsere Software auch für V2.00 umzurüsten.
 
-**WICHTIG**: Inzwischen gibt es neuere Versionen des Betriebssystems, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 getestet, es liegt noch keine Erfahrung mit V2.00 vor. Es wird daher empfohlen, für COHIRADIA immer die Version 1.04-28 zu verwenden. Sollte beim Kauf eines neuen STEMLAB die Version 2.00 vorkonfiguriert sein, und die COHIRADIA-Software darauf nicht laufen, so empfiehlt es sich, eine eigene SD-Karte mit Version 1.04-28 anzufertigen und diese zu verwenden.
+Unter [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html) befindet sich die Anleitung dazu sowie auch nochmals der obige Link auf die benötigte  Image-Datei . 
 
-Danach muss man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen folgende Schritte unternommen werden:
+Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen folgende Schritte unternommen werden:
 
 1. Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
    
