@@ -24,7 +24,7 @@ As the software was initially developed specifically for the STEMLAB 125-14, all
 
 ##	Installation of the server software on the STEMLAB125-XX
 
-**ATTENTION ! READ THAT BEFORE STARTING**
+**ATTENTION ! READ THE FOLLOWING BEFORE STARTING:**
 
 **STEMLAB now comes with an SD card containing a newer version of the operating system, most recently OS2.00. All previous COHIRADIA software versions were developed under version 1.04; V2.00 is currently not compatible with our software. For COHIRADIA, you must always use version 1.04-28.**
 
