@@ -33,9 +33,7 @@ Das STEMLAB wird typischerweise mit einer SDKarte ausgeliefert, die das Betriebs
 
 2. Laden Sie das [Image-File cohiradia_STEMLAB125_v1.0.img](https://cohiradia.radiomuseum.org/download/software/cohiradia_STEMLAB125_v1.0.img) vom COHIRADIA-Softwarearchiv herunter und speichern Sie es in irgendeinem Verzeichnis.
 
-3. schreiben Sie das Image mit einer geeigneten Software auf die SD-Karte. Unter Windows eigen sich z.B. [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher).
-
-Unter LINUX geht es direkt auf der Kommandozeile: 
+3. schreiben Sie das Image mit einer geeigneten Software auf die SD-Karte. Unter Windows eigen sich z.B. [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher). Unter LINUX geht es direkt auf der Kommandozeile: 
 Zuerst mit  `lsblk -f` die gemounteten SD-Karten-Partitionen auslesen. Diese sollten typischerweise als sdb1, sdb2 gelistet werden.
 
 Dann die SD-Devices unmounten und das Schreiben starten
