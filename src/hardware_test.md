@@ -47,9 +47,9 @@ Danach sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und steck
 
 (5) Danach einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
 
-    http://rp-######.local
+    `http://rp-######.local`
 
-    eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
+eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
 
 (6) Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
 
