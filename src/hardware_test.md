@@ -51,9 +51,21 @@ Danach sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und steck
 
 eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
 
-(6) Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
+(6) Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
 
-(7) Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. In diesem Manager kann nun die IP Adresse ausgelesen werden.
+(7) Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
+
+&nbsp;
+
+&nbsp;
+
+<img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step3.png" /> 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 Diese Adresse benötigen Sie für den Betrieb der COHIRADIA-Apps, denn sie muss bei der ersten Verwendung eingetragen werden.
 
