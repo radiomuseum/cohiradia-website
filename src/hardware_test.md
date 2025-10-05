@@ -29,11 +29,11 @@ Das STEMLAB wird typischerweise mit einer SDKarte ausgeliefert, die das Betriebs
 
 **Variante 1** (einfach und für mit IT-Systemen weniger Vertrauten):
 
-(1) Stecken Sie eine neue SD-Karte (8 GB sind ausreichend, größere Karten funktionieren natürlich ebenso) in den SD-Karten-Slot Ihres PCs (wenn vorhanden) oder in einen mit Ihrem PC verbundenen SD-Kartenleser. Sie können ggf. auch die mitgelieferte Karte überschreiben, aber die möchte man meist sicherheitshalber eher als Original aufbewahren.
+1. Stecken Sie eine neue SD-Karte (8 GB sind ausreichend, größere Karten funktionieren natürlich ebenso) in den SD-Karten-Slot Ihres PCs (wenn vorhanden) oder in einen mit Ihrem PC verbundenen SD-Kartenleser. Sie können ggf. auch die mitgelieferte Karte überschreiben, aber die möchte man meist sicherheitshalber eher als Original aufbewahren.
 
-(2) Laden Sie das [Image-File cohiradia_STEMLAB125_v1.0.img](https://cohiradia.radiomuseum.org/download/software/cohiradia_STEMLAB125_v1.0.img) vom COHIRADIA-Softwarearchiv herunter und speichern Sie es in irgendeinem Verzeichnis.
+2. Laden Sie das [Image-File cohiradia_STEMLAB125_v1.0.img](https://cohiradia.radiomuseum.org/download/software/cohiradia_STEMLAB125_v1.0.img) vom COHIRADIA-Softwarearchiv herunter und speichern Sie es in irgendeinem Verzeichnis.
 
-(3) schreiben Sie das Image mit einer geeigneten Software auf die SD-Karte. Unter Windows eigen sich z.B. [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher). Unter LINUX geht es direkt auf der Kommandozeile: 
+3. schreiben Sie das Image mit einer geeigneten Software auf die SD-Karte. Unter Windows eigen sich z.B. [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher). Unter LINUX geht es direkt auf der Kommandozeile: 
 Zuerst mit  `lsblk -f` die gemounteten SD-Karten-Partitionen auslesen. Diese sollten typischerweise als sdb1, sdb2 gelistet werden.
 
 Dann die SD-Devices unmounten und das Schreiben starten
@@ -43,17 +43,17 @@ sudo dd if=redpitaya_full.img of=/dev/sdb bs=4M status=progress conv=fsync`
 
 Danach sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und stecken Sie sie in den SD-Karten-Slot des STEMLAB.
 
-(4) Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man die IP-Adresse des STEMLAB ermitteln. Dafür gibt es ebenfalls unterschiedliche Möglichkeiten. Am einfachsten ist es wahrscheinlich, das STEMLAB per Ethernet-Kabel mit dem PC zu verbinden und danach Die Versorgungsspannung einzuschalten. Das STEMLAB bootet und man sieht diverse LEDs flackern bis das blinken der roten 'Heartbeat'-LED beginnt. 
+4. Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man die IP-Adresse des STEMLAB ermitteln. Dafür gibt es ebenfalls unterschiedliche Möglichkeiten. Am einfachsten ist es wahrscheinlich, das STEMLAB per Ethernet-Kabel mit dem PC zu verbinden und danach Die Versorgungsspannung einzuschalten. Das STEMLAB bootet und man sieht diverse LEDs flackern bis das blinken der roten 'Heartbeat'-LED beginnt. 
 
-(5) Danach einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
+5. Danach einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
 
     `http://rp-######.local`
 
 eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
 
-(6) Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
+6. Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
 
-(7) Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
+7. Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
 
 &nbsp;
 
@@ -77,7 +77,7 @@ Variante 2: Händische Installation von Betriebssystem und COHIRADIA-Software (k
 
 Sollte beim Kauf eines neuen STEMLAB also die Version 2.00 vorkonfiguriert sein, so muss eine eigene SD-Karte mit Version 1.04-28 angefertigt werden. Den Link auf die entsprechende Image-Datei sowie die nötigen Anleitungen finden Sie auf dieser [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html). Wir bemühen uns, in Zukunft unsere Software auch für V2.00 umzurüsten.
 
-Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen folgende Schritte unternommen werden:
+Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen die Schritte 5 - 7 von Variante 1 unternommen werden:
 
 1. Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
    
@@ -85,29 +85,19 @@ Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehen
    
    eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
  
-3. Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> Der Anblick sollte etwa wie in der nebenstehenden Abbildung sein. Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
+3. Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
 
-4. Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
-
-&nbsp;
+4. Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
 
 &nbsp;
 
-<img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step3.png" /> 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-4. Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
+5. Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
 
     `ssh root@###.###.###.###, 	Password: root`
 
    ###.###.###.### ist die IP-Adresse.
 
-5. Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit `apt update` durchführen danach mit `apt upgrade` die Pakete installieren.
+6. Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit `apt update` durchführen danach mit `apt upgrade` die Pakete installieren.
 
 7. Nach dem Upgrade den folgenden Befehl in einer Zeile eingeben:
 
