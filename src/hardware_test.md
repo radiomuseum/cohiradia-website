@@ -27,7 +27,7 @@ Da die Software zunächst speziell für das STEMLAB 125-14 entwickelt wurde, sin
 Bevor das STEMLAB125-XX mit COHIRADIA in Betrieb genommen werden kann, muss die SD-Karte mit Betriebssystem und Serversoftware vorbereitet werden.
 Das STEMLAB wird typischerweise mit einer SDKarte ausgeliefert, die das Betriebssystem (eine UBUNTU-Version) beinhaltet. Diese allein ermöglicht aber noch nicht die Kommunikation mit der COHIRADIA-Software auf dem PC. 
 
-**ACHTUNG: Inzwischen wird das STEMLAB mit einer SDKarte ausgeliefert, die eine neuere Version des Betriebssystems beinhaltet, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 entwickelt, V2.00 ist aktuell nicht mit unserer Software kompatibel. Daher bitte unbedingt eine neue SD-Karte wie folgt erstellen:** 
+**Daher bitte unbedingt eine neue SD-Karte wie folgt erstellen:** 
 
 1. Stecken Sie eine neue SD-Karte (8 GB sind ausreichend, größere Karten funktionieren natürlich ebenso) in den SD-Karten-Slot Ihres PCs (wenn vorhanden) oder in einen mit Ihrem PC verbundenen SD-Kartenleser. Sie können ggf. auch die mitgelieferte Karte überschreiben, aber die möchte man meist sicherheitshalber eher als Original aufbewahren.
 
