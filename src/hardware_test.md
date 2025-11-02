@@ -74,8 +74,6 @@ Diese Adresse benötigen Sie für den Betrieb der COHIRADIA-Apps, denn sie muss 
 [Diese alternative Methode](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) wird auf der Red-Pitaya-Doku-Page beschrieben, sie funktioniert über ein Terminal und eine zusätzliche USB-Konsolenverbindung. Empfohlen nur für IT-Geübte.
 
 
-
-
 Danach ist das System für den Gebrauch im Sinne von COHIRADIA konfiguriert.
 
 
@@ -113,7 +111,7 @@ Eine genaue Zusammenfassung aller bisher getesteten Komponenten und eine Übersi
 
 **APPENDIX: Variante 2 für die händische Installation von Betriebssystem und COHIRADIA-Software (komplizierter, eher für IT-Geübte)** 
 
-[Software-Seite](https://www.radiomuseum.org/cohiradia/SDKARTE_method2.html) 
+Unter [folgendem Link](https://www.radiomuseum.org/cohiradia/SDKARTE_method2.html) kann noch eine alternative Installationsmethode gefunden werden, die aber nicht mehr als erste Wahl empfohlen wird.
 
 Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl, sie ist nur hier noch der Vollständigkeit halber aufgeführt.
 
