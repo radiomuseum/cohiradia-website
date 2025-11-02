@@ -43,10 +43,9 @@ Danach:
 
 **ACHTUNG: dd ist mit viel Vorsicht zu benutzen. Wenn Sie das falsche Ziel angeben, kann es passieren, dass wichtige Systemdatenträger gelöscht werden. Also bitte dreimal kontrollieren, was man tut !** 
 
-Danach sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und stecken Sie sie in den SD-Karten-Slot des STEMLAB.
-
 Anmerkung: Es gibt noch eine früher benutzte [alternative Installationsmethode](https://www.radiomuseum.org/cohiradia/SDKARTE_method2.html), die aber nicht mehr als erste Wahl empfohlen wird.
 
+Wenn Sie (3) ausgeführt haben, sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und stecken Sie sie in den SD-Karten-Slot des STEMLAB. 
 
 4. Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man die IP-Adresse des STEMLAB ermitteln. Dafür gibt es ebenfalls unterschiedliche Möglichkeiten. Am einfachsten ist es, das STEMLAB per Ethernet-Kabel mit dem PC zu verbinden und danach die Versorgungsspannung einzuschalten. Das STEMLAB bootet und man sieht diverse LEDs flackern, bis das Blinken der roten 'Heartbeat'-LED beginnt. **ACHTUNG: Unter Windows kann es leicht passieren, dass die Verbindung über Ethernet nicht funktioniert, wenn das WLAN eingeschaltet ist. Falls die folgenden Schritte also nicht funktionieren, bitte einfach mal das WLAN am PC deaktivieren**
 
