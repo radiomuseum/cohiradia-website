@@ -35,10 +35,15 @@ Das STEMLAB wird typischerweise mit einer SDKarte ausgeliefert, die das Betriebs
 
 3. schreiben Sie das Image mit einer geeigneten Software auf die SD-Karte. Unter Windows eigen sich z.B. [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher). Unter LINUX geht es direkt auf der Kommandozeile: 
 Zuerst mit  `lsblk -f` die gemounteten SD-Karten-Partitionen auslesen. Diese werden z.B. als sdb1, sdb2 o.ä. gelistet. Dann die SD-Devices unmounten und das Schreiben starten
-`sudo umount /dev/YOURSDDEVICE*. YOURSDDEVICE ist dann was Ihr lsblk listet, in meinem Beispiel sbd. Danach:
+`sudo umount /dev/YOURSDDEVICE*. YOURSDDEVICE ist dann was Ihr lsblk listet, in meinem Beispiel sbd.
+
+Danach:
+
 sudo dd if=redpitaya_full.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync`
 
-**ACHTUNG: dd ist mit viel Vorsicht zu benutzen. Wenn Sie das falsche Ziel angeben, kann es passieren, dass wichtige Systemdatenträger gelöscht werden. Also bitte dreimal kontrollieren, was man tut !** Danach sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und stecken Sie sie in den SD-Karten-Slot des STEMLAB.
+**ACHTUNG: dd ist mit viel Vorsicht zu benutzen. Wenn Sie das falsche Ziel angeben, kann es passieren, dass wichtige Systemdatenträger gelöscht werden. Also bitte dreimal kontrollieren, was man tut !** 
+
+Danach sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und stecken Sie sie in den SD-Karten-Slot des STEMLAB.
 
 4. Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man die IP-Adresse des STEMLAB ermitteln. Dafür gibt es ebenfalls unterschiedliche Möglichkeiten. Am einfachsten ist es, das STEMLAB per Ethernet-Kabel mit dem PC zu verbinden und danach die Versorgungsspannung einzuschalten. Das STEMLAB bootet und man sieht diverse LEDs flackern, bis das Blinken der roten 'Heartbeat'-LED beginnt. **ACHTUNG: Unter Windows kann es leicht passieren, dass die Verbindung über Ethernet nicht funktioniert, wenn das WLAN eingeschaltet ist. Falls die folgenden Schritte also nicht funktionieren, bitte einfach mal das WLAN am PC deaktivieren**
 
