@@ -41,7 +41,7 @@ Zuerst mit  `lsblk -f` die gemounteten SD-Karten-Partitionen auslesen. Diese wer
 
 Anmerkung: Es gibt noch eine früher benutzte [alternative Installationsmethode](https://www.radiomuseum.org/cohiradia/SDKARTE_method2.html), die aber nicht mehr als erste Wahl empfohlen wird.
 
-4. Nun sollte eine betriebsbereite Karte vorliegen. Werfen Sie sie aus und stecken Sie sie in den SD-Karten-Slot des STEMLAB. Nun muss man die IP-Adresse des STEMLAB ermitteln. Dafür gibt es ebenfalls unterschiedliche Möglichkeiten. Am einfachsten ist es, das STEMLAB per Ethernet-Kabel mit dem PC zu verbinden und danach die Versorgungsspannung einzuschalten. Das STEMLAB bootet und man sieht diverse LEDs flackern, bis das Blinken der roten 'Heartbeat'-LED beginnt. **ACHTUNG: Unter Windows kann es leicht passieren, dass die Verbindung über Ethernet nicht funktioniert, wenn das WLAN eingeschaltet ist. Falls die folgenden Schritte also nicht funktionieren, bitte einfach mal das WLAN am PC deaktivieren**
+4. Werfen Sie die SD-Karte aus und stecken Sie sie in den SD-Karten-Slot des STEMLAB. Nun muss man die IP-Adresse des STEMLAB ermitteln. Dafür gibt es ebenfalls unterschiedliche Möglichkeiten. Am einfachsten ist es, das STEMLAB per Ethernet-Kabel mit dem PC zu verbinden und danach die Versorgungsspannung einzuschalten. Das STEMLAB bootet und man sieht diverse LEDs flackern, bis das Blinken der roten 'Heartbeat'-LED beginnt. **ACHTUNG: Unter Windows kann es leicht passieren, dass die Verbindung über Ethernet nicht funktioniert, wenn das WLAN eingeschaltet ist. Falls die folgenden Schritte also nicht funktionieren, bitte einfach mal das WLAN am PC deaktivieren**
 
 5. Danach einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
 
