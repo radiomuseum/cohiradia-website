@@ -69,7 +69,7 @@ Diese Adresse benötigen Sie für den Betrieb der COHIRADIA-Apps, denn sie muss 
 [Diese alternative Methode](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) wird auf der Red-Pitaya-Doku-Page beschrieben, sie funktioniert über ein Terminal und eine zusätzliche USB-Konsolenverbindung. Empfohlen nur für IT-Geübte.
 
 
-**Variante 2: Händische Installation von Betriebssystem und COHIRADIA-Software (komplizierter, eher für IT-Geübte). Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl.
+**Variante 2:** Händische Installation von Betriebssystem und COHIRADIA-Software (komplizierter, eher für IT-Geübte). Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl.
 **ACHTUNG ! BEVOR SIE BEGINNEN**: 
 
 **Inzwischen wird das STEMLAB mit einer SDKarte ausgeliefert, die eine neuere Version des Betriebssystems beinhaltet, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 entwickelt, V2.00 ist aktuell nicht mit unserer Software kompatibel. Für COHIRADIA muss immer die Version 1.04-28 verwendet werden.** 
