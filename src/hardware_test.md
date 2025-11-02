@@ -74,8 +74,48 @@ Diese Adresse benötigen Sie für den Betrieb der COHIRADIA-Apps, denn sie muss 
 [Diese alternative Methode](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) wird auf der Red-Pitaya-Doku-Page beschrieben, sie funktioniert über ein Terminal und eine zusätzliche USB-Konsolenverbindung. Empfohlen nur für IT-Geübte.
 
 
-**Variante 2:** Händische Installation von Betriebssystem und COHIRADIA-Software (komplizierter, eher für IT-Geübte). Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl.
-**ACHTUNG ! BEVOR SIE BEGINNEN**: 
+
+
+Danach ist das System für den Gebrauch im Sinne von COHIRADIA konfiguriert.
+
+
+## Zusammenbau Der Hardware
+
+1.	Das STEMLAB vom Router trennen und über das LAN-Kabel direkt mit der LAN-Buchse des PC verbinden. **) 
+
+2.	SMA-Ausgangsbuchse ‚OUT1‘ über ein 50&Omega;-Koaxkabel mit der niederohmigen Seite des Hf-Trenntrafos /Baluns verbinden. 
+
+3. Antenneneingang des AM-Radios mit der hochohmigen Seite des Hf-Trenntrafos/Baluns verbinden.
+
+4.	Steckernetzteil  des STEMLAB am Mikro-USB-Port für ‚Power‘ anschließen. Alternativ kann das STEMLAB auch über ein geeignetes Mikro-USB-Kabel direkt von einem USB-Port des PC aus versorgt werden.
+
+Siehe dazu auch das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4). Dieses bezieht sich zwar noch auf die Verwendung der allerersten RFCorder-Version 1.0 (nicht mehr unterstützt), sinngemäß können aber natürlich alle höheren Versionen verwendet werden.
+
+**) <font size="2"> Alternativ zum LAN-Kabel kann laut Hersteller auch eine WLAN-Verbindung eingerichtet werden, wenn ein WLAN-Dongle mitgekauft wurde. Diese Option hat der Autor selbst jedoch noch nicht ausprobiert.
+
+Als zweite Alternative kann das STEMLAB wahrscheinlich auch am Router verbleiben, allerdings müsste dann als IP-Adresse die vom Router zugewiesene benutzt werden. Dieser Modus wird vermutlich in der Praxis selten verwendet, da das zu bespielende Radio wahrscheinlich nicht gleich neben dem Router steht. Auch diese Betriebsart wurde vom Autor nicht getestet.</font>
+
+## Wiedergabe-App vorbereiten
+
+Für das Abspielen von Archivaufnahmen gibt es mittlerweile mehrere Software-Versionen, die von der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) herunterladbar sind. Dabei ist zu beachten, dass der RFCorder erst ab Version 2.0 auch wav-Files abspielen kann, die erste Version kann nur das ursprünglich verwendete dat-Format erkennen. Dafür gibt es nur beim RFCorder v1.2 eine Aufnahmefunktion. Der COHIWizard 1.0 bietet neben der vollen Funktionalität des RFCorders 2.0 viele nützliche Hilfsfunktionen für fortgeschrittene COHIRADIA-Nutzer*innen. Generelle Vorgangsweise:
+
+1. Das ZIP-File der gewünschten Software-Variante auf den PC herunterladen.
+
+2. Das File auf ein lokales Directory (ich nenne es ~\LOCAL) entpacken. Dort werden nun das exe-File sowie einige Hilfsdateien und Icons sowie die Bedienungsanleitung als pdf angelegt.
+
+3. Nun müssen nur noch die gewünschten AM-Breitband-Datenfiles (z.B. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat ...) vom [Archiv](https://www.radiomuseum.org/cohiradia/#recording) heruntergeladen werden. Es empfiehlt sich, diese Files in separate Directories zu speichern.
+
+In allen zip-Files sind auch die jeweiligen Bedienungsanleitungen enthalten. Das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4) ist zwar bezüglich einiger Inhalte (z.B. Benutzung von RFCorder Version 1.0) nicht mehr ganz up to date, kann aber grundsätzlich als Ergänzung zur Bedienungsanleitung hilfreich sein.
+
+
+Eine genaue Zusammenfassung aller bisher getesteten Komponenten und eine Übersicht über alternative Hardware findet sich im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
+
+
+**APPENDIX: Variante 2 für die händische Installation von Betriebssystem und COHIRADIA-Software (komplizierter, eher für IT-Geübte)** 
+
+Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl, sie ist nur hier noch der Vollständigkeit halber aufgeführt.
+
+**ACHTUNG ! BEVOR SIE MIT DIESER METHODE BEGINNEN**: 
 
 **Inzwischen wird das STEMLAB mit einer SDKarte ausgeliefert, die eine neuere Version des Betriebssystems beinhaltet, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 entwickelt, V2.00 ist aktuell nicht mit unserer Software kompatibel. Für COHIRADIA muss immer die Version 1.04-28 verwendet werden.** 
 
@@ -112,39 +152,5 @@ Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehen
 8. Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
 `halt`
 Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist, kann das Netzteil des Geräts wieder abgesteckt werden
-
-Danach ist das System für den Gebrauch im Sinne von COHIRADIA konfiguriert.
-
-
-## Zusammenbau Der Hardware
-
-1.	Das STEMLAB vom Router trennen und über das LAN-Kabel direkt mit der LAN-Buchse des PC verbinden. **) 
-
-2.	SMA-Ausgangsbuchse ‚OUT1‘ über ein 50&Omega;-Koaxkabel mit der niederohmigen Seite des Hf-Trenntrafos /Baluns verbinden. 
-
-3. Antenneneingang des AM-Radios mit der hochohmigen Seite des Hf-Trenntrafos/Baluns verbinden.
-
-4.	Steckernetzteil  des STEMLAB am Mikro-USB-Port für ‚Power‘ anschließen. Alternativ kann das STEMLAB auch über ein geeignetes Mikro-USB-Kabel direkt von einem USB-Port des PC aus versorgt werden.
-
-Siehe dazu auch das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4). Dieses bezieht sich zwar noch auf die Verwendung der allerersten RFCorder-Version 1.0 (nicht mehr unterstützt), sinngemäß können aber natürlich alle höheren Versionen verwendet werden.
-
-**) <font size="2"> Alternativ zum LAN-Kabel kann laut Hersteller auch eine WLAN-Verbindung eingerichtet werden, wenn ein WLAN-Dongle mitgekauft wurde. Diese Option hat der Autor selbst jedoch noch nicht ausprobiert.
-
-Als zweite Alternative kann das STEMLAB wahrscheinlich auch am Router verbleiben, allerdings müsste dann als IP-Adresse die vom Router zugewiesene benutzt werden. Dieser Modus wird vermutlich in der Praxis selten verwendet, da das zu bespielende Radio wahrscheinlich nicht gleich neben dem Router steht. Auch diese Betriebsart wurde vom Autor nicht getestet.</font>
-
-## Wiedergabe-App vorbereiten
-
-Für das Abspielen von Archivaufnahmen gibt es mittlerweile mehrere Software-Versionen, die von der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) herunterladbar sind. Dabei ist zu beachten, dass der RFCorder erst ab Version 2.0 auch wav-Files abspielen kann, die erste Version kann nur das ursprünglich verwendete dat-Format erkennen. Dafür gibt es nur beim RFCorder v1.2 eine Aufnahmefunktion. Der COHIWizard 1.0 bietet neben der vollen Funktionalität des RFCorders 2.0 viele nützliche Hilfsfunktionen für fortgeschrittene COHIRADIA-Nutzer*innen. Generelle Vorgangsweise:
-
-1. Das ZIP-File der gewünschten Software-Variante auf den PC herunterladen.
-
-2. Das File auf ein lokales Directory (ich nenne es ~\LOCAL) entpacken. Dort werden nun das exe-File sowie einige Hilfsdateien und Icons sowie die Bedienungsanleitung als pdf angelegt.
-
-3. Nun müssen nur noch die gewünschten AM-Breitband-Datenfiles (z.B. RM2006clip_fcorr_i16_C_lo1100_r1250_c0.dat ...) vom [Archiv](https://www.radiomuseum.org/cohiradia/#recording) heruntergeladen werden. Es empfiehlt sich, diese Files in separate Directories zu speichern.
-
-In allen zip-Files sind auch die jeweiligen Bedienungsanleitungen enthalten. Das [Video-Tutorial](https://cohiradia.radiomuseum.org/download/COHIRADIA_Installations_Tutorial.mp4) ist zwar bezüglich einiger Inhalte (z.B. Benutzung von RFCorder Version 1.0) nicht mehr ganz up to date, kann aber grundsätzlich als Ergänzung zur Bedienungsanleitung hilfreich sein.
-
-
-Eine genaue Zusammenfassung aller bisher getesteten Komponenten und eine Übersicht über alternative Hardware findet sich im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).
 
 <!-- comment -->
