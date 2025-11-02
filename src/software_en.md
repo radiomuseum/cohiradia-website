@@ -59,7 +59,7 @@ If you use a local git, then you can also access the branch cohiwizard_v1.3 whic
 
 # Newest experimental version: COHIWizard 2.1.3
 
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.1.3.zip)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.1.3k.zip)
 
 Following a revision of the player architecture, version 2 of the COHIWizard is now available. The player part of the COHIWizard is equipped with a device driver system. This makes it possible to select not only the STEMLAB as a recording/playback device, but also alternative hardware. This means that other SDRs that are compatible with the requirements for COHIRADIA can be operated in the future. The synthesiser has also been revised and equipped with a significantly faster modulator based on ffmpeg. This makes it possible to synthesise your own broadband files almost five times faster than before. However, this feature has not yet been extensively tested and has therefore been installed as an optional beta module for the time being. If the new tool proves equivalent to the old one, it will replace the old version in future releases. Version 2.1.3 is currently available for download (version 2.0 was never officially released).
 
