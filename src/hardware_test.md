@@ -113,6 +113,8 @@ Eine genaue Zusammenfassung aller bisher getesteten Komponenten und eine Übersi
 
 **APPENDIX: Variante 2 für die händische Installation von Betriebssystem und COHIRADIA-Software (komplizierter, eher für IT-Geübte)** 
 
+[Software-Seite](https://www.radiomuseum.org/cohiradia/hardware_test.html) 
+
 Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl, sie ist nur hier noch der Vollständigkeit halber aufgeführt.
 
 **ACHTUNG ! BEVOR SIE MIT DIESER METHODE BEGINNEN**: 
