@@ -95,6 +95,6 @@ Die folgenden beiden Videos zeigen sehr schön die Anwendung des fl2k-Systems an
 
 TEST:
 
-- COHIRADIA in der [Lange Nacht der Museen](https://www.radiomuseum.org/cohiradia/Berlin2025.html)  in Berlin am 30.08.2025
+- COHIRADIA in der [Lange Nacht der Museen](https://www.radiomuseum.org/cohiradia/Berlin_2025.html)  in Berlin am 30.08.2025
 - [Verfügbare Software‐Installationspakete](https://www.radiomuseum.org/cohiradia/software.html)
 
