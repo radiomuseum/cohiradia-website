@@ -93,8 +93,7 @@ Die folgenden beiden Videos zeigen sehr schön die Anwendung des fl2k-Systems an
 * [Beispielvideo Anwendung fl2k A](https://youtu.be/RRBtvOd3pog)
 * [Beispielvideo Anwendung fl2k B](https://youtu.be/4jC2XtWUFI8)
 
-TEST:
+## Andere Aktivitäten
 
 - COHIRADIA in der [Lange Nacht der Museen](https://www.radiomuseum.org/cohiradia/Berlin_2025.html)  in Berlin am 30.08.2025
-- [Verfügbare Software‐Installationspakete](https://www.radiomuseum.org/cohiradia/software.html)
 
