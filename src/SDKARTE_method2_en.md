@@ -1,7 +1,7 @@
 ---
 title:  Hardware-Plattform STEMLAB125-14 oder STEMLAB125-10
 ---
-## VOption 2 for manual installation of the operating system and COHIRADIA software (more complicated, more suitable for experienced IT users)** 
+## Option 2 for manual installation of the operating system and COHIRADIA software (more complicated, more suitable for experienced IT users)** 
 
 
 
