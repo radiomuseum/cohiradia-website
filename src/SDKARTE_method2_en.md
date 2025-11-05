@@ -1,9 +1,11 @@
 ---
 title:  Hardware-Plattform STEMLAB125-14 oder STEMLAB125-10
 ---
-## Variante 2 für die händische Installation von Betriebssystem und COHIRADIA-Software (komplizierter, eher für IT-Geübte)** 
+## VOption 2 for manual installation of the operating system and COHIRADIA software (more complicated, more suitable for experienced IT users)** 
 
-Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl, sie ist nur hier noch der Vollständigkeit halber aufgeführt.
+
+
+This option is well known to existing users of COHIRADIA tools, but unfortunately has become more complicated since the introduction of OS2.00 by RedPitaya. We therefore no longer recommend this option as the first choice; it is only listed here for the sake of completeness.
 
 **ATTENTION ! READ THE FOLLOWING BEFORE STARTING:**
 
