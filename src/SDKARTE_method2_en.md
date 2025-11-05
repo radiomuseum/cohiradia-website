@@ -5,42 +5,54 @@ title:  Hardware-Plattform STEMLAB125-14 oder STEMLAB125-10
 
 Diese Variante ist bisherigen Nutzern der COHIRADIA-Tools bestens bekannt, hat aber seit der Einführung von OS2.00 durch RedPitaya leider Komplikationen dazubekommen. Wir empfehlen diese Variante daher nicht mehr als erste Wahl, sie ist nur hier noch der Vollständigkeit halber aufgeführt.
 
-**ACHTUNG ! BEVOR SIE MIT DIESER METHODE BEGINNEN**: 
+**ATTENTION ! READ THE FOLLOWING BEFORE STARTING:**
 
-**Inzwischen wird das STEMLAB mit einer SDKarte ausgeliefert, die eine neuere Version des Betriebssystems beinhaltet, zuletzt OS2.00. Alle bisherigen COHIRADIA-Softwareversionen wurden unter Version 1.04 entwickelt, V2.00 ist aktuell nicht mit unserer Software kompatibel. Für COHIRADIA muss immer die Version 1.04-28 verwendet werden.** 
+**STEMLAB now comes with an SD card containing a newer version of the operating system, most recently OS2.00. All previous COHIRADIA software versions were developed under version 1.04; V2.00 is currently not compatible with our software. For COHIRADIA, you must always use version 1.04-28.**
 
-Sollte beim Kauf eines neuen STEMLAB also die Version 2.00 vorkonfiguriert sein, so muss eine eigene SD-Karte mit Version 1.04-28 angefertigt werden. Den Link auf die entsprechende Image-Datei sowie die nötigen Anleitungen finden Sie auf dieser [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html). Wir bemühen uns, in Zukunft unsere Software auch für V2.00 umzurüsten.
+If version 2.00 is preconfigured when you purchase a new STEMLAB, you must create your own SD card with version 1.04-28. You can find the link to the corresponding image and all relevant instrucions on the [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html), as well as the above link to the required image file. 
 
-Nach dem Einschieben der korrekt konfigurierte SD-Karte in den dafür vorgesehenen Slot muss man das STEMLAB mit dem Internet verbinden und ein Installationsskript aufrufen, das freundlicherweise von Ueli Kurmann erstellt wurde. Die Verbindung kann entweder per Ethernet-Kabel oder per WLAN-Dongle über einen gängigen Router erfolgen. Dann müssen die Schritte 5 - 7 von Variante 1 unternommen werden:
+After inserting the correctly configured SD-card you have to connect STEMLAB to the Internet and call up an installation script kindly created by Ueli Kurmann. The connection can be made either by Ethernet cable or by a WLAN dongle via a standard router. The following steps must then be taken:
 
-1. Auf dem PC einen Webbrowser (z.B. Mozilla Firefox) starten. Auf dem Webbrowser im Adressfeld
+1. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
    
    `http://rp-######.local`
    
-   eingeben, wobei ###### für die MAC-Adresse steht (z.B. rp-f03e25.local). Die MAC-Adresse ist auf dem Ethernet-Stecker jedes STEMLAB aufgedruckt.
+   where ###### stands for the MAC address (e.g. rp-f03e25.local). The MAC address is printed on the Ethernet connector of each STEMLAB.
  
-3. Warten bis die STEMLAB-Apps im Webbrowser geladen werden (das kann manchmal etwas dauern). Man sieht eine Reihe von Icons, mit denen man verschiedene Funktionen auf dem STEMLAB aufrufen kann. Für COHIRADIA ist lediglich das Icon 'System' relevant.
+3. wait until the STEMLAB apps are loaded in the web browser (this can sometimes take a while) <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> The view should be similar to the adjacent image. You can see a series of icons with which you can call up various functions on the STEMLAB. Only the 'System' icon is relevant for COHIRADIA.
 
-4. Danach den Folder „System“ durch Anklicken öffnen und dort die App „Network Manager“ aufrufen. In diesem Manager kann nun die vom Router vergebene IP Adresse ausgelesen werden.                           
+4. Open the folder „System“ by clicking on it and afterwards call the App „Network Manager“. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In this manager the IP address can be read out which has been assigned by the router.                           
 
 &nbsp;
 
-5. Unter Windows ein Eingabeaufforderungs-Fenster öffnen und sich per ssh auf dem STEMLAB125-15 mit der vom Router vergebenen IP-Adresse einloggen, Username und Passwort sind ‚root‘ und ‚root‘.  (Port = port22). Typischer Aufruf: 
+&nbsp;
+
+<img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step3.png" /> 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+5. Open a command prompt window under Windows (or a terminal under LINUX) and log in via ssh on the STEMLAB125-15 with the IP address assigned by the router, username and password are 'root' and 'root'.  (Port = port22). Typical call: 
 
     `ssh root@###.###.###.###, 	Password: root`
 
-   ###.###.###.### ist die IP-Adresse.
+   ###.###.###.### is the IP-address.
 
-6. Nachdem sich Ubuntu mit dem Kommandozeilen-Prompt gemeldet hat, am besten gleich ein Systemupdate mit `apt update` durchführen danach mit `apt upgrade` die Pakete installieren.
+6. after Ubuntu has reported with the command line prompt, it is best to carry out a system update with 'apt update' and then install the packages with 'apt upgrade'.
 
-7. Nach dem Upgrade den folgenden Befehl in einer Zeile eingeben:
+7. after the upgrade, enter the following command in one line:
 
     `curl --silent --cookie "SCHLUESSEL=1" https://cohiradia.radiomuseum.org/install.sh |bash`
-   
-    Damit führt das STEMLAB das Installationsskript aus und legt ein Directory mit den nötigen Shell-Scripts, dem Serverprogramm und dem Bit-File für das FPGA an. 
 
-8. Nach erfolgreicher Installation das STEMLAB ordnungsgemäß herunterfahren mit dem Befehl:
-`halt`
-Wenn die Konsole meldet, dass die Verbindung geschlossen wurde und die rote blinkende Heartbeat-LED am STEMLAB erloschen ist, kann das Netzteil des Geräts wieder abgesteckt werden
+STEMLAB then executes the installation script and creates a directory with the necessary shell scripts, the server program and the bit file for the FPGA. 
+
+8. after successful installation, shut down STEMLAB properly with the command:
+   
+    `halt`
+
+When the console reports that the connection has been closed and the red heartbeat LED on the STEMLAB has stopped flashing, the device's power supply can be unplugged again. The system is then configured for use in accordance with COHIRADIA.
 
 <!-- comment -->
