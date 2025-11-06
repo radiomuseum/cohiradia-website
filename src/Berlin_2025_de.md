@@ -1,3 +1,6 @@
+---
+title: COHIRADIA in der Langen Nacht der Museen' in Berlin am 30.08.2025
+---
 ### COHIRADIA in der Langen Nacht der Museen' in Berlin am 30.08.2025
 
 Am 30.08.2025 fand im Deutschen Technikmuseum in Berlin die [„Lange Nacht der Museen“](https://langenachtdermuseen.berlin/event/radio-senden-radio-empfangen-4f074f88/?utm_source=nl&utm_medium=om&utm_campaign=lndm25&utm_content=nl5) statt. Dort konnte man u.a. COHIRADIA im realen Betrieb bewundern. Claus-Peter Gallenmiller präsentierte neben der bekannten PC-Version auch die neueste, von ihm entwickelte Variante „COHI-Player mini“, die auf Basis des RaspberryPi für Ausstellungen und Museen optimiert ist. Der 'Mini' kommt ohne manuelle Bedienung aus erzeugt unmittelbar nach dem Einschalten ein komplexes MW-Spektrum. Dieser Player wird nun dank der Initiative von Claus-Peter Gallenmiller im Deutschen Technikmuseum fix installiert und repräsentiert somit die erste Implementierung in einer öffentlichen Institution.
