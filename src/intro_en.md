@@ -44,7 +44,7 @@ In order to build up a rich archive in as short a time as possible, interested a
 
 If you are interested, more details on the technology, software and quality criteria used can be found in the [report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_engl.pdf).
 
-The oldest existing recordings on MW and KW were made by the initiator in the years 2006 - 2009 in analog form on a video recorder and digitized in 2021 with a STEMLAB125-14. All further datasets, especially from 2015 on, were produced directly digitally by various radio amateurs participating in COHIRADIA, mainly on long, medium and short wave up to 30 MHz. On these recordings there are still many European stations which have been switched off in the meantime.
+The oldest existing recordings on MW and SW were made by the initiator in the years 2006 - 2009 in analog form on a video recorder and digitized in 2021 with a STEMLAB125-14. All further datasets, especially from 2015 on, were produced directly digitally by various radio amateurs participating in COHIRADIA, mainly on long, medium and short wave up to 30 MHz. On these recordings there are still many European stations which have been switched off in the meantime.
 
 For the playback of the data files as well as for the creation of own recordings on the STEMLAB125-14 a first software version was created in Python and is available for Windows10 as exe program. The author has already created a GITHub repository for the sources, a release as an open source project is planned for the near future.
 
