@@ -22,7 +22,7 @@ As the software was initially developed specifically for the STEMLAB 125-14, all
 
 6. RF isolating transformer (e.g. a balun) with a suitable transformation ratio from the 50&Omega; output of the STEMLAB to the radio. Usually an impedance transformation 1:9 to 1:16 (turns ratio 1:3 or 1:4) works for typical tube devices. In principle, any balun suitable for the respective frequency range can be used if the primary and secondary sides are completely separated (no common ground!). The author now uses a toroidal core FT114, material 43 with 15:60 turns, CuL 0.25 (inductance 120uH : 2mH), STEMLAB : Radio. 
 
-##	Installation of the server software on the STEMLAB125-XX
+## Installation of the server software on the STEMLAB125-XX
 
 Before the STEMLAB125-XX can be put into operation with COHIRADIA, the SD card with the operating system and server software must be prepared. The STEMLAB is typically delivered with an SD card containing the operating system (a version of UBUNTU). However, this alone does not enable communication with the COHIRADIA software on the PC.
 
@@ -36,25 +36,48 @@ Therefore, please be sure to create a new SD card as follows:
 
 Note: There is another [alternativ installation method](https://www.radiomuseum.org/cohiradia/SDKARTE_method2_en.html) that was used in the past, but it is no longer recommended as the first choice.
 
-4. Eject the SD card and insert it into the SD card slot of the STEMLAB. Now you need to determine the IP address of the STEMLAB. There are several ways to do this. The easiest way is to connect the STEMLAB to the PC via an Ethernet cable and then switch on the power supply. The STEMLAB will boot up and you will see various LEDs flashing until the red ‘heartbeat’ LED starts flashing. ATTENTION: In Windows, it can easily happen that the Ethernet connection does not work if the WLAN is switched on. So if the following steps do not work, please simply deactivate the WLAN on your PC.
+4. Eject the SD card and insert it into the SD card slot of the STEMLAB. Now you need to determine the IP address of the STEMLAB. There are several ways to do this. The easiest way is to connect the STEMLAB to the PC via an Ethernet cable **) and then switch on the power supply . The STEMLAB will boot up and you will see various LEDs flashing until the red ‘heartbeat’ LED starts flashing. **ATTENTION:** In Windows, it can easily happen that the Ethernet connection does not work if the WLAN is switched on. So if the following steps do not work, please simply deactivate the WLAN on your PC.
 
-You need this address to run the COHIRADIA apps, as it must be entered when using them for the first time.
+5. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
+   
+   `http://rp-######.local`
+   
+   where ###### stands for the MAC address (e.g. rp-f03e25.local). The MAC address is printed on the Ethernet connector of each STEMLAB.
+ 
+6. wait until the STEMLAB apps are loaded in the web browser (this can sometimes take a while) <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> The view should be similar to the adjacent image. You can see a series of icons with which you can call up various functions on the STEMLAB. Only the 'System' icon is relevant for COHIRADIA.
+
+7. Open the folder „System“ by clicking on it and afterwards call the App „Network Manager“. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In this manager the IP address can be read out which has been assigned by the router.                           
+
+&nbsp;
+
+&nbsp;
+
+<img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step3.png" /> 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Once you have completed all these tasks, your STEMLAB is ready for use.  
 
 [This alternative method](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) is described on the Red Pitaya documentation page. It works via a terminal and an additional USB console connection. Recommended only for experienced IT users.
 
+**)  <font size="2"> According to the manufacturer, a WLAN connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author. </font>
+
 ## Assembling the hardware
 
-1. disconnect the STEMLAB from the router and connect it directly to the LAN socket of the PC using the LAN cable. **) 
+Once you have set up he SD card and know your IP address you can connect to your Radio receiver in the following way:
 
-2. connect the SMA output socket 'OUT1' to the low-impedance side of the RF isolating transformer/balun via a 50&Omega; coaxial cable. 
+1. connect the SMA output socket 'OUT1' to the low-impedance side of the RF isolating transformer/balun via a 50&Omega; coaxial cable. 
 
-3. connect the antenna input of the AM radio to the high-impedance side of the isolating RF transformer/balun.
+2. connect the antenna input of the AM radio to the high-impedance side of the isolating RF transformer/balun.
 
-4. connect the plug-in power supply of the STEMLAB to the micro USB port for 'Power'. Alternatively, the STEMLAB can also be powered directly from a USB port on the PC using a suitable micro-USB cable.
+3. connect the plug-in power supply of the STEMLAB to the micro USB port for 'Power'. Alternatively, the STEMLAB can also be powered directly from a USB port on the PC using a suitable micro-USB cable.
 
 See also the [video tutorial](https://cohiradia.radiomuseum.org/download/docs/COHIRADIA_Installation_Guide_part1_playback.mp4). Although this tutorial refers to the use of the very first RFCorder version 1.0 (no longer supported), all higher versions can of course be used essentially in the same way.
 
-**)  <font size="2"> According to the manufacturer, a WLAN connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author. </font>
 
 ## Prepare playback app
 
