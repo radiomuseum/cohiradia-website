@@ -24,55 +24,23 @@ As the software was initially developed specifically for the STEMLAB 125-14, all
 
 ##	Installation of the server software on the STEMLAB125-XX
 
-**ATTENTION ! READ THE FOLLOWING BEFORE STARTING:**
+Before the STEMLAB125-XX can be put into operation with COHIRADIA, the SD card with the operating system and server software must be prepared. The STEMLAB is typically delivered with an SD card containing the operating system (a version of UBUNTU). However, this alone does not enable communication with the COHIRADIA software on the PC.
 
-**STEMLAB now comes with an SD card containing a newer version of the operating system, most recently OS2.00. All previous COHIRADIA software versions were developed under version 1.04; V2.00 is currently not compatible with our software. For COHIRADIA, you must always use version 1.04-28.**
+Therefore, please be sure to create a new SD card as follows:
 
-If version 2.00 is preconfigured when you purchase a new STEMLAB, you must create your own SD card with version 1.04-28. You can find the link to the corresponding image and all relevant instrucions on the [Red-Pitaya Page](https://redpitaya.readthedocs.io/en/latest/quickStart/SDcard/SDcard.html), as well as the above link to the required image file. We are working to convert our software for V2.00 in the future.
+1. Insert a new SD card (8 GB is sufficient, larger cards will of course also work) into the SD card slot of your PC (if available) or into an SD card reader connected to your PC. You can also overwrite the supplied card if necessary, but it is usually safer to keep it as an original.
 
-After inserting the correctly configured SD-card you have to connect STEMLAB to the Internet and call up an installation script kindly created by Ueli Kurmann. The connection can be made either by Ethernet cable or by a WLAN dongle via a standard router. The following steps must then be taken:
+2. Download the [image-File cohiradia_STEMLAB125_v1.0.img](https://cohiradia.radiomuseum.org/download/software/cohiradia_STEMLAB125_v1.0.img) from the COHIRADIA software archive and save it in any directory.
 
-1. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
-   
-   `http://rp-######.local`
-   
-   where ###### stands for the MAC address (e.g. rp-f03e25.local). The MAC address is printed on the Ethernet connector of each STEMLAB.
- 
-3. wait until the STEMLAB apps are loaded in the web browser (this can sometimes take a while) <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step1_sm.png" /> The view should be similar to the adjacent image. You can see a series of icons with which you can call up various functions on the STEMLAB. Only the 'System' icon is relevant for COHIRADIA.
+3. Write the image to the SD card using suitable software. Under Windows, [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher) are suitable, for example. Under LINUX, this can be done directly on the command line: First, read the mounted SD card partitions with lsblk -f. These are listed as sdb1, sdb2, or similar, for example. Then unmount the SD devices and start writing sudo umount /dev/YOURSDDEVICE*. YOURSDDEVICE is then what your lsblk lists, in my example sbd. Then: sudo dd if=redpitaya_full.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync CAUTION: Use dd with extreme caution. If you specify the wrong target, important system data may be deleted. So please check what you are doing three times!
 
-4. Open the folder „System“ by clicking on it and afterwards call the App „Network Manager“. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In this manager the IP address can be read out which has been assigned by the router.                           
+Note: There is another [alternativ installation method](https://www.radiomuseum.org/cohiradia/SDKARTE_method2_en.html) that was used in the past, but it is no longer recommended as the first choice.
 
-&nbsp;
+4. Eject the SD card and insert it into the SD card slot of the STEMLAB. Now you need to determine the IP address of the STEMLAB. There are several ways to do this. The easiest way is to connect the STEMLAB to the PC via an Ethernet cable and then switch on the power supply. The STEMLAB will boot up and you will see various LEDs flashing until the red ‘heartbeat’ LED starts flashing. ATTENTION: In Windows, it can easily happen that the Ethernet connection does not work if the WLAN is switched on. So if the following steps do not work, please simply deactivate the WLAN on your PC.
 
-&nbsp;
+You need this address to run the COHIRADIA apps, as it must be entered when using them for the first time.
 
-<img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step3.png" /> 
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-5. Open a command prompt window under Windows and log in via ssh on the STEMLAB125-15 with the IP address assigned by the router, username and password are 'root' and 'root'.  (Port = port22). Typical call: 
-
-    `ssh root@###.###.###.###, 	Password: root`
-
-   ###.###.###.### is the IP-address.
-
-6. after Ubuntu has reported with the command line prompt, it is best to carry out a system update with 'apt update' and then install the packages with 'apt upgrade'.
-
-7. after the upgrade, enter the following command in one line:
-
-    `curl --silent --cookie "SCHLUESSEL=1" https://cohiradia.radiomuseum.org/install.sh |bash`
-
-STEMLAB then executes the installation script and creates a directory with the necessary shell scripts, the server program and the bit file for the FPGA. 
-
-8. after successful installation, shut down STEMLAB properly with the command:
-   
-    `halt`
-
-When the console reports that the connection has been closed and the red heartbeat LED on the STEMLAB has stopped flashing, the device's power supply can be unplugged again. The system is then configured for use in accordance with COHIRADIA.
+[This alternative method](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) is described on the Red Pitaya documentation page. It works via a terminal and an additional USB console connection. Recommended only for experienced IT users.
 
 ## Assembling the hardware
 
