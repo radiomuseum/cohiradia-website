@@ -36,9 +36,9 @@ Therefore, please be sure to create a new SD card as follows:
 
 Note: There is another [alternativ installation method](https://www.radiomuseum.org/cohiradia/SDKARTE_method2.html) that was used in the past, but it is no longer recommended as the first choice.
 
-4. Eject the SD card and insert it into the SD card slot of the STEMLAB. Now you need to determine the IP address of the STEMLAB. There are several ways to do this. The easiest way is to connect the STEMLAB to the PC via an Ethernet cable **) and then switch on the power supply . The STEMLAB will boot up and you will see various LEDs flashing until the red ‘heartbeat’ LED starts flashing. **ATTENTION: In Windows, it can easily happen that the Ethernet connection does not work if the WLAN is switched on. So if the following steps do not work, please simply deactivate the WLAN on your PC.**
+4. Eject the SD card and insert it into the SD card slot of the STEMLAB. Now you need to determine the IP address of the STEMLAB. There are several ways to do this. The easiest way is to connect the STEMLAB to the PC via an Ethernet cable **) and then switch on the power supply . The STEMLAB will boot up and you will see various LEDs flashing until the red ‘heartbeat’ LED starts flashing. **ATTENTION: In Windows, it can easily happen that the Ethernet connection does not work if the WIFI is switched on. So if the following steps do not work, please simply deactivate the WIFI on your PC.**
 
-5. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
+5. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field type
    
    `http://rp-######.local`
    
@@ -64,7 +64,7 @@ Once you have completed all these tasks, your STEMLAB is ready for use.
 
 [This alternative method](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) is described on the Red Pitaya documentation page. It works via a terminal and an additional USB console connection. That way you can directly operate on the command line and reado out e.g. the IP address. Recommended only for experienced IT users.
 
-**)  <font size="2"> According to the manufacturer, a WLAN connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author. </font>
+**)  <font size="2"> According to the manufacturer, a WIFI connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author. </font>
 
 ## Assembling the hardware
 
