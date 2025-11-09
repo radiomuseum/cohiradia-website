@@ -62,7 +62,7 @@ Note: There is another [alternativ installation method](https://www.radiomuseum.
 
 Once you have completed all these tasks, your STEMLAB is ready for use.  
 
-[This alternative method](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) is described on the Red Pitaya documentation page. It works via a terminal and an additional USB console connection. Recommended only for experienced IT users.
+[This alternative method](https://redpitaya.readthedocs.io/en/latest/developerGuide/software/console/console/console.html) is described on the Red Pitaya documentation page. It works via a terminal and an additional USB console connection. That way you can directly operate on the command line and reado out e.g. the IP address. Recommended only for experienced IT users.
 
 **)  <font size="2"> According to the manufacturer, a WLAN connection can also be set up as an alternative to the LAN cable if a WLAN dongle has been purchased. However, the author has not yet tried this option himself. As a second alternative, the STEMLAB may probably also remain connected to the router, but the IP address assigned by the router would then have to be used. This mode is probably not relevant, as in practice the radio to be played is rarely located right next to the router. Also this operating mode not tested by the author. </font>
 
