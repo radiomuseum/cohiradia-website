@@ -36,7 +36,7 @@ Therefore, please be sure to create a new SD card as follows:
 
 Note: There is another [alternativ installation method](https://www.radiomuseum.org/cohiradia/SDKARTE_method2.html) that was used in the past, but it is no longer recommended as the first choice.
 
-4. Eject the SD card and insert it into the SD card slot of the STEMLAB. Now you need to determine the IP address of the STEMLAB. There are several ways to do this. The easiest way is to connect the STEMLAB to the PC via an Ethernet cable **) and then switch on the power supply . The STEMLAB will boot up and you will see various LEDs flashing until the red ‘heartbeat’ LED starts flashing. **ATTENTION:** In Windows, it can easily happen that the Ethernet connection does not work if the WLAN is switched on. So if the following steps do not work, please simply deactivate the WLAN on your PC.
+4. Eject the SD card and insert it into the SD card slot of the STEMLAB. Now you need to determine the IP address of the STEMLAB. There are several ways to do this. The easiest way is to connect the STEMLAB to the PC via an Ethernet cable **) and then switch on the power supply . The STEMLAB will boot up and you will see various LEDs flashing until the red ‘heartbeat’ LED starts flashing. **ATTENTION: In Windows, it can easily happen that the Ethernet connection does not work if the WLAN is switched on. So if the following steps do not work, please simply deactivate the WLAN on your PC.**
 
 5. start a web browser (e.g. Mozilla Firefox) on the PC. On the web browser in the address field
    
