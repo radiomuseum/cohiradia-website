@@ -48,13 +48,12 @@ Note: There is another [alternativ installation method](https://www.radiomuseum.
 
 &nbsp;
 
-&nbsp;
 
 8. Open the folder „System“ by clicking on it and afterwards call the App „Network Manager“. <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step2.png" /> In this manager the IP address can be read out which has been assigned by the router.                           
 
 &nbsp;
 
-&nbsp;
+
 
 <img align="right" width="200" height="100" src="https://cohiradia.radiomuseum.org/download/software/STEMLAB_Installation_Step3.png" /> 
 
@@ -62,7 +61,7 @@ Note: There is another [alternativ installation method](https://www.radiomuseum.
 
 &nbsp;
 
-&nbsp;
+
 
 Once you have completed all these tasks, your STEMLAB is ready for use.  
 
