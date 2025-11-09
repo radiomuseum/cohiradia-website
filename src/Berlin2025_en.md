@@ -1,3 +1,7 @@
+---
+title: COHIRADIA in der Langen Nacht der Museen' in Berlin am 30.08.2025
+---
+
 ### COHIRADIA in 'Lange Nacht der Museen' in Berlin on 30-08-2025
 
 On 30-08-2025 the [„Lange Nacht der Museen“](https://langenachtdermuseen.berlin/event/radio-senden-radio-empfangen-4f074f88/?utm_source=nl&utm_medium=om&utm_campaign=lndm25&utm_content=nl5) ook place in the German Muesum of Technology 
