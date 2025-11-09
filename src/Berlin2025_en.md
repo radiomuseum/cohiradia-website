@@ -1,5 +1,5 @@
 ---
-title: COHIRADIA in der Langen Nacht der Museen' in Berlin am 30.08.2025
+title: COHIRADIA in the 'Langen Nacht der Museen' in Berlin, 30-08-2025
 ---
 
 ### COHIRADIA in 'Lange Nacht der Museen' in Berlin on 30-08-2025
