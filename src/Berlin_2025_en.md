@@ -11,7 +11,7 @@ his newest variant, the „COHI-Player mini“. This device is based on the Rasp
 as it generates a complex MW-spectrum immediately after power-on. Thanks to the initiative of Claus-Peter Gallenmiller this player will be installed permanently in the German Museum of Technology and 
 represents the first implementation in a public institution.
 
-A report written by an interested visitor can be read in (German) ["Forumsbeitrag des RBF"](https://www.radio-bastler.de/forum/index.php?thread/29054-cohiradia-vorf%C3%BChrung-in-berlin/&postID=318069#post318069) lesen. 
+A report written by an interested visitor can be read in (German) ["Forumsbeitrag des RBF"](https://www.radio-bastler.de/forum/index.php?thread/29054-cohiradia-vorf%C3%BChrung-in-berlin/&postID=318069#post318069) (German). 
 
 <img align="left" width="400" height="200" src="https://cohiradia.radiomuseum.org/download/data/Internal_data/IMG_20250830_153157.png" />.
 
