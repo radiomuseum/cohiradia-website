@@ -63,15 +63,15 @@ Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v
 
 <a id="experimentelleV"></a>
 
-# Neueste experimentelle Version: COHIWizard 2.1.3
+# Neueste experimentelle Version: COHIWizard 2.2.0
 
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.1.3k.zip)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.0.zip)
 
-Nach Überarbeitung der Player-Architektur gibt es nun eine Version 2 des COHIWizard. Dabei ist der Player-Teil des COHIWizard mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, nicht nur das STEMLAB als Aufnahme/Wiedergabegerät auszuwählen, sondern auch alternative Hardware. So können in Zukunft weitere SDRs betrieben werden, die mit den Erfordernissen für COHIRADIA kompatibel sind. Weiters wurde in V2.x.y der Synthesizer überarbeitet und mit einem deutlich schnelleren, auf ffmpeg beruhenden Modulator ausgestattet. Damit sind Synthesen eigener Breitbandfiles fast fünfmal schneller möglich als bisher. Dieses Feature wurde allerdings noch nicht ausführlich getestet und daher vorläufig als Beta-Modul optional eingebaut. 
+Nach Überarbeitung der Player-Architektur gibt es nun eine Version 2 des COHIWizard. Dabei ist der Player-Teil des COHIWizard mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, nicht nur das STEMLAB als Aufnahme/Wiedergabegerät auszuwählen, sondern auch alternative Hardware. So können in Zukunft weitere SDRs betrieben werden, die mit den Erfordernissen für COHIRADIA kompatibel sind. Weiters wurde in V2.2.x der Synthesizer überarbeitet und mit einem deutlich schnelleren, auf ffmpeg beruhenden Modulator ausgestattet. Damit sind Synthesen eigener Breitbandfiles fast fünfmal schneller möglich als bisher. Dieses Feature hat allerdings eine geringfügig schlechtere SNR als der bisherige 'slow-mode' und ist daher vorläufig als Beta-Modul optional eingebaut. 
 
 Bislang wurden zwei neue Geräte-Treiber als experimentelle Versionen implementiert:
 
-(1) 'fl2k': Dabei handelt es sich um einen  [USB zu VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki), der von verschiedenen Usergruppen als schneller 8-Bit DAC verwendet wird und auch bei einigen Hochfrequenz-Projekten eingesetzt wurde (siehe [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). Mit seinen nur 8 Bit Auflösung ist dieses billige Gerät natürlich kein vollwertiger Ersatz für das STEMLAB, aber es genügt für viele Standardanwendungen durchaus, wie [Beispiele](https://youtu.be/4jC2XtWUFI8) zeigen.
+(1) 'fl2k': Dabei handelt es sich um einen  [USB zu VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki), der von verschiedenen Usergruppen als schneller 8-Bit DAC verwendet wird und auch bei einigen Hochfrequenz-Projekten eingesetzt wurde (siehe [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). Mit seinen nur 8 Bit Auflösung ist dieses sehr kostengünstige Gerät natürlich kein vollwertiger Ersatz für das STEMLAB, aber es genügt für viele Wiedergabe-Standardanwendungen durchaus, wie [Beispiele](https://youtu.be/4jC2XtWUFI8) zeigen.
 
 (2) ADALM2000: Dieser Treiber erlaubt die Wiedergabe von IQ-Files mit oberen Badngrenzfrequenzen bis zu 2.5 MHz auf dem [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html). Dies ist ein im Vergleich zum STEMLAB125-14 kostengünstiges, USB-betriebenes Modul mit 2 ADC- und 2 DAC-Kanälen zu je 12 Bit Auflösung sowie einem GPIO-Port. Es kann als Oszilloskop, Funktionsgenerator oder Logikanalysator betrieben werden, erlaubt aber auch die Wiedergabe von COHIRADIA-IQ-Files. Allerdings gibt es Einschränkungen: Durch die Verwendung von USB2.0 ist die obere Grenzfrequenz mit etwa 2500 kHz limitiert. Dies genügt für LW und MW, erlaubt die Wiedergabe von KW-Aufzeichnungen aber nur mit einem Trick: Durch Einstellen eines geeigneten Wertes im Feld 'LO-Offset' (z.B. -4000kHz für das 49m-Band) kann das Signal ins Mittelwellenband des Radios heruntergemischt und abgehört werden. Erste Tests ergaben für MW und LW brauchbare Wiedergabe mit deutlich besserer Dynamik als das fl2k. Allerdings treten bei bestimmten Aufnahmen leichte Störgeräusche auf, die möglicherweise durch schlechtere Filterung/Interpolation als beim STEMLAB entstehen.
 
@@ -79,10 +79,10 @@ Sowohl (1) als auch (2) erfordern einen einigermaßen leistungsfähigen PC für 
 
 Es ist geplant, in Zukunft weitere Treiber zu entwickeln, sofern Bedarf danach besteht. Ein mögliches Target könnte z.B. der [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) sein.
 
-Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen. Aktuell ist Version 2.1.3 zum Download bereit (Version 2.0 wurde nie offiziell released).
+Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen. 
 
-Bugreports zu Version 2.1.x sind aufgrund der noch nicht sehr exzessiven Tests willkommen.
+Bugreports zu Version 2.2.x sind aufgrund der noch nicht sehr exzessiven Tests willkommen.
 
-Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.0/sources) zugreifen der der aktuelle Entwicklungsbranch für Version 2 ist und als experimentell eingestuft werden muss.
+Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2) zugreifen der der aktuelle Entwicklungsbranch für Version 2 ist und als experimentell eingestuft werden muss. Die stabile Version ist im branch 'main' verfügbar.
 
 Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
