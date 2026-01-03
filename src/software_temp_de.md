@@ -1,0 +1,52 @@
+---
+title: Cohiradia Software
+---
+# Allgemeines:
+
+Die offiziell im RM bereitgestellte Software für COHIRADIA ist der COHIWizard. Er ermöglicht das Abspielen der im Archiv gehosteten Breitbandaufnahmen auf analogen Radios, stellt aber darüber hinaus auch etliche nützliche Werkzeuge zur Verfügung. Aktuell sind diese:
+*Viewer für die Inspektion der Spektren
+*Annotator zur Kommentierung eigener Aufnahmen
+*Resampling von Aufnahmen auf vom STEMLAB125-14 unterstützte Samplingraten
+*Wav-Header-Editor zum Nacheditieren oder Erstellen der wav-Header
+*Synthesizer für das Erstellen eigener AM-Bänder (Modulation beliebig vieler Träger mit Audioinhalten beliebiger Wahl)
+
+
+Der Player-Teil des COHIWizard ist mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, nicht nur das STEMLAB als Aufnahme/Wiedergabegerät auszuwählen, sondern auch alternative Hardware. So können in Zukunft weitere SDRs betrieben werden, die mit den Erfordernissen für COHIRADIA kompatibel sind. 
+
+Bislang wurden drei Geräte-Treiber implementiert:
+
+(1) 'STEMLAB125-14': Dies ist der generische Treiber für das STEMLAB125-14 von Red Pitaya, für das der COHIWizard ursprünglich geschrieben wurde. Er ermöglicht Wiedergabe und Recording über eine TCP-Verbindung (LAN-Schnittstelle). Mit 14 Bit Auflösung und 125MSamples/s bietet diese Lösung sehr hohe Daten- und Signalqualität und ist von allen Treibern am besten getestet.
+
+(2) 'fl2k-stream': Dabei handelt es sich um einen  [USB zu VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki), der von verschiedenen Usergruppen als schneller 8-Bit DAC verwendet wird und auch bei einigen Hochfrequenz-Projekten eingesetzt wurde (siehe [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). Mit seinen nur 8 Bit Auflösung ist dieses sehr kostengünstige Gerät natürlich kein vollwertiger Ersatz für das STEMLAB, aber es genügt für viele Wiedergabe-Standardanwendungen durchaus, wie [Beispiele](https://youtu.be/4jC2XtWUFI8) zeigen.
+
+(3) ADALM2000: Dieser Treiber erlaubt die Wiedergabe von IQ-Files mit oberen Badngrenzfrequenzen bis zu 2.5 MHz auf dem [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html). Dies ist ein im Vergleich zum STEMLAB125-14 kostengünstiges, USB-betriebenes Modul mit 2 ADC- und 2 DAC-Kanälen zu je 12 Bit Auflösung sowie einem GPIO-Port. Es kann als Oszilloskop, Funktionsgenerator oder Logikanalysator betrieben werden, erlaubt aber auch die Wiedergabe von COHIRADIA-IQ-Files. Allerdings gibt es Einschränkungen: Durch die Verwendung von USB2.0 ist die obere Grenzfrequenz mit etwa 2500 kHz limitiert. Dies genügt für LW und MW, erlaubt die Wiedergabe von KW-Aufzeichnungen aber nur mit einem Trick: Durch Einstellen eines geeigneten Wertes im Feld 'LO-Offset' (z.B. -4000kHz für das 49m-Band) kann das Signal ins Mittelwellenband des Radios heruntergemischt und abgehört werden. Dieser Treiber ist noch nicht sehr ausgiebig getestet und muss daher als aktuell noch experimentell eingestuft werden. Erste Tests ergaben für MW und LW brauchbare Wiedergabe mit besserer Dynamik als das fl2k. Allerdings treten bei bestimmten Aufnahmen leichte Störgeräusche auf, die möglicherweise durch schlechtere Filterung/Interpolation als beim STEMLAB entstehen.
+
+Sowohl (2) als auch (3) erfordern einen einigermaßen leistungsfähigen PC für die Umcodierung der komplexen Basisbanddaten in das für die Devices nötige Datenformat. Wir #######empfehlen daher weder das ADALM2000 noch das fl2k als echte Alternativen zum STEMLAB, dessen Leistung aufgrund der Auslagerung rechenintensiver Operationen auf das FPGA nach wie vor unübertroffen bleibt. Wer aber etwa bereits über ein ADALM2000 verfügt, kann dieses nun ansteuern und das Radiosignal am DAC Ausgang 1 (W1) abgreifen. 
+
+Es ist geplant, in Zukunft weitere Treiber zu entwickeln, sofern Bedarf danach besteht. Ein mögliches Target könnte z.B. der [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) sein.
+
+Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen. 
+
+Der COHIWizard ist sowohl für [Windows](#windows) als auch für [Linux](#linux) verfügbar. Unter Windows ist für beide Versionen eine ausführbare Version (exe) verfügbar. Der COHIWizard ist darüber hinaus als offener Python-Quellcode auf [Github](https://github.com/hermy-sf/COHIWizard) frei zugänglich. Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). 
+??????Wer die neueste Version ausprobieren möchte, sei auf die Rubrik [Experimentelle Version](#experimentelleV) verwiesen.
+
+<a id="windows"></a>
+# Windows-10/11
+Die exe-Version kann als Zip-Datei heruntergeladen werden und enthält auch ein Benutzerhandbuch. 
+
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.0.zip)
+
+<a id="linux"></a>
+# LINUX
+Die Python-Version wurde unter Debian 12 und 13 unter Python implementiert. Für die Installation klonen Sie bitte das Repository von [Github](https://github.com/hermy-sf/COHIWizard) und folgen den Anweisungen in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). 
+
+<a id="experimentelleV"></a>
+
+
+
+
+Bugreports zu Version 2.2.x sind aufgrund der noch nicht sehr exzessiven Tests willkommen.
+
+Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2) zugreifen der der aktuelle Entwicklungsbranch für Version 2 ist und als experimentell eingestuft werden muss. Die stabile Version ist im branch 'main' verfügbar.
+
+Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
