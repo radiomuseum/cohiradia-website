@@ -15,7 +15,7 @@ Der COHIWizard ist sowohl für [Windows](#windows) als auch für [Linux](#linux)
 
 # Vorgängerversionen
 
-Wer bereist Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet unter diesem Link alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.
+Wer bereist Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet unter [diesem Link](https://www.radiomuseum.org/cohiradia/software.html) alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.
 
 # Hardware-Unterstützung
 
