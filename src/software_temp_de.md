@@ -4,11 +4,11 @@ title: Cohiradia Software
 # Allgemeines:
 
 Die offiziell im RM bereitgestellte Software für COHIRADIA ist der COHIWizard. Er ermöglicht das Abspielen der im Archiv gehosteten Breitbandaufnahmen auf analogen Radios, stellt aber darüber hinaus auch etliche nützliche Werkzeuge zur Verfügung. Aktuell sind diese:
-*Viewer für die Inspektion der Spektren
-*Annotator zur Kommentierung eigener Aufnahmen
-*Resampling von Aufnahmen auf vom STEMLAB125-14 unterstützte Samplingraten
-*Wav-Header-Editor zum Nacheditieren oder Erstellen der wav-Header
-*Synthesizer für das Erstellen eigener AM-Bänder (Modulation beliebig vieler Träger mit Audioinhalten beliebiger Wahl)
+* Viewer für die Inspektion der Spektren
+* Annotator zur Kommentierung eigener Aufnahmen
+* Resampling von Aufnahmen auf vom STEMLAB125-14 unterstützte Samplingraten
+* Wav-Header-Editor zum Nacheditieren oder Erstellen der wav-Header
+* Synthesizer für das Erstellen eigener AM-Bänder (Modulation beliebig vieler Träger mit Audioinhalten beliebiger Wahl)
 
 
 Der Player-Teil des COHIWizard ist mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, nicht nur das STEMLAB als Aufnahme/Wiedergabegerät auszuwählen, sondern auch alternative Hardware. So können in Zukunft weitere SDRs betrieben werden, die mit den Erfordernissen für COHIRADIA kompatibel sind. 
