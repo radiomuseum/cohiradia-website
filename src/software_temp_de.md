@@ -11,7 +11,7 @@ Die offiziell im RM bereitgestellte Software für COHIRADIA ist der COHIWizard. 
 * Synthesizer für das Erstellen eigener AM-Bänder (Modulation beliebig vieler Träger mit Audioinhalten beliebiger Wahl)
 
 Der COHIWizard ist sowohl für [Windows](#windows) als auch für [Linux](#linux) verfügbar. Unter Windows ist für beide Versionen eine ausführbare Version (exe) verfügbar. Der COHIWizard ist darüber hinaus als offener Python-Quellcode auf [Github](https://github.com/hermy-sf/COHIWizard) frei zugänglich. Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). 
-??????Wer die neueste Version ausprobieren möchte, sei auf die Rubrik [Experimentelle Version](#experimentelleV) verwiesen.
+Wer auf die jeweils neueste, aber noch in Entwicklung befindliche Version zugreifen möchte, sei auf die Rubrik [Experimentelle Version](#experimentelleV) verwiesen.
 
 Bugreports zu Version 2.2.x sind willkommen.
 
@@ -48,7 +48,7 @@ Die Python-Version wurde unter Debian 12 und 13 unter Python implementiert. Für
 
 
 <a id="experimentelleV"></a>
-# experimenteller branch
+# Experimenteller branch
 
 Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie auch auf den Entwicklungs-Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2). Er ist allerdings experimentell und in ständigem Wandel.
 
