@@ -48,7 +48,7 @@ Die Python-Version wurde unter Debian 12 und 13 unter Python implementiert. Für
 
 
 <a id="experimentelleV"></a>
-# Experimenteller branch
+# Experimenteller Branch
 
 Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie auch auf den Entwicklungs-Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2). Er ist allerdings experimentell und in ständigem Wandel.
 
