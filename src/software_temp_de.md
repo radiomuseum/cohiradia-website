@@ -13,6 +13,10 @@ Die offiziell im RM bereitgestellte Software für COHIRADIA ist der COHIWizard. 
 Der COHIWizard ist sowohl für [Windows](#windows) als auch für [Linux](#linux) verfügbar. Unter Windows ist für beide Versionen eine ausführbare Version (exe) verfügbar. Der COHIWizard ist darüber hinaus als offener Python-Quellcode auf [Github](https://github.com/hermy-sf/COHIWizard) frei zugänglich. Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). 
 ??????Wer die neueste Version ausprobieren möchte, sei auf die Rubrik [Experimentelle Version](#experimentelleV) verwiesen.
 
+# Vorgängerversionen
+
+Wer bereist Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet unter diesem Link alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.
+
 # Hardware-Unterstützung
 
 Der Player-Teil des COHIWizard ist mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, unterschiedliche für COHIRADIA geeignete Hardwareprodukte für die Generierung der analogen Antennensignale zu verwenden. 
