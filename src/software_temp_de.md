@@ -10,7 +10,10 @@ Die offiziell im RM bereitgestellte Software für COHIRADIA ist der COHIWizard. 
 * Wav-Header-Editor zum Nacheditieren oder Erstellen der wav-Header
 * Synthesizer für das Erstellen eigener AM-Bänder (Modulation beliebig vieler Träger mit Audioinhalten beliebiger Wahl)
 
-Der COHIWizard ist sowohl für [Windows](#windows) als auch für [Linux](#linux) verfügbar. Unter Windows ist für beide Versionen eine ausführbare Version (exe) verfügbar. Der COHIWizard ist darüber hinaus als offener Python-Quellcode auf [Github](https://github.com/hermy-sf/COHIWizard) frei zugänglich. Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). 
+Der COHIWizard ist sowohl für [Windows](#windows) als auch für [Linux](#linux) verfügbar. Unter Windows ist eine ausführbare Version (exe) und verfügbar. Darüber hinaus ist der COHIWizard als offener Python-Quellcode auf [Github](https://github.com/hermy-sf/COHIWizard) frei zugänglich. Unter LINUX gibt es aktuell nur die Python-Version. 
+
+Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). 
+
 Wer auf die jeweils neueste, aber noch in Entwicklung befindliche Version zugreifen möchte, sei auf die Rubrik [Experimentelle Version](#experimentelleV) verwiesen.
 
 Bugreports zu Version 2.2.x sind willkommen.
