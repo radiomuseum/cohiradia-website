@@ -10,7 +10,9 @@
 
 ## Technische Lösung
 
-Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:
+Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Die Verwendung eines einheitlichen Datenformats garantiert dabei die Austauschbarkeit zwischen verschiedenen Plattformen.
+
+Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:
 
 * einen Steuercomputer (kann auch ein kleiner Single board Computer wie ein Raspberry Pi sein)
 * geeignete Software 
@@ -18,11 +20,11 @@ Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter
 * ein Koppelgerät
 * ein Archiv mit digitalisierten Breitband-AM-Signalen
 
-Für jedes dieser Elemente gibt es mehrere mögliche Realisierungsmöglichkeiten, je nach Anforderung und Budget. Während die Software vom COHIRADIA-team selbst geschrieben wird und grundsätzlich open-source ist, werden für einen Teil der Hardware (insbesondere Computer und Signalwandler) kommerzielle Produkte eingesetzt, ein Teil der Hardware (Koppelgeräte) kann von handwerklich/elektronisch geschickten Anwender:innen selbst gefertigt werden. Abbildung 1 gibt einen schematischen Überblick unter Einbeziehung einiger aktuell getesteter Komponenten. Das Datenarchiv ist nicht dargestellt, es befindet sich in der Regel auf einem lokalen Speichermedium am Steuercomputer.
-
+Für jedes dieser Elemente gibt es mehrere mögliche Realisierungsmöglichkeiten, je nach Anforderung und Budget. Während die Software vom COHIRADIA-team selbst geschrieben wird und grundsätzlich open-source ist, werden für einen Teil der Hardware (insbesondere Computer und Signalwandler) kommerzielle Produkte eingesetzt. Ein anderer Teil der Hardware (z.B. die Koppelgeräte) kann von handwerklich/elektronisch geschickten Anwender:innen selbst gefertigt werden. Abbildung 1 gibt einen schematischen Überblick unter Einbeziehung einiger aktuell getesteter Komponenten. 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Blockbild_buildingblocks_de_v1.png" /> 
+Abbildung 1: Schematischer Überblick über die benötigten Elemente mit exemplarischer Abbildung aktuell eingesetzter komponenten. Das Datenarchiv ist nicht dargestellt, es befindet sich in der Regel auf einem lokalen Speichermedium am Steuercomputer.
 
-Breitbandige Aufzeichnung direkt von einer Antenne ist mittlerweile relativ einfach mit mehreren auf dem Markt befindliche SDRs möglich, die Wiedergabe erfordert allerdings SDRs mit Transmit-Ausgang. COHIRADIA stellt dafür eine Plattform bereit, die auf dem STEMLAB125‐14 von RedPitaya beruht. Dieses bietet mit 14 Bit ADC-Auflösung und 125MS/s Samplingrate eine ausgezeichnete Aufnahme- und Wiedergabequalität. Auch das deutlich billigere STEMLAB125-10 wurde bereits versuchsweise für Playback eingesetzt, allerdings nicht umfassend getestet. Alternative TX-fähige SDRS mit ähnlichen oder besseren Leistungsdaten existieren ebenfalls.
+Wenn gewünscht, so ist eine breitbandige Aufzeichnung von AM-Signalen direkt von einer Antenne relativ einfach mit etlichen kommerziellen SDRs möglich. Die Wiedergabe erfordert allerdings SDRs mit Transmit-Ausgang, wie sie die bei uns eingesetzten Signalwandler besitzen. 
 
-Die Aufzeichnungen können von jeder Person abgespielt werden die ebenfalls über ein STEMLAB125‐14 oder ein geeignetes TX-fähiges SDR verfügt. Die Verwendung eines einheitlichen Datenformats garantiert dabei die Austauschbarkeit zwischen verschiedenen Plattformen.
+
 Danach evt Bild des Signalflussplans oder auch erst auf 'Detailinformation'
