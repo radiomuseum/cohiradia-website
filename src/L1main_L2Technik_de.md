@@ -6,3 +6,10 @@
 [Installation](https://www.radiomuseum.org/cohiradia/L2Technik_L3Installation.html) |
 [Detailinfo](https://www.radiomuseum.org/cohiradia/L2Technik_L3Detailinfo.html) |
 [Komplementäre Projekte](https://www.radiomuseum.org/cohiradia/L2Technik_L3Komplementaere_Projekte.html) |
+
+
+#Technische Lösung
+
+Beschreibung der Technologie mit Blockbild der erforderlichen Komponenten
+
+Danach evt Bild des Signalflussplans oder auch erst auf 'Detailinformation'
