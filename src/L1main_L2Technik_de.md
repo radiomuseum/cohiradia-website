@@ -8,7 +8,7 @@
 [Komplementäre Projekte](https://www.radiomuseum.org/cohiradia/L2Technik_L3Komplementaere_Projekte.html) |
 
 
-#Technische Lösung
+## Technische Lösung
 
 Beschreibung der Technologie mit Blockbild der erforderlichen Komponenten
 
