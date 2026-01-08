@@ -10,13 +10,15 @@
 
 ## Technische Lösung
 
-Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Dafür benötigt man grundsätzlich folgende Elemente:
+Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:
 
-* einen Steuercomputer mit geeigneter Software (kann auch ein kleiner Single board Computer wie ein Raspberry Pi sein)
+* einen Steuercomputer (kann auch ein kleiner Single board Computer wie ein Raspberry Pi sein)
+* geeignete Software 
 * einen Signalwandler
 * ein Koppelgerät
 * ein Archiv mit digitalisierten Breitband-AM-Signalen
 
+Für jedes dieser Elemente gibt es mehrere mögliche Realisierungsmöglichkeiten, je nach Anforderung und Budget. Während die Software vom COHIRADIA-team selbst geschrieben wird und grundsätzlich open-source ist, werden für einen Teil der Hardware (insbesondere Computer und Signalwandler) kommerzielle Produkte eingesetzt, ein Teil der Hardware (Koppelgeräte) kann von handwerklich/elektronisch geschickten Anwender:innen selbst gefertigt werden. Abbildung 1 gibt einen schematischen Überblick unter Einbeziehung einiger aktuell getesteter Komponenten. Das Datenarchiv ist nicht dargestellt, es befindet sich in der Regel auf einem lokalen Speichermedium am Steuercomputer.
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Blockbild_buildingblocks_de_v1.png" /> 
 
