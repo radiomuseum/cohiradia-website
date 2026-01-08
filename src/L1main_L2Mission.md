@@ -22,5 +22,9 @@ COHIRADIA verfolgt im Wesentlichen drei Ziele:
 
 2) aktuelle Rundfunkbänder insbesondere im AM-Bereich an verschiedenen Stellen weltweit aufzuzeichnen, um die noch existierende Landschaft aktiver Sender rechtzeitig in Archivdateien abzubilden, bevor die Technologie endgültig ausgestorben ist.
 
-3) Rundfunkbänder 
+3) künstliche Rundfunkbänder zu erzeugen, die es erlauben Programme zu simulieren, wie sie z.B. in der Frühzeit des Rundfunks existierten, für die es aber keine Aufzeichnungen gibt. Die Rubrik COHI Jukebox versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben.
+
+
+
+COHIRADIA verfolgt dabei eine open-source-Politik, d.h. es werden sowohl frei downloadbare, quelloffene Softwareals auch ein frei verfügbares Datenarchiv sowie zumindest teilweise freie Hardwarelösungen zur Verfügung gestellt. 
 
