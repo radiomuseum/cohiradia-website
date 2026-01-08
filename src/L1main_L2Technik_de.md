@@ -11,7 +11,7 @@
 ## Technische Lösung
 
 Beschreibung der Technologie mit Blockbild der erforderlichen Komponenten
-<img src="[https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Blockbild_buildingblocks_de.png](https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Blockbild_buildingblocks_de.png)"/> 
 
+<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Blockbild_buildingblocks_de.png" width="400" height="200" /> 
 
 Danach evt Bild des Signalflussplans oder auch erst auf 'Detailinformation'
