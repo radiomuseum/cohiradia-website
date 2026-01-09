@@ -1,5 +1,6 @@
-
-## Einführung
+---
+title:  Ziele
+---
 
 <div style="float: left; margin-right: 15px;">
   <iframe width="320" height="180" src="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4"
@@ -15,7 +16,6 @@ COHIRADIA steht als Akronym für **CO**nservation of **HI**storical **RA**diofre
 
 
 
-## Ziele
 COHIRADIA verfolgt im Wesentlichen drei Ziele:
 
 1) interessierten Rundfunkfreunden und Sammlern die Möglichkeit zu geben, auf historischen Radioempfängern Original‐Radiosignale abzuspielen, die in der Vergangenheit aufgezeichnet worden sind. Diese Signale sollen nicht nur einen einzelnen Sender beinhalten, sondern ein ganzes Frequenzband (z.B. Mittelwelle) mit allen darin enthaltenen Rundfunkstationen auf den korrekten, zum Aufnahmezeitpunkt bestehenden Trägerfrequenzen. Damit können alle Sender auf dem Radioempfänger wieder durchgestimmt werden.
