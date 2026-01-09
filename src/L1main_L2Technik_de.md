@@ -11,9 +11,6 @@ title:  Technische Lösung
 [Komplementäre Projekte](https://www.radiomuseum.org/cohiradia/L2Technik_L3Komplementaere_Projekte.html) |
 
 
-
-## Technische Lösung
-
 Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Die Verwendung eines einheitlichen Datenformats garantiert dabei die Austauschbarkeit zwischen verschiedenen Plattformen.
 
 Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:
