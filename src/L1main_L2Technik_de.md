@@ -1,3 +1,6 @@
+---
+title:  Technische Lösung
+---
 
 [Computer](https://www.radiomuseum.org/cohiradia/L2Technik_L3Computer.html) |
 [Signalwandler](https://www.radiomuseum.org/cohiradia/L2Technik_L3Signalwandler.html) |
