@@ -16,7 +16,7 @@ Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter
 Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:
 
 * einen Steuercomputer (kann auch ein kleiner Single board Computer wie ein Raspberry Pi sein)
-* einen Signalwandler ([Beispiel](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1350,1420)) 
+* einen Signalwandler ([Beispiel](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1352,1420)) 
 * ein Koppelgerät ([Beispiel](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1420,1480)) 
 * geeignete Software ([Beispiel](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1490,1562)) 
 * ein Archiv mit digitalisierten Breitband-AM-Signalen
