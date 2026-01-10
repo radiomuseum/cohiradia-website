@@ -63,7 +63,7 @@ Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v
 
 <a id="experimentelleV"></a>
 
-# Neueste experimentelle Version: COHIWizard 2.2.0
+# Neueste experimentelle Version: COHIWizard 2.2.x
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.1.zip)
 
