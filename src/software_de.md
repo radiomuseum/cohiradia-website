@@ -45,9 +45,10 @@ Die Python-Version wurde unter Debian 12 und 13 unter Python implementiert. Für
 
 
 <a id="experimentelleV"></a>
+
 # Experimentelle Versionen
 
-Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie auch auf den Entwicklungs-Branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2). Er ist allerdings experimentell und in ständigem Wandel.
+Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie auch auf den Entwicklungs-Branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2) zugreifen. Er ist allerdings experimentell und in ständigem Wandel. Von dort geladene Codes können unerwartetes Verhalten zeigen und werden daher nicht offiziell empfohlen.
 
 Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
 
