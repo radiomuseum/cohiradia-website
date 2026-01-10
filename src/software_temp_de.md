@@ -18,10 +18,6 @@ Wer auf die jeweils neueste, aber noch in Entwicklung befindliche Version zugrei
 
 Bugreports zu Version 2.2.x sind willkommen.
 
-# Vorgängerversionen
-
-Wer bereist Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet unter [diesem Link](https://www.radiomuseum.org/cohiradia/software_previous_vs.html) alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.
-
 # Hardware-Unterstützung
 
 Der Player-Teil des COHIWizard ist mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, unterschiedliche für COHIRADIA geeignete Hardwareprodukte für die Generierung der analogen Antennensignale zu verwenden. 
@@ -36,14 +32,12 @@ Bislang wurden drei Geräte-Treiber implementiert:
 
 Sowohl (2) als auch (3) punkten zwar durch deutlich geringere Kosten als ein STEMLAB, erfordern aber deutlich mehr Rechenleistung auf dem PC, da sie nicht wie das STEMLAB über ein FPGA für die nötige Umcodierung der komplexen Basisbanddaten verfügen. Der ADALM2000 und das fl2k stellen daher keine gleichwertigen Alternativen zum STEMLAB dar, dessen Leistung nach wie vor unübertroffen bleibt. 
 
-Es ist geplant, in Zukunft weitere Treiber zu entwickeln, sofern Bedarf danach besteht. Ein mögliches Target könnte z.B. der [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html) sein.
-
 
 <a id="windows"></a>
 # Windows-10/11
 Die exe-Version kann als Zip-Datei heruntergeladen werden und enthält auch ein Benutzerhandbuch. 
 
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.0.zip)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.1.zip)
 
 <a id="linux"></a>
 # LINUX
@@ -51,8 +45,12 @@ Die Python-Version wurde unter Debian 12 und 13 unter Python implementiert. Für
 
 
 <a id="experimentelleV"></a>
-# Experimenteller Branch
+# Experimentelle Versionen
 
 Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie auch auf den Entwicklungs-Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2). Er ist allerdings experimentell und in ständigem Wandel.
 
 Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
+
+# Vorgängerversionen
+
+Wer bereist Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet unter [diesem Link](https://www.radiomuseum.org/cohiradia/software_previous_vs.html) alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.
