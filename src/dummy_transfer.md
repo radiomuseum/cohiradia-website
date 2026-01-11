@@ -5,11 +5,11 @@ title: Cohiradia Software
 
 The official software provided by RM for COHIRADIA is COHIWizard. It allows you to play the broadband recordings hosted in the archive on analog radios, but also provides a number of useful tools. Currently, these are:
 
-    * Viewer for inspecting spectra
-    * Annotator for commenting on your own recordings
-    * Resampling of recordings to sampling rates supported by STEMLAB125-14
-    * Wav header editor for post-editing or creating wav headers
-    * Synthesizer for creating your own AM bands (modulation of any number of carriers with audio content of your choice)
+* Viewer for inspecting spectra
+* Annotator for commenting on your own recordings
+* Resampling of recordings to sampling rates supported by STEMLAB125-14
+* Wav header editor for post-editing or creating wav headers
+* Synthesizer for creating your own AM bands (modulation of any number of carriers with audio content of your choice)
 
 COHIWizard is available for both [Windows](#windows) and [Linux](#linux). An executable version (exe) is available for Windows. In addition, COHIWizard is freely available as open Python source code on [Github](https://github.com/hermy-sf/COHIWizard). Currently, only the Python version is available for Linux.
 
