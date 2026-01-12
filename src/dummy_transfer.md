@@ -33,7 +33,7 @@ The Python version was implemented under Debian 12 and 13 using Python. To insta
 
 <a id="experimentalV"></a>
 
-# Experimental versions
+# Experimental version
 
 If you are using a local GIT and the source codes, you can also access the development branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2). However, it is experimental and constantly changing. Code downloaded from there may exhibit unexpected behavior and is therefore not officially recommended.
 
