@@ -3,7 +3,7 @@ title: Cohiradia Software
 ---
 # General
 
-The official software provided by RM is the COHIWizard. It allows you to play the broadband recordings hosted in the archive on analog radios, but also provides a number of useful tools. Currently, these are:
+The official software provided by RM is the COHIWizard. It allows you to play the broadband recordings hosted in the archive on analog radios, but also provides a number of useful additional tools. Currently, these are:
 
 * Viewer for inspecting spectra
 * Annotator for commenting on your own recordings
