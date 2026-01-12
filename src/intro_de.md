@@ -42,7 +42,7 @@ COHIRADIA verfolgt im Wesentlichen drei Ziele:
 
 2) aktuelle Rundfunkbänder insbesondere im AM-Bereich an verschiedenen Stellen weltweit aufzuzeichnen, um die noch existierende Landschaft aktiver Sender rechtzeitig in Archivdateien abzubilden, bevor die Technologie endgültig ausgestorben ist.
 
-3) künstliche Rundfunkbänder zu erzeugen, die es erlauben Programme zu simulieren, wie sie z.B. in der Frühzeit des Rundfunks existierten, für die es aber keine Aufzeichnungen gibt. Siehe dazu die Rubrik [COHI Jukebox](#Jukebox).
+3) künstliche Rundfunkbänder zu erzeugen, die es erlauben Programme zu simulieren, wie sie z.B. in der Frühzeit des Rundfunks existierten, für die es aber keine Aufzeichnungen gibt. Siehe dazu die Rubrik [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic).
 
 ## Technische Lösung
 Ermöglicht wird dies durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Breitbandige Aufzeichnung direkt von einer Antenne ist mittlerweile relativ einfach mit mehreren auf dem Markt befindliche SDRs möglich, die Wiedergabe erfordert allerdings SDRs mit Transmit-Ausgang. COHIRADIA stellt dafür eine Plattform bereit, die auf dem STEMLAB125‐14 von RedPitaya beruht. Dieses bietet mit 14 Bit ADC-Auflösung und 125MS/s Samplingrate eine ausgezeichnete Aufnahme- und Wiedergabequalität. Auch das deutlich billigere STEMLAB125-10 wurde bereits versuchsweise für Playback eingesetzt, allerdings nicht umfassend getestet. Alternative TX-fähige SDRS mit ähnlichen oder besseren Leistungsdaten existieren ebenfalls. 
