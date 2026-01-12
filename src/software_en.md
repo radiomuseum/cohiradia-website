@@ -1,78 +1,60 @@
 ---
 title: Cohiradia Software
 ---
-# Selection guide:
+# General
 
-Essentially there are two different types of software available, a simple player for the most basic needs (playback of recordings and basic resampling) and a more advanced universal tool for playback, recording and additional features like inspecting the spectra, annotation of own recording and advanced resampling. If you just need a simple, playback tool which is easy to use, then opt for the <strong>RFCorder</strong>. If you want to have full functionality with many useful features for the post-processing of recordings, then opt for the <strong>COHIWizard</strong>. The COHIWizard includes all features of the RFCorder and is more frequently updated. 
-An executable version (exe) is available for both versions under Windows. The COHIWizard is also available from v1.2 as open Python source code on [Github](https://github.com/hermy-sf/COHIWizard) for both [Windows](#windows) and [Linux](#linux). If you want to run the COHIWizard under Python, you can find the installation instructions on the GITHUB repository in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). If you are interested in trying out the newest version (Beta) please jump to   [Newest experimental Version](#experimentelleV).
+The official software provided by RM is the COHIWizard. It allows you to play the broadband recordings hosted in the archive on analog radios, but also provides a number of useful additional tools. Currently, these are:
+
+* Viewer for inspecting spectra
+* Annotator for commenting on your own recordings
+* Resampling of recordings to sampling rates supported by STEMLAB125-14
+* Wav header editor for post-editing or creating wav headers
+* Synthesizer for creating your own AM bands (modulation of any number of carriers with audio content of your choice)
+
+COHIWizard is available for both [Windows](#windows) and [Linux](#linux). An executable version (exe) is available for Windows. In addition, COHIWizard is freely available as open Python source code on [Github](https://github.com/hermy-sf/COHIWizard). Currently, only the Python version is available for Linux.
+
+If you want to run COHIWizard under Python, you will find the installation instructions in the [README-file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md) file on the GITHUB repository.
+
+If you want to access the latest version, which is still under development, please refer to the [Experimental Version](#experimentalV) section.
+
+Bug reports for version 2.2.x are welcome.
+
 
 <a id="windows"></a>
 # Windows 10/11
-## RFCorder Version 2.0 (November 2023)
+The exe version can be downloaded as a zip file and also includes a user manual. 
 
-<img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.1.zip)
 
-<p style='text-align: justify;'>RFCorder v2.0 is used to play back broadband recordings on analog radio receivers using the STEMLAB125-14. The description is included in the downloadable zip file. Typical features are:
-
-* Recordings can be read and played back in IQ raw data format (*.dat) and in the wav format used by most well-known SDRs.
-* You can use a scroll bar to jump back and forth on the timeline, making it very easy to find different points in the recording.
-* The current time is displayed correctly, according to the actual time (UTC) at the time of recording. Of course, this only works with wav files, not with *.dat files.
-* There is a logarithmic signal strength indicator. If the signal is too weak (bar turns yellow), you can use the 'Gain' control to amplify it within limits (logarithmically).
-* There is an endless playback button.
-* There is a simple resampler that allows you to resample recordings not originating from COHIRADIA to one of the sampling rates required for STEMLAB. This means that all recordings from external archives can also be used.
-
-I would be grateful for [reports on successful use but also bugs](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html), as this helps to eliminate problems quickly.</p>
-
-## COHIWizard 1.2.9 (June 2024)
-
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard1.2.9_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.2.9c.zip)
-
-<p style='text-align: justify;'>  The COHIWizard is a comprehensive program that provides many additional functions in addition to the full functionality of RFCorder2.0. These include
-
-* the ability to create your own recordings, including the automatic start of a recording using a timer.
-* a simple spectral analysis window for the band spectra, which enables a quick coarse assessment of recordings.
-* a resampler that has been greatly expanded compared to RFCorder 2.0 for resampling recordings whose sampling rate is not STEMLAB-compatible. In contrast to RFCorder 2.0, any section of the spectrum can be cut out. Even entire series of related wav files can now be resampled at once.
-* An annotation tool that can support the semi-automatic generation of metadata files. This also includes a generator for the yaml files that have to be created on the COHIRADIA server for annotation purposes.
-
-However, the latter feature currently only works for Europe, the USA and New Zealand, as the reference tables for other zones have not yet been integrated.
-</p>
-
-## COHIWizard 1.3.3 (January 2025, first stable version)
-
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_1_3_3_screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v1.3.3.zip)
-
-Besides a few small changes (e.g. a monitor for the currently playing spectrum) this version contains a completely new module: The <strong>synthesizer</strong> which can be activated with a new tab at the right end of the menu bar. This tool enables you to create your own RF bands with individual playlists containing arbitrary audios in either wav- or mp3-format, according to your own taste. In that way one can e.g. generate a medium wave band with music from the 60ies and/or spoken (historic) texts which then can be played back in the same way as one of the original recordings from the archive. An example is given in the [Youtube video](https://www.youtube.com/watch?v=pYD5mz_M_bQ) (in fact the intro section stems from such a synthetic band). A detailed user's manual is contained in the installation zip file. There is a small, not fully updated [video-tutorial](https://cohiradia.radiomuseum.org/download/software/Tutorial_synthesizer_v0.mp4) for an early preliminary version, which does not contain all features but which may still be useful for getting started. This software version has not yet been tested excessively, thus bug-reports are welcome. A small preview of the GUI can be seen here:
-
-<img src="https://cohiradia.radiomuseum.org/download/software/Synthesizer_Screenshot_v0.PNG" width="400" height="200" />
-
-
-# LINUX
 <a id="linux"></a>
-The Python version was successfully tested under Debian 12 and 13.
-
-For the installation, please clone the repository from the main branch of [Github](https://github.com/hermy-sf/COHIWizard). More detailed instructions can be found in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
-
-If you use a local git, then you can also access the [branch cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/blob/cohiwizard_v2.2) which contains the synthesizer. However, this is the current development branch and must thus be considered as experimantal.
+# LINUX
+The Python version was implemented under Debian 12 and 13 using Python. To install, please clone the repository from [Github](https://github.com/hermy-sf/COHIWizard) and follow the instructions in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
 
 
-<a id="experimentelleV"></a>
+<a id="experimentalV"></a>
 
-# Newest experimental version: COHIWizard 2.2.x
+# Experimental version
 
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.0.zip)
+If you are using a local GIT and the source codes, you can also access the development branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2). However, it is experimental and constantly changing. Code downloaded from there may exhibit unexpected behavior and is therefore not officially recommended.
 
-Following a revision of the player architecture, version 2 of the COHIWizard is now available. The player part of the COHIWizard is equipped with a device driver system. This makes it possible to select not only the STEMLAB as a recording/playback device, but also alternative hardware. This means that other SDRs that are compatible with the requirements for COHIRADIA can be operated in the future. The synthesiser has also been revised and equipped with a significantly faster modulator based on ffmpeg. This makes it possible to synthesise your own broadband files almost five times faster than before. However, this feature has a slightly worse SNR than the 'slow version' and has therefore been added as an optional beta module for the time being. If the SNR of the new option can be made equivalent to that of the slow mode, it will replace the latter in future releases. Version 2.2.x is currently available for download.
+I am grateful for [reports](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) and bug reports, as they help to resolve issues quickly.
 
-So far two alternative, experimental drivers have been implemented:
 
-(1) “fl2k”: This is a [USB to VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki) that is used by various user groups as a fast 8-bit DAC and has also been used in some radiofrequency projects (see [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). With its only 8-bit resolution, this low-cost device is of course not a full replacement for the STEMLAB, but for playback it is sufficiently good for a range of standard applications, as [examples](https://youtu.be/4jC2XtWUFI8) show.
+# Previous versions
 
-(2) "ADALM2000": This driver allows the playback of IQ files with upper cut-off frequencies up to 2.5 MHz on the [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html). This USB-powered module is considerably cheaper than a STEMLAB125-14 and which comes with 2 ADC and 2 DAC channels (12-bit resolution each), and a GPIO port. It can be operated as an oscilloscope, function generator or logic analyser and, together with the new COHIWizard, allows the playback of COHIRADIA IQ files. However, there are limitations: Due to the use of USB2.0, the uppermost allowable signal frequency in the RF-bands is 2500 kHz. This is sufficient for LW and MW while SW recordings can only be played back with a trick: Setting the option 'LO offset' to a suitable value (say -4000 kHz for the 49m band) the signals can be downconverted and played back in the medium wave band of the radio. Initial tests showed usable playback for MW and LW with markedly better dynamic range than the fl2k. However, some recordings come with slight additional noise, possibly due to poorer filtering/interpolation than with the STEMLAB.
+If you are familiar with previous versions of the current COHIWizard and have installed them, you can find older versions, including RFCorder, the first simple playback software developed for COHIRADIA, at [this link](https://www.radiomuseum.org/cohiradia/software_previous_vs.html). However, all of these previous versions must be considered obsolete and are no longer maintained.
 
-Both (1) and (2) require a reasonably powerful PC for recoding the complex baseband data into the data format required for the devices. We therefore recommend neither the ADALM2000 nor the fl2k as real alternatives to STEMLAB, whose performance remains unrivalled due to the outsourcing of computationally intensive operations to the FPGA. However, if you already have an ADALM2000, for example, you can now control it and tap the radio signal at DAC output 1 (W1).
 
-It is planned to develop further drivers in the future, possible targets could be e.g. the [ADALM Pluto](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html).
+# Hardware Support
 
-If you use a local GIT and the source codes, you can already access the branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2/sources) which is the current development branch for version 2 and must be classified as experimental.
+The player part of COHIWizard is equipped with a device driver system. This makes it possible to use different hardware products suitable for COHIRADIA to generate analog antenna signals. 
 
-Bug reports for version 2.2.x are welcome due to the not yet very excessive testing. For reports see my CONTACT on the main page.
+Three device drivers have been implemented so far:
+
+(1) ‘STEMLAB125-14’: This is the generic driver for the STEMLAB125-14 from Red Pitaya, for which COHIWizard was originally written. It enables playback and recording via a TCP connection (LAN interface). With 14-bit resolution and 125 MSamples/s, this solution offers very high data and signal quality for any AM bands up to a maximum of 60 MHz and has been the best tested of all drivers to date.
+
+(2) ‘fl2k-stream’: This is a  [USB to VGA adapter](https://osmocom.org/projects/osmo-fl2k/wiki), which is used by various user groups as a fast 8-bit DAC and has also been used in some high-frequency projects (see [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). With its resolution of only 8 bits, this very inexpensive device should not be considered as a full replacement for the STEMLAB, but it is sufficient for many standard playback applications, as [examples](https://youtu.be/4jC2XtWUFI8) show.
+
+(3) ADALM2000: This driver allows playback of IQ files with bandwidths up to 2.5 MHz on the [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html). Compared to the STEMLAB125-14, this is a cost-effective, USB-powered module with 2 ADC and 2 DAC channels, each with 12-bit resolution, and a GPIO port. It can be used as an oscilloscope, function generator, or logic analyzer, but also allows the playback of COHIRADIA IQ files. However, there are limitations: Due to the use of USB 2.0, the highest frequency is limited to approximately 2500 kHz. This is sufficient for LW and MW, but allows playback of KW recordings only with a trick: By setting a suitable value in the ‘LO-Offset’ field (e.g., -4000kHz for the 49m band), the signal can be downmixed to the radio's medium wave band and listened to. This driver has not yet been extensively tested and must therefore still be classified as a beta version. Initial tests showed usable playback for MW and LW with somewhat better dynamics than the fl2k. However, slight noise occurs with certain recordings, which may be due to poorer filtering/interpolation than with the STEMLAB.
+
+Although both (2) and (3) score points for being significantly less expensive than a STEMLAB, they require considerably more computing power on the PC than the STEMLAB. The reason is their lack of an FPGA for mixing the complex baseband data to the target frequency. The ADALM2000 and fl2k are therefore not equivalent to the STEMLAB, whose performance remains unmatched. 
