@@ -13,7 +13,7 @@ The official software provided by RM is the COHIWizard. It allows you to play th
 
 COHIWizard is available for both [Windows](#windows) and [Linux](#linux). An executable version (exe) is available for Windows. In addition, COHIWizard is freely available as open Python source code on [Github](https://github.com/hermy-sf/COHIWizard). Currently, only the Python version is available for Linux.
 
-If you want to run COHIWizard under Python, you will find the installation instructions in the [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md) file on the GITHUB repository.
+If you want to run COHIWizard under Python, you will find the installation instructions in the [README-file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md) file on the GITHUB repository.
 
 If you want to access the latest version, which is still under development, please refer to the [Experimental Version](#experimentalV) section.
 
