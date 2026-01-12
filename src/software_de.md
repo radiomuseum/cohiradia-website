@@ -18,20 +18,6 @@ Wer auf die jeweils neueste, aber noch in Entwicklung befindliche Version zugrei
 
 Bugreports zu Version 2.2.x sind willkommen.
 
-# Hardware-Unterstützung
-
-Der Player-Teil des COHIWizard ist mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, unterschiedliche für COHIRADIA geeignete Hardwareprodukte für die Generierung der analogen Antennensignale zu verwenden. 
-
-Bislang wurden drei Geräte-Treiber implementiert:
-
-(1) 'STEMLAB125-14': Dies ist der generische Treiber für das STEMLAB125-14 von Red Pitaya, für das der COHIWizard ursprünglich geschrieben wurde. Er ermöglicht Wiedergabe und Recording über eine TCP-Verbindung (LAN-Schnittstelle). Mit 14 Bit Auflösung und 125MSamples/s bietet diese Lösung sehr hohe Daten- und Signalqualität für beliebige AM-Bänder bis max. 60 MHz und ist von allen Treibern bisher am besten getestet.
-
-(2) 'fl2k-stream': Dabei handelt es sich um einen  [USB zu VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki), der von verschiedenen Usergruppen als schneller 8-Bit DAC verwendet wird und auch bei einigen Hochfrequenz-Projekten eingesetzt wurde (siehe [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). Mit seinen nur 8 Bit Auflösung ist dieses sehr kostengünstige Gerät natürlich kein vollwertiger Ersatz für das STEMLAB, aber es genügt für viele Wiedergabe-Standardanwendungen durchaus, wie [Beispiele](https://youtu.be/4jC2XtWUFI8) zeigen.
-
-(3) ADALM2000: Dieser Treiber erlaubt die Wiedergabe von IQ-Files mit oberen Badngrenzfrequenzen bis zu 2.5 MHz auf dem [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html). Dies ist ein im Vergleich zum STEMLAB125-14 kostengünstiges, USB-betriebenes Modul mit 2 ADC- und 2 DAC-Kanälen zu je 12 Bit Auflösung sowie einem GPIO-Port. Es kann als Oszilloskop, Funktionsgenerator oder Logikanalysator betrieben werden, erlaubt aber auch die Wiedergabe von COHIRADIA-IQ-Files. Allerdings gibt es Einschränkungen: Durch die Verwendung von USB2.0 ist die obere Grenzfrequenz mit etwa 2500 kHz limitiert. Dies genügt für LW und MW, erlaubt die Wiedergabe von KW-Aufzeichnungen aber nur mit einem Trick: Durch Einstellen eines geeigneten Wertes im Feld 'LO-Offset' (z.B. -4000kHz für das 49m-Band) kann das Signal ins Mittelwellenband des Radios heruntergemischt und abgehört werden. Dieser Treiber ist noch nicht sehr ausgiebig getestet und muss daher noch als Beta-Version eingestuft werden. Erste Tests ergaben für MW und LW brauchbare Wiedergabe mit besserer Dynamik als das fl2k. Allerdings treten bei bestimmten Aufnahmen leichte Störgeräusche auf, die möglicherweise durch schlechtere Filterung/Interpolation als beim STEMLAB entstehen.
-
-Sowohl (2) als auch (3) punkten zwar durch deutlich geringere Kosten als ein STEMLAB, erfordern aber deutlich mehr Rechenleistung auf dem PC, da sie nicht wie das STEMLAB über ein FPGA für die nötige Umcodierung der komplexen Basisbanddaten verfügen. Der ADALM2000 und das fl2k stellen daher keine gleichwertigen Alternativen zum STEMLAB dar, dessen Leistung nach wie vor unübertroffen bleibt. 
-
 
 <a id="windows"></a>
 # Windows-10/11
@@ -55,3 +41,17 @@ Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_detail
 # Vorgängerversionen
 
 Wer bereist Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet unter [diesem Link](https://www.radiomuseum.org/cohiradia/software_previous_vs.html) alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.
+
+# Hardware-Unterstützung
+
+Der Player-Teil des COHIWizard ist mit einem Gerätetreiber-System ausgestattet. Damit ist es möglich, unterschiedliche für COHIRADIA geeignete Hardwareprodukte für die Generierung der analogen Antennensignale zu verwenden. 
+
+Bislang wurden drei Geräte-Treiber implementiert:
+
+(1) 'STEMLAB125-14': Dies ist der generische Treiber für das STEMLAB125-14 von Red Pitaya, für das der COHIWizard ursprünglich geschrieben wurde. Er ermöglicht Wiedergabe und Recording über eine TCP-Verbindung (LAN-Schnittstelle). Mit 14 Bit Auflösung und 125MSamples/s bietet diese Lösung sehr hohe Daten- und Signalqualität für beliebige AM-Bänder bis max. 60 MHz und ist von allen Treibern bisher am besten getestet.
+
+(2) 'fl2k-stream': Dabei handelt es sich um einen  [USB zu VGA-Adapter](https://osmocom.org/projects/osmo-fl2k/wiki), der von verschiedenen Usergruppen als schneller 8-Bit DAC verwendet wird und auch bei einigen Hochfrequenz-Projekten eingesetzt wurde (siehe [fl2k-COHIRADIA-Projekt](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&pageNo=1)). Mit seinen nur 8 Bit Auflösung ist dieses sehr kostengünstige Gerät natürlich kein vollwertiger Ersatz für das STEMLAB, aber es genügt für viele Wiedergabe-Standardanwendungen durchaus, wie [Beispiele](https://youtu.be/4jC2XtWUFI8) zeigen.
+
+(3) ADALM2000: Dieser Treiber erlaubt die Wiedergabe von IQ-Files mit oberen Badngrenzfrequenzen bis zu 2.5 MHz auf dem [ADALM2000](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/adalm2000.html). Dies ist ein im Vergleich zum STEMLAB125-14 kostengünstiges, USB-betriebenes Modul mit 2 ADC- und 2 DAC-Kanälen zu je 12 Bit Auflösung sowie einem GPIO-Port. Es kann als Oszilloskop, Funktionsgenerator oder Logikanalysator betrieben werden, erlaubt aber auch die Wiedergabe von COHIRADIA-IQ-Files. Allerdings gibt es Einschränkungen: Durch die Verwendung von USB2.0 ist die obere Grenzfrequenz mit etwa 2500 kHz limitiert. Dies genügt für LW und MW, erlaubt die Wiedergabe von KW-Aufzeichnungen aber nur mit einem Trick: Durch Einstellen eines geeigneten Wertes im Feld 'LO-Offset' (z.B. -4000kHz für das 49m-Band) kann das Signal ins Mittelwellenband des Radios heruntergemischt und abgehört werden. Dieser Treiber ist noch nicht sehr ausgiebig getestet und muss daher noch als Beta-Version eingestuft werden. Erste Tests ergaben für MW und LW brauchbare Wiedergabe mit besserer Dynamik als das fl2k. Allerdings treten bei bestimmten Aufnahmen leichte Störgeräusche auf, die möglicherweise durch schlechtere Filterung/Interpolation als beim STEMLAB entstehen.
+
+Sowohl (2) als auch (3) punkten zwar durch deutlich geringere Kosten als ein STEMLAB, erfordern aber deutlich mehr Rechenleistung auf dem PC, da sie nicht wie das STEMLAB über ein FPGA für die nötige Umcodierung der komplexen Basisbanddaten verfügen. Der ADALM2000 und das fl2k stellen daher keine gleichwertigen Alternativen zum STEMLAB dar, dessen Leistung nach wie vor unübertroffen bleibt. 
