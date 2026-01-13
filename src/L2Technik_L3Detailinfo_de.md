@@ -1,5 +1,12 @@
+---
+title: Cohiradia Software
+---
+# Allgemeines
+
+
 ## Aufzeichnung und Wiedergabe von 'natürlichen' Breitbandspektren
 
+BLA BLA BLA .............
 
 
 ## künstliche Generierung von Breitbandspektren (Synthese im Sinne der Jukebox)
