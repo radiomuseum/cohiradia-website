@@ -1,15 +1,13 @@
 ---
 title: Technische Detailinformation
 ---
-# Allgemeines
 
-
-## Aufzeichnung und Wiedergabe von 'natürlichen' Breitbandspektren
+# Aufzeichnung und Wiedergabe von 'natürlichen' Breitbandspektren
 
 BLA BLA BLA .............
 
 
-## künstliche Generierung von Breitbandspektren (Synthese im Sinne der Jukebox)
+# künstliche Generierung von Breitbandspektren (Synthese im Sinne der Jukebox)
 
 Das von einem AM-Sender ausgesendete elektromagnetische Signal besteht aus einer sinusförmigen Trägerschwingung mit der nominellen Sendefrequenz f_T und dem Nutzsignal, das dieser Trägerschwingung als Amplitudenschwankung aufgeprägt wird (siege Abb. 1 A). Will man ein solches Signal künstlich erzeigen, hat man grundsätzlich zwei Möglichkeiten: 
 
