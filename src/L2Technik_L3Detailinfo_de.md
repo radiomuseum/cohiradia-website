@@ -7,12 +7,15 @@ title: Technische Detailinformation
 BLA BLA BLA .............
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_1.png" />
+
 *Abbildung 1: Sender und deren Signale im gesamten MW-Spektrum* 
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_pipeline_1.png" />
+
 *Abbildung 2: Aufzeichnung und Bearbeitung von Breitband-Antennensignalen für das Archiv* 
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_pipeline_2.png" />
+
 *Abbildung 3: Bereitstellung von Software für das Abspielen auf analogen Radios.*
 
 # künstliche Generierung von Breitbandspektren (Synthese im Sinne der Jukebox)
@@ -25,4 +28,5 @@ Das von einem AM-Sender ausgesendete elektromagnetische Signal besteht aus einer
 Will man ein ganzes Spektrum mit vielen nebeneinander existierenden Sendern erzeugen, muss man Einzelsignale zusammensetzen. Im Fall 1 (analog) muss man mehrere einzelne nach (1) generierte Signale mit unterschiedlichen Trägerfrequenzen zusammenaddieren, siehe Abb. 1 B. Im Fall 2 (digital) werden die Signale der Einzelsender aus den jeweiligen Audiodateien berechnet und anschließend addiert. Danach folgt wieder eine DA-Wandlung (siehe Abb. 1 C). 
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/spektrumsgenerierung_de.png" />
+
 *Abbildung 4: A: Prinzip der Amplitudenmodulation. B: Generierung eines Spektrums durch Zusammenschaltung analoger Modulatoren. C: Generierung eines Spektrums durch digitale Synthese.* 
