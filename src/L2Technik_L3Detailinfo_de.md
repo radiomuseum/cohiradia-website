@@ -1,5 +1,5 @@
 ---
-title: Cohiradia Software
+title: Technische Detailinformation
 ---
 # Allgemeines
 
