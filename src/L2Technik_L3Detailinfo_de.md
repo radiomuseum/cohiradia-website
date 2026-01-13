@@ -24,6 +24,5 @@ Das von einem AM-Sender ausgesendete elektromagnetische Signal besteht aus einer
    
 Will man ein ganzes Spektrum mit vielen nebeneinander existierenden Sendern erzeugen, muss man Einzelsignale zusammensetzen. Im Fall 1 (analog) muss man mehrere einzelne nach (1) generierte Signale mit unterschiedlichen Trägerfrequenzen zusammenaddieren, siehe Abb. 1 B. Im Fall 2 (digital) werden die Signale der Einzelsender aus den jeweiligen Audiodateien berechnet und anschließend addiert. Danach folgt wieder eine DA-Wandlung (siehe Abb. 1 C). 
 
-1) analog: meherer 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/spektrumsgenerierung_de.png" />
 *Abbildung 4: A: Prinzip der Amplitudenmodulation. B: Generierung eines Spektrums durch Zusammenschaltung analoger Modulatoren. C: Generierung eines Spektrums durch digitale Synthese.* 
