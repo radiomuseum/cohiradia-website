@@ -26,6 +26,8 @@ The exe version can be downloaded as a zip file and also includes a user manual.
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.1.zip)
 
+**ATTENTION:** If a virus scanner is installed on your PC, it will often trigger an alarm when the program is started for the first time. Since our software is not malware, you can usually allow it to run without any problems. There may be several reasons why the virus scanner triggers an alarm, e.g., when using the Red Pitaya STEMLAB, our software necessarily accesses the LAN interface and queries the IP address of the STEMLAB. These are typical triggers for virus scanners, but in our case they are harmless. If you still do not want to trust the exe file, you can alternatively execute the source code directly in Python. Please note that we are not professional software developers and have not registered our programs through code signing.
+
 <a id="linux"></a>
 # LINUX
 The Python version was implemented under Debian 12 and 13 using Python. To install, please clone the repository from [Github](https://github.com/hermy-sf/COHIWizard) and follow the instructions in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
