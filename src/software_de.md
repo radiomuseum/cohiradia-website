@@ -25,6 +25,8 @@ Die exe-Version kann als Zip-Datei heruntergeladen werden und enthält auch ein 
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.1.zip)
 
+**ACHTUNG:** Falls auf dem PC ein Virenscanner installiert ist, schlägt dieser häufig beim ersten Start des Programms Alarm. Da unsere Software ist natürlich keine Malware ist, können Sie die Ausführung normalerweise problemlos zulassen. Für das Anschlagen der Virenscanner kann es mehrere Ursachen geben, z.B. dass unsere Software nicht durch Code-Signing registriert ist und einige Zugriffe auf die LAN-Schnittstelle durchführt sowie die IP-Adresse des Red-Pitaya abfragt. Diese Dinge sind typische Trigger, in unserem Fall aber harmlos.
+
 <a id="linux"></a>
 # LINUX
 Die Python-Version wurde unter Debian 12 und 13 unter Python implementiert. Für die Installation klonen Sie bitte das Repository von [Github](https://github.com/hermy-sf/COHIWizard) und folgen den Anweisungen in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). 
