@@ -11,7 +11,7 @@ Erde und Antenne durch Kondensatoren vom Chassis und damit damit galvanisch geko
 
 Bei Direktanschluss der Erdungsbuchse an den Schutzleiter-Kontakt einer Steckdose kann bei einigen Modellen sogar der FI-Schalter ausgelöst werden, was auf deutlich größere Kapazitäten oder gar defekte Koppelelemente hinweist. Auch bei anderen Geräten kann es aufgrund parasitärer Kapazitäten zwischen Netz und Röhrenkreis zu durchaus hohen Wechselspannungen gegen Erde kommen. 
 
-Wie in anderen Artikeln des RM ausführlich behandelt, sollten solche Radios nicht leichtfertig ans Netz geschlossen werden, optimal wäre ein Schutz-Trenntrafo. 
+Wie in [anderen Artikeln[(https://www.radiomuseum.org/forum/radios_mit_gefaehrlicher_stromversorgung.html?language_id=1) des RM ausführlich behandelt, sollten solche Radios nicht leichtfertig ans Netz geschlossen werden, optimal wäre ein Schutz-Trenntrafo. 
 
 Aufgrund dieser Sachlage wird ausdrücklich davon abgeraten, den Ausgang des Signalwandlers (STEMLAB, fl2k-Dongle, ...) direkt mit dem Antenneneingang zu verbinden. Dabei kann nicht nur der Signalwandler beschädigt oder zerstört werden, sondern es ist auch für damit hantierende Personen gefährlich, entsprechende leitfähige Teile zu berühren. Abhilfe schafft ein Hf‐Trenntransformator mit geeignetem Übersetzungsverhältnis vom 50‐Ausgang des STEMLAB auf das Radio. Üblicherweise funktioniert eine Impedanztransformation 1:9 bis 1:16 (Windungsverhältnis 1:3 bzw. 1:4) für typische Röhrengeräte.
 
