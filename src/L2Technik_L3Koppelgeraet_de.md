@@ -4,7 +4,7 @@ title: Koppelgeräte
 
 # Allgemeines und Gefahrenhinweise
 
-**ACHTUNG** Der Antenneneingang vieler alter Röhrenempfänger ist häufig keineswegs berührungssicher im Sinne moderner Sicherheitsforschriften für elektrische Geräte. 
+**ACHTUNG**: Der Antenneneingang vieler alter Röhrenempfänger ist häufig keineswegs berührungssicher im Sinne moderner Sicherheitsforschriften für elektrische Geräte. 
 Bei sogenannten Allstromgeräten liegt bekanntermaßen das Chassis an einem der Leiter des Netzsteckers und ist somit nach dem Anstecken ans Netz je nach Einsteckrichtung 
 entweder mit dem Nullleiter oder dem Phasenleiter verbunden. Es kann demnach gegen Erde eine Spannung von 230V in Europa annehmen. Normalerweise sind zwar die Eingänge für 
 Erde und Antenne durch Kondensatoren vom Chassis und damit damit galvanisch gekoppelten Teilen getrennt, aber der vergleichsweise hohen Kapazitäten können sie durchaus merkliche Ströme bei Netzfrequenz übertragen. So ergeben z.B. 10nF bei 230V und 50Hz etwa 0.72 mA Strom. Das ist bei Berührung jedenfalls bereits fühlbar. An den unbelasteten Eingängen  kann jedenfalls die Netzspannung anliegen. 
