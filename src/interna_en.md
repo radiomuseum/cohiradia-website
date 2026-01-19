@@ -81,3 +81,17 @@ In this case the procedure is:
    where ### stands for the ID of the recording as listed in the corresponding yaml-File for annotation
 If you are uncertain about the ID number, navigate to the [yaml-repository](https://github.com/radiomuseum/cohiradia-metadata/tree/main/yaml), go to the correct folder and inspect the yaml-File therein. The ID is listed in the second line as "ID: ###"
 
+# Archives which are only accessible for internal purpose
+
+## UKW / VHF datasets
+
+There are a few datasets recorded from VHF bands. These are accessible via the data directory in the usual folders, but not annotated and published.
+
+Archives so far:
+
+GM_2025C: Recording of the last hour of SRG / SRF 31-12-2024; 10MHz Bandwidth, center = 92.6MHz
+
+GM 2025D: resampled version with just 2.5 MHz bandwith centered about 90.6 MHz. This version can be played back by most SDRs without problems. The 10 MHz broad original is problematic on many PC/SDR combinations due to limited data transfer speed.
+
+
+
