@@ -48,10 +48,10 @@ Wersorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverst�
 &nbsp;&nbsp; &nbsp;&nbsp; 
 
 
-<figure style="float:right; width:300px; margin:0 0 1em 1em; text-align:center;">
+<figure style="float:right; width:300; margin:0 0 1 1; text-align:center;">
   <img src="[https://irgendeinedomain.org/ressources_webpage/einBild.png](https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png)"
        width="300" height="360" />
-  <figcaption style="font-size:0.9em;">
+  <figcaption style="font-size:0.9;">
     Abbildung #: Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.
   </figcaption>
 </figure>
