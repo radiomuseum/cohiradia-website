@@ -39,14 +39,6 @@ Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwe
 
 Abb. # zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammenfaltbaren rautenförmigen Schleife aus Messingstäben, die speziell für mobilen Einsatz gebaut wurde. 
 
-<div align="right" style="width:300px; margin-left:16px;">
-  <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_TX.png"
-       width="300" height="360" />
-  <p><em>
-    Abbildung #: Zusammenfaltbare Rahmenantenne mit einer Windung. Der Empfänger ist ein Transistorradio mit Ferritantenne.
-  </em></p>
-</div>
-
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_TX.png"
      width="300" height="360" align="right" />
 
