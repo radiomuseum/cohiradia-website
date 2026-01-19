@@ -46,7 +46,7 @@ Abb. # zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammen
   <em>Abbildung #: Zusammenfaltbare Rahmenantenne mit einer Windung. Der Empfänger ist ein Transistorradio mit Ferritantenne..</em>
 </p>
 
-Wersorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811 verwendet. Die Schaltung ähnelt der in  Abb. # im  >LINK Report 2023, allerdings fehlt der 50 $\Omega$ Widerstand am Ausgang. Die Verstärkung kann zur Vermeidung von Übersteuerung auf max 5 reduziert werden. Da der AD811 nur max. 100mA Ausgangsstrom liefern kann, die Schleifenimpedanz bei 500 kHz aber bei nur etwa j6 $\Omega$ liegt, wird ein 3:1 ?? prüfen ??Transformator als Impedanzwandler zwischen Verstärkerausgang und Schleifenterminals geschaltet. Damit 'sieht' der AD811 etwa j54 $\Omega$, was den Strom bei 5V ausgangsamplitude auf etwas unter 100mA hält. Im konkreten Fall wird er entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m in Kombination mit typischen Kofferradios mit Ferritantenne. &
+Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811 verwendet. Die Schaltung ähnelt der in  Abb. # im  >LINK Report 2023, allerdings fehlt der 50 $\Omega$ Widerstand am Ausgang. Die Verstärkung kann zur Vermeidung von Übersteuerung auf max 5 reduziert werden. Da der AD811 nur max. 100mA Ausgangsstrom liefern kann, die Schleifenimpedanz bei 500 kHz aber bei nur etwa j6 $\Omega$ liegt, wird ein 3:1 ?? prüfen ??Transformator als Impedanzwandler zwischen Verstärkerausgang und Schleifenterminals geschaltet. Damit 'sieht' der AD811 etwa j54 $\Omega$, was den Strom bei 5V ausgangsamplitude auf etwas unter 100mA hält. Im konkreten Fall wird er entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m in Kombination mit typischen Kofferradios mit Ferritantenne. &
 
 <div align="right" style="width:300px; margin-left:16px;">
   <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png"
@@ -55,6 +55,13 @@ Wersorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverst�
     Abbildung #: Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)
   </em></p>
 </div>
+
+<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png"
+     width="300" height="360" align="right" />
+
+<p align="right" style="width:300px;">
+  <em>Abbildung #: Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)</em>
+</p>
 
 In > Link auf Geralds Video wurde eine Korbspule in Verbindung mit einem +++Verstärker+++ benutzt. Diese hat zwar viele Windungen, scheint aber dennoch noch ausreichend Feld für den Empfänger bereitzustellen.
 
