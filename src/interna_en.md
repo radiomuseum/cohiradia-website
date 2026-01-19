@@ -89,9 +89,11 @@ There are a few datasets recorded from VHF bands. These are accessible via the d
 
 Archives so far:
 
-GM_2025C: Recording of the last hour of SRG / SRF 31-12-2024; 10MHz Bandwidth, center = 92.6MHz
+GM_2025C: Recording of the last hour of SRG / SRF 31-12-2024; 10MHz Bandwidth, center = 92.6MHz, Luzern, Switzerland
 
 GM 2025D: resampled version with just 2.5 MHz bandwith centered about 90.6 MHz. This version can be played back by most SDRs without problems. The 10 MHz broad original is problematic on many PC/SDR combinations due to limited data transfer speed.
+
+HS_2024_I: 31.12.2024, 5MHz bandwidth, center = 90.567 MHz, Austria, Graz
 
 
 
