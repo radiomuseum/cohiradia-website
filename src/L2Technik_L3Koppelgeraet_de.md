@@ -48,14 +48,13 @@ Wersorgt wird diese Schleife 체ber einen kleinen batteriebetriebenen Videoverst�
 &nbsp;&nbsp; &nbsp;&nbsp; 
 
 
-<figure style="float:right; width:300; margin:0 0 1 1; text-align:center;">
-  <img src="[https://irgendeinedomain.org/ressources_webpage/einBild.png](https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png)"
+<div align="right" style="width:300px; margin-left:16px;">
+  <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png"
        width="300" height="360" />
-  <figcaption style="font-size:0.9;">
+  <p><em>
     Abbildung #: Ankopplung der Rahmenantenne an den Treiberverst채rker (AD811) durch einen Balun.
-  </figcaption>
-</figure>
-
+  </em></p>
+</div>
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png" width="300" height="360" align="right"/> *Abbildung #: Ankopplung der Rahmenantenne an den Treiberverst채rker (AD811) durch einen Balun. (Anm: Das PCB unter dem Ringkern dient nur als Tr채ger f체r den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)*
 
