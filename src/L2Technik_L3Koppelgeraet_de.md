@@ -32,3 +32,17 @@ Erfolgreiche Anwendung fanden z.B. Übertrager mit 43/FT114-Ringkern und einem W
 G. Gauert berichtet, dass bei einigen alten Geräten die Antenne erheblich zur Resonatorkapazität beiträgt und daher die bloße Ankopplung des Signalwandlers über einen Transformator zu unerwünschten Dämpfungen und Frequenzverschiebungen des Abstimmkreises führen kann. Auch erhebliche Signalstörungen können die Folge sein. Diese Erkenntnisse konnte H. Scharfetter mit einem Atwaterkent 10 aus dem Jahr 1924 bestätigen. In solchen Fällen empfiehlt es sich im MW-Band, eine Serie aus einem 220pF‐Kondensator und einem Widerstand (470 - 2200 $\Omega$) zwischen den Trafo‐Ausgang und den Antenneneingang des Radios zu schalten. Diese Maßnahme kann das Problem in der Regel beheben oder zumindest signifikant abmildern.
 
 # Induktive Kopplung 
+
+Dafür wird eine Sendespule benötigt, die so orientiert wird, dass ihre Achse für optimale Kopplung möglichst auf der Achse der Empfangsspule des Empfängers zu liegen kommt. Diese Spule wird am besten in Form einer nicht zu kleinflächigen Schleife mit typischerweise einer bis wenigen Windungen ausgeführt. Diese Spule muss mit einem geeigneten Treiberverstärker angesteuert werden, wie Abb. ## schematisch zeigt:
+
+Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwendungsfall ab. Normalerweise möchte man Geräte in einer Entfernung von wenigen Metern noch mit ausreichend Signal versorgen, ohne darüber hinaus Störungen in der weiteren Umgebung zu verursachen. Die Vorschriften der jeweiligen ** Funkbehörde ** sind jedenfalls einzuhalten. Wie die Berechnungen in > LINK auf pdf zeigen, ist es günstig, möglichst kleine Windungszahlen und dafür großflächige Schleifen zu verwenden. Dies ist darauf zurückzuführen, dass die axiale magnetische Feldstärke in einer gewissen Entfernung z bei gegebenem Schleifenstrom zwar proportional zur Windungszahl zunimmt, die Induktivität und damit die Lastimpedanz für den Verstärker aber näherungsweise mit dem Quadrat der Windungszahl. Bei gegebener Signalspannung des Verstärkerausgangs nehmen damit der Strom und das Feld mit der Anzahl der Windungen ab. Nur wenn die Spule sehr nahe am Empfänger ist, können bei einer kleinen Spule mehrere Windungen sinnvoll sein. Spulen mit vielen Windungen erreichen aufgrund der hohen Impedanz deutlich kleinere Magnetfelder, wenn siean einem niederohmigen Verstärker mit begrenzter Ausgangsspannung betrieben werden. Eine genauere Analyse sowie Entwurfsempfehlungen finden sich in > diesem Dokument.
+
+Abb. # zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammenfaltbaren rautenförmigen Schleife aus Messingstäben, die speziell für mobilen Einsatz gebaut wurde. Wersorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811 mit einem 50 $\Omega$ Widerstand am Ausgang, wie er im >LINK Report 2023, S. ## beschrieben ist. Im konkreten Fall wird er entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m in Kombination mit typischen Kofferradios mit Ferritantenne. In > Link auf Geralds Video wurde eine Korbspule in Verbindung mit einem +++Verstärker+++ benutzt. Diese hat zwar viele Windungen, scheint aber dennoch noch ausreichend Feld für den Empfänger bereitzustellen.
+
+
+
+
+
+
+
+
