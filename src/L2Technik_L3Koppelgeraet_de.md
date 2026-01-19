@@ -55,6 +55,11 @@ Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverst�
   <em>Abbildung #: Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)</em>
 </p>
 
+<p align="right">
+  <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png" width="300"><br>
+  <em>Abbildung #: Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)</em>
+</p>
+
 In > Link auf Geralds Video wurde eine Korbspule in Verbindung mit einem +++Verstärker+++ benutzt. Diese hat zwar viele Windungen, scheint aber dennoch noch ausreichend Feld für den Empfänger bereitzustellen.
 
 
