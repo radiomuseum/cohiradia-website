@@ -67,7 +67,14 @@ Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus d
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.png" />
 </a>
 
-In > Link auf Geralds Video wurde eine Korbspule in Verbindung mit einem +++Verstärker+++ benutzt. Diese hat zwar viele Windungen, scheint aber dennoch noch ausreichend Feld für den Empfänger bereitzustellen.
+
+
+
+
+
+
+
+In > Link auf Gerald Gauert's Video wurde eine Korbspule in Verbindung mit einem +++Verstärker+++ benutzt. Diese hat zwar viele Windungen, scheint aber dennoch noch ausreichend Feld für den Empfänger bereitzustellen.
 
 
 
