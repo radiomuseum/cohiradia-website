@@ -33,7 +33,7 @@ G. Gauert berichtet, dass bei einigen alten Geräten die Antenne erheblich zur R
 
 # Induktive Kopplung 
 
-Dafür wird eine Sendespule benötigt, die so orientiert wird, dass ihre Achse für optimale Kopplung möglichst auf der Achse der Empfangsspule des Empfängers zu liegen kommt. Diese Spule wird am besten in Form einer nicht zu kleinflächigen Schleife mit typischerweise einer bis wenigen Windungen ausgeführt. Diese Spule muss mit einem geeigneten Treiberverstärker angesteuert werden, wie Abb. ## schematisch zeigt:
+Dafür wird eine Sendespule benötigt, die so orientiert wird, dass ihre Achse für optimale Kopplung möglichst auf der Achse der Empfangsspule des Empfängers zu liegen kommt. Diese Spule wird am besten in Form einer nicht zu kleinflächigen Schleife mit typischerweise einer bis wenigen Windungen ausgeführt. Diese Spule muss mit einem geeigneten Treiberverstärker angesteuert werden.
 
 
 Abb. # zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammenfaltbaren rautenförmigen Schleife aus Messingstäben, die speziell für mobilen Einsatz gebaut wurde. 
