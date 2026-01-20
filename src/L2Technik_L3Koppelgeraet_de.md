@@ -59,11 +59,11 @@ Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwe
 
 
 <a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
-  <img align="left" width="200" height="150" 
+  <img align="right" width="200" height="150" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.png" />
      
 </a>
-<p align="left" style="width:300px;">
+<p align="right" style="width:300px;">
   <em>Abbildung #: Ankopplung der Rahmenantenne an eine Korbspule des Loewe OE333.</em>
 </p>
 
