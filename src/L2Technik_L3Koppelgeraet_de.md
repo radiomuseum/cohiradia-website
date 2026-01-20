@@ -62,10 +62,15 @@ Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwe
 Zwei Konkrete Anwendungen an sehr alten Radios kann man in den beiden folgenden Beispielen sehen: 
 Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025":
 
+
 <a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
   <img align="left" width="300" height="150" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.png" />
+     
 </a>
+<p align="left" style="width:300px;">
+  <em>Abbildung #: Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne </em>
+</p>
 
 
 
