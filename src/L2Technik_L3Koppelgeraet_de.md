@@ -69,7 +69,7 @@ Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus d
      
 </a>
 <p align="left" style="width:300px;">
-  <em>Abbildung #: Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne </em>
+  <em>Abbildung #: Ankopplung der Rahmenantenne an eine Korbspule des Loewe OE333.</em>
 </p>
 
 
@@ -85,6 +85,8 @@ In einem Beispielvideo von Gerald Gauert wurde eine Korbspule in Verbindung mit 
   <img align="left" width="300" height="150" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Screenshot_Gauertvideo_induktiveKopplung_COHI.png" />
 </a>
-
+<p align="left" style="width:300px;">
+  <em>Abbildung #: Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne </em>
+</p>
 
 
