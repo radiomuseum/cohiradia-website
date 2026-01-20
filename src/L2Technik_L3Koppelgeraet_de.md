@@ -70,7 +70,7 @@ Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwe
 </p>
 
 Zwei Konkrete Anwendungen an sehr alten Radios kann man in den beiden folgenden Beispielen sehen: 
-Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025":
+Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025": 
 
 
 
