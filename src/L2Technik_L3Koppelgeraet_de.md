@@ -61,7 +61,7 @@ Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwe
 
 
 <a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
-  <img align="left" width="300" height="150" 
+  <img align="left" width="200" height="150" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.png" />
      
 </a>
@@ -77,7 +77,7 @@ Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus d
 In einem Beispielvideo von Gerald Gauert wurde eine Korbspule in Verbindung mit einem Kleinsignal-+++Verstärker+++ benutzt. Diese hat zwar viele Windungen, scheint aber dennoch noch ausreichend Feld für den Empfänger bereitzustellen.
 
 <a href="https://youtu.be/4jC2XtWUFI8" target="_blank">
-  <img align="left" width="300" height="150" 
+  <img align="left" width="200" height="100" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Screenshot_Gauertvideo_induktiveKopplung_COHI.png" />
 </a>
 <p align="left" style="width:300px;">
