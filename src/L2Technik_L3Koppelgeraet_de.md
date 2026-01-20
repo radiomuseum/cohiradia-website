@@ -72,7 +72,7 @@ Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus d
 
 
 
-In einem Beispielvideo von Gerald Gauert wurde eine Korbspule in Verbindung mit einem Kleinsignal-+++Verstärker+++ benutzt. Diese hat zwar viele Windungen, scheint aber dennoch noch ausreichend Feld für den Empfänger bereitzustellen.
+In einem Beispielvideo von Gerald Gauert wurde eine Korbspule in Verbindung mit einem Kleinsignal-+++Verstärker+++ benutzt. Diese hat zwar viele Windungen, stellt aber offensichtlich dennoch ausreichend Feld für den Empfänger bereit.
 
 <a href="https://youtu.be/4jC2XtWUFI8" target="_blank">
   <img align="left" width="200" height="100" 
