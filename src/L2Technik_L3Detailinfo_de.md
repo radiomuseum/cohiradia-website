@@ -7,6 +7,8 @@ title: Technische Detailinformation
 TODO TODO TODO
 BLA BLA BLA .............
 
+Hier muss noch ordentlich gearbeitet werden !
+
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_1.png" />
 
 *Abbildung 1: Sender und deren Signale im gesamten MW-Spektrum* 
