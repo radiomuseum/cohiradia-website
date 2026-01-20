@@ -23,7 +23,7 @@ Hier ist aber zu beachten, dass der Trafo ausreichende Isolationsfestigkeit zwis
 
 Es ist jedenfalls darauf zu achten, dass die beiden Wicklungen **vollständig galvanisch getrennt sind und keine gemeinsame Masse besitzen**. Auf diese Details sollte man insbesondere achten, wenn man kommerziell erhältliche Baluns oder Ununs aus der Amaterufunktechnik verwenden möchte. 
 
-Als Ferrite eignen sich generell solche, die den von Amidon gelisteten Materialien 77 (LW,MW) und 43 (funktioniert auch gut für KW-Bänder) entsprechen. Einer bequemen Baugröße ist z.B. FT114 oder FT140. 
+Als Ferrite eignen sich generell solche, die den von Amidon gelisteten Materialien 77 (LW,MW) und 43 (funktioniert auch gut für KW-Bänder) entsprechen. Eine bequeme Baugröße ist z.B. FT114 oder FT140. 
 
 Erfolgreiche Anwendung fanden z.B. Übertrager mit 43/FT114-Ringkern und einem Windungsverhältnis 15 : 60 an einem Minerva375A und an einem Hornyphon W248U. Aber auch 43/FT114 mit 15 : 30 funktioniert noch brauchbar. Damit wurden LW, MW und auch KW auf 49m erfolgreich eingekoppelt. F. Wolf berichtet über einen Ringkern FT240/77, Windungsverhältnis 10 : 30, der erfolgreich an einem LOEWE Opta‐Kantate mit mit einem amplitudenmodulierten Signalgenerator RF1 von HEATHKIT und einem CD‐Player. Das Ergebnis wurde als sehr zufriedenstellend eingestuft.
 
