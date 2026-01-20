@@ -58,7 +58,7 @@ Natürlich können auch andere Verstärker in diesem Kontext verwendet werden, s
 Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwendungsfall ab. Normalerweise möchte man Geräte in einer Entfernung von wenigen Metern noch mit ausreichend Signal versorgen, ohne darüber hinaus Störungen in der weiteren Umgebung zu verursachen. Die Vorschriften der jeweiligen ** Funkbehörde ** sind jedenfalls einzuhalten. Wie die Berechnungen in > LINK auf pdf zeigen, ist es günstig, kleine Windungszahlen und dafür großflächige Schleifen zu verwenden. Dies ist darauf zurückzuführen, dass die axiale magnetische Feldstärke in einer gewissen Entfernung z bei gegebenem Schleifenstrom zwar proportional zur Windungszahl zunimmt, die Induktivität und damit die Lastimpedanz für den Verstärker aber näherungsweise mit dem Quadrat der Windungszahl. Bei gegebener Signalspannung des Verstärkerausgangs nehmen damit der Strom und das Feld mit der Anzahl der Windungen ab. Nur wenn die Spule sehr nahe am Empfänger ist, können bei einer kleinen Spule mehrere Windungen sinnvoll sein. Spulen mit vielen Windungen erreichen aufgrund der hohen Impedanz deutlich kleinere Magnetfelder, wenn sie an einem niederohmigen Verstärker mit begrenzter Ausgangsspannung betrieben werden. Eine genauere Analyse sowie Entwurfsempfehlungen bei gegebenen Strom- und Verlustleistungslimits finden sich in > diesem Dokument. Da die Spule eine induktive Last darstellt, fällt der Strom und damit die Feldstärke umgekehrt proportional zur anliegenden Spannung ab. Dies stellt aber kein Problem für die Breitbandigkeit der Signalübertragung dar, da das Induktionsgesetz bei konstantem Feld in der Empfängerspule eine mit der Frequenz linear steigende Induktionsspannung erzeut und den Effekt daher wieder ausgleicht.
 
 Zwei Konkrete Anwendungen an sehr alten Radios kann man in den beiden folgenden Beispielen sehen: 
-Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025": 
+Abb. # zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025" (Klicken, um zm Video zu gelangen): 
 
 <a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
   <img align="left" width="200" height="150" 
@@ -72,7 +72,7 @@ Beispiel 1: Direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus d
 <br clear="left">
 
 
-In einem Beispielvideo von Gerald Gauert wurde eine Korbspule in Verbindung mit einem Kleinsignal-+++Verstärker+++ benutzt. Diese hat zwar viele Windungen, stellt aber offensichtlich dennoch ausreichend Feld für den Empfänger bereit.
+Abb. # 2 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Korbspule in Verbindung mit einem Kleinsignal-+++Verstärker+++ benutzt wird. Diese Spule hat zwar viele Windungen, stellt aber offensichtlich dennoch ausreichend Feld für den Empfänger bereit.
 
 <a href="https://youtu.be/4jC2XtWUFI8" target="_blank">
   <img align="left" width="200" height="100" 
