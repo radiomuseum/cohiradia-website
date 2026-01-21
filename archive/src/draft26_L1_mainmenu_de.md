@@ -11,4 +11,4 @@ banner: https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/intro
 [News](https://www.radiomuseum.org/cohiradia/L1main_L2News.html) |
 [Kontakt](https://www.radiomuseum.org/cohiradia/L1main_L2Kontakt.html) | 
 
-Frontbild
+uk: done

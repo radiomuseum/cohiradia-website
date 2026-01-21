@@ -1,4 +1,4 @@
-baseURL: https://example.docsy.dev
+baseURL: https://www.cohiradia.org
 title: Cohiradia
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
@@ -46,16 +46,18 @@ imaging:
 languages:
   en:
     languageName: English
+    weight: 1
     title: Cohiradia
     params:
-      description: A Docsy example site
+      description: Cohiradia
   # cSpell:disable
-  de:
+  'de':
     languageName: Deutsch
+    weight: 2
     contentDir: content/de
     title: Cohiradia
     params:
-      description: Cohiradia auf Deutsch
+      description: Cohiradia
       time_format_default: 02.01.2006
       time_format_blog: 02.01.2006
   # cSpell:enable
@@ -67,6 +69,12 @@ markup:
         block: true
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)']]
   highlight:
     # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
     style: tango
@@ -206,6 +214,12 @@ params:
         url: https://example.org/mail
         icon: fa fa-envelope
         desc: Discuss development issues around the project
+
+mediaTypes:
+  font/woff:
+    suffixes: [woff]
+  font/woff2:
+    suffixes: [woff2]
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
