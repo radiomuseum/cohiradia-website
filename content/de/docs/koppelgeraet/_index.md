@@ -41,22 +41,17 @@ Dafür wird eine Sendespule benötigt, die so orientiert wird, dass ihre Achse f
 
 Abb. # zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammenfaltbaren rautenförmigen Schleife aus Messingstäben, die speziell für mobilen Einsatz gebaut wurde. 
 
-<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_TX.png"
-     width="280" height="330" align="right" />
+{{% imgproc rahmenantenne_tx Fit "600x600 webp" %}}
+*Abbildung 1:* Zusammenfaltbare Rahmenantenne mit einer Windung. Der Empfänger ist ein Transistorradio mit Ferritantenne. Die Versorgung erfolgt hier über eine 9V-Batterie.
+{{% /imgproc %}}
 
-<p align="right" style="width:300px;">
-  <em>Abbildung #: Zusammenfaltbare Rahmenantenne mit einer Windung. Der Empfänger ist ein Transistorradio mit Ferritantenne.Die Versorgung erfolgt hier über eine 9V-Batterie.</em>
-</p>
 
 Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811. Die Schaltung entspricht der in  Abb. 3.5A im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf#page=23). Die Verstärkung kann zur Vermeidung von Übersteuerung ggf. auf max 5 reduziert werden. Da der AD811 nur max. 100mA Ausgangsstrom liefern kann, die Schleifenimpedanz bei 500 kHz aber nur etwa \(j2.5 \Omega\) beträgt, wird ein 4:1 Transformator (24:6 Windungen, 670uH : 40uH) als Impedanzwandler zwischen Verstärkerausgang und Schleifenterminals geschaltet. Damit 'sieht' der AD811 zusammen mit dem in den Ausgangspfad geschalteten \(50 \Omega\)-Widerstand etwa  \(50 + j40\Omega\), was den Strom bei 5V Ausgangsamplitude auf etwas unter 80mA hält. Außerdem wird die Verlustleistung im AD811 sicher unter 1W gehalten, ein Wert, den man unter Einhaltung der Sicherheitsmargen (und abhängig vom Gehäuse) nicht überschreiten sollte. Im konkreten Fall wird der AD811 entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m z.B. für typische Kofferradios mit Ferritantenne. 
 
 
-<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Rahmenantenne_Balun.png"
-     width="280" height="330" align="left" />
-
-<p align="left" style="width:300px;">
-  <em>Abbildung #: Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)</em>
-</p>
+{{% imgproc rahmenantenne_balun Fit "600x600 webp" %}}
+*Abbildung 2:* Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)
+{{% /imgproc %}}
 
 Natürlich können auch andere Verstärker in diesem Kontext verwendet werden, sofern sie für den frequenzbereich geeignet sind und ausreichend Strom treiben können. 
 
@@ -74,7 +69,7 @@ Abb. # zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 
   <em>Abbildung #: Ankopplung der Rahmenantenne an eine Korbspule des Loewe OE333.</em>
 </p>
 
-<br clear="left">
+
 
 
 Abb. # 2 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Korbspule in Verbindung mit einem Kleinsignal-+++Verstärker+++ benutzt wird. Diese Spule hat zwar viele Windungen, stellt aber offensichtlich dennoch ausreichend Feld für den Empfänger bereit.
@@ -88,7 +83,7 @@ Abb. # 2 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Korbspule in 
 </p>
 
 
-<br clear="left">
+
 
 
 
