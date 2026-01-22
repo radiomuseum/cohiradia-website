@@ -85,7 +85,7 @@ markup:
 
 # Comment out if you don't want the "print entire section" link enabled.
 outputs:
-  section: [HTML, print, RSS]
+  section: [HTML, print]
 
 params:
   taxonomy:
@@ -98,8 +98,7 @@ params:
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
 
-  privacy_policy: https://policies.google.com/privacy
-
+  privacy_policy: https://www.radiomuseum.org/dsp_imprint.cfm?language_id=1
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
 
@@ -188,32 +187,16 @@ params:
   links:
     # End user relevant links. These will show up on left side of footer and in the community page if you have one.
     user:
-      - name: User mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discussion and help from your fellow users
-      - name: X
-        url: https://example.org/x
-        icon: fab fa-x-twitter
-        desc: Follow us on X to get the latest news!
-      - name: Stack Overflow
-        url: https://example.org/stack
-        icon: fab fa-stack-overflow
-        desc: Practical questions and curated answers
+      - name: Radiomuseum.org
+        url: https://www.radiomuseum.org        
+        icon: fa fa-radio
+        desc: Radiomuseum.org
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
       - name: GitHub
-        url: https://github.com/google/docsy
+        url: https://github.com/radiomuseum
         icon: fab fa-github
         desc: Development takes place here!
-      - name: Slack
-        url: https://example.org/slack
-        icon: fab fa-slack
-        desc: Chat with other project developers
-      - name: Developer mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discuss development issues around the project
 
 mediaTypes:
   font/woff:
