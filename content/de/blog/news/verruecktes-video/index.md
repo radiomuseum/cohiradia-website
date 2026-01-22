@@ -1,18 +1,20 @@
 ---
-date: 2025-12-20
-title:  Weihnachtsgrüsse 2025
-linkTitle: Weihnachtsgrüsse 2025
+date: 2025-10-30
+title:  Verrücktes Video
+linkTitle: Verrücktes Video
 description: >
-  Weihnachtsgrüsse 2025
+  Verrücktes Video mit COHIRADIA-Playback.
 author: Hermann Scharfetter
 resources:
 - src: "**technisches*.jpg"
   params:
     byline: "*Photo*: Hermann Scharfetter"
 ---
-*Weihnachtsgrüsse 2025* Kurzvideo Syntesizer-Aufzeichnung auf Loewe OE333 wiedergegeben
 
-<a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
-  <img  width="150" height="75" 
-       src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.png" />
+*Verrücktes Video*, das mit Einsatz eines COHIRADIA-Playback gedreht wurde. Zuvor aufgezeichnetes Antennensignal zwecks stabiler Qualität eingekoppelt.
+
+<a href="https://youtu.be/TO7UMjGUK_A" target="_blank">
+  <img width="150" height="75" 
+       src="https://cohiradia.radiomuseum.org/download/data/Internal_data/YoutubevideoSC.png" />
 </a>
+

@@ -16,6 +16,7 @@ Vereinfachtes Hardware-Setup durch SD-Karten-Image auf der Hardware-Seite publiz
 
 
 <a href="https://www.radiomuseum.org/cohiradia/hardware.html" target="_blank">
-  <img align="left" width="150" height="75" 
+  <img width="150" height="75" 
        src="https://cohiradia.radiomuseum.org/download/data/Internal_data/RedPitaya.png" />
 </a> 
+

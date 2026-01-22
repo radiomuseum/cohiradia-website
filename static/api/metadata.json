@@ -1,0 +1,992 @@
+[
+    {
+        "startTimestamp": "2006-12-07T22:28+01:00",
+        "content": "MW, 07-12-2006, part2, analogue VR",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 2,
+        "type": "video recorder Philips VR6711"
+    },
+    {
+        "startTimestamp": "2021-12-31T23:34:38+01:00",
+        "content": "Shutdown of MW transmitters in CZE 23:00 UTC: Liblice 2 and Ostrava",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 3,
+        "type": "SDR, 14 bit, Red Pitaya Stemlab125-14, COHIRADIA-RFCorder"
+    },
+    {
+        "startTimestamp": "2006-12-31T23:58+01:00",
+        "content": "MW, 30/31-12-2006 short clip",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 4,
+        "type": "video recorder Philips VR6711"
+    },
+    {
+        "startTimestamp": "2009-01-01T09:57:25+01:00",
+        "content": "KW, 49m band, analogue recording on VR",
+        "band": "KW 49m",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 5,
+        "type": "video recorder Philips VR6711"
+    },
+    {
+        "startTimestamp": "2023-02-13T14:43:01+01:00",
+        "content": "SAQ Grimeton on World Radio Day 2023 13.02.2023, rec. Neunkirchen",
+        "band": "VLF",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 6,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2022-08-18T19:11:03+03:00",
+        "content": "MW in northern Greece, summer evening",
+        "band": "MW",
+        "city": "close to Parga",
+        "country": "GRC",
+        "countryId": 0,
+        "id": 7,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2021-12-31T23:30+01:00",
+        "content": "Missing",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 8,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2022-12-31T22:24:41+01:00",
+        "content": "New Year's Memories 22/23: New Year's Eve on LW, RX Luzern",
+        "band": "LW",
+        "city": "Luzern",
+        "country": "CH",
+        "countryId": 8,
+        "id": 9,
+        "type": "SDR PERSEUS"
+    },
+    {
+        "startTimestamp": "2022-08-10T20:35:54+02:00",
+        "content": "MW band, recorded in summer on a Ferry in the Adriatic Sea, part2",
+        "band": "MW",
+        "city": "Adriatic Sea",
+        "country": "zz",
+        "countryId": 1002,
+        "id": 10,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2023-01-19T22:31:31+01:00",
+        "content": "Last transmissions of Absolute Radio, RX Graz",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 11,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2022-04-19T17:59-07:00",
+        "content": "MW California 19-04-2022, morning",
+        "band": "MW",
+        "city": "Los Gatos (CA)",
+        "country": "US",
+        "countryId": 3,
+        "id": 12,
+        "type": "RSP1A, SDRPlay"
+    },
+    {
+        "startTimestamp": "2006-12-31T00:14+01:00",
+        "content": "MW, 30-12-2006, part2 midnight",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 13,
+        "type": "video recorder Philips VR6711"
+    },
+    {
+        "startTimestamp": "2022-09-10T20:57:39+02:00",
+        "content": "Shutdown of all RAI MW transmitters, last hour",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 14,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2022-12-31T21:52:39+01:00",
+        "content": "New Year's Memories 22/23: Last transmission from SVK on 702 and 1098 kHz, RX Graz",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 15,
+        "type": "RSPdx"
+    },
+    {
+        "startTimestamp": "2022-02-27T00:00+01:00",
+        "content": "MW 27-02-2022 incl. reactivated Ukrainian Station on 549kHz after Russian invasion",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 16,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2022-05-13T01:55+02:00",
+        "content": "LW recording with Luxembourg effect on 162kHz  ",
+        "band": "LW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 17,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2022-11-16T15:45:01+01:00",
+        "content": "VLF/LW: Grimeton SAQ on UNESCO 50th anniversary day",
+        "band": "ULW/LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 18,
+        "type": "RSPdx, SDRPlay"
+    },
+    {
+        "startTimestamp": "2023-01-01T21:49+01:00",
+        "content": "New Year's Memories 22/23: Last transmission from RTL on LW, RX Neunkirchen",
+        "band": "LW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 19,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2022-05-13T07:52:59+02:00",
+        "content": "LW 13-05-2022 morning",
+        "band": "LW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 20,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2023-01-01T23:01+01:00",
+        "content": "New Year's Memories 22/23: Last transmission from RTL on LW, RX Luzern by Gianni Müller",
+        "band": "LW",
+        "city": "Luzern",
+        "country": "CH",
+        "countryId": 8,
+        "id": 21,
+        "type": "?"
+    },
+    {
+        "startTimestamp": "2022-06-11T21:11:16+02:00",
+        "content": "Luxembourg effect with RTL modulated onto 162kHz Allouis, sample 1",
+        "band": "LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 22,
+        "type": "RSP1A, SDRPlay"
+    },
+    {
+        "startTimestamp": "2022-04-27T04:00-07:00",
+        "content": "MW California 27-04-2022, evening",
+        "band": "MW",
+        "city": "Los Gatos (CA)",
+        "country": "US",
+        "countryId": 3,
+        "id": 23,
+        "type": "RSP1A, SDRPlay"
+    },
+    {
+        "startTimestamp": "2006-12-07T21:58:27+01:00",
+        "content": "MW, 07-12-2006, part1, analogue VR",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 24,
+        "type": "video recorder Philips VR6711"
+    },
+    {
+        "startTimestamp": "2006-12-30T23:08:03+01:00",
+        "content": "MW, 30-12-2006, part1 midnight",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 25,
+        "type": "video recorder Philips VR6711"
+    },
+    {
+        "startTimestamp": "2022-05-01T09:15+02:00",
+        "content": "LW 01-05-2022 morning",
+        "band": "LW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 26,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2022-12-31T22:30-08:00",
+        "content": "New Year's Memories 22/23: Afternoon in CA synchronized with Europe's last hour of New Year's Eve",
+        "band": "MW",
+        "city": "Los Gatos (CA)",
+        "country": "US",
+        "countryId": 3,
+        "id": 27,
+        "type": "RSP1A, SDRPlay"
+    },
+    {
+        "startTimestamp": "2023-01-01T21:55:01+01:00",
+        "content": "New Year's Memories 22/23: Last transmission from RTL on LW, RX Graz",
+        "band": "LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 28,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2022-09-10T21:54:56+02:00",
+        "content": "14min recording with the last 5 minutes before all RAI MW transmitters closed",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 29,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2022-05-02T21:57+02:00",
+        "content": "wideband recording including LW and MW in one",
+        "band": "LW&MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 30,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2021-12-31T23:30+01:00",
+        "content": "LW band with shutdown of the LW transmitter Topolna in CZE at 23:00 UTC",
+        "band": "LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 31,
+        "type": "SDR, 14 bit, Red Pitaya Stemlab125-14, COHIRADIA-RFCorder"
+    },
+    {
+        "startTimestamp": "2023-01-19T23:32:59+01:00",
+        "content": "Last transmissions of Absolute Radio on MW, RX Luzern",
+        "band": "MW",
+        "city": "Luzern",
+        "country": "CH",
+        "countryId": 8,
+        "id": 32,
+        "type": "?"
+    },
+    {
+        "startTimestamp": "2022-06-11T21:09:40+02:00",
+        "content": "Luxembourg effect with RTL modulated onto 162kHz Allouis, part1",
+        "band": "LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 33,
+        "type": "RSP1A, SDRPlay"
+    },
+    {
+        "startTimestamp": "2022-08-10T19:32:34+02:00",
+        "content": "MW band, recorded in summer on a Ferry in the Adriatic Sea, part1 ",
+        "band": "MW",
+        "city": "Adriatic Sea",
+        "country": "zz",
+        "countryId": 1002,
+        "id": 34,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2022-12-31T21:59:14+01:00",
+        "content": "New Year's Memories 22/23: New Year's Eve on LW, RX Graz",
+        "band": "LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 35,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2022-07-18T21:14:55+02:00",
+        "content": "LW, strong Luxembourg effect on 162kHz/198kHz",
+        "band": "LW",
+        "city": "Lossburg",
+        "country": "DE",
+        "countryId": 1,
+        "id": 36,
+        "type": "RSP1A, SDRPlay"
+    },
+    {
+        "startTimestamp": "2022-04-15T21:57+02:00",
+        "content": "MW 15-04-2022 evening",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 37,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2022-12-31T22:24:41+01:00",
+        "content": "New Year's Memories 22/23: Last transmission from SVK on 702 and 1098 kHz, RX Luzern",
+        "band": "MW",
+        "city": "Luzern",
+        "country": "CH",
+        "countryId": 8,
+        "id": 38,
+        "type": "?"
+    },
+    {
+        "startTimestamp": "2023-01-19T22:45+01:00",
+        "content": "Last transmission of Absolute Radio, rec. Neunkirchen",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 39,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2022-12-31T21:49:06+01:00",
+        "content": "New Year's Memories 22/23: Last transmission from SVK on 702 and 1098 kHz, RX Neunkirchen-Seelscheid",
+        "band": "LW/MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 40,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2015-07-20T21:57:14+02:00",
+        "content": "MW midsummernight 2015: 4 min around CEST midnight; RX Luzern",
+        "band": "MW",
+        "city": "Luzern",
+        "country": "CH",
+        "countryId": 8,
+        "id": 42,
+        "type": null
+    },
+    {
+        "startTimestamp": "2023-04-14T22:12:36+01:00",
+        "content": "Last transmission of RTE on 252kHz: Last hour. RX Neunkirchen-Seelscheid",
+        "band": "LW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 44,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2023-04-14T22:50:20+01:00",
+        "content": "Last transmission of RTE on 252kHz: Last 15min, RX Luzern",
+        "band": "LW",
+        "city": "Luzern",
+        "country": "CH",
+        "countryId": 8,
+        "id": 46,
+        "type": "PERSEUS SDR"
+    },
+    {
+        "startTimestamp": "2019-12-31T18:55:52+01:00",
+        "content": "Silvester 2019 on LW, sequence 3, RX Hildisrieden bei Luzern",
+        "band": "LW",
+        "city": "Hildisrieden",
+        "country": "CH",
+        "countryId": 8,
+        "id": 48,
+        "type": "Airspy HF Plus SDR"
+    },
+    {
+        "startTimestamp": "2019-12-31T17:06:05+01:00",
+        "content": "Silvester 2019 on LW, sequence 2, RX Hildisrieden bei Luzern ",
+        "band": "LW",
+        "city": "Hildisrieden",
+        "country": "CH",
+        "countryId": 8,
+        "id": 50,
+        "type": "Airspy HF Plus SDR"
+    },
+    {
+        "startTimestamp": "2023-05-06T08:39:51+02:00",
+        "content": "Coronation ceremony of Charles III, full transmission on BBC4 on LW, RX Neunkirchen",
+        "band": "LW",
+        "city": "Neunkirchen/Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 52,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2019-12-31T22:58:19+01:00",
+        "content": "Silvester 2019 on MW, midnight sequence, RX Hildisrieden bei Luzern",
+        "band": "MW",
+        "city": "Hildisrieden",
+        "country": "CH",
+        "countryId": 8,
+        "id": 54,
+        "type": "Airspy HF Plus SDR"
+    },
+    {
+        "startTimestamp": "2023-05-18T20:51:22+02:00",
+        "content": "Radio Dechovka last time from from Zbraslav, 100 years anniversary of Czech Radio, RX Graz",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 56,
+        "type": "RSP1Dx"
+    },
+    {
+        "startTimestamp": "2023-05-18T21:34:46+02:00",
+        "content": "Radio Dechovka from Zbraslav, 100 years anniversary of Czech Radio, RX Neunkirchen/Seelscheid",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 58,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2023-08-12T21:20:52+02:00",
+        "content": "MW night spectrum in Gothenborg (Sweden)",
+        "band": "MW",
+        "city": "Gothenborg",
+        "country": "SE",
+        "countryId": 232,
+        "id": 60,
+        "type": "RSPdx"
+    },
+    {
+        "startTimestamp": "2023-08-06T02:24:42+12:00",
+        "content": "New Zealand North 2023-A, part 1, recorded by Christian Holme",
+        "band": "MW",
+        "city": "Robert Findlay Wildlife Reserve, near Pukorokoro / Miranda",
+        "country": "NZL",
+        "countryId": 0,
+        "id": 62,
+        "type": "RSP1a, SDRPlay"
+    },
+    {
+        "startTimestamp": "2023-08-06T02:57:56+12:00",
+        "content": "New Zealand North 2023-A, part 2, recorded by Christian Holme",
+        "band": "MW",
+        "city": "Robert Findlay Wildlife Reserve, near Pukorokoro / Miranda",
+        "country": "NZL",
+        "countryId": 0,
+        "id": 64,
+        "type": "RSP1a, SDRPlay"
+    },
+    {
+        "startTimestamp": "2023-09-28T21:54:52+02:00",
+        "content": "The last hour of Gold London on 1548kHz, MW Graz",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 66,
+        "type": "RSPdx (SDRPlay)"
+    },
+    {
+        "startTimestamp": "2023-09-27T18:56:37+02:00",
+        "content": "MW band with the first evening of Country Radio on 639kHz (CZE, Liblice)",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 68,
+        "type": "RSPdx (SDRPlay)"
+    },
+    {
+        "startTimestamp": "2023-10-24T14:44+02:00",
+        "content": "SAQ Grimeton on UN-Day 24.10.2023, rec. Neunkirchen",
+        "band": "VLF",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 70,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2023-10-29T18:58+01:00",
+        "content": "Welle 370, 100 Jahre Rundfunk in Deutschland, rec. Neunkirchen",
+        "band": "KW_49m",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 72,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2023-09-24T20:51:20+02:00",
+        "content": "MW Recording in Perfugas (Sardegna)",
+        "band": "MW",
+        "city": "Perfugas, I",
+        "country": "Italia, Regione Autonoma della Sardegna",
+        "countryId": 0,
+        "id": 74,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-24T20:51:20+02:00",
+        "content": "LW Recording in Perfugas, Sardegna",
+        "band": "LW",
+        "city": "Perfugas, I",
+        "country": "Italia, Regione Autonoma della Sardegna",
+        "countryId": 0,
+        "id": 76,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-21T16:44:51+02:00",
+        "content": "MW Sunset at the beach of Badesi al Mare",
+        "band": "MW",
+        "city": "Badesi, I",
+        "country": "ITA",
+        "countryId": 0,
+        "id": 78,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-21T16:44:51+02:00",
+        "content": "LW Sunset at the beach of Badesi al Mare",
+        "band": "LW",
+        "city": "Badesi, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 80,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-21T21:27:05+02:00",
+        "content": "MW Perfugas, at night",
+        "band": "MW",
+        "city": "Perfugas, I",
+        "country": "I",
+        "countryId": 0,
+        "id": 82,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-21T21:27:05+02:00",
+        "content": "LW Perfugas, at night",
+        "band": "LW",
+        "city": "Perfugas, I",
+        "country": "I",
+        "countryId": 0,
+        "id": 84,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-23T13:29:21+02:00",
+        "content": "MW, Sedini during daytime",
+        "band": "MW",
+        "city": "Sedini, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 86,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-23T13:29:21+02:00",
+        "content": "LW, Sedini during daytime",
+        "band": "LW",
+        "city": "Sedini, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 88,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-24T23:32:56+02:00",
+        "content": "MW Perfugas, past midnight",
+        "band": "MW",
+        "city": "Perfugas, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 90,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-09-24T23:32:56+02:00",
+        "content": "LW Perfugas, past midnight",
+        "band": "LW",
+        "city": "Perfugas, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 92,
+        "type": "Perseus SDR"
+    },
+    {
+        "startTimestamp": "2023-12-24T07:41:16+02:00",
+        "content": "SAQ Grimeton Christmas Eve 2024, rec. Neunkirchen",
+        "band": "VLF",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 94,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2023-12-24T07:57:40+01:00",
+        "content": "VLF and LW 10 -260kHz: Grimeton SAQ Christmas transmission 23 and Kalundborg Morning gymnastics on Christmas Eve 2023",
+        "band": "VLF,LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 96,
+        "type": "RSPdx, SDRPlay"
+    },
+    {
+        "startTimestamp": "2023-12-31T13:28:27+01:00",
+        "content": "LW: Kalundborg 243kHz last transmission, QTH:  Haderslev, C. Nielsen",
+        "band": "LW",
+        "city": "Haderslev",
+        "country": "DNK",
+        "countryId": 0,
+        "id": 98,
+        "type": "PERSEUS"
+    },
+    {
+        "startTimestamp": "2023-12-31T13:30:01+00:01",
+        "content": "LW: Kalundborg 243kHz last transmission, QTH: Kungsbacka, B. Madeberg",
+        "band": "LW",
+        "city": "Kungsbacka",
+        "country": "SE",
+        "countryId": 232,
+        "id": 100,
+        "type": "SDRplay Rx"
+    },
+    {
+        "startTimestamp": "2024-01-01T13:40:39+01:00",
+        "content": "MW New Year's day, QTH: Perfugas(Sardinia). Special: New year's concert 2024 of the Vienna Philharmonic Orchestra on RNE",
+        "band": "MW",
+        "city": "Perfugas, Sassari Province, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 102,
+        "type": "SDRplay RSP1a "
+    },
+    {
+        "startTimestamp": "2023-12-31T22:44:08+01:00",
+        "content": "New Years eve 31-12-2023, MW, rec. Neunkirchen-Seelscheid",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 104,
+        "type": "Stemlab125-14"
+    },
+    {
+        "startTimestamp": "2023-12-31T17:02:30+02:00",
+        "content": "LW Band with New Year's speech of Queen Margrethe II at the last transmission of Kalundborg, 243kHz, rec. by Jorma Mantyla in Finland",
+        "band": "LW",
+        "city": "Kangasala, Sahalahti, FI ",
+        "country": "FI",
+        "countryId": 142,
+        "id": 106,
+        "type": "Receiver: Icom IC-R8600, Software: HDSDR, original Bandwith 240 kHz, resampled to 250kHz for STEMLAB125-14"
+    },
+    {
+        "startTimestamp": "2023-12-31T21:56:28+01:00",
+        "content": "New Years eve 31-12-2023, LW, rec. Graz, Midnight sequence",
+        "band": "LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 108,
+        "type": "RSPdx, SDRPlay"
+    },
+    {
+        "startTimestamp": "2024-02-06T21:57:29Z",
+        "content": "LasPalmas_Canarias_MW, Las Canteras, night",
+        "band": "MW",
+        "city": "Las Palmas",
+        "country": "CNR",
+        "countryId": 0,
+        "id": 110,
+        "type": "RSP1a, SDRPlay"
+    },
+    {
+        "startTimestamp": "2024-02-05T13:30:14Z",
+        "content": "GranCanaria_MW_daytime",
+        "band": "MW",
+        "city": "Puerto de Sardina",
+        "country": "CNR",
+        "countryId": 0,
+        "id": 112,
+        "type": "RSP1a, SDRPlay"
+    },
+    {
+        "startTimestamp": "2024-02-19T06:56:55+02:00",
+        "content": "LW band including Helissandur (Iceland) in audible quality",
+        "band": "LW",
+        "city": "Kangasala, Sahalahti, FI",
+        "country": "FI",
+        "countryId": 142,
+        "id": 114,
+        "type": "Receiver: Icom IC-R8600, resampled to 250kHz for STEMLAB125-14"
+    },
+    {
+        "startTimestamp": "2024-02-19T22:45:06+02:00",
+        "content": "LW band including Helissandur (Iceland) in audible quality",
+        "band": "LW",
+        "city": "Kangasala, Sahalahti, FI",
+        "country": "FI",
+        "countryId": 142,
+        "id": 116,
+        "type": "Receiver: Icom IC-R8600, original BW 120 kHz, resampled to 250kHz for STEMLAB125-14"
+    },
+    {
+        "startTimestamp": "2024-02-20T19:57:14+02:00",
+        "content": "LW band including Helissandur (Iceland) in audible quality",
+        "band": "LW",
+        "city": "Kangasala, Sahalahti, FI",
+        "country": "FI",
+        "countryId": 142,
+        "id": 118,
+        "type": "Receiver: Icom IC-R8600, original BW 120 kHz, resampled to 250kHz for STEMLAB125-14"
+    },
+    {
+        "startTimestamp": "2024-03-30T18:59:16+01:00",
+        "content": "MW band containing the program of Radio Caroline while celebrating its 60th anniversary (648kHz and 1368kHz)",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid (DE)",
+        "country": "Germany",
+        "countryId": 0,
+        "id": 120,
+        "type": "Stemlab125-14 "
+    },
+    {
+        "startTimestamp": "2022-12-31T03:51:57+01:00",
+        "content": "New Year's Memories 22/23: Wakeup in the morning on the last day of transmission of RTL on LW, ; RX Graz",
+        "band": "LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 122,
+        "type": "RSP1A"
+    },
+    {
+        "startTimestamp": "2024-05-12T10:08:54+02:00",
+        "content": "Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1",
+        "band": "MW",
+        "city": null,
+        "country": null,
+        "countryId": 0,
+        "id": 124,
+        "type": "synthetic"
+    },
+    {
+        "startTimestamp": "2024-06-30T11:53:51+02:00",
+        "content": "SAQ Grimeton, 100 years celebration, Alexanderson day 2024 ",
+        "band": "VLF - low LW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 126,
+        "type": "RSPdx, SDRPlay"
+    },
+    {
+        "startTimestamp": "2024-10-06T07:57:47+02:00",
+        "content": "SW 49m, special programm on 6055kHz: 100 Jahre Rundfunk in Österreich, Wolf Harranth (100 years of broadcasting in Austria)",
+        "band": "SW 49m",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "D",
+        "countryId": 0,
+        "id": 128,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2024-12-01T09:42:37+01:00",
+        "content": "Special transmission from SAQ Grimeton for celebrating the centennial of the first commercial transmission @17.2 kHz",
+        "band": "VLF + LW",
+        "city": "Kalkleiten (near Graz)",
+        "country": "AT",
+        "countryId": 2,
+        "id": 130,
+        "type": "RSPdx, SDRPlay"
+    },
+    {
+        "startTimestamp": "2024-12-01T09:42:15+01:00",
+        "content": "Special transmission from SAQ Grimeton for celebrating the centennial of the first commercial transmission @17.2 kHz, rec. Neunkirchen",
+        "band": "VLF",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 132,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2024-12-31T09:00:28+01:00",
+        "content": "Very last transmission from Moosbrunn (AUT) BC site, recording site: Neunkirchen-Seelscheid ",
+        "band": "SW 49m",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "D",
+        "countryId": 0,
+        "id": 134,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2024-12-31T09:42:45+01:00",
+        "content": "Very last transmission from Moosbrunn (AUT) BC site, recording site: Luzern (CH) ",
+        "band": "SW 49m",
+        "city": "Luzern",
+        "country": "CH",
+        "countryId": 8,
+        "id": 136,
+        "type": "SDRPlay RSP1a"
+    },
+    {
+        "startTimestamp": "2024-12-31T09:00:06+01:00",
+        "content": "Very last transmission from Moosbrunn (AUT) BC site, recording site: Graz (AUT) ",
+        "band": "SW 49m",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 138,
+        "type": "SDRPlay RSPdx"
+    },
+    {
+        "startTimestamp": "2024-12-24T07:44:05+01:00",
+        "content": "Xmas transmission from SAQ Grimeton @17.2 kHz, several LW stations",
+        "band": "VLF + LW",
+        "city": "Kalkleiten (near Graz)",
+        "country": "AT",
+        "countryId": 2,
+        "id": 140,
+        "type": "RSPdx, SDRPlay"
+    },
+    {
+        "startTimestamp": "2025-01-01T15:33:09+01:00",
+        "content": "MW New Year's day, QTH: Perfugas(Sardinia). Special: New year's concert 2025 of the Vienna Philharmonic Orchestra on RNE",
+        "band": "MW",
+        "city": "Perfugas, Sassari Province, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 142,
+        "type": "AirspyHF"
+    },
+    {
+        "startTimestamp": "2025-03-09T19:33:14+01:00",
+        "content": "MW incl. Radio Caroline while transmitting from the ship Ross Revenge (648kHz and 1368kHz)",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid (DE)",
+        "country": "Germany",
+        "countryId": 0,
+        "id": 144,
+        "type": "Stemlab125-14 "
+    },
+    {
+        "startTimestamp": "2025-03-30T18:51+02:00",
+        "content": "Goodbye Country Radio from Liblice at 639 kHz - 12 h before final closure",
+        "band": "MW",
+        "city": "Graz",
+        "country": "AT",
+        "countryId": 2,
+        "id": 146,
+        "type": "SDRPlay RSPdx"
+    },
+    {
+        "startTimestamp": "2025-07-02T08:45+02:00",
+        "content": "100th anniversary of the inauguration of Grimeton Radio Station   with the Alexanderson alternator @17.2 kHz",
+        "band": "VLF + LW",
+        "city": "Stattegg/Kalkleiten (near Graz)",
+        "country": "AT",
+        "countryId": 2,
+        "id": 148,
+        "type": "RSPdx, SDRPlay"
+    },
+    {
+        "startTimestamp": "2025-07-02T12:38:58+02:00",
+        "content": "Special transmission from SAQ Grimeton for celebrating the centennial of the official inauguration of the Grimeton radio station @17.2 kHz, rec. Neunkirchen",
+        "band": "VLF",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 150,
+        "type": "RSP1a"
+    },
+    {
+        "startTimestamp": "2025-12-08T18:55+01:00",
+        "content": "Spanish AM stations before closure later December 2025",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 152,
+        "type": "SDRplay RSP1a"
+    },
+    {
+        "startTimestamp": "2025-12-14T19:05:42+01:00",
+        "content": "MW while R Caroline was trasmitting from the Ross Revenge",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 154,
+        "type": "SDRplay RSP1a"
+    },
+    {
+        "startTimestamp": "2025-12-30T02:50:16+01:00",
+        "content": "Goodbye RNE ! Shutdown of the Spanish MW transmitter network, recording site Perfungas",
+        "band": "MW",
+        "city": "Perfugas, Sassari Province, I",
+        "country": "IT",
+        "countryId": 20,
+        "id": 156,
+        "type": "AirspyHF"
+    },
+    {
+        "startTimestamp": "2025-12-29T22:55+01:00",
+        "content": "Goodbye RNE ! Shutdown of the Spanish MW transmitter network, recording site Neunkirchen-Seelscheid",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "DE",
+        "countryId": 1,
+        "id": 158,
+        "type": "RedPitaya, STEMLAB 125-14"
+    },
+    {
+        "startTimestamp": "2025-12-31T22:30:01+01:00",
+        "content": "MW Silvester 2025 New Year 2026",
+        "band": "MW",
+        "city": "Neunkirchen-Seelscheid",
+        "country": "Germany",
+        "countryId": 0,
+        "id": 160,
+        "type": "StemLab125-14"
+    }
+]

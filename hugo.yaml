@@ -1,4 +1,4 @@
-baseURL: https://www.cohiradia.org
+baseURL: https://test.cohiradia.org
 title: Cohiradia
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
@@ -153,7 +153,7 @@ params:
     # Set to true to disable breadcrumb navigation.
     breadcrumb_disable: false
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
-    navbar_logo: true
+    navbar_logo: false
     # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
     navbar_translucent_over_cover_disable: true
     # Enable to show the side bar menu in its compact state.
