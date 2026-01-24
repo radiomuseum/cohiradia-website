@@ -34,7 +34,7 @@ print_printable_section: >-
   Unterseiten.
 print_click_to_print: Druckvorgang starten
 print_show_regular: Zur Standardansicht zurückkehren
-print_entire_section: Kapitel inkl. Unterseiten drucken
+print_entire_section: Kapitel drucken
 
 # Community
 community_join: >-
