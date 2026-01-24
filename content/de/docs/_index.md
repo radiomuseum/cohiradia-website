@@ -16,7 +16,7 @@ Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:
 * geeignete Software ([Beispiel](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1490,1562)) 
 * ein Archiv mit digitalisierten Breitband-AM-Signalen
 
-Für jedes dieser Elemente gibt es mehrere mögliche Realisierungsmöglichkeiten, je nach Anforderung und Budget. Während die Software vom COHIRADIA-team selbst geschrieben wird und grundsätzlich open-source ist, werden für einen Teil der Hardware (insbesondere Computer und Signalwandler) kommerzielle Produkte eingesetzt. Ein anderer Teil der Hardware (z.B. die Koppelgeräte) kann von handwerklich/elektronisch geschickten Anwender:innen selbst gefertigt werden. Abbildung 1 gibt einen schematischen Überblick unter Einbeziehung einiger aktuell getesteter Komponenten. 
+Für jedes dieser Elemente gibt es mehrere mögliche Realisierungsmöglichkeiten, je nach Anforderung und Budget. Während die Software vom COHIRADIA-Team selbst geschrieben wird und grundsätzlich open-source ist, werden für einen Teil der Hardware (insbesondere Computer und Signalwandler) kommerzielle Produkte eingesetzt. Ein anderer Teil der Hardware (z.B. die Koppelgeräte) kann von handwerklich/elektronisch geschickten Anwender:innen selbst gefertigt werden. Abbildung 1 gibt einen schematischen Überblick unter Einbeziehung einiger aktuell getesteter Komponenten. 
 
 {{% imgproc blockbild-buildingblocks_de_v1 Fit "1200x1000 webp" %}}
 *Abbildung 1:* Schematischer Überblick über die benötigten Elemente mit exemplarischer Abbildung aktuell eingesetzter komponenten. Das Datenarchiv ist nicht dargestellt, es befindet sich in der Regel auf einem lokalen Speichermedium am Steuercomputer.
