@@ -23,8 +23,10 @@ document.addEventListener("DOMContentLoaded", async function() {
   if (!table) return;
 
   try {
-    const response = await fetch("/api/metadata.json");
+    const response = await fetch("https://cohiradia.radiomuseum.org/api/metadata");
     const data = await response.json();
+
+    data.sort((a, b) => new Date(b.startTimestamp) - new Date(a.startTimestamp));
 
     data.forEach(item => {
       
@@ -47,7 +49,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         });
       
       date.innerHTML = `<span class="text-muted text-nowrap">${formatted}</span>`;
-      inhalt.textContent = item.content;
+      inhalt.innerHTML =  `<a href="/de/archiv/detail/?id=${item.id}">${item.content}</a>`;
       band.textContent = item.band;
       
       if(item.city){
