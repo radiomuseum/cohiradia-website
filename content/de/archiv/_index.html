@@ -5,37 +5,67 @@ type: "archiv"
 menu: { main: { weight: 10 } }
 ---
 
-<table class="table table-striped table-hover" id="archiveTable">
-  <thead>
-    <th>Datum/Uhrzeit</th>
-    <th>Inhalt</th>
-    <th>Band</th>
-    <th>Land</th>
-  </thead>
-  <tbody></tbody>
-</table>
+
+<ul class="nav nav-tabs" id="yearTabs" role="tablist"></ul>
+<div class="tab-content" id="yearTabsContent"></div>
 
 <script>
   document.addEventListener("DOMContentLoaded", async function () {
-    const table = document.getElementById("archiveTable");
-    if (!table) return;
-    const tbody = table.querySelector("tbody");
-    if (!tbody) return;
+    const yearTabs = document.getElementById("yearTabs");
+    const yearTabsContent = document.getElementById("yearTabsContent");
+    if (!yearTabs || !yearTabsContent) return;
 
     try {
       const response = await fetch("https://cohiradia.radiomuseum.org/api/metadata");
       const data = await response.json();
 
-      data.sort((a, b) => new Date(b.startTimestamp) - new Date(a.startTimestamp));
-
+      // Filter and group by year
+      const entriesByYear = {};
       data.forEach(item => {
         if (item.type !== "synthetic") {
-          const row = tbody.insertRow();
-          const date = row.insertCell();
-          const inhalt = row.insertCell();
-          const band = row.insertCell();
-          const land = row.insertCell();
+          const year = new Date(item.startTimestamp).getFullYear();
+          if (!entriesByYear[year]) entriesByYear[year] = [];
+          entriesByYear[year].push(item);
+        }
+      });
 
+      // Sort years descending
+      const years = Object.keys(entriesByYear).map(Number).sort((a, b) => b - a);
+
+      // Create tabs
+      years.forEach((year, idx) => {
+        const active = idx === 0 ? "active" : "";
+        const tabId = `tab-${year}`;
+        const count = entriesByYear[year].length;
+        const tab = document.createElement("li");
+        tab.className = "nav-item";
+        tab.role = "presentation";
+        tab.innerHTML = `<button class="nav-link ${active}" id="${tabId}-tab" data-bs-toggle="tab" data-bs-target="#${tabId}" type="button" role="tab" aria-controls="${tabId}" aria-selected="${active ? 'true' : 'false'}">${year}<sup><span class='badge bg-secondary ms-1'>${count}</span></sup></button>`;
+        yearTabs.appendChild(tab);
+      });
+
+      // Create tab panes with tables
+      years.forEach((year, idx) => {
+        const active = idx === 0 ? "show active" : "";
+        const tabId = `tab-${year}`;
+        const pane = document.createElement("div");
+        pane.className = `tab-pane fade ${active}`;
+        pane.id = tabId;
+        pane.role = "tabpanel";
+        pane.setAttribute("aria-labelledby", `${tabId}-tab`);
+
+        // Table for this year
+        const table = document.createElement("table");
+        table.className = "table table-striped table-hover";
+        const thead = document.createElement("thead");
+        thead.innerHTML = `<tr><th>Datum/Uhrzeit</th><th>Inhalt</th><th>Band</th><th>Land</th></tr>`;
+        table.appendChild(thead);
+        const tbody = document.createElement("tbody");
+
+        // Sort entries by date descending
+        entriesByYear[year].sort((a, b) => new Date(b.startTimestamp) - new Date(a.startTimestamp));
+        entriesByYear[year].forEach(item => {
+          const row = document.createElement("tr");
           const dateObj = new Date(item.startTimestamp);
           const formatted = dateObj.toLocaleString("de-DE", {
             year: "numeric",
@@ -44,17 +74,17 @@ menu: { main: { weight: 10 } }
             hour: "2-digit",
             minute: "2-digit"
           });
-
-          date.innerHTML = `<span class="text-muted text-nowrap">${formatted}</span>`;
-          inhalt.innerHTML = `<a href="/de/archiv/detail/?id=${item.id}">${item.content}</a>`;
-          band.textContent = item.band;
-
-          if (item.city) {
-            land.textContent = `${item.country} (${item.city})`;
-          } else {
-            land.textContent = item.country;
-          }
-        }
+          row.innerHTML = `
+            <td><span class="text-muted text-nowrap">${formatted}</span></td>
+            <td><a href="/de/archiv/detail/?id=${item.id}">${item.content}</a></td>
+            <td>${item.band}</td>
+            <td>${item.city ? `${item.country} (${item.city})` : item.country}</td>
+          `;
+          tbody.appendChild(row);
+        });
+        table.appendChild(tbody);
+        pane.appendChild(table);
+        yearTabsContent.appendChild(pane);
       });
     } catch (error) {
       console.error("Error loading data.", error);
