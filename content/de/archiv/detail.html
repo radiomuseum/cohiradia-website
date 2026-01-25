@@ -135,7 +135,7 @@ type: "archiv"
 
 <h2>Radiostationen</h2>
 
-<table id="stationTable">
+<table id="stationTable" class="table table-striped table-hover">
   <thead>
     <th>Frequency</th>
     <th>SNR</th>
@@ -208,6 +208,7 @@ type: "archiv"
       });
     } catch (error) {
       console.error("Could not load data:", error);
+      window.location.href = "/de/archiv";
     }
   });
 </script>
