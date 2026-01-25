@@ -93,8 +93,7 @@
     <div class="col-md-3">
       <strong id="labelUploadedBy"></strong>
     </div>
-    <div class="col-md-9">
-      Walter Barteczek
+    <div class="col-md-9" id="detailUploadedBy">
     </div>
   </div>
   <div class="row">
@@ -236,10 +235,10 @@
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id');
 
-        const response = await fetch(`https://cohiradia.radiomuseum.org/api/metadata/${id}`);
+        const response = await fetch(`${Cohiradia.baseUrl}/api/metadata/${id}`);
         const data = await response.json();
 
-        document.getElementById("downloadLink").href = `https://cohiradia.radiomuseum.org/view/recordings/${id}`;
+        document.getElementById("downloadLink").href = `${Cohiradia.baseUrl}/view/recordings/${id}`;
 
         // Helper function to set element text content
         const setField = (id, value) => {
@@ -263,7 +262,8 @@
           'detailEncoding': data["encoding"],
           'detailFilters': data["filters"],
           'detailPreAmp': data["preamp-settings"],
-          'detailRemarks': data["remark"]
+          'detailRemarks': data["remark"],
+          'detailUploadedBy': Cohiradia.users[data["upload-user-fk"] || 0]
         };
 
         Object.entries(fields).forEach(([id, value]) => setField(id, value));
