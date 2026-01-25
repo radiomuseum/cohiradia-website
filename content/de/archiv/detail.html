@@ -163,48 +163,47 @@ type: "archiv"
 
       document.getElementById("downloadLink").href = `https://cohiradia.radiomuseum.org/view/recordings/${id}`;
 
-      document.getElementById("detailTitle").textContent = data.content;
-      document.getElementById("detailBreadcrumb").textContent = data.content;
-      document.getElementById("detailDate").textContent = data["recording-date"];
-      document.getElementById("detailDuration").textContent = `${data["duration"]} Sekunden`;
-      document.getElementById("detailLocation").textContent = `${data["location-country"]}, ${data["location-city"]}`;
-      document.getElementById("detailBand").textContent = `${data["band"]}`;
-      document.getElementById("detailFrequency").textContent = `${data["frequency-low"]} ${data["frequency-unit"]} - ${data["frequency-high"]} ${data["frequency-unit"]}`;
-      document.getElementById("detailBandwidth").textContent = `${data["bandwidth"]} ${data["frequency-unit"]}`;
-      document.getElementById("detailDevice").textContent = `${data["recording-type"]}`;
-      document.getElementById("detailAntenna").textContent = `${data["antenna"]}`;
-      document.getElementById("detailCenterFrequency").textContent = `${data["center-frequency"]} ${data["frequency-unit"]}`;
-      document.getElementById("detailEncoding").textContent = `${data["encoding"]}`;
+      // Helper function to set element text content
+      const setField = (id, value) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = value || '-';
+      };
 
-      document.getElementById("detailFilters").textContent = `${data["filters"]}`;
-      document.getElementById("detailPreAmp").textContent = `${data["preamp-settings"]}`;
-      document.getElementById("detailRemarks").textContent = `${data["remark"]}`;
+      // Populate detail fields
+      const fields = {
+        'detailTitle': data.content,
+        'detailBreadcrumb': data.content,
+        'detailDate': data["recording-date"],
+        'detailDuration': `${data["duration"]} Sekunden`,
+        'detailLocation': `${data["location-country"] || ''}, ${data["location-city"] || ''}`.replace(/^,\s*|,\s*$/g, ''),
+        'detailBand': data["band"],
+        'detailFrequency': `${data["frequency-low"]} ${data["frequency-unit"]} - ${data["frequency-high"]} ${data["frequency-unit"]}`,
+        'detailBandwidth': `${data["bandwidth"]} ${data["frequency-unit"]}`,
+        'detailDevice': data["recording-type"],
+        'detailAntenna': data["antenna"],
+        'detailCenterFrequency': `${data["center-frequency"]} ${data["frequency-unit"]}`,
+        'detailEncoding': data["encoding"],
+        'detailFilters': data["filters"],
+        'detailPreAmp': data["preamp-settings"],
+        'detailRemarks': data["remark"]
+      };
+
+      Object.entries(fields).forEach(([id, value]) => setField(id, value));
 
       const table = document.getElementById("stationTable");
       if (!table) return;
 
+      const tbody = table.querySelector("tbody");
       data["radio-stations"].forEach(item => {
-        const row = table.insertRow();
-        const frequency = row.insertCell();
-        const snr = row.insertCell();
-        //const slevel = row.insertCell();
-        const country = row.insertCell();
-        const program = row.insertCell();
-        const txSite = row.insertCell();
-        //const txPower = row.insertCell();
-        //const remark = row.insertCell();
-
-
-        frequency.textContent = `${item.frequency} kHz`;
-        snr.textContent = `${item.snr}`;
-        //slevel.textContent = item["s-level"] ? `${item["s-level"]}` : "";
-        country.textContent = item["country"] ? `${item["country"]}` : "";
-        program.textContent = item["programme"] ? `${item["programme"]}` : "";
-        txSite.textContent = item["tx-site"] ? `${item["tx-site"]}` : "";
-        //txPower.textContent = item["tx-power"] ? `${item["tx-power"]}` : "";
-        //remark.textContent = item["remarks"] ? `${item["remarks"]}` : "";
-
-
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${item.frequency} kHz</td>
+          <td>${item.snr || '-'}</td>
+          <td>${item["country"] || '-'}</td>
+          <td>${item["programme"] || '-'}</td>
+          <td>${item["tx-site"] || '-'}</td>
+        `;
+        tbody.appendChild(row);
       });
     } catch (error) {
       console.error("Could not load data:", error);

@@ -90,7 +90,7 @@
               <td><span class="text-muted text-nowrap">${formatted}</span></td>
               <td><a href="/de/archiv/detail/?id=${item.id}">${item.content}</a></td>
               <td>${item.band}</td>
-              <td>${item.city ? `${item.country} (${item.city})` : item.country}</td>
+              <td>${item.city ? `${item.country || ''} (${item.city})` : (item.country || '')}</td>
             `;
             tbody.appendChild(row);
           });

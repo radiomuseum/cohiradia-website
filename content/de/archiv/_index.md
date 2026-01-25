@@ -1,5 +1,5 @@
 ---
-title: Archiv
+title: Cohiradia Archiv
 linkTitle: Archiv
 type: "archiv"
 menu: { main: { weight: 10 } }
