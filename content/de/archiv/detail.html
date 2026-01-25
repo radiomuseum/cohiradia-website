@@ -4,7 +4,7 @@ linkTitle: Aufnahme
 type: "archiv"
 ---
 
-<h2 id="detailTitle">Title</h2>
+<h2 id="detailTitle"></h2>
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/de/">Home</a></li>
@@ -190,6 +190,10 @@ type: "archiv"
 
       Object.entries(fields).forEach(([id, value]) => setField(id, value));
 
+      if(!data["radio-stations"] || data["radio-stations"].length === 0) {
+        document.getElementById("stationTable").outerHTML = '<p class="text-muted">Keine Radiostationen in dieser Aufnahme gefunden.</p>';
+        return;
+      }
       const table = document.getElementById("stationTable");
       if (!table) return;
 
