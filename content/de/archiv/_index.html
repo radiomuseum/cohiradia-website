@@ -5,7 +5,7 @@ type: "archiv"
 menu: { main: { weight: 10 } }
 ---
 
-<table class="table" id="archiveTable">
+<table class="table table-striped table-hover" id="archiveTable">
   <thead>
     <th>Datum/Uhrzeit</th>
     <th>Inhalt</th>
@@ -19,6 +19,8 @@ menu: { main: { weight: 10 } }
   document.addEventListener("DOMContentLoaded", async function () {
     const table = document.getElementById("archiveTable");
     if (!table) return;
+    const tbody = table.querySelector("tbody");
+    if (!tbody) return;
 
     try {
       const response = await fetch("https://cohiradia.radiomuseum.org/api/metadata");
@@ -27,10 +29,8 @@ menu: { main: { weight: 10 } }
       data.sort((a, b) => new Date(b.startTimestamp) - new Date(a.startTimestamp));
 
       data.forEach(item => {
-
         if (item.type !== "synthetic") {
-
-          const row = table.insertRow();
+          const row = tbody.insertRow();
           const date = row.insertCell();
           const inhalt = row.insertCell();
           const band = row.insertCell();
@@ -55,7 +55,6 @@ menu: { main: { weight: 10 } }
             land.textContent = item.country;
           }
         }
-
       });
     } catch (error) {
       console.error("Error loading data.", error);
