@@ -1,7 +1,8 @@
 {{ $synthetic := .Get "synthetic" | default "false" }}
 {{ $id := .Get "id" | default "archiveTable" }}
+{{ $lang := .Page.Lang | default "de" }}
 
-<div class="archive-table-wrapper" data-synthetic="{{ $synthetic }}" data-id="{{ $id }}">
+<div class="archive-table-wrapper" data-synthetic="{{ $synthetic }}" data-id="{{ $id }}" data-lang="{{ $lang }}">
   <ul class="nav nav-tabs" id="{{ $id }}-tabs" role="tablist"></ul>
   <div class="tab-content mt-3" id="{{ $id }}-content"></div>
 </div>
@@ -12,9 +13,34 @@
     if (!wrapper) return;
 
     const syntheticFilter = wrapper.dataset.synthetic === "true";
+    const lang = wrapper.dataset.lang || "de";
     const yearTabs = document.getElementById("{{ $id }}-tabs");
     const yearTabsContent = document.getElementById("{{ $id }}-content");
 
+    // Translations
+    const i18n = {
+      de: {
+        dateTime: "Datum/Uhrzeit",
+        content: "Inhalt",
+        band: "Band",
+        country: "Land",
+        noEntries: "Keine Einträge gefunden.",
+        errorLoading: "Fehler beim Laden der Daten.",
+        detailUrl: "/de/archiv/detail/"
+      },
+      en: {
+        dateTime: "Date/Time",
+        content: "Content",
+        band: "Band",
+        country: "Country",
+        noEntries: "No entries found.",
+        errorLoading: "Error loading data.",
+        detailUrl: "/en/archiv/detail/"
+      }
+    };
+
+    const t = i18n[lang] || i18n.de;
+`<p class="text-muted">${t.noEntries}</p>`
     document.addEventListener("DOMContentLoaded", async function () {
       if (!yearTabs || !yearTabsContent) return;
 
@@ -70,7 +96,7 @@
           const table = document.createElement("table");
           table.className = "table table-striped table-hover";
           const thead = document.createElement("thead");
-          thead.innerHTML = `<tr><th>Datum/Uhrzeit</th><th>Inhalt</th><th>Band</th><th>Land</th></tr>`;
+          thead.innerHTML = `<tr><th>${t.dateTime}</th><th>${t.content}</th><th>${t.band}</th><th>${t.country}</th></tr>`;
           table.appendChild(thead);
           const tbody = document.createElement("tbody");
 
@@ -88,7 +114,7 @@
             });
             row.innerHTML = `
               <td><span class="text-muted text-nowrap">${formatted}</span></td>
-              <td><a href="/de/archiv/detail/?id=${item.id}">${item.content}</a></td>
+              <td><a href="${t.detailUrl}?id=${item.id}">${item.content}</a></td>
               <td>${item.band}</td>
               <td>${item.city ? `${item.country || ''} (${item.city})` : (item.country || '')}</td>
             `;
@@ -100,7 +126,7 @@
         });
       } catch (error) {
         console.error("Error loading data.", error);
-        yearTabsContent.innerHTML = '<p class="text-danger">Fehler beim Laden der Daten.</p>';
+        yearTabsContent.innerHTML = `<p class="text-danger">${t.errorLoading}</p>`;
       }
     });
   })();
