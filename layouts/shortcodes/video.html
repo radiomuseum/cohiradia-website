@@ -1,0 +1,21 @@
+{{- /* 
+Shortcode für responsive Videos mit Vorschaubild
+Verwendung: {{< video url="URL" poster="poster-url" width="20%" align="right" >}}
+*/ -}}
+
+{{ $url := .Get "url" }}
+{{ $poster := .Get "poster" }}
+{{ $width := .Get "width" | default "20%" }}
+{{ $align := .Get "align" | default "center" }}
+
+<div style="float: {{ $align }}; margin: 0 20px 20px 0; width: {{ $width }}; min-width: 200px;">
+  <video 
+    width="100%" 
+    height="auto" 
+    controls 
+    style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: block;"
+    {{ if $poster }}poster="{{ $poster }}"{{ end }}>
+    <source src="{{ $url }}" type="video/mp4">
+    Ihr Browser unterstützt das Video-Tag nicht.
+  </video>
+</div>

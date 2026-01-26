@@ -1,0 +1,14 @@
+{{- /* 
+Shortcode für Blocksatz (text-align: justify)
+Verwendung: {{< justify >}}Ihr Text hier{{< /justify >}}
+*/ -}}
+
+{{ if .IsNamedParams }}
+  <div style="text-align: justify;">
+    {{- .Inner -}}
+  </div>
+{{ else }}
+  <div style="text-align: justify;">
+    {{- .Inner -}}
+  </div>
+{{ end }}
