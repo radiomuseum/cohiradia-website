@@ -1,21 +1,56 @@
 {{- /* 
-Shortcode für responsive Videos mit Vorschaubild
-Verwendung: {{< video url="URL" poster="poster-url" width="20%" align="right" >}}
+Shortcode für Videos als Link mit Thumbnail
+Verwendung:
+  {{< video url="URL" width="20%" align="right" showframe_time="5.5" >}}
+  - showframe_time: Frame und Wiedergabe bei dieser Zeit
+  
+  {{< video url="URL" width="20%" align="right" showframe_time="10" playstart="30" >}}
+  - showframe_time: Zeige Frame bei dieser Zeit
+  - playstart: Starte Wiedergabe bei dieser Zeit (optional)
+stylelint-disable
 */ -}}
 
 {{ $url := .Get "url" }}
-{{ $poster := .Get "poster" }}
 {{ $width := .Get "width" | default "20%" }}
 {{ $align := .Get "align" | default "center" }}
+{{ $showframe_time := .Get "showframe_time" }}
+{{ $playstart := .Get "playstart" }}
+{{ $id := now.Unix }}
 
-<div style="float: {{ $align }}; margin: 0 20px 20px 0; width: {{ $width }}; min-width: 200px;">
-  <video 
-    width="100%" 
-    height="auto" 
-    controls 
-    style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: block;"
-    {{ if $poster }}poster="{{ $poster }}"{{ end }}>
-    <source src="{{ $url }}" type="video/mp4">
-    Ihr Browser unterstützt das Video-Tag nicht.
-  </video>
+{{ $linkUrl := $url }}
+{{ if $playstart }}
+  {{ $linkUrl = printf "%s#t=%s" $url $playstart }}
+{{ else if $showframe_time }}
+  {{ $linkUrl = printf "%s#t=%s" $url $showframe_time }}
+{{ end }}
+
+<div style="float: {{ $align }}; margin: 0 20px 20px 0; width: {{ $width }}; min-width: 200px; position: relative;">
+  <a href="{{ $linkUrl }}" style="display: block; text-decoration: none;">
+    <video 
+      id="video-{{ $id }}"
+      width="100%" 
+      height="auto" 
+      style="display: block; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); cursor: pointer;">
+      <source src="{{ $url }}" type="video/mp4">
+    </video>
+    <!-- Play-Button-Overlay -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 50px; height: 50px; background-color: rgba(255, 255, 255, 0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; pointer-events: none;">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="#000" style="margin-left: 2px;">
+        <path d="M8 5v14l11-7z"/>
+      </svg>
+    </div>
+  </a>
 </div>
+
+{{ if $showframe_time }}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const video = document.getElementById('video-{{ $id }}');
+  if (video) {
+    video.addEventListener('loadedmetadata', function() {
+      video.currentTime = {{ $showframe_time }};
+    });
+  }
+});
+</script>
+{{ end }}
