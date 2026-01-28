@@ -4,10 +4,27 @@ linkTitle: Installation
 date: 2026-01-01
 weight: 6
 description: >
-  Installtion
+  Installationsanleitung mit intelligenter Auswahl
 ---
 
+## Installationsanleitung
 
-Hier würde ich eine Liste bestimmter, gut getesteter Kombinationen (z.B. PC - COHIWizard - STEMLAB, COHI-Mini-fl2k, ...) anbieten, und dafür jeweils auf eine übersichtliche Installationsanleitung auf einer dritten Ebene verlinken. Da hilft die Einführung von ISO-Abbildern der benötigten Firmware nun ganz gut, um das ganze so einfach wie möglich zu machen.
+Wähle deine Hardware- und Softwarekonfiguration, um zur passenden Installationsanleitung zu gelangen:
 
-<!-- comment -->
+{{< installation-guide >}}
+
+## Verfügbare Kombinationen
+
+Die folgende Tabelle zeigt eine Übersicht der verfügbaren Kombinationen:
+
+| Control-Computer | Signalwandler | OS      | Software           |
+|------------------|---------------|---------|-------------------|
+| PC               | STEMLAB       | Windows | COHIWizard exe     |
+| PC               | STEMLAB       | Linux   | COHIWizard Python  |
+| PC               | fl2k-Dongle   | Windows | COHIWizard exe     |
+| PC               | STEMLAB       | Linux   | COHI-Player Mini   |
+| Raspberry-Pi     | STEMLAB       | Linux   | COHIWizard Python  |
+| Raspberry-Pi     | fl2k-Dongle   | Linux   | COHIWizard Python  |
+| Raspberry-Pi     | STEMLAB       | Linux   | COHI-Player Mini   |
+
+**Hinweis:** Diese Kombinationen sind aktuell verfügbar. Weitere Kombinationen folgen in Kürze.
