@@ -1,291 +1,484 @@
-{{- /* 
-Installation Guide Shortcode
-Zeigt einen Selection Guide für Installation basierend auf Kategorien
-Die gültigen Kombinationen werden aus den existierenden Seiten bestimmt
-*/ -}}
-
-{{- $lang := .Page.Lang | default "de" -}}
+{{- /* Installation Guide Shortcode - Vereinfachte JavaScript-Version */ -}}
 {{- $guideId := .Get "id" | default "installationGuide" -}}
+{{- $basePath := .Page.RelPermalink -}}
 
-{{- /* Kategorien definieren (deutsch) */ -}}
-{{- $categories := dict
-  "computer" (dict "label" "Control-Computer" "options" (slice 
-    (dict "id" "pc" "label" "PC")
-    (dict "id" "raspberry-pi" "label" "Raspberry-Pi")
-  ))
-  "wandler" (dict "label" "Signalwandler" "options" (slice
-    (dict "id" "stemlab" "label" "STEMLAB")
-    (dict "id" "fl2k-dongle" "label" "fl2k-Dongle")
-    (dict "id" "adalm2000" "label" "ADALM2000")
-  ))
-  "os" (dict "label" "Betriebssystem" "options" (slice
-    (dict "id" "windows" "label" "Windows")
-    (dict "id" "linux" "label" "Linux")
-  ))
-  "software" (dict "label" "Software" "options" (slice
-    (dict "id" "cohiwizard-exe" "label" "COHIWizard exe")
-    (dict "id" "cohiwizard-python" "label" "COHIWizard Python")
-    (dict "id" "cohi-player-mini" "label" "COHI-Player Mini")
-  ))
--}}
-
-{{- /* Scan alle Unterseiten und extrahiere gültige Kombinationen */ -}}
-{{- $validCombos := slice -}}
-{{- $currentPage := .Page -}}
-
-{{- range $currentPage.Sections -}}
-  {{- if .Params.combo -}}
-    {{- $combo := .Params.combo -}}
-    {{- if and $combo.computer $combo.wandler $combo.os $combo.software -}}
-      {{- $comboStr := printf "%s-%s-%s-%s" $combo.computer $combo.wandler $combo.os $combo.software -}}
-      {{- $validCombos = $validCombos | append $comboStr -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-
-{{- /* Als JSON für JavaScript verfügbar machen */ -}}
-{{- $validCombosJson := jsonify $validCombos -}}
-
-<div class="installation-guide-wrapper" id="{{ $guideId }}" data-valid-combos='{{ $validCombosJson }}' data-debug-count="{{ len $validCombos }}">
-  <div class="installation-guide-form">
-    
-    {{- range $catKey, $catData := $categories }}
-    <div class="guide-category mb-4">
-      <h5 class="guide-category-label mb-3">{{ $catData.label }}</h5>
-      <div class="guide-options">
-        {{- range $catData.options }}
-        <div class="form-check">
-          <input 
-            class="form-check-input guide-radio" 
-            type="radio" 
-            name="category-{{ $catKey }}" 
-            id="option-{{ .id }}" 
-            value="{{ .id }}"
-            data-category="{{ $catKey }}"
-          >
-          <label class="form-check-label" for="option-{{ .id }}">
-            {{ .label }}
-          </label>
-        </div>
-        {{- end }}
-      </div>
-    </div>
-    {{- end }}
-
-    <div class="guide-actions mt-5">
-      <button id="guide-submit" class="btn btn-primary" disabled>
-        <span class="btn-text">Auswählen</span>
-      </button>
-    </div>
-  </div>
-</div>
+<div class="card border-start border-primary border-4 shadow-sm my-4" id="{{ $guideId }}" data-base-path="{{ $basePath }}"></div>
 
 <script>
 (function() {
+  // ========== KONFIGURATION ==========
+  const config = {
+    categories: {
+      computer: {
+        label: "Control-Computer",
+        options: [
+          { id: "pc", label: "PC" },
+          { id: "raspberry-pi", label: "Raspberry-Pi" }
+        ]
+      },
+      wandler: {
+        label: "Signalwandler",
+        options: [
+          { id: "stemlab", label: "STEMLAB" },
+          { id: "fl2k-dongle", label: "fl2k-Dongle" },
+          { id: "adalm2000", label: "ADALM2000" }
+        ]
+      },
+      os: {
+        label: "Betriebssystem",
+        options: [
+          { id: "windows", label: "Windows" },
+          { id: "linux", label: "Linux" }
+        ]
+      },
+      software: {
+        label: "Software",
+        options: [
+          { id: "cohiwizard-exe", label: "COHIWizard exe" },
+          { id: "cohiwizard-python", label: "COHIWizard Python" },
+          { id: "cohi-player-mini", label: "COHI-Player Mini" }
+        ]
+      }
+    },
+    
+    // Gültige Kombinationen
+    validCombos: [
+      // PC + STEMLAB
+      { computer: "pc", wandler: "stemlab", os: "windows", software: "cohiwizard-exe" },
+      { computer: "pc", wandler: "stemlab", os: "windows", software: "cohiwizard-python" },
+      
+      // PC + fl2k-Dongle
+      { computer: "pc", wandler: "fl2k-dongle", os: "windows", software: "cohiwizard-exe" },
+      
+      // Raspberry Pi + STEMLAB
+      { computer: "raspberry-pi", wandler: "stemlab", os: "linux", software: "cohiwizard-python" },
+      
+      // Raspberry Pi + ADALM2000
+      { computer: "raspberry-pi", wandler: "adalm2000", os: "linux", software: "cohi-player-mini" },
+      
+      // Weitere Kombinationen hier hinzufügen
+    ]
+  };
+  
   const guideId = "{{ $guideId }}";
+  const basePath = "{{ $basePath }}";
   const wrapper = document.getElementById(guideId);
   if (!wrapper) return;
 
-  const validCombosRaw = wrapper.dataset.validCombos || "[]";
-  let validCombos = [];
-  try {
-    validCombos = JSON.parse(validCombosRaw);
-  } catch (e) {
-    console.error("Invalid validCombos JSON:", e);
-  }
-
-  const submitBtn = document.getElementById("guide-submit");
-  const radioButtons = wrapper.querySelectorAll(".guide-radio");
-  const categories = ["computer", "wandler", "os", "software"];
-
-  console.log("=== INSTALLATION GUIDE DEBUG ===");
-  console.log("Valid combos found:", validCombos);
-  console.log("Raw JSON:", validCombosRaw);
-  console.log("Debug count:", wrapper.dataset.debugCount);
-  console.log("=====================================");
-
-  /**
-   * Prüft ob es mindestens eine gültige Kombination gibt,
-   * die diese Radio-Option UND alle aktuellen Selektionen enthält
-   */
-  function isRadioOptionValid(testRadio) {
-    const testCategory = testRadio.dataset.category;
-    const testValue = testRadio.value;
-
-    // Sammle alle bereits gewählten Kategorien
-    const selections = {};
-    radioButtons.forEach(radio => {
-      if (radio.checked && radio.dataset.category !== testCategory) {
-        selections[radio.dataset.category] = radio.value;
-      }
-    });
-
-    // Prüfe ob es mindestens eine gültige Kombo gibt, die:
-    // 1. Diese Radio-Option enthält
-    // 2. Alle bisherigen Selektionen erfüllt
+  // ========== DOM AUFBAU ==========
+  function buildUI() {
+    const cardBody = document.createElement('div');
+    cardBody.className = 'card-body';
     
-    const matchingCombos = validCombos.filter(combo => {
-      // Combo-String z.B. "pc-stemlab-windows-cohiwizard-exe"
-      // Muss die Option mit ihrem Wert enthalten
+    // Header mit Titel und Fortschrittsanzeige
+    const header = document.createElement('div');
+    header.className = 'mb-4';
+    
+    const title = document.createElement('h4');
+    title.className = 'card-title mb-3';
+    title.textContent = 'Installations-Konfigurator';
+    header.appendChild(title);
+    
+    // Fortschrittsbalken
+    const progressWrapper = document.createElement('div');
+    progressWrapper.className = 'mb-3';
+    
+    const progressLabel = document.createElement('div');
+    progressLabel.className = 'd-flex justify-content-between align-items-center mb-2';
+    progressLabel.innerHTML = `
+      <small class="text-muted">Fortschritt</small>
+      <small class="text-muted"><span id="progress-count">0</span> von ${Object.keys(config.categories).length} Schritten</small>
+    `;
+    progressWrapper.appendChild(progressLabel);
+    
+    const progressBar = document.createElement('div');
+    progressBar.className = 'progress';
+    progressBar.style.height = '8px';
+    progressBar.innerHTML = '<div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>';
+    progressWrapper.appendChild(progressBar);
+    
+    header.appendChild(progressWrapper);
+    cardBody.appendChild(header);
+    
+    // Kategorien durchlaufen
+    const categoryKeys = Object.keys(config.categories);
+    Object.entries(config.categories).forEach(([catKey, catData], index) => {
+      const categoryDiv = document.createElement('div');
+      categoryDiv.className = 'mb-4';
+      categoryDiv.dataset.category = catKey;
       
-      // Prüfe ob dieser Wert in der Kombo vorkommt
-      if (!combo.includes(testValue)) {
-        return false;
+      // Header mit Nummer und Label
+      const headerDiv = document.createElement('div');
+      headerDiv.className = 'd-flex align-items-center mb-3';
+      
+      const badge = document.createElement('span');
+      badge.className = 'badge bg-secondary me-2 category-badge';
+      badge.textContent = index + 1;
+      headerDiv.appendChild(badge);
+      
+      const label = document.createElement('h5');
+      label.className = 'mb-0 fw-semibold';
+      label.textContent = catData.label;
+      headerDiv.appendChild(label);
+      
+      // Selection Summary Badge (initially hidden)
+      const summaryBadge = document.createElement('span');
+      summaryBadge.className = 'badge bg-primary ms-auto selection-summary';
+      summaryBadge.style.display = 'none';
+      summaryBadge.dataset.category = catKey;
+      headerDiv.appendChild(summaryBadge);
+      
+      // Reset Button (initially hidden)
+      const resetBtn = document.createElement('button');
+      resetBtn.className = 'btn btn-sm btn-outline-secondary ms-2 category-reset';
+      resetBtn.style.display = 'none';
+      resetBtn.dataset.category = catKey;
+      resetBtn.innerHTML = '×';
+      resetBtn.title = 'Auswahl zurücksetzen';
+      resetBtn.setAttribute('aria-label', 'Auswahl zurücksetzen');
+      headerDiv.appendChild(resetBtn);
+      
+      categoryDiv.appendChild(headerDiv);
+      
+      // Options Grid
+      const optionsDiv = document.createElement('div');
+      optionsDiv.className = 'row g-2';
+      
+      catData.options.forEach(option => {
+        const col = document.createElement('div');
+        col.className = 'col-12 col-sm-6 col-lg-4';
+        
+        const checkDiv = document.createElement('div');
+        checkDiv.className = 'option-card p-3 border rounded';
+        checkDiv.dataset.optionId = option.id;
+        
+        const input = document.createElement('input');
+        input.className = 'form-check-input guide-radio me-2';
+        input.type = 'radio';
+        input.name = `category-${catKey}`;
+        input.id = `option-${option.id}`;
+        input.value = option.id;
+        input.dataset.category = catKey;
+        
+        const labelEl = document.createElement('label');
+        labelEl.className = 'form-check-label w-100 user-select-none cursor-pointer';
+        labelEl.htmlFor = `option-${option.id}`;
+        labelEl.textContent = option.label;
+        
+        checkDiv.appendChild(input);
+        checkDiv.appendChild(labelEl);
+        col.appendChild(checkDiv);
+        optionsDiv.appendChild(col);
+      });
+      
+      categoryDiv.appendChild(optionsDiv);
+      
+      // Separator (außer beim letzten Element)
+      if (index < categoryKeys.length - 1) {
+        const separator = document.createElement('hr');
+        separator.className = 'my-4';
+        categoryDiv.appendChild(separator);
       }
       
-      // Prüfe ob alle bereits gewählten Selektionen in dieser Kombo vorhanden sind
-      for (const [cat, val] of Object.entries(selections)) {
-        if (!combo.includes(val)) {
-          return false;
-        }
-      }
-      
-      return true;
+      cardBody.appendChild(categoryDiv);
     });
-
-    return matchingCombos.length > 0;
+    
+    // Submit Section
+    const submitSection = document.createElement('div');
+    submitSection.className = 'mt-4 pt-4 border-top';
+    
+    const submitBtn = document.createElement('button');
+    submitBtn.id = 'guide-submit';
+    submitBtn.className = 'btn btn-primary btn-lg w-100';
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '→ Zur Installationsanleitung';
+    
+    submitSection.appendChild(submitBtn);
+    cardBody.appendChild(submitSection);
+    
+    wrapper.appendChild(cardBody);
   }
 
-  /**
-   * Disablet/enablet Radiobuttons basierend auf gültigen Kombinationen
-   */
-  function updateDisabledStates() {
-    // Zähle wie viele Kategorien bereits ausgewählt sind
-    let selectedCount = 0;
-    categories.forEach(cat => {
-      if (wrapper.querySelector(`input[data-category="${cat}"]:checked`)) {
-        selectedCount++;
-      }
+  // ========== LOGIK ==========
+  function getSelectedValues() {
+    const selections = {};
+    const radios = wrapper.querySelectorAll('.guide-radio:checked');
+    radios.forEach(radio => {
+      selections[radio.dataset.category] = radio.value;
     });
+    return selections;
+  }
 
-    radioButtons.forEach(radio => {
-      // Beim initialen Load (keine Auswahl): alles enabled
-      if (selectedCount === 0) {
-        radio.disabled = false;
-        const label = wrapper.querySelector(`label[for="${radio.id}"]`);
-        if (label) {
-          label.classList.remove("opacity-50", "text-muted");
+  function isOptionValid(category, value) {
+    const currentSelections = getSelectedValues();
+    delete currentSelections[category]; // Diese Kategorie nicht prüfen
+    
+    // Test-Selektion mit dieser Option
+    const testSelections = { ...currentSelections, [category]: value };
+    
+    // Prüfe ob es mindestens eine gültige Kombo gibt
+    return config.validCombos.some(combo => {
+      return Object.entries(testSelections).every(([cat, val]) => {
+        return combo[cat] === val;
+      });
+    });
+  }
+
+  function updateUI() {
+    const selections = getSelectedValues();
+    const selectedCount = Object.keys(selections).length;
+    const totalCount = Object.keys(config.categories).length;
+    
+    // Update Fortschrittsbalken
+    const progressBar = document.getElementById('progress-bar');
+    const progressCount = document.getElementById('progress-count');
+    const percentage = (selectedCount / totalCount) * 100;
+    
+    if (progressBar) {
+      progressBar.style.width = `${percentage}%`;
+      progressBar.setAttribute('aria-valuenow', percentage);
+    }
+    if (progressCount) {
+      progressCount.textContent = selectedCount;
+    }
+    
+    // Update Category Badges
+    Object.keys(config.categories).forEach((catKey, index) => {
+      const categoryDiv = wrapper.querySelector(`[data-category="${catKey}"]`);
+      const badge = categoryDiv?.querySelector('.category-badge');
+      const summaryBadge = categoryDiv?.querySelector('.selection-summary');
+      const resetBtn = categoryDiv?.querySelector('.category-reset');
+      
+      if (selections[catKey]) {
+        badge?.classList.remove('bg-secondary');
+        badge?.classList.add('bg-success');
+        
+        // Zeige Auswahl-Badge
+        const selectedOption = config.categories[catKey].options.find(opt => opt.id === selections[catKey]);
+        if (summaryBadge && selectedOption) {
+          summaryBadge.textContent = selectedOption.label;
+          summaryBadge.style.display = 'inline-block';
+        }
+        
+        // Zeige Reset-Button
+        if (resetBtn) {
+          resetBtn.style.display = 'inline-block';
         }
       } else {
-        // Wenn Auswahl gemacht wurde: prüfe Kompatibilität
-        const isValid = isRadioOptionValid(radio);
-        radio.disabled = !isValid;
-        
-        const label = wrapper.querySelector(`label[for="${radio.id}"]`);
-        if (label) {
-          if (radio.disabled) {
-            label.classList.add("opacity-50", "text-muted");
-          } else {
-            label.classList.remove("opacity-50", "text-muted");
-          }
+        badge?.classList.remove('bg-success');
+        badge?.classList.add('bg-secondary');
+        if (summaryBadge) {
+          summaryBadge.style.display = 'none';
+        }
+        if (resetBtn) {
+          resetBtn.style.display = 'none';
         }
       }
     });
-
-    // Submitbutton enablen wenn alle 4 Kategorien gewählt
-    const allSelected = categories.every(cat => {
-      return wrapper.querySelector(`input[data-category="${cat}"]:checked`);
-    });
-
-    submitBtn.disabled = !allSelected;
-  }
-
-  /**
-   * Erstellt den Ziellink aus Kombination
-   */
-  function buildTargetUrl() {
-    const selections = {};
-    radioButtons.forEach(radio => {
+    
+    // Update Option Cards
+    wrapper.querySelectorAll('.guide-radio').forEach(radio => {
+      const category = radio.dataset.category;
+      const value = radio.value;
+      const optionCard = radio.closest('.option-card');
+      
+      if (selectedCount === 0) {
+        radio.disabled = false;
+        optionCard?.classList.remove('disabled', 'opacity-50', 'pe-none');
+        optionCard?.classList.add('available');
+      } else {
+        const isValid = isOptionValid(category, value);
+        radio.disabled = !isValid;
+        
+        if (radio.disabled) {
+          optionCard?.classList.add('disabled', 'opacity-50', 'pe-none');
+          optionCard?.classList.remove('available');
+        } else {
+          optionCard?.classList.remove('disabled', 'opacity-50', 'pe-none');
+          optionCard?.classList.add('available');
+        }
+      }
+      
+      // Checked State
       if (radio.checked) {
-        selections[radio.dataset.category] = radio.value;
+        optionCard?.classList.add('selected');
+      } else {
+        optionCard?.classList.remove('selected');
       }
     });
-
-    const combo = [
-      selections.computer,
-      selections.wandler,
-      selections.os,
-      selections.software
-    ].join("-");
-
-    const basePath = "{{ .Page.RelPermalink }}";
-    return basePath + combo + "/";
+    
+    // Submit Button
+    const submitBtn = document.getElementById('guide-submit');
+    const categoryKeys = Object.keys(config.categories);
+    const allSelected = categoryKeys.every(cat => selections[cat]);
+    submitBtn.disabled = !allSelected;
+    
+    if (allSelected) {
+      submitBtn.classList.add('pulse');
+    } else {
+      submitBtn.classList.remove('pulse');
+    }
   }
 
-  // Event Listener
-  radioButtons.forEach(radio => {
-    radio.addEventListener("change", updateDisabledStates);
-  });
+  function buildTargetUrl() {
+    const selections = getSelectedValues();
+    const categoryKeys = Object.keys(config.categories);
+    const combo = categoryKeys.map(cat => selections[cat]).join('-');
+    return basePath + combo + '/';
+  }
 
-  submitBtn.addEventListener("click", () => {
-    const url = buildTargetUrl();
-    window.location.href = url;
+  // ========== INITIALISIERUNG ==========
+  buildUI();
+  
+  // Event Listener für Radio-Buttons
+  wrapper.addEventListener('change', (e) => {
+    if (e.target.classList.contains('guide-radio')) {
+      updateUI();
+    }
   });
-
-  // Initial state
-  updateDisabledStates();
+  
+  // Event Listener für Reset-Buttons
+  wrapper.addEventListener('click', (e) => {
+    const resetBtn = e.target.closest('.category-reset');
+    if (resetBtn) {
+      const category = resetBtn.dataset.category;
+      const radios = wrapper.querySelectorAll(`input[data-category="${category}"]`);
+      radios.forEach(radio => {
+        radio.checked = false;
+      });
+      updateUI();
+    }
+  });
+  
+  const submitBtn = document.getElementById('guide-submit');
+  submitBtn.addEventListener('click', () => {
+    window.location.href = buildTargetUrl();
+  });
+  
+  updateUI();
 })();
 </script>
 
 <style>
-.installation-guide-wrapper {
-  margin: 2rem 0;
-  padding: 1.5rem;
+/* Option Cards */
+.option-card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  background-color: #fff;
+  position: relative;
+}
+
+.option-card.available:hover {
+  background-color: rgba(var(--bs-primary-rgb), 0.05);
+  border-color: var(--bs-primary) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.option-card.selected {
+  background-color: rgba(var(--bs-success-rgb), 0.1);
+  border-color: var(--bs-success) !important;
+  border-width: 2px !important;
+}
+
+.option-card.disabled {
+  cursor: not-allowed;
   background-color: #f8f9fa;
-  border-radius: 0.375rem;
-  border-left: 4px solid #0d6efd;
 }
 
-.guide-category {
-  padding: 1rem 0;
+/* Radio Buttons */
+.guide-radio {
+  margin-top: 0.1rem;
 }
 
-.guide-category-label {
+.guide-radio:checked {
+  background-color: var(--bs-success);
+  border-color: var(--bs-success);
+}
+
+/* Labels */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.option-card.selected .form-check-label {
   font-weight: 600;
-  color: #212529;
-  margin-bottom: 0.75rem;
+  color: var(--bs-success);
 }
 
-.guide-options {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0.75rem;
+/* Category Badges */
+.category-badge {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
-.guide-options .form-check {
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  transition: background-color 0.2s;
+.selection-summary {
+  font-size: 0.85rem;
+  animation: fadeIn 0.3s ease;
 }
 
-.guide-options .form-check:hover:not(.disabled) {
-  background-color: rgba(13, 110, 253, 0.1);
+.category-reset {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  animation: fadeIn 0.3s ease;
 }
 
-.guide-options .form-check-input:disabled + .form-check-label {
-  opacity: 0.5;
-  color: #6c757d;
-  cursor: not-allowed;
+.category-reset:hover {
+  background-color: var(--bs-danger);
+  border-color: var(--bs-danger);
+  color: white;
+  transform: rotate(90deg);
 }
 
-.guide-actions {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid #dee2e6;
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
 }
 
-.guide-actions .btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
+/* Progress Bar */
+.progress {
+  background-color: #e9ecef;
 }
 
-.opacity-50 {
-  opacity: 0.5;
+.progress-bar {
+  transition: width 0.4s ease;
+  background: linear-gradient(90deg, var(--bs-primary), var(--bs-success));
 }
 
-.text-muted {
-  color: #6c757d !important;
+/* Submit Button Pulse */
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(var(--bs-primary-rgb), 0.7); }
+  50% { box-shadow: 0 0 0 10px rgba(var(--bs-primary-rgb), 0); }
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .option-card {
+    font-size: 0.9rem;
+  }
+  
+  .category-badge {
+    width: 28px;
+    height: 28px;
+    font-size: 0.85rem;
+  }
 }
 </style>
