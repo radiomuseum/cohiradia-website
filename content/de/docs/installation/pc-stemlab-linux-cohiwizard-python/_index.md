@@ -3,12 +3,9 @@ title: PC + STEMLAB + Linux + COHIWizard Python
 linkTitle: PC / STEMLAB / Linux / COHIWizard Python
 date: 2026-01-28
 weight: 11
-nav_exclude: true
-combo:
-  computer: pc
-  wandler: stemlab
-  os: linux
-  software: cohiwizard-python
+_build:
+  list: never
+  render: always
 description: >
   Installationsanleitung für: PC mit STEMLAB Signalwandler unter Linux mit COHIWizard Python
 ---

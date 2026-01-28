@@ -3,12 +3,9 @@ title: Raspberry-Pi + fl2k-Dongle + Linux + COHIWizard Python
 linkTitle: Raspberry-Pi / fl2k-Dongle / Linux / COHIWizard Python
 date: 2026-01-28
 weight: 14
-nav_exclude: true
-combo:
-  computer: raspberry-pi
-  wandler: fl2k-dongle
-  os: linux
-  software: cohiwizard-python
+_build:
+  list: never
+  render: always
 description: >
   Installationsanleitung für: Raspberry-Pi mit fl2k-Dongle Signalwandler unter Linux mit COHIWizard Python
 ---

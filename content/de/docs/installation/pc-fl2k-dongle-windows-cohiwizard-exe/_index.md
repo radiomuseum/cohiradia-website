@@ -3,12 +3,9 @@ title: PC + fl2k-Dongle + Windows + COHIWizard exe
 linkTitle: PC / fl2k-Dongle / Windows / COHIWizard exe
 date: 2026-01-28
 weight: 12
-nav_exclude: true
-combo:
-  computer: pc
-  wandler: fl2k-dongle
-  os: windows
-  software: cohiwizard-exe
+_build:
+  list: never
+  render: always
 description: >
   Installationsanleitung für: PC mit fl2k-Dongle Signalwandler unter Windows mit COHIWizard Executable
 ---
