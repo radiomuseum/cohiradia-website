@@ -12,16 +12,8 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 main {
   background-color: #ffffee;
 }
-
-// Global text justify for all content
-p, 
-li,
-dd,
-td,
 .td-content p,
-.td-content li,
-article p,
-article li {
+.td-content article li {
   text-align: justify;
   text-justify: inter-word;
 }
