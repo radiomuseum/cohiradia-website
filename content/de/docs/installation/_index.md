@@ -3,6 +3,7 @@ title: Installation
 linkTitle: Installation
 date: 2026-01-01
 weight: 6
+nav_exclude: true
 description: >
   Installationsanleitung mit intelligenter Auswahl
 ---

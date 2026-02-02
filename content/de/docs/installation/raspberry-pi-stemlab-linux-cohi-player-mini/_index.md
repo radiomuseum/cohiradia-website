@@ -3,6 +3,7 @@ title: Raspberry-Pi + STEMLAB + Linux + COHI-Player Mini
 linkTitle: Raspberry-Pi / STEMLAB / Linux / COHI-Player Mini
 date: 2026-01-28
 weight: 16
+nav_exclude: true
 _build:
   list: never
   render: always

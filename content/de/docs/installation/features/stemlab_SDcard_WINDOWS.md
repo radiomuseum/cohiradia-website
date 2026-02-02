@@ -1,5 +1,9 @@
 ---
-title: "stemlab_SDcard"
+title: "stemlab_SDcard_WINDOWS"
+nav_exclude: true
+_build:
+  list: never
+  render: always
 ---
 
 ## Firmware für STEMLAB vorbereiten
@@ -13,13 +17,9 @@ Das STEMLAB wird meist mit einer SDKarte ausgeliefert, die das Betriebssystem be
 
 2. Laden Sie das [Image-File cohiradia_STEMLAB125_v1.0.img](https://cohiradia.radiomuseum.org/download/software/cohiradia_STEMLAB125_v1.0.img) vom COHIRADIA-Softwarearchiv herunter und speichern Sie es in irgendeinem Verzeichnis.
 
-3. schreiben Sie das Image mit einer geeigneten Software auf die SD-Karte. Unter Windows eigen sich z.B. [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher). Unter LINUX geht es direkt auf der Kommandozeile: 
-Zuerst mit  `lsblk -f` die gemounteten SD-Karten-Partitionen auslesen. Diese werden z.B. als sdb1, sdb2 o.ä. gelistet. Dann die SD-Devices unmounten und das Schreiben starten
-`sudo umount /dev/YOURSDDEVICE*`. YOURSDDEVICE ist dann was Ihr lsblk listet, in meinem Beispiel sbd. Danach:
-`sudo dd if=redpitaya_full.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync`
-**ACHTUNG: dd ist mit viel Vorsicht zu benutzen. Wenn Sie das falsche Ziel angeben, kann es passieren, dass wichtige Systemdatenträger gelöscht werden. Also bitte dreimal kontrollieren, was man tut !** 
+3. schreiben Sie das Image mit einer geeigneten Software auf die SD-Karte. Unter Windows eigen sich z.B. [Win32Diskimager](https://win32diskimager.org/) oder der [Balena Etcher](https://etcher.balena.io/#download-etcher). 
 
 
-
+Danach werfen Sie die Karte aus und stecken sie in den SD-Karten-Slot des STEMLAB. Das STEMLAB sollte damit betriebsbereit sein.
 
 
