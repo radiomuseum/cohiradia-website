@@ -1,0 +1,28 @@
+/* {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open installation-guide.html",
+            "file": "/media/scharfetter/PREV_D/Documents/COHIRADIA/Webpage_incl_GIT/Webpage_Umbau_2026/cohiradia-website/layouts/shortcodes/installation-guide.html"
+        }
+    ]
+} */
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "firefox",
+      "request": "launch",
+      "name": "Hugo: Firefox Debug",
+      "url": "http://localhost:1313",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
