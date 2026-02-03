@@ -1,6 +1,6 @@
 ---
-title: Dokumentation
-linkTitle: Dokumentation
+title: Getting started
+linkTitle: Getting started
 menu:
   main:
     weight: 20
