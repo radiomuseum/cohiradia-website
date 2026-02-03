@@ -1,17 +1,5 @@
 ---
 title: Documentation
 linkTitle: Documentation
-menu:
-  main:
-    weight: 27
-nav_exclude: false
+menu: { main: { weight: 40, name: Documentation } }
 ---
-
-Test Doku
-
-<br>
-<br>
-
-## This is the documentation page
-
-TODO: Subpages not listed
