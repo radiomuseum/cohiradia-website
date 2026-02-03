@@ -11,7 +11,7 @@ description: >
 features:
   - schritt_1
   - stemlab_SDcard_WINDOWS
-  - schritt 2
+  - schritt_2
   - cohiwizard_exe
   - finish
 ---
