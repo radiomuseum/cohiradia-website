@@ -10,10 +10,8 @@ description: >
   Installationsanleitung für: PC mit fl2k Signalwandler unter Windows mit COHIWizard Executable
 features:
   - schritt_1
-  - stemlab_SDcard_WINDOWS
-  - schritt_2
   - fl2k_windows
-  - schritt_3
+  - schritt_2
   - cohiwizard_exe
   - finish
 ---
