@@ -1,0 +1,360 @@
+{{- /* Selection Guide Shortcode - HTML-basierte Version */ -}}
+{{- $guideId := .Get "id" | default "selection-guide" -}}
+{{- $basePath := .Get "basepath" | default .Page.RelPermalink -}}
+
+
+<div class="card border-start border-primary border-4 shadow-sm my-4" id="{{ $guideId }}" data-base-path="{{ $basePath }}">
+  <div class="card-body">
+    
+    <!-- Header mit Titel und Fortschrittsanzeige -->
+    <div class="mb-4">
+      <h4 class="card-title mb-3">Auswahlhilfe für Hardware</h4>
+      
+      <div class="mb-3">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <small class="text-muted">Fortschritt</small>
+          <small class="text-muted"><span id="progress-count">0</span> von 3 Schritten</small>
+        </div>
+        <div class="progress" style="height: 8px;">
+          <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kategorie 1: Preis -->
+    <div class="mb-4" data-category="preis">
+      <div class="d-flex align-items-center mb-3">
+        <span class="badge bg-secondary me-2 category-badge">1</span>
+        <h5 class="mb-0 fw-semibold">Preis</h5>
+        <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="preis"></span>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="preis" title="Auswahl zurücksetzen">×</button>
+      </div>
+      
+      <div class="row g-2">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="lt100">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-1" value="lt100" data-category="preis">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-1">Preis unter 100€</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="lt300">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-2" value="lt300" data-category="preis">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-2">Preis unter 300€</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="gt300">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-3" value="gt300" data-category="preis">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-3">Preis über 300€</label>
+          </div>
+        </div>
+
+      </div>
+      <hr class="my-4">
+    </div>
+
+    <!-- Kategorie 2: SNR -->
+    <div class="mb-4" data-category="snr">
+      <div class="d-flex align-items-center mb-3">
+        <span class="badge bg-secondary me-2 category-badge">2</span>
+        <h5 class="mb-0 fw-semibold">Signal-Rausch-Verhältnis (SNR)</h5>
+        <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="snr"></span>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="snr" title="Auswahl zurücksetzen">×</button>
+      </div>
+      
+      <div class="row g-2">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="dB40">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-snr" id="option-dB40" value="dB40" data-category="snr">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-dB40">40 dB</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="dB50">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-snr" id="option-dB50" value="dB50" data-category="snr">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-dB50">50 dB</label>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="dB70">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-snr" id="option-dB70" value="dB70" data-category="snr">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-dB70">70 dB</label>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+    </div>
+
+    <!-- Kategorie 3: sicher bespielbare AM-Bänder -->
+    <div class="mb-4" data-category="bandwidth">
+      <div class="d-flex align-items-center mb-3">
+        <span class="badge bg-secondary me-2 category-badge">3</span>
+        <h5 class="mb-0 fw-semibold">sicher bespielbare AM-Bänder</h5>
+        <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="bandwidth"></span>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="bandwidth" title="Auswahl zurücksetzen">×</button>
+      </div>
+      
+      <div class="row g-2">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="LW-MW">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-bandwidth" id="option-LW-MW" value="LW-MW" data-category="bandwidth">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-LW-MW">LW-MW</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="LW-MW-49m">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-bandwidth" id="option-LW-MW-49m" value="LW-MW-49m" data-category="bandwidth">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-LW-MW-49m">LW-MW-49m</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="all-bands">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-bandwidth" id="option-all-bands" value="all-bands" data-category="bandwidth">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-all-bands">alle AM-Bänder</label>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+    </div>
+
+    <!-- Submit Section -->
+    <div class="mt-4 pt-4 border-top">
+      <button id="selection-submit" class="btn btn-primary btn-lg w-100" disabled>→ Zu den Auswahlmöglichkeiten</button>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function() {
+  const config = {
+    categories: ['preis', 'snr', 'bandwidth'],
+    
+    labels: {
+      preis: { lt100: "unter 100€", lt300: "unter 300€", gt300: "über 300€" },
+      snr: { dB40: "40 dB", dB50: "50 dB", dB70: "70 dB" },
+      bandwidth: { "LW-MW": "LW-MW", "LW-MW-49m": "LW-MW-49m", "all-bands": "alle AM-Bänder" },
+    },
+    
+    validCombos: [
+      { preis: "lt100", snr: "dB40", bandwidth: "LW-MW"},
+      { preis: "lt100", snr: "dB40", bandwidth: "LW-MW-49m"},
+      { preis: "lt100", snr: "dB50", bandwidth: "LW-MW"},
+      { preis: "lt300", snr: "dB40", bandwidth: "LW-MW"},
+      { preis: "lt300", snr: "dB40", bandwidth: "LW-MW-49m"},
+      { preis: "lt300", snr: "dB50", bandwidth: "LW-MW"},
+      { preis: "lt300", snr: "dB50", bandwidth: "LW-MW-49m"},
+      { preis: "lt300", snr: "dB70", bandwidth: "LW-MW"},
+      { preis: "lt300", snr: "dB70", bandwidth: "LW-MW-49m"},
+      { preis: "gt300", snr: "dB50", bandwidth: "all-bands"},
+      { preis: "gt300", snr: "dB70", bandwidth: "all-bands"}
+    ]
+  };
+  
+  const guideId = "{{ $guideId }}";
+  const basePath = "{{ $basePath }}";
+  const wrapper = document.getElementById(guideId);
+  if (!wrapper) return;
+
+  function getSelectedValues() {
+    const selections = {};
+    wrapper.querySelectorAll('.guide-radio:checked').forEach(radio => {
+      selections[radio.dataset.category] = radio.value;
+    });
+    return selections;
+  }
+
+  function isOptionValid(category, value) {
+    const currentSelections = getSelectedValues();
+    delete currentSelections[category];
+    const testSelections = { ...currentSelections, [category]: value };
+    
+    return config.validCombos.some(combo => {
+      return Object.entries(testSelections).every(([cat, val]) => combo[cat] === val);
+    });
+  }
+
+  function updateUI() {
+    const selections = getSelectedValues();
+    const selectedCount = Object.keys(selections).length;
+    const percentage = (selectedCount / config.categories.length) * 100;
+    
+    // Fortschrittsbalken
+    const progressBar = document.getElementById('progress-bar');
+    const progressCount = document.getElementById('progress-count');
+    if (progressBar) progressBar.style.width = `${percentage}%`;
+    if (progressCount) progressCount.textContent = selectedCount;
+    
+    // Category Badges & Summaries
+    config.categories.forEach(catKey => {
+      const categoryDiv = wrapper.querySelector(`[data-category="${catKey}"]`);
+      const badge = categoryDiv?.querySelector('.category-badge');
+      const summaryBadge = categoryDiv?.querySelector('.selection-summary');
+      const resetBtn = categoryDiv?.querySelector('.category-reset');
+      
+      if (selections[catKey]) {
+        badge?.classList.replace('bg-secondary', 'bg-success');
+        if (summaryBadge) {
+          summaryBadge.textContent = config.labels[catKey][selections[catKey]];
+          summaryBadge.style.display = 'inline-block';
+        }
+        if (resetBtn) resetBtn.style.display = 'inline-block';
+      } else {
+        badge?.classList.replace('bg-success', 'bg-secondary');
+        if (summaryBadge) summaryBadge.style.display = 'none';
+        if (resetBtn) resetBtn.style.display = 'none';
+      }
+    });
+    
+    // Option Cards
+    wrapper.querySelectorAll('.guide-radio').forEach(radio => {
+      const optionCard = radio.closest('.option-card');
+      const isValid = selectedCount === 0 || isOptionValid(radio.dataset.category, radio.value);
+      
+      radio.disabled = !isValid;
+      optionCard?.classList.toggle('disabled', !isValid);
+      optionCard?.classList.toggle('opacity-50', !isValid);
+      optionCard?.classList.toggle('pe-none', !isValid);
+      optionCard?.classList.toggle('available', isValid);
+      optionCard?.classList.toggle('selected', radio.checked);
+    });
+    
+    // Submit Button
+    const submitBtn = document.getElementById('selection-submit');
+    const allSelected = config.categories.every(cat => selections[cat]);
+    submitBtn.disabled = !allSelected;
+    submitBtn.classList.toggle('pulse', allSelected);
+  }
+
+  // Event Listeners
+  wrapper.addEventListener('change', e => {
+    if (e.target.classList.contains('guide-radio')) updateUI();
+  });
+  
+  wrapper.addEventListener('click', e => {
+    const resetBtn = e.target.closest('.category-reset');
+    if (resetBtn) {
+      const category = resetBtn.dataset.category;
+      wrapper.querySelectorAll(`input[data-category="${category}"]`).forEach(r => r.checked = false);
+      updateUI();
+    }
+  });
+  
+  document.getElementById('selection-submit')?.addEventListener('click', () => {
+    const selections = getSelectedValues();
+    //const combo = config.categories.map(cat => selections[cat]).join('-');
+    const combo = config.categories
+    .map(cat => selections[cat]).join('-').toLowerCase();
+    window.location.href = basePath + combo + '/';
+  });
+  
+  updateUI();
+})();
+</script>
+
+<style>
+.option-card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.option-card.available:hover {
+  background-color: rgba(var(--bs-primary-rgb), 0.05);
+  border-color: var(--bs-primary) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.option-card.selected {
+  background-color: rgba(var(--bs-success-rgb), 0.1);
+  border-color: var(--bs-success) !important;
+  border-width: 2px !important;
+}
+
+.option-card.disabled {
+  cursor: not-allowed;
+  background-color: #f8f9fa;
+}
+
+.guide-radio:checked {
+  background-color: var(--bs-success);
+  border-color: var(--bs-success);
+}
+
+.option-card.selected .form-check-label {
+  font-weight: 600;
+  color: var(--bs-success);
+}
+
+.cursor-pointer { cursor: pointer; }
+
+.category-badge {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.selection-summary {
+  font-size: 0.85rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.category-reset {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  animation: fadeIn 0.3s ease;
+}
+
+.category-reset:hover {
+  background-color: var(--bs-danger);
+  border-color: var(--bs-danger);
+  color: white;
+  transform: rotate(90deg);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.progress { background-color: #e9ecef; }
+
+.progress-bar {
+  transition: width 0.4s ease;
+  background: linear-gradient(90deg, var(--bs-primary), var(--bs-success));
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(var(--bs-primary-rgb), 0.7); }
+  50% { box-shadow: 0 0 0 10px rgba(var(--bs-primary-rgb), 0); }
+}
+
+@media (max-width: 576px) {
+  .option-card { font-size: 0.9rem; }
+  .category-badge { width: 28px; height: 28px; font-size: 0.85rem; }
+}
+</style>
