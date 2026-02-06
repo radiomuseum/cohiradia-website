@@ -1,6 +1,6 @@
 ---
-title: Getting started
-linkTitle: Getting started
+title: Technik
+linkTitle: Technik
 menu:
   main:
     weight: 20
