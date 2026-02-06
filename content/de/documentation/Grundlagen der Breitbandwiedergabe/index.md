@@ -1,6 +1,6 @@
 ---
-title: Technische Detailinformationen
-linkTitle: Detailinformationen
+title: Grundlagen der Breitbandwiedergabe
+linkTitle: Grundlagen der Breitbandwiedergabe
 date: 2026-01-01
 weight: 7
 description: >

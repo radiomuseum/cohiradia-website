@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+  {{ .Content }}
+
+  {{ if .Params.features }}
+    {{ range .Params.features }}
+      {{ $p := printf "docs/installation/features/%s" . }}
+      {{ with site.GetPage $p }}
+        {{ .Content }}
+      {{ else }}
+        <div class="alert alert-warning">
+          Feature nicht gefunden: {{ $p }}
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+{{ end }}
