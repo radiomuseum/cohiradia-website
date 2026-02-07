@@ -2,7 +2,6 @@
 title: PC + STEMLAB + Linux + COHI-Player Mini
 date: 2026-01-28
 weight: 15
-nav_exclude: true
 _build:
   list: never
   render: always

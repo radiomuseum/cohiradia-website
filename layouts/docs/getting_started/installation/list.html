@@ -2,25 +2,21 @@
 
 {{ .Content }}
 
-{{/* Alle Unterkategorien rendern */}}
-{{ range .Sections }}
-  <h2>{{ .Title }}</h2>
-  {{ .Content }}
 
-  {{ if .Params.features }}
-    {{ $sectionDir := .File.Dir }}
-    {{ range .Params.features }}
-      {{ $featurePage := site.GetPage (printf "%sfeatures/%s" $sectionDir .) }}
-      {{ with $featurePage }}
-        {{ .Content }}
-      {{ else }}
-        <div class="alert alert-warning">
-          Feature nicht gefunden: {{ . }}
-        </div>
-      {{ end }}
+{{ if .Params.features }}
+  {{ $lang := .Site.Language.Lang }} 
+    
+  {{ range .Params.features }}
+    {{ $featurePath := printf "docs/getting_started/installation/features/%s" . }}
+    {{ $featurePage := site.GetPage $featurePath }}
+    {{ with $featurePage }}
+      {{ .Content }}
+    {{ else }}
+      <div class="alert alert-warning">
+        Feature nicht gefunden: {{ . }}
+      </div>
     {{ end }}
   {{ end }}
-
 {{ end }}
 
 {{ end }}

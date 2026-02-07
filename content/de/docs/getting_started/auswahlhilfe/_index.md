@@ -12,7 +12,7 @@ description: >
 
 Wähle deine Anforderungen für die Hardware, um zur passenden Auswahl zu gelangen:
 
- {{< selection-guide basepath="/de/docs/auswahlhilfe/" >}}
+ {{< selection-guide basepath="/de/docs/getting_started/auswahlhilfe/" >}}
 
 
 ## Verfügbare Kombinationen
