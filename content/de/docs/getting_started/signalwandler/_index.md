@@ -2,7 +2,7 @@
 title: Signalwandler
 linkTitle: Signalwandler
 date: 2026-01-01
-weight: 1
+weight: 10
 description: >
   Das ist das 'SDR', also bisher STEMLAB, fl2k und ADALM2000.
 ---

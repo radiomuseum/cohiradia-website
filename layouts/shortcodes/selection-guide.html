@@ -21,6 +21,35 @@
       </div>
     </div>
 
+
+    <!-- Kategorie 0: Steuercomputer -->
+    <div class="mb-4" data-category="computer">
+      <div class="d-flex align-items-center mb-3">
+        <span class="badge bg-secondary me-2 category-badge">1</span>
+        <h5 class="mb-0 fw-semibold">Kontrollgerät</h5>
+        <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="computer"></span>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="computer" title="Auswahl zurücksetzen">×</button>
+      </div>
+      
+      <div class="row g-2">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="pc">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-1" value="lt100" data-category="preis">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-1">PC (nicht im Preis inbegriffen !)</label>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="option-card p-3 border rounded" data-option-id="standalone">
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-2" value="lt300" data-category="preis">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-2">stand alone Controller</label>
+          </div>
+        </div>
+
+      </div>
+      <hr class="my-4">
+    </div>
+
     <!-- Kategorie 1: Preis -->
     <div class="mb-4" data-category="preis">
       <div class="d-flex align-items-center mb-3">
@@ -143,17 +172,18 @@
     },
     
     validCombos: [
-      { preis: "lt100", snr: "dB40", bandwidth: "LW-MW"},
-      { preis: "lt100", snr: "dB40", bandwidth: "LW-MW-49m"},
-      { preis: "lt100", snr: "dB50", bandwidth: "LW-MW"},
-      { preis: "lt300", snr: "dB40", bandwidth: "LW-MW"},
-      { preis: "lt300", snr: "dB40", bandwidth: "LW-MW-49m"},
-      { preis: "lt300", snr: "dB50", bandwidth: "LW-MW"},
-      { preis: "lt300", snr: "dB50", bandwidth: "LW-MW-49m"},
-      { preis: "lt300", snr: "dB70", bandwidth: "LW-MW"},
-      { preis: "lt300", snr: "dB70", bandwidth: "LW-MW-49m"},
-      { preis: "gt300", snr: "dB50", bandwidth: "all-bands"},
-      { preis: "gt300", snr: "dB70", bandwidth: "all-bands"}
+      { computer: "pc", preis: "lt100", snr: "dB40", bandwidth: "LW-MW"},
+      { computer: "pc", preis: "lt100", snr: "dB40", bandwidth: "LW-MW-49m"},
+      { computer: "pc", preis: "lt300", snr: "dB40", bandwidth: "LW-MW"},
+      { computer: "pc", preis: "lt300", snr: "dB40", bandwidth: "LW-MW-49m"},
+      { computer: "pc", preis: "lt300", snr: "dB50", bandwidth: "LW-MW"},
+      { computer: "standalone", preis: "lt300", snr: "dB50", bandwidth: "LW-MW"},      
+      { computer: "standalone", preis: "lt300", snr: "dB40", bandwidth: "LW-MW"},
+      { computer: "standalone", preis: "lt300", snr: "dB40", bandwidth: "LW-MW-49m"},
+      { computer: "pc", preis: "gt300", snr: "dB70", bandwidth: "all-bands"},
+      { computer: "standalone", preis: "gt300", snr: "dB70", bandwidth: "all-bands"},
+      { computer: "standalone", preis: "lt300", snr: "dB70", bandwidth: "LW-MW-49m"},
+      { computer: "standalone", preis: "gt300", snr: "dB50", bandwidth: "all-bands"},
     ]
   };
   

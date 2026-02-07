@@ -2,11 +2,19 @@
 title: Auswahlhilfe
 linkTitle: Auswahlhilfe
 date: 2026-02-04
-weight: 5
+weight: 1
 nav_exclude: true
 description: >
   Auswahlhilfe mit intelligenter Auswahl
 ---
+
+## Gundsätzliches
+
+Diese Seite soll das rasche Zusammenstellen einer für Sie geeigneten Komponenten ermöglichen. Der unten eingebaute Konfigurator berücksichtigt die Kategorien Preis, SNR und abspielbare AM-Bänder. 
+
+Bei der Kategorie 'Preis' wird 
+
+Wenn gewünscht, so ist eine breitbandige Aufzeichnung von AM-Signalen direkt von einer Antenne relativ einfach mit etlichen kommerziellen SDRs möglich. Die Wiedergabe erfordert allerdings SDRs mit Transmit-Ausgang oder geeignete schnelle Digital-Analogwandler mit entsprechender Firmware-Unterstützung. 
 
 ## Auswahlhilfe
 
