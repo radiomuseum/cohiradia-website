@@ -2,7 +2,6 @@
 title: PC + STEMLAB + Linux + COHIWizard Python
 date: 2026-01-28
 weight: 11
-nav_exclude: true
 _build:
   list: never
   render: always

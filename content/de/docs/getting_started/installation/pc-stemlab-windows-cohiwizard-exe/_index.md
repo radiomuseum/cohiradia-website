@@ -2,7 +2,6 @@
 title: PC + STEMLAB + Windows + COHIWizard exe
 date: 2026-01-28
 weight: 10
-nav_exclude: true
 _build:
   list: never
   render: always

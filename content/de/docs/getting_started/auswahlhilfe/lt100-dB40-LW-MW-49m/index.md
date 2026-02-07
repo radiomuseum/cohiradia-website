@@ -2,6 +2,9 @@
 title: low cost, low SNR, only MW and LW
 date: 2026-02-04
 weight: 10
+_build:
+  list: never
+  render: always
 description: >
     Auswahl für < 100€, SNR bei X carriern max 40dB, Bandbreite begrenzt auf LW, MW und 49m SW
 ---
