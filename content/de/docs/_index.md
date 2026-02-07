@@ -1,9 +1,6 @@
 ---
 title: Technik
 linkTitle: Technik
-menu:
-  main:
-    weight: 20
 ---
 
 Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Die Verwendung eines einheitlichen Datenformats garantiert dabei die Austauschbarkeit zwischen verschiedenen Plattformen.
