@@ -2,7 +2,7 @@
 title: Auswahlhilfe
 linkTitle: Auswahlhilfe
 date: 2026-02-04
-weight: 6
+weight: 5
 nav_exclude: true
 description: >
   Auswahlhilfe mit intelligenter Auswahl

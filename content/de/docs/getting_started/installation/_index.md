@@ -2,7 +2,7 @@
 title: Installationsanleitung
 linkTitle: Installationsanleitung
 date: 2026-01-01
-weight: 8
+weight: 3
 nav_exclude: true
 description: >
   Installationsanleitung mit intelligenter Auswahl

@@ -2,7 +2,7 @@
 title: Grundlagen der Breitbandwiedergabe
 linkTitle: Grundlagen der Breitbandwiedergabe
 date: 2026-01-01
-weight: 7
+weight: 4
 description: >
    Hier kann man technische Details wie unseren Bericht 2023 ablegen, damit wir auch eine fundierte ingenieurswissenschaftliche Basis bereitstellen. 
 ---
