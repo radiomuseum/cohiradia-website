@@ -13,7 +13,7 @@
       <div class="mb-3">
         <div class="d-flex justify-content-between align-items-center mb-2">
           <small class="text-muted">Fortschritt</small>
-          <small class="text-muted"><span id="progress-count">0</span> von 3 Schritten</small>
+          <small class="text-muted"><span id="progress-count">0</span> von 4 Schritten</small>
         </div>
         <div class="progress" style="height: 8px;">
           <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
@@ -34,15 +34,15 @@
       <div class="row g-2">
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="pc">
-            <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-1" value="lt100" data-category="preis">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-1">PC (nicht im Preis inbegriffen !)</label>
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-computer" id="option-stg-1" value="pc" data-category="computer">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-stg-1">PC (nicht im Preis inbegriffen !)</label>
           </div>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="standalone">
-            <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-2" value="lt300" data-category="preis">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-2">stand alone Controller</label>
+            <input class="form-check-input guide-radio me-2" type="radio" name="category-computer" id="option-stg-2" value="standalone" data-category="computer">
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-stg-2">stand alone Controller</label>
           </div>
         </div>
 
@@ -53,7 +53,7 @@
     <!-- Kategorie 1: Preis -->
     <div class="mb-4" data-category="preis">
       <div class="d-flex align-items-center mb-3">
-        <span class="badge bg-secondary me-2 category-badge">1</span>
+        <span class="badge bg-secondary me-2 category-badge">2</span>
         <h5 class="mb-0 fw-semibold">Preis</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="preis"></span>
         <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="preis" title="Auswahl zurücksetzen">×</button>
@@ -88,7 +88,7 @@
     <!-- Kategorie 2: SNR -->
     <div class="mb-4" data-category="snr">
       <div class="d-flex align-items-center mb-3">
-        <span class="badge bg-secondary me-2 category-badge">2</span>
+        <span class="badge bg-secondary me-2 category-badge">3</span>
         <h5 class="mb-0 fw-semibold">Signal-Rausch-Verhältnis (SNR)</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="snr"></span>
         <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="snr" title="Auswahl zurücksetzen">×</button>
@@ -121,7 +121,7 @@
     <!-- Kategorie 3: sicher bespielbare AM-Bänder -->
     <div class="mb-4" data-category="bandwidth">
       <div class="d-flex align-items-center mb-3">
-        <span class="badge bg-secondary me-2 category-badge">3</span>
+        <span class="badge bg-secondary me-2 category-badge">4</span>
         <h5 class="mb-0 fw-semibold">sicher bespielbare AM-Bänder</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="bandwidth"></span>
         <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="bandwidth" title="Auswahl zurücksetzen">×</button>
@@ -163,9 +163,10 @@
 <script>
 (function() {
   const config = {
-    categories: ['preis', 'snr', 'bandwidth'],
+    categories: ['computer', 'preis', 'snr', 'bandwidth'],
     
     labels: {
+      computer: { pc: "PC", standalone: "Standalone" },
       preis: { lt100: "unter 100€", lt300: "unter 300€", gt300: "über 300€" },
       snr: { dB40: "40 dB", dB50: "50 dB", dB70: "70 dB" },
       bandwidth: { "LW-MW": "LW-MW", "LW-MW-49m": "LW-MW-49m", "all-bands": "alle AM-Bänder" },
