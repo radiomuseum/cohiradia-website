@@ -32,6 +32,12 @@ Als Ferrite eignen sich generell solche, die den von Amidon gelisteten Materiali
 
 Erfolgreiche Anwendung fanden z.B. Übertrager mit FT114/43-Ringkern und einem Windungsverhältnis 15 : 60 an einem Minerva375A und an einem Hornyphon W248U. Aber auch FT114/43 mit 15 : 30 funktioniert noch brauchbar. Damit wurden LW, MW und auch KW auf 49m erfolgreich eingekoppelt. F. Wolf berichtet über einen Ringkern FT240/77, Windungsverhältnis 10 : 30, der erfolgreich an einem LOEWE Opta‐Kantate mit mit einem amplitudenmodulierten Signalgenerator RF1 von HEATHKIT und einem CD‐Player. Das Ergebnis wurde als sehr zufriedenstellend eingestuft.
 
+In Abb. 1 ist ein von C.P. Gallenmiller eingesetzter Balun zu sehen, bei dem beide Wicklungen aus kunststoffisolierter Litze mit 0,75 mm² Querschnitt bestehen. Diese wurde aus einer handelsüblichen Netzanschlußleitung 3x0,75 gewonnen. Das Windungsverhältnis ist 1:3. Als Kern kam ein FT82-27 Ringkern zum Einsatz.
+
+{{% imgproc Balun_1 Fit "400x400 webp" %}}
+*Abbildung 1:* Sicherheitstechnisch korrekt gearbeiteter Balun. Das Gehäuse ist von der antennenseitigen Wicklung galvanisch isoliert. Der Deckel ist für das Foto abgenommen worden. (Foto C.P. Gallenmiller)
+{{% /imgproc %}}
+
 **Anmerkung**: G. Gauert berichtet, dass bei einigen alten Geräten die Antenne erheblich zur Resonatorkapazität beiträgt und daher die bloße Ankopplung des Signalwandlers über einen Transformator zu unerwünschten Dämpfungen und Frequenzverschiebungen des Abstimmkreises führen kann. Auch erhebliche Signalstörungen können die Folge sein. Diese Erkenntnisse konnte H. Scharfetter mit einem Atwaterkent 10 aus dem Jahr 1924 bestätigen. In solchen Fällen empfiehlt es sich im MW-Band, eine Serie aus einem 220pF‐Kondensator und einem Widerstand (470 - 2200 \(\Omega\)) zwischen den Trafo‐Ausgang und den Antenneneingang des Radios zu schalten. Diese Maßnahme kann das Problem in der Regel beheben oder zumindest signifikant abmildern.
 
 ## Induktive Kopplung 
@@ -39,18 +45,18 @@ Erfolgreiche Anwendung fanden z.B. Übertrager mit FT114/43-Ringkern und einem W
 Dafür wird eine Sendespule benötigt, die so orientiert wird, dass ihre Achse für optimale Kopplung möglichst auf der Achse der Empfangsspule des Empfängers zu liegen kommt. Diese Spule wird am besten in Form einer nicht zu kleinflächigen Schleife mit typischerweise einer bis wenigen Windungen ausgeführt. Diese Spule muss mit einem geeigneten Treiberverstärker angesteuert werden.
 
 
-Abb. # zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammenfaltbaren rautenförmigen Schleife aus Messingstäben, die speziell für mobilen Einsatz gebaut wurde. 
+Abb. 2 zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammenfaltbaren rautenförmigen Schleife aus Messingstäben, die speziell für mobilen Einsatz gebaut wurde. 
 
 {{% imgproc rahmenantenne_tx Fit "600x600 webp" %}}
-*Abbildung 1:* Zusammenfaltbare Rahmenantenne mit einer Windung. Der Empfänger ist ein Transistorradio mit Ferritantenne. Die Versorgung erfolgt hier über eine 9V-Batterie.
+*Abbildung 2:* Zusammenfaltbare Rahmenantenne mit einer Windung. Der Empfänger ist ein Transistorradio mit Ferritantenne. Die Versorgung erfolgt hier über eine 9V-Batterie.
 {{% /imgproc %}}
 
 
-Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811. Die Schaltung entspricht der in  Abb. 3.5A im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf#page=23). Die Verstärkung kann zur Vermeidung von Übersteuerung ggf. auf max 5 reduziert werden. Da der AD811 nur max. 100mA Ausgangsstrom liefern kann, die Schleifenimpedanz bei 500 kHz aber nur etwa \(j2.5 \Omega\) beträgt, wird ein 4:1 Transformator (24:6 Windungen, 670uH : 40uH) als Impedanzwandler zwischen Verstärkerausgang und Schleifenterminals geschaltet. Damit 'sieht' der AD811 zusammen mit dem in den Ausgangspfad geschalteten \(50 \Omega\)-Widerstand etwa  \(50 + j40\Omega\), was den Strom bei 5V Ausgangsamplitude auf etwas unter 80mA hält. Außerdem wird die Verlustleistung im AD811 sicher unter 1W gehalten, ein Wert, den man unter Einhaltung der Sicherheitsmargen (und abhängig vom Gehäuse) nicht überschreiten sollte. Im konkreten Fall wird der AD811 entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m z.B. für typische Kofferradios mit Ferritantenne. 
+Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811. Die Schaltung entspricht der in  Abb. 3.5A im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf#page=23). Die Verstärkung kann zur Vermeidung von Übersteuerung ggf. auf max 5 reduziert werden. Da der AD811 nur max. 100mA Ausgangsstrom liefern kann, die Schleifenimpedanz bei 500 kHz aber nur etwa \(j2.5 \Omega\) beträgt, wird ein 4:1 Transformator (24:6 Windungen, 670uH : 40uH) als Impedanzwandler zwischen Verstärkerausgang und Schleifenterminals geschaltet. Damit 'sieht' der AD811 zusammen mit dem in den Ausgangspfad geschalteten \(50 \Omega\)-Widerstand etwa  \(50 + j40\Omega\), was den Strom bei 5V Ausgangsamplitude auf etwas unter 80mA hält. Außerdem wird die Verlustleistung im AD811 sicher unter 1W gehalten, ein Wert, den man unter Einhaltung der Sicherheitsmargen (und abhängig vom Gehäuse) nicht überschreiten sollte. Im konkreten Fall wird der AD811 entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m z.B. für typische Kofferradios mit Ferritantenne. Abb. 3 zeigt einen von H. Scharfetter gebauten Prototypen mit zusammenfaltbarer und abschraubbarer quadratischer Schleife.
 
 
 {{% imgproc rahmenantenne_balun Fit "600x600 webp" %}}
-*Abbildung 2:* Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)
+*Abbildung 3:* Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)
 {{% /imgproc %}}
 
 Natürlich können auch andere Verstärker in diesem Kontext verwendet werden, sofern sie für den frequenzbereich geeignet sind und ausreichend Strom treiben können. 
