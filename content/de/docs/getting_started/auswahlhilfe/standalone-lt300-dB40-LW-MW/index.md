@@ -1,29 +1,29 @@
 ---
-title: low cost, low SNR, only MW and LW
+title: mid cost, low SNR, only MW and LW
 date: 2026-02-04
 weight: 10
 _build:
   list: never
   render: always
 description: >
-    Auswahl für < 100€, SNR bei X carriern max 40dB, Bandbreite begrenzt auf LW, MW und 49m SW
+    Auswahl für < 300€, SNR bei 12 gleich starken Trägern max 40dB, Bandbreite begrenzt auf LW, MW
 ---
 
 **Möglichkeiten:**
 
-Raspberry Pi + OSMO fl2k-Dongle
+Raspberry Pi (mindestens V4, 4GB) + OSMO fl2k-Dongle
 
 **Vorteile:**
 
-* mid cost
+* mittlere Preislage
 * unkompliziertes Setup
-* kompakt
+* kompakteste Lösung
 * standalone
 
 **Nachteile:**
 
 * nur 8 bit Auflösung, daher SNR sehr begrenzt, aber ausreichend für die meisten LW und MW-Bänder
-* Datenrate durch USB-Port begrenzt --> höchste Frequenz beschränkt auf typ. XX kHz, kann auch höher sein, ist aber nicht garantiert
+* Datenrate durch USB-Port begrenzt --> höchste Frequenz beschränkt auf typ. 5 kHz, kann auch höher sein, ist aber nicht garantiert
 * höhere Rechenleistung auf dem PC gefordert als bei FPGA-gestützten Systemen
 * nur USB/VGA-Dongles mit Fresco-Chipset unterstützt, Verfügbarkeit wegen Auslaufen der Herstellung begrenzt, Zukunft ungewiss.
 

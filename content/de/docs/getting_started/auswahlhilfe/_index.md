@@ -16,6 +16,8 @@ Die gelisteten Signalwandler sind alle mit Transmit-Ausgang und schnelle Digital
 
 Anmerkung: Wenn ein PC als Steuercomputer benutzt wird, so wird er nicht in die Preisabschätzung einbezogen, da er meist ohnehin vohanden ist. Sollte dies nicht der Fall sein, sind seine Anschaffungskosten hinzuzurechnen. Wenn man eine Stand-alone-Version möchte, die ohne PC auskommt, so wird ein Single-Board-Computer, aktuell der Raspberry-Pi, eingesetzt.
 
+Die SNR-Angaben beziehen sich auf den etwaigen theoretischen Wert für den eingesetzten DAC, wenn man mit 12 dominanten, gleich starken aber vollständig dekorrelierten Trägern im Band rechnet. Die Definition der SNR entspricht der im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf).  
+
 ## Konfigurator
 
 Wählen Sie Ihre Anforderungen für die Hardware, um zur passenden Auswahl zu gelangen:
