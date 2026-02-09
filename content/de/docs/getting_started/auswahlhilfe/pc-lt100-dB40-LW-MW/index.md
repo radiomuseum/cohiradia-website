@@ -1,5 +1,5 @@
 ---
-title: low cost (excl. PC), low SNR, only MW and LW
+title: PC (nicht im Preis enthalten) + OSMO fl2k-Dongle
 date: 2026-02-04
 weight: 10
 _build:
@@ -9,24 +9,26 @@ description: >
     Auswahl für < 100€ (exklusive PC), SNR bei 12 gleich starken Trägern max 40dB, Bandbreite begrenzt auf LW, MW
 ---
 
-**Möglichkeiten:**
+**alternative Möglichkeiten bei dieser Perfomance:**
 
-PC (nicht im Preis enthalten) + OSMO fl2k-Dongle
+aktuell keine
 
 **Vorteile:**
 
-* low cost
+* preisgünstig
 * unkompliziertes Setup
 * relativ kompakt (je nach PC)
 
 **Nachteile:**
 
-* nur 8 bit Auflösung, daher SNR sehr begrenzt, aber ausreichend für die meisten LW und MW-Bänder
-* Datenrate durch USB-Port begrenzt --> höchste Frequenz beschränkt auf typ. 5 kHz, kann auch höher sein, ist aber nicht garantiert
+* nur 8 bit Auflösung, daher SNR begrenzt, aber ausreichend für die meisten LW und MW-Bänder
+* Datenrate durch USB-Port begrenzt --> höchste Frequenz min. 5 kHz, kann auch höher sein, ist aber nicht garantiert
 * höhere Rechenleistung auf dem PC gefordert als bei FPGA-gestützten Systemen
 * nur USB/VGA-Dongles mit Fresco-Chipset unterstützt, Verfügbarkeit wegen Auslaufen der Herstellung begrenzt, Zukunft ungewiss.
 
-Unterstützung durch den COHIWizard, COHI-Mini-Player (projected) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
+**Software-Unterstützung:**
+
+COHIWizard, COHI-Mini-Player (projected) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
 
 Technische Evaluierung siehe TODO CONTENT STILL LACKING
 

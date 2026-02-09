@@ -1,17 +1,17 @@
 ---
-title: high cost  (excl. PC), high SNR, all bands
+title: PC (nicht im Preis enthalten) + STEMLAB 125-14
 date: 2026-02-04
 weight: 10
 _build:
   list: never
   render: always
 description: >
-    Auswahl für > 500€ (exklusive PC), SNR bei 12 gleich starken Trägern min 70dB, Einsatz bis 60MHz (alle AM-Bänder)
+    Auswahl für < 300€ (exklusive PC), SNR bei 12 gleich starken Trägern 70 dB, Einsatz bis 60MHz (alle AM-Bänder)
 ---
 
-**Möglichkeiten:**
+**alternative Möglichkeiten bei dieser Perfomance:**
 
-PC (nicht im Preis enthalten) + STEMLAB 125-14
+wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SNR etwas geringer, aber noch sehr gut), Produktion leider eingestellt.
 
 **Vorteile:**
 
@@ -25,7 +25,9 @@ PC (nicht im Preis enthalten) + STEMLAB 125-14
 * Kosten typ. > 500 Euro (exklusive PC)
 * durch den PC nicht sehr kompakt
 
-Unterstützung durch den COHIWizard, COHI-Mini-Player (projected) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
+**Software-Unterstützung:**
+
+COHIWizard, COHI-Mini-Player (projected)
 
 Technische Evaluierung siehe TODO CONTENT STILL LACKING
 
