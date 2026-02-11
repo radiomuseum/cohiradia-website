@@ -3,7 +3,7 @@ title: COHIRADIA at the Graz LINUX-days, 10./11 05.2026
 ---
 ### COHIRADIA at the Graz LINUX-days, 10./11 05.20266
 
-On April 10 and 11, COHIRADIA will be participating in the [Graz LINUX Days](https://www.linuxtage.at/de/). 
+On April 10 and 11, COHIRADIA will be participating in the [Graz LINUX Days](https://www.linuxtage.at/en/). 
 So if you have the time and inclination, this event will give you the opportunity to experience the entire COHIRADIA system 
 in operation. What makes this event special is that you can admire the platform in all of its currently supported variants:
 * Classic setup with PC and COHIWizard
