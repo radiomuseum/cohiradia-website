@@ -1,3 +1,8 @@
+---
+title: COHIRADIA bei den Grazer LINUX-Tagen am 10./11 05.2026
+---
+### COHIRADIA bei den Grazer LINUX-Tagen am 10./11 05.2026
+
 Am 10. und 11. April nimmt COHIRADIA an den [Grazer LINUX-Tagen](https://www.linuxtage.at/de/)  teil. 
 Wer also Zeit und Lust hat, bekommt bei dieser Veranstaltung die Möglichkeit, das gesamte COHIRADIA-System 
 im Betrieb zu erleben. Die Besonderheit: Sie können die Plattform in allen bisher unterstützten Varianten bewundern:
