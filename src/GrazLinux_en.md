@@ -16,7 +16,6 @@ This will allow the entire range of COHIRADIA systems implemented to date to be 
 If you are in the area and want to find out more first-hand, this is a great opportunity. 
 Amateur radio groups will also be present at the same event.
 
-A little something special: Right next door, you can marvel at a fully functional low-field MRI machine built at Graz University of Technology 
-and maybe even have your own brain scanned. 
+A little something special: Right next to the COHIRADIA booth, you can marvel at a fully functional low-field MRI machine built at Graz University of Technology and maybe even have your own brain scanned. 
 This device is connected to COHIRADIA via the RedPitaya STEMLAB, which is used as the central 
 signal converter in both projects.
