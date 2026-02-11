@@ -3,22 +3,20 @@ title: COHIRADIA at the Graz LINUX-days, 10./11 05.2026
 ---
 ### COHIRADIA at the Graz LINUX-days, 10./11 05.20266
 
-Am 10. und 11. April nimmt COHIRADIA an den [Grazer LINUX-Tagen](https://www.linuxtage.at/de/)  teil. 
-Wer also Zeit und Lust hat, bekommt bei dieser Veranstaltung die Möglichkeit, das gesamte COHIRADIA-System 
-im Betrieb zu erleben. Die Besonderheit: Sie können die Plattform in allen bisher unterstützten Varianten bewundern:
-* Klassisches Setup mit PC und COHIWizard
-* Miniatur-Version mit dem Raspberry Pi und COHI-Player mini von CP. Gallenmiller. 
-Beide Systeme werden dort zum einen mit einem klassischen Röhrenempfänger aus den 50er-Jahren per Kabel
-und andererseits mit einem Transistor-Kofferradio aus den 1960ern über eine kleine Loop-Antenne zusammenspielen.
-Als Wiedergabeeinheiten werden zum einen das Red Pitaya STEMLAB und zum anderen der OSMO-fl2k USB/VGA-Konverter zum
-Einsatz kommen. Damit wird die gesamte Bandbreite an bisher implementierten COHIRADIA-Systemen auf einmal zu sehen sein.
+On April 10 and 11, COHIRADIA will be participating in the [Graz LINUX Days](https://www.linuxtage.at/de/). 
+So if you have the time and inclination, this event will give you the opportunity to experience the entire COHIRADIA system 
+in operation. What makes this event special is that you can admire the platform in all of its currently supported variants:
+* Classic setup with PC and COHIWizard
+* Miniature version with the Raspberry Pi and COHI-Player mini from CP. Gallenmiller. 
+Both systems will interact with a classic tube receiver from the 1950s via cable
+and with a transistor portable radio from the 1960s via a small loop antenna.
+The Red Pitaya STEMLAB and the OSMO-fl2k USB/VGA converter will be used as playback units.
+This will allow the entire range of COHIRADIA systems implemented to date to be seen at once.
 
-Falls jemand in der Nähe ist und sich aus erster Hand informieren will, ist das eine gute Gelegenheit. 
-Es werden auch Amateurfunk-Gruppen auf der selben Veranstaltung anwesend sein.
+If you are in the area and want to find out more first-hand, this is a great opportunity. 
+Amateur radio groups will also be present at the same event.
 
-Falls jemand COHIRADIA noch nicht kennen sollte: Hier eine kleine Einführung.
-
-Kleines Special: Gleich am Nachbarstand können Sie ein voll funktionsfähiges, an der TU Graz gebautes 
-Niedrigfeld-MRT-Gerät bestaunen und darin evt. sogar einen Scan Ihres eigenen Gehirns machen lassen. 
-Mit COHIRADIA verbindet dieses Gerät das RedPitaya STEMLAB, das in beiden Projekten als zentraler 
-Signalwandler benutzt wird.
+A little something special: Right next door, you can marvel at a fully functional low-field MRI machine built at Graz University of Technology 
+and maybe even have your own brain scanned. 
+This device is connected to COHIRADIA via the RedPitaya STEMLAB, which is used as the central 
+signal converter in both projects.
