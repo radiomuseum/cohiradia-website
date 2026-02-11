@@ -16,8 +16,6 @@ Einsatz kommen. Damit wird die gesamte Bandbreite an bisher implementierten COHI
 Falls jemand in der Nähe ist und sich aus erster Hand informieren will, ist das eine gute Gelegenheit. 
 Es werden auch Amateurfunk-Gruppen auf der selben Veranstaltung anwesend sein.
 
-Falls jemand COHIRADIA noch nicht kennen sollte: Hier eine kleine Einführung.
-
 Kleines Special: Gleich am Nachbarstand können Sie ein voll funktionsfähiges, an der TU Graz gebautes 
 Niedrigfeld-MRT-Gerät bestaunen und darin evt. sogar einen Scan Ihres eigenen Gehirns machen lassen. 
 Mit COHIRADIA verbindet dieses Gerät das RedPitaya STEMLAB, das in beiden Projekten als zentraler 
