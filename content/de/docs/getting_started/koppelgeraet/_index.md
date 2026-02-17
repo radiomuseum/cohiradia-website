@@ -20,7 +20,7 @@ Wie in [anderen Artikeln](https://www.radiomuseum.org/forum/radios_mit_gefaehrli
 
 Aufgrund dieser Sachlage **wird ausdrücklich davon abgeraten, den Ausgang des Signalwandlers (STEMLAB, fl2k-Dongle, ...) direkt mit dem Antenneneingang zu verbinden**. Dabei kann nicht nur der Signalwandler beschädigt oder zerstört werden, sondern es ist auch für damit hantierende Personen gefährlich, entsprechende leitfähige Teile zu berühren. Abhilfe schafft ein Hf‐Trenntransformator mit geeignetem Übersetzungsverhältnis vom \(50\Omega\)‐Ausgang des STEMLAB auf das Radio. Üblicherweise funktioniert eine Impedanztransformation 1:9 bis 1:16 (Windungsverhältnis 1:3 bzw. 1:4) für typische Röhrengeräte.
 
-Bei Radiogeräten, die entweder über Ferritantennen oder Rahmenantennen verfügen ist eine rein induktive Ankopplung über eine Sendespule und eine geeignete Treiberstufe bei niedriger Sendeleistung (Einhaltung der Bestimmungen für Störstrahlung !) möglich. Aufgrund der berührungslosen Signalübertragung ist diese Variante zumindest für die Sendeseite sicher.
+Bei Radiogeräten, die entweder über Ferritantennen oder Rahmenantennen verfügen ist eine rein induktive Ankopplung über eine Sendespule und eine geeignete Treiberstufe bei niedriger Sendeleistung (Einhaltung der Bestimmungen für Störstrahlung !) möglich. Aufgrund der berührungslosen Signalübertragung ist diese Variante zumindest für die Sendeseite sicher. **Bitte beachten Sie aber, dass beim Betrieb eines solchen Kleinsenders die Vorschriften der jeweiligen nationalen Regulierungsbehörde für den Funkverkehr jedenfalls einzuhalten sind.**
 
 ## Kopplung durch Hf-Transformatoren
 
@@ -42,7 +42,7 @@ In Abb. 1 ist ein von C.P. Gallenmiller eingesetzter Balun zu sehen, bei dem bei
 
 ## Induktive Kopplung 
 
-Dafür wird eine Sendespule benötigt, die so orientiert wird, dass ihre Achse für optimale Kopplung möglichst auf der Achse der Empfangsspule des Empfängers zu liegen kommt. Diese Spule wird am besten in Form einer nicht zu kleinflächigen Schleife mit typischerweise einer bis wenigen Windungen ausgeführt. Diese Spule muss mit einem geeigneten Treiberverstärker angesteuert werden.
+Dafür wird eine Sendespule benötigt, die so orientiert wird, dass ihre Achse für optimale Kopplung möglichst auf der Achse der Empfangsspule des Empfängers zu liegen kommt. Diese Spule wird am besten in Form einer nicht zu kleinflächigen Schleife mit typischerweise einer bis wenigen Windungen ausgeführt. Diese Spule muss mit einem geeigneten Treiberverstärker angesteuert werden. 
 
 
 Abb. 2 zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammenfaltbaren rautenförmigen Schleife aus Messingstäben, die speziell für mobilen Einsatz gebaut wurde. 
@@ -52,7 +52,14 @@ Abb. 2 zeigt eine von H. Scharfetter implementierte Anordnung mit einer zusammen
 {{% /imgproc %}}
 
 
-Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811. Die Schaltung entspricht der in  Abb. 3.5A im [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf#page=23). Die Verstärkung kann zur Vermeidung von Übersteuerung ggf. auf max 5 reduziert werden. Da der AD811 nur max. 100mA Ausgangsstrom liefern kann, die Schleifenimpedanz bei 500 kHz aber nur etwa \(j2.5 \Omega\) beträgt, wird ein 4:1 Transformator (24:6 Windungen, 670uH : 40uH) als Impedanzwandler zwischen Verstärkerausgang und Schleifenterminals geschaltet. Damit 'sieht' der AD811 zusammen mit dem in den Ausgangspfad geschalteten \(50 \Omega\)-Widerstand etwa  \(50 + j40\Omega\), was den Strom bei 5V Ausgangsamplitude auf etwas unter 80mA hält. Außerdem wird die Verlustleistung im AD811 sicher unter 1W gehalten, ein Wert, den man unter Einhaltung der Sicherheitsmargen (und abhängig vom Gehäuse) nicht überschreiten sollte. Im konkreten Fall wird der AD811 entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m z.B. für typische Kofferradios mit Ferritantenne. Abb. 3 zeigt einen von H. Scharfetter gebauten Prototypen mit zusammenfaltbarer und abschraubbarer quadratischer Schleife.
+Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverstärker der Type AD811. Die Schaltung entspricht der in  Abb. 3.5A im 
+<a href="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf#page=23" target="_blank" rel="noopener noreferrer">
+  Report 2023
+</a>.
+
+<!-- [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf#page=23) -->
+
+Die Verstärkung kann zur Vermeidung von Übersteuerung ggf. auf max 5 reduziert werden. Da der AD811 nur max. 100mA Ausgangsstrom liefern kann, die Schleifenimpedanz bei 500 kHz aber nur etwa \(j2.5 \Omega\) beträgt, wird ein 4:1 Transformator (24:6 Windungen, 670uH : 40uH) als Impedanzwandler zwischen Verstärkerausgang und Schleifenterminals geschaltet. Damit 'sieht' der AD811 zusammen mit dem in den Ausgangspfad geschalteten \(50 \Omega\)-Widerstand etwa  \(50 + j40\Omega\), was den Strom bei 5V Ausgangsamplitude auf etwas unter 80mA hält. Außerdem wird die Verlustleistung im AD811 sicher unter 1W gehalten, ein Wert, den man unter Einhaltung der Sicherheitsmargen (und abhängig vom Gehäuse) nicht überschreiten sollte. Im konkreten Fall wird der AD811 entweder von einer 9V-Blockbatterie oder einem kleinen 12-V-Akku versorgt. Diese Anordnung funktioniert über eine Distanz von 3 - 4m z.B. für typische Kofferradios mit Ferritantenne. Abb. 3 zeigt einen von H. Scharfetter gebauten Prototypen mit zusammenfaltbarer und abschraubbarer quadratischer Schleife.
 
 
 {{% imgproc rahmenantenne_balun Fit "600x600 webp" %}}
@@ -61,7 +68,13 @@ Versorgt wird diese Schleife über einen kleinen batteriebetriebenen Videoverst�
 
 Natürlich können auch andere Verstärker in diesem Kontext verwendet werden, sofern sie für den frequenzbereich geeignet sind und ausreichend Strom treiben können. 
 
-Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwendungsfall ab. Normalerweise möchte man Geräte in einer Entfernung von wenigen Metern noch mit ausreichend Signal versorgen, ohne darüber hinaus Störungen in der weiteren Umgebung zu verursachen. Die Vorschriften der jeweiligen ** Funkbehörde ** sind jedenfalls einzuhalten. Wie Berechnungen in [diesem pdf](/pdf/mein-dokument.pdf)
+Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwendungsfall ab. Normalerweise möchte man Geräte in einer Entfernung von wenigen Metern noch mit ausreichend Signal versorgen, ohne darüber hinaus Störungen in der weiteren Umgebung zu verursachen. Wie Berechnungen in 
+<a href="/pdf/Berechnungen_Loop_Antenne_TX_fuer_Webpage_v2_reduced.pdf" target="_blank" rel="noopener noreferrer">
+  diesem pdf
+</a>.
+
+<!-- [diesem pdf](/pdf/mein-dokument.pdf) -->
+
 zeigen, ist es günstig, kleine Windungszahlen und dafür großflächige Schleifen zu verwenden. Dies ist darauf zurückzuführen, dass die axiale magnetische Feldstärke in einer gewissen Entfernung z bei gegebenem Schleifenstrom zwar proportional zur Windungszahl zunimmt, die Induktivität und damit die Lastimpedanz für den Verstärker aber näherungsweise mit dem Quadrat der Windungszahl. Bei gegebener Signalspannung des Verstärkerausgangs nehmen damit der Strom und das Feld mit der Anzahl der Windungen ab. 
 
 Da die Spule eine induktive Last darstellt, fällt der Strom und damit die Feldstärke bei nicht-resonantem Betrieb umgekehrt proportional zur anliegenden Spannung ab. Dies stellt aber kein Problem für die Breitbandigkeit der Signalübertragung dar, da das Induktionsgesetz bei konstantem Feld in der Empfängerspule eine mit der Frequenz linear steigende Induktionsspannung erzeut und den Effekt daher wieder ausgleicht.
