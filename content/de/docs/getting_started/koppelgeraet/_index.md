@@ -96,8 +96,6 @@ Abb. 4 zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 
 </p> -->
 
 
-
-
 Abb. 5 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Honigwabenspule mit 75 Windungen in Verbindung mit einem  LM7171 als Treiber-Verstärker benutzt wird.
 
 {{< video_ext url="https://youtu.be/4jC2XtWUFI8" width="30%" align="left" showframe_time="0" caption="Abb. 5: Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne">}}

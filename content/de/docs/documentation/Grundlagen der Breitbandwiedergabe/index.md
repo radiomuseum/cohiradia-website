@@ -4,19 +4,24 @@ linkTitle: Grundlagen der Breitbandwiedergabe
 date: 2026-01-01
 weight: 4
 description: >
-   Hier kann man technische Details wie unseren Bericht 2023 ablegen, damit wir auch eine fundierte ingenieurswissenschaftliche Basis bereitstellen. 
 ---
 
-# Aufzeichnung und Wiedergabe von 'natürlichen' Breitbandspektren
+## Aufzeichnung und Wiedergabe von 'natürlichen' Breitbandspektren
 
-TODO TODO TODO
-BLA BLA BLA .............
+Grundsätzlich sind eine Vielzahl von Sendern gleichzeitig im elektromagnetischen Spektrum vorhanden. Im Mittelwellenband können das bei einem 9kHz-Kanalraster knapp 130 Stationen sein. Jeder Station ist eine Trägerfrequenz zugeordnet. Im Gegensatz zu Audiosignalen, bei denen nur eine Schallquelle auf ein (mono) oder zwei (Stereo) Kanälen aufgenommen wird, sind in einem Band also viele Audiosignale gleichzeitig präsent, indem sie auf ihre jeweiligen Trägerfrequenzen aufmoduliert werden. Das ist in Abb. 1 schematisch dargestellt: Jeder Sender, der auf der Radioskala (links oben) eingestellt werden kann, entspricht einer Spitze im gesamten MW-Spektrum, hier zwischen 500 und 1700 kHz (unten). Der Rundfunkempfänger wählt dabei genau diejenige 'Spitze' aus, die dem eingestellten Sender entspricht (rechts oben), und demoduliert das Signal. So ist nur ein Kanal hörbar, obwohl natürlich weiterhin alle gleichzeitig am Antenneneingang anliegen.
 
-Hier muss noch ordentlich gearbeitet werden !
+Will man nun dem Radio nun ein adäquates Antennensignal anbieten, das in der Vergangenheit einmal existiert hat, so muss man also in jener Vergangenheit das Gesamtspektrum aufgezeichnet haben.
 
-<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_1.png" />
 
-*Abbildung 1: Sender und deren Signale im gesamten MW-Spektrum* 
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_1.png"
+  style="max-width: 70%; height: auto;"
+/>
+
+
+*Abb. 1: Sender und deren Signale im gesamten MW-Spektrum* 
+
+TODO TODO
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_pipeline_1.png" />
 
