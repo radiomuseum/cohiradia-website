@@ -9,9 +9,9 @@ description: >
   Installationsanleitung für: PC mit STEMLAB Signalwandler unter Linux mit COHIWizard Python
 features:
   - schritt_1
-  - stemlab_SDcard_WINDOWS
+  - stemlab_SDcard_LINUX
   - schritt 2
-  - cohiwizard_exe
+  - cohiwizard_python_linux
   - finish
 ---
 
