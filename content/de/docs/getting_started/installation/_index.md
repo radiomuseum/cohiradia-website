@@ -21,11 +21,21 @@ Die folgende Tabelle zeigt eine Übersicht der verfügbaren Kombinationen:
 | Control-Computer | Signalwandler | OS      | Software           |
 |------------------|---------------|---------|-------------------|
 | PC               | STEMLAB       | Windows | COHIWizard exe     |
+| PC               | STEMLAB       | Windows | COHIWizard Python     |
 | PC               | STEMLAB       | Linux   | COHIWizard Python  |
 | PC               | fl2k-Dongle   | Windows | COHIWizard exe     |
-| PC               | STEMLAB       | Linux   | COHI-Player Mini   |
+| PC               | fl2k-Dongle   | Windows | COHIWizard Python     |
+| PC               | fl2k-Dongle   | Linux | COHIWizard Python     |
+| PC               | ADALM2000   | Windows | COHIWizard exe     |
+| PC               | ADALM2000   | Windows | COHIWizard Python     |
+| PC               | ADALM2000   | Linux | COHIWizard Python     |
+| PC               | STEMLAB       | Linux   | COHI-Player Mini   ??????|
 | Raspberry-Pi     | STEMLAB       | Linux   | COHIWizard Python  |
 | Raspberry-Pi     | fl2k-Dongle   | Linux   | COHIWizard Python  |
 | Raspberry-Pi     | STEMLAB       | Linux   | COHI-Player Mini   |
+
+
+
+
 
 **Hinweis:** Diese Kombinationen sind aktuell verfügbar. Weitere Kombinationen folgen in Kürze.
