@@ -24,6 +24,14 @@ stylelint-disable
   {{ $linkUrl = printf "%s#t=%s" $url $showframe_time }}
 {{ end }}
 
+{{ if not (.Page.Scratch.Get "figcount") }}
+  {{ .Page.Scratch.Set "figcount" 0 }}
+{{ end }}
+
+{{ .Page.Scratch.Add "figcount" 1 }}
+{{ $figNr := .Page.Scratch.Get "figcount" }}
+
+
 <div style="float: {{ $align }}; margin: 0 20px 20px 0; width: {{ $width }}; min-width: 200px; position: relative;">
   <a href="{{ $linkUrl }}" style="display: block; text-decoration: none;">
     <video 
@@ -43,7 +51,7 @@ stylelint-disable
 </div>
 
 {{ if .Inner }}
-  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem;">
+  <figcaption style="margin-right: 10%; font-size: 1.2rem;">
     {{ .Inner | markdownify }}
   </figcaption>
 {{ end }}

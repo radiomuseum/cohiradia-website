@@ -67,10 +67,10 @@ zeigen, ist es günstig, kleine Windungszahlen und dafür großflächige Schleif
 Da die Spule eine induktive Last darstellt, fällt der Strom und damit die Feldstärke bei nicht-resonantem Betrieb umgekehrt proportional zur anliegenden Spannung ab. Dies stellt aber kein Problem für die Breitbandigkeit der Signalübertragung dar, da das Induktionsgesetz bei konstantem Feld in der Empfängerspule eine mit der Frequenz linear steigende Induktionsspannung erzeut und den Effekt daher wieder ausgleicht.
 
 Zwei konkrete Anwendungen an sehr alten Radios kann man in den beiden folgenden Beispielen sehen: 
-Abb. # zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025" (Klicken, um zm Video zu gelangen): 
+Abb. 4 zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025" (Klicken, um zm Video zu gelangen): 
 
 
-{{< video url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" width="25%" align="left" showframe_time="0">}}
+{{< video url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" width="30%" align="left" showframe_time="0">}}
 *Abbildung 4:* Anwendung einer Loop-Antenne an einem Loewe OE333.
 {{< /video >}}
 
@@ -89,9 +89,9 @@ Abb. # zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 
 
 
 
-Abb. # 5 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Honigwabenspule mit 75 Windungen in Verbindung mit einem  LM7171 als Treiber-Verstärker benutzt wird.
+Abb. 5 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Honigwabenspule mit 75 Windungen in Verbindung mit einem  LM7171 als Treiber-Verstärker benutzt wird.
 
-{{< video url="https://youtu.be/4jC2XtWUFI8" width="25%" align="left" showframe_time="1">}}
+{{< video url="https://youtu.be/4jC2XtWUFI8" width="30%" align="left" showframe_time="1">}}
 *Abbildung 5:* Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne.
 {{< /video >}}
 
