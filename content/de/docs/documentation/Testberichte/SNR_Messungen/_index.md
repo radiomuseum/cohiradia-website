@@ -7,9 +7,4 @@ description: >
   SNR Messungen an Signalwandlern durch CPG, WB, HS
 ---
 
-SNR
-
-SNR
-
-
-SNR
+TODO: Work in progress

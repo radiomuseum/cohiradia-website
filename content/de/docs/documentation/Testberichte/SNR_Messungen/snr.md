@@ -2,9 +2,4 @@
 title: SNR
 ---
 
-SNR
-
-SNR
-
-
-SNR
+TODO: Work in progress
