@@ -82,7 +82,7 @@ Da die Spule eine induktive Last darstellt, fällt der Strom und damit die Felds
 Zwei konkrete Anwendungen an sehr alten Radios kann man in den beiden folgenden Beispielen sehen: 
 Abb. 4 zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025" (Klicken, um zm Video zu gelangen): 
 
-{{< video_ext url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" width="25%" align="left" showframe_time="0" >}}
+{{< video_ext url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" width="30%" align="left" showframe_time="0" caption="Abb. 4: Ankopplung der Rahmenantenne an eine Korbspule des Loewe OE333" >}}
 
 <!-- <a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
   <img align="left" width="200" height="150" 
@@ -100,7 +100,8 @@ Abb. 4 zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 
 
 Abb. 5 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Honigwabenspule mit 75 Windungen in Verbindung mit einem  LM7171 als Treiber-Verstärker benutzt wird.
 
-{{< video_ext url="https://youtu.be/4jC2XtWUFI8" width="25%" align="left" showframe_time="0" >}}
+{{< video_ext url="https://youtu.be/4jC2XtWUFI8" width="30%" align="left" showframe_time="0" caption="Abb. 5: Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne">}}
+
 <!-- 
 <a href="https://youtu.be/4jC2XtWUFI8" target="_blank">
   <img align="left" width="200" height="100" 

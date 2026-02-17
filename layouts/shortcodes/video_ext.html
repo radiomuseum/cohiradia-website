@@ -15,6 +15,7 @@ stylelint-disable
 {{ $align := .Get "align" | default "center" }}
 {{ $showframe_time := .Get "showframe_time" }}
 {{ $playstart := .Get "playstart" }}
+{{ $caption := .Get "caption" }}
 {{ $id := now.Unix }}
 
 {{ $linkUrl := $url }}
@@ -24,7 +25,7 @@ stylelint-disable
   {{ $linkUrl = printf "%s#t=%s" $url $showframe_time }}
 {{ end }}
 
-<div style="float: {{ $align }}; margin: 0 20px 20px 0; width: {{ $width }}; min-width: 200px; position: relative;">
+<figure style="float: {{ $align }}; margin: 0 20px 20px 0; width: {{ $width }}; min-width: 200px; position: relative;">
   <a href="{{ $linkUrl }}" style="display: block; text-decoration: none;">
     <video 
       id="video-{{ $id }}"
@@ -40,7 +41,17 @@ stylelint-disable
       </svg>
     </div>
   </a>
+
+
+</figure>
+
+
+{{ if $caption }}
+<div style="margin-bottom: 30%; font-size: 1.1rem; color: #555;">
+  {{ $caption | markdownify }}
 </div>
+{{ end }}
+
 <div style="clear: both;"></div>
 
 {{ if $showframe_time }}
@@ -55,3 +66,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 {{ end }}
+
