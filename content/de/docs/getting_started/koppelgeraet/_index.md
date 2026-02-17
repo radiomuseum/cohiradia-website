@@ -69,27 +69,40 @@ Da die Spule eine induktive Last darstellt, fällt der Strom und damit die Felds
 Zwei konkrete Anwendungen an sehr alten Radios kann man in den beiden folgenden Beispielen sehen: 
 Abb. # zeigt die direkte Einkopplung in die Schwingkreisspule eines Loewe OE333 aus dem Jahr 1927 im Kontext "Season's greetings 2025" (Klicken, um zm Video zu gelangen): 
 
-<a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
+
+{{< video url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" width="25%" align="left" showframe_time="0">}}
+*Abbildung 4:* Anwendung einer Loop-Antenne an einem Loewe OE333.
+{{< /video >}}
+
+
+<!-- <a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
   <img align="left" width="200" height="150" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.png" />
      
-</a>
-<p align="left" style="width:300px;">
+</a> -->
+
+
+<!-- <p align="left" style="width:300px;">
   <em>Abbildung #: Ankopplung der Rahmenantenne an eine Korbspule des Loewe OE333.</em>
-</p>
+</p> -->
 
 
 
 
-Abb. # 2 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Korbspule in Verbindung mit einem Kleinsignal-+++Verstärker+++ benutzt wird. Diese Spule hat zwar viele Windungen, stellt aber offensichtlich dennoch ausreichend Feld für den Empfänger bereit.
+Abb. # 5 verlinkt auf ein Beispielvideo von G. Gauert, in dem eine Honigwabenspule mit 75 Windungen in Verbindung mit einem  LM7171 als Treiber-Verstärker benutzt wird.
 
+{{< video url="https://youtu.be/4jC2XtWUFI8" width="25%" align="left" showframe_time="1">}}
+*Abbildung 5:* Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne.
+{{< /video >}}
+
+<!-- 
 <a href="https://youtu.be/4jC2XtWUFI8" target="_blank">
   <img align="left" width="200" height="100" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Screenshot_Gauertvideo_induktiveKopplung_COHI.png" />
 </a>
 <p align="left" style="width:300px;">
   <em>Abbildung #: Ankopplung einer Korbspule an ein Transistor-Kofferradio mit Ferritantenne </em>
-</p>
+</p> -->
 
 
 
