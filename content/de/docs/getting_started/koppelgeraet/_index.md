@@ -2,7 +2,7 @@
 title: Koppelgerät
 linkTitle: Koppelgerät
 date: 2026-01-01
-weight: 5
+weight: 20
 description: >
    Hf-Trenntrafo, ggf. Multikanal-Trafo, oder auch ein Kleinsender, entweder als Loop oder elektrisch.
 ---

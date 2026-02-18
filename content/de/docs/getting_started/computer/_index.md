@@ -2,7 +2,7 @@
 title: Computer
 linkTitle: Computer
 date: 2026-01-01
-weight: 30
+weight: 5
 description: >
 ---
 
