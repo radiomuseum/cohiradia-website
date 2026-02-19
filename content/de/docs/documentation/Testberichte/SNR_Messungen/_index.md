@@ -11,7 +11,7 @@ description: >
 
 Für einen N-Bit-Wanler errechnet sich die theoretische SNR zu:
 
-SNR_q = 6.02*N + 1.76 (dB)
+```SNR_q = 6.02*N + 1.76 (dB)```
 
 Diese Rechnung bezieht die Nutz-Signalleistung auf die Rauschleistung im gesamten abgetasteten Band.
 

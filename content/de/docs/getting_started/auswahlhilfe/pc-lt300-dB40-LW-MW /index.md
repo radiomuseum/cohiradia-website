@@ -28,5 +28,5 @@ description: >
 
 COHIWizard, COHI-Mini-Player (projected) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
 
-Technische Evaluierung siehe TODO CONTENT STILL LACKING
+Technische Evaluierung siehe [SNR-Messungen](/de/docs/documentation/testberichte/snr_messungen/)
 

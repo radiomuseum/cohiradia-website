@@ -29,5 +29,5 @@ wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SN
 
 COHIWizard, COHI-Mini-Player (projected)
 
-Technische Evaluierung siehe TODO CONTENT STILL LACKING
+Technische Evaluierung siehe [SNR-Messungen](/de/docs/documentation/testberichte/snr_messungen/)
 
