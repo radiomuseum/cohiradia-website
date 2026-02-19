@@ -6,7 +6,7 @@ _build:
   list: never
   render: always
 description: >
-    Auswahl für < 100€ (exklusive PC), SNR bei 12 gleich starken Trägern max 40dB, Bandbreite begrenzt auf LW, MW
+    Auswahl für < 100€ (exklusive PC), max. SNR bei 29 gleich starken Trägern 40dB, Bandbreite begrenzt auf LW, MW
 ---
 
 **Diese Option ist tatsächlich für < 100€ (excl. PC) erwerbbar>:**

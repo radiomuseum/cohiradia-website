@@ -49,8 +49,9 @@ Wenn K unkorrelierte Träger im selben Band existieren, ist die Energie eines ei
 
 **Single tone:**
 
-STEMLAB:  SNR_eff = 75.8 dB, peak-Pegel der Träger -30 dB
-fl2k: SNR_eff = 57.8 dB, peak-Pegel  der Träger -35 dB
+* STEMLAB:  SNR_eff = 75.8 dB, peak-Pegel der Träger -30 dB
+* fl2k: SNR_eff = 57.8 dB, peak-Pegel  der Träger -35 dB
+
 
 <img 
   src="/images/Spektrum_PC_single_tone_fl2k_rspdx_21_18_small.png"
@@ -77,8 +78,8 @@ Beim STEMLAB ist zu beachten, dass die Messung aufgrund des Noise-floor des Spek
 
 **29 Träger:**
 
-STEMLAB:  SNR_eff = 47.8 dB, peak-Pegel der Träger -58 dB
-fl2k: SNR_eff = 35.8 dB, peak-Pegel  der Träger -60 dB
+* STEMLAB:  SNR_eff = 47.8 dB, peak-Pegel der Träger -58 dB
+* fl2k: SNR_eff = 35.8 dB, peak-Pegel  der Träger -60 dB
 
 <img 
   src="/images/Spektrum_PC_A2_fl2k_rspdx_21_18_small.png"
@@ -95,6 +96,8 @@ Abb. 3: Spektrometer-Ausgabe für fl2k
 Abb. 4: Spektrometer-Ausgabe für STEMLAB
 
 Beim STEMLAB ist zu beachten, dass die Messung aufgrund des Noise-floor des Spektrometers kaum noch bessere Werte abzulesen gestattet, die tatsächlichen Werte sind vermutlich deutlich besser.
+
+
 
 
 ## Fazit:

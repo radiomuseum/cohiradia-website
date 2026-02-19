@@ -6,8 +6,10 @@ _build:
   list: never
   render: always
 description: >
-    Auswahl für > 500€ (exklusive PC), SNR bei 12 gleich starken Trägern ca 50dB, Einsatz für LW, MW und KW 49m bei günstigen Samplingraten
+    Auswahl für > 500€ (exklusive PC), max. SNR bei 29 gleich starken Trägern ca 50dB, Einsatz für LW, MW und KW 49m bei günstigen Samplingraten
 ---
+
+Hinweis: Diese Variante wurde bisher noch am wenigsten getestet, daher noch wenig Erfahrung.
 
 **alternative Möglichkeiten bei dieser Perfomance:**
 

@@ -6,7 +6,7 @@ _build:
   list: never
   render: always
 description: >
-    Auswahl für < 100€ (exklusive PC), SNR bei 12 gleich starken Trägern max 40dB, Bandbreite begrenzt auf LW, MW und 49m SW
+    Auswahl für < 100€ (exklusive PC), max. SNR bei 29 gleich starken Trägern 40dB, Bandbreite begrenzt auf LW, MW und 49m SW
 ---
 
 **Diese Option ist tatsächlich für < 100€ (excl. PC) erwerbbar>:**
@@ -19,7 +19,7 @@ description: >
 
 **Nachteile:**
 
-* nur 8 bit Auflösung, daher SNR sehr begrenzt, aber ausreichend für die meisten LW und MW-Bänder sowie KW 49m
+* nur 8 bit Auflösung, daher SNR begrenzt, aber ausreichend für die meisten LW und MW-Bänder sowie KW 49m
 * Datenrate durch USB-Port begrenzt; Frequenz beschränkt auf typ. XX kHz, kann auch höher sein, ist aber nicht garantiert
 * höhere Rechenleistung auf dem PC gefordert als bei FPGA-gestützten Systemen
 * nur USB/VGA-Dongles mit Fresco-Chipset unterstützt, Verfügbarkeit wegen Auslaufen der Herstellung begrenzt, Zukunft ungewiss.
