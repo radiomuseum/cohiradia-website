@@ -31,5 +31,5 @@ aktuell keine
 
 COHIWizard
 
-Technische Evaluierung siehe TODO CONTENT STILL LACKING
+Technische Evaluierung leider noch nicht verfügbar.
 

@@ -18,7 +18,8 @@ wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SN
 * unkompliziertes Setup
 * exzellente SNR-Werte
 * bis 60 MHz einsetzbar, also alle KW-Bänder
-* STEMLAB auch für anndere Zwecke im Laborbetrieb einsetzbar (einfache Applikationen für Oszilloskop/Signalgenerator/Logikanalysator etc.)
+* Signalaufzeichnung ist mit hoher Qualität möglich
+* STEMLAB auch für andere Zwecke im Laborbetrieb einsetzbar (einfache Applikationen für Oszilloskop/Signalgenerator/Logikanalysator etc.)
 
 **Nachteile:**
 
@@ -29,5 +30,6 @@ wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SN
 
 COHIWizard, COHI-Mini-Player (projected)
 
-Technische Evaluierung siehe [SNR-Messungen](/de/docs/documentation/testberichte/snr_messungen/)
+Technische Evaluierung siehe ['SNR-Messungen']({{< relref "/docs/documentation/Testberichte/snr_messungen/_index.md" >}}).
+
 

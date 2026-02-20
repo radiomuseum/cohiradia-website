@@ -21,8 +21,8 @@ aktuell keine
 
 **Nachteile:**
 
-* nur 8 bit Auflösung, daher SNR begrenzt, aber ausreichend für die meisten LW und MW-Bänder sowie KW 49m
-* Datenrate durch USB-Port begrenzt; Frequenz beschränkt auf typ. XX kHz, kann auch höher sein, ist aber nicht garantiert
+* nur 8 bit Auflösung, daher SNR begrenzt, aber ausreichend für die meisten LW und MW-Bänder sowie (bedingt) KW 49m.
+* Datenrate durch USB-Port begrenzt; max. nutzbare Frequenz ist je nach Betriebssystem beschränkt, nähere Details siehe ['hier']({{< relref "/docs/documentation/Testberichte/OSMO_fl2k_Frequenzabdeckung/_index.md" >}})
 * höhere Rechenleistung auf dem PC gefordert als bei FPGA-gestützten Systemen
 * nur USB/VGA-Dongles mit Fresco-Chipset unterstützt, Verfügbarkeit wegen Auslaufen der Herstellung begrenzt, Zukunft ungewiss.
 
@@ -30,4 +30,4 @@ aktuell keine
 
 COHIWizard, COHI-Mini-Player (projected) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
 
-Technische Evaluierung siehe [SNR-Messungen](/de/docs/documentation/testberichte/snr_messungen/)
+Technische Evaluierung siehe ['SNR-Messungen']({{< relref "/docs/documentation/Testberichte/snr_messungen/_index.md" >}}) und ['OSMO-fl2k-Frequenzabdeckung']({{< relref "/docs/documentation/Testberichte/OSMO_fl2k_Frequenzabdeckung/_index.md" >}})

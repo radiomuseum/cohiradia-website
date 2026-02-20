@@ -20,6 +20,7 @@ wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SN
 * standalone
 * exzellente SNR-Werte
 * bis 60 MHz einsetzbar, also LW, MW und alle KW-Bänder
+* Signalaufzeichnung ist mit hoher Qualität möglich
 * STEMLAB auch für anndere Zwecke im Laborbetrieb einsetzbar (einfache Applikationen für Oszilloskop/Signalgenerator/Logikanalysator etc.)
 
 
