@@ -18,12 +18,12 @@ Wenn als Signalwandler ein mit FPGA ausgestattetes Gerät wie etwa das RedPitaya
 
 Wird hingegen z.B. der OSMO fl2k-Dongle benutzt, wird gewisse Rechenleistung benötigt. Getestet wurde bisher auf folgenden Computern unter Windows 10 und Windows 11:
 
-Lenovo T430, Intel-Core i5-3320M, 8GB Ram
-Acer Swift, AMD Ryzen 5 4500U, 8GB Ram
-Acer Aspire 5, Intel-Core i7-1165G7, 16GB Ram
-TODO: Rechner von Walter
-TODO: Rechner von Claus-Peter
-TODO: Rechner von Stan
+* Lenovo T430, Intel-Core i5-3320M, 8GB Ram
+* Acer Swift, AMD Ryzen 5 4500U, 8GB Ram
+* Acer Aspire 5, Intel-Core i7-1165G7, 16GB Ram
+* TODO: Rechner von Walter
+* TODO: Rechner von Claus-Peter
+* TODO: Rechner von Stan
 
 Entwickelt wurde die Software bisher auf einem Lenovo T590 mit Intel Core i7 mit 32GB Arbeitsspeicher. Getestet wurde die Software auf PCs bisher unter Windows 10, Windows 11 und LINUX Debian 12 und Debian 13.
 
