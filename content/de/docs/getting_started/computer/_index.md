@@ -8,9 +8,9 @@ description: >
 
 Der Steuercomputer hat die Aufgabe, die Daten von den Aufzeichnungs-Dateien zu lesen und an den jeweils angeschlossenen Signalwandler zu übertragen. Je nach Steuergerät müssen die Daten entweder nur weitergeleitet oder ggf. vorher umgerechnet und aufbereitet werden. Damit dies bequem vonstatten gehen kann, läuft auf diesem Computer eine geeignete Software. 
 
-Je nach ausgewählter Konfiguration (siehe dazu die Auswahlhilfe), kann der Comuter ein handelsüblicher PC oder ein ausreichend leistungsfähiger Single-Board-Computer wie etwa ein Raspberry-Pi, Modell 4 oder 5 sein.
+Je nach ausgewählter Konfiguration (siehe dazu die Auswahlhilfe) kann der Comuter ein handelsüblicher PC oder ein ausreichend leistungsfähiger Single-Board-Computer wie etwa ein Raspberry-Pi, Modell 4 oder 5 sein.
 
-Da die Datenfiles typischerweise sehr groß sind, werden sie oft auf externen Datenträgern (Festplatten, große USB-Sticks) gelagert. Beispielsweise benötigt man für ein MW-Band bei Standard-IQ-Aufzeichnungsformat (1.25MS/s, 4Byte/sample) etwa 18GB je Stunde Laufzeit. Hier hat der PC den Vorteil, dass er bei Vorhandensein einer großen Festplatte auch gleichzeitig als Speicher für Aufzeichnungen genutzt werden. Weiters ist er oft bereits ohnehin für andere Zwecke im Haushalt vorhanden. Möchte man aber ein kompaktes Stand-Alone-System haben, bietet sich ein Einplatinen-Computer an.
+Da die Datenfiles typischerweise sehr groß sind, werden sie oft auf externen Datenträgern (Festplatten, große USB-Sticks) gelagert. Beispielsweise benötigt man für ein MW-Band bei Standard-IQ-Aufzeichnungsformat (1.25MS/s, 4Byte/sample) etwa 18GB je Stunde Laufzeit. Hier hat der PC den Vorteil, dass er bei Vorhandensein einer großen Festplatte auch gleichzeitig als Speicher für Aufzeichnungen genutzt werden kann. Weiters ist er oft bereits ohnehin für andere Zwecke im Haushalt vorhanden. Möchte man aber ein kompaktes Stand-Alone-System haben, bietet sich ein Einplatinen-Computer an.
 
 ### PC als Steuercomputer
 
