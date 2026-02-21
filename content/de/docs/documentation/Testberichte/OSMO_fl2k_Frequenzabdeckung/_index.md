@@ -9,26 +9,29 @@ description: >
 
 ## Allgemeines:
 
-Der OSMO-fl2k USB-VGA-Konverter erfreut sich mittlerweile aufgrund seines geringen Preises einer gewissen Beliebtheit als Wiederabe-Signalwandler. Allerdings hat er natürlich seine Einschränkungen. Die begrenzte DAC-Auflösung von 8 Bit wurde bereits im Kapitel ['SNR_Messungen']({{< relref "/docs/documentation/Testberichte/SNR_Messungen/_index.md" >}})  erörtert, sie macht sich erfreulicherweise allerdings bei der Audioqualität kaum bemerkbar.
+Der OSMO-fl2k USB-VGA-Konverter erfreut sich aufgrund seines geringen Preises einer gewissen Beliebtheit als Wiederabe-Signalwandler, hat aber natürlich Einschränkungen. Diese sollen hier erörtert werden. 
 
-Eine deutlichere Einschränkung gegenüber dem Flaggschiff STEMLAB ist die begrenzte Sampleingrate (SR) in Kombination mit der Tatsache, dass keine komplexen Daten an den Wandler übertragen werden. Dadurch muss die SR gemäß Nyquist-Theorem mindestens 2x die Basisbandbreite der abzuspielenden Aufzeichnung betragen. Da das OSMO weiters nicht on-board von der Basisbandfrequenz auf die Ziel-HF-Bandbreite hochrechnet, ergeben sich zwei Konsequenzen:
+Die begrenzte DAC-Auflösung von 8 Bit wurde bereits im Kapitel ['SNR_Messungen']({{< relref "/docs/documentation/Testberichte/SNR_Messungen/_index.md" >}})  diskutiert, sie macht sich erfreulicherweise allerdings bei der Audioqualität kaum bemerkbar.
 
-1. Der Computer muss die Basisbandsignale auf die Zielfrequenz hochrechnen, was einiges an Rechenlast für die CPU bedeutet. 
-2. Danach muss das Signal mit einer ausreichenden SR über den USB-Port übertragen werden. So beträgt die minimale SR z.B. für das 41m-Band 2 x7.6 = 15.2 MS/s. 
+Eine deutlichere Einschränkung gegenüber dem Flaggschiff STEMLAB ist die begrenzte Sampleingrate (SR) in Kombination mit der Tatsache, dass keine komplexen Daten an den Wandler übertragen werden. Dadurch muss die SR gemäß Nyquist-Theorem mindestens 2x die Basisbandbreite der abzuspielenden Aufzeichnung betragen. Da das OSMO weiters nicht on-board von der Basisbandfrequenz auf die Ziel-HF-Bandbreite umrechnet, ergeben sich zwei Konsequenzen:
+
+1. Der Computer muss die Basisbandsignale auf die Zielfrequenz umrechnen, was einiges an Rechenlast für die CPU bedeutet. 
+2. Danach muss das Signal mit einer ausreichenden SR über den USB-Port übertragen werden. So beträgt die minimale SR z.B. für das 41m-Band 2 x 7.6 = 15.2 MS/s. 
 
 ### Perfomance bei PC als Steuercomputer
 
 **Datenübertragung über USB:**
-Die Übertragung über den USB-Port kann je nach PC und Betriebssystem durchaus zum Flaschenhals werden. Dies sei hier an einem konkreten Beispiel erläutert:
 
-Das OSMO kann SR von 7.5 MS/s und dann Werte zwischen 10MS/2 bis 100MS/s in Intervallen von 10MS/s bereitstellen, also z.B. 10, 20, 30, ... MS/s. Im Fall des 41m-Bandes müssen also 20MS/s gewählt werden. Damit geht sich auch das 31m-Band noch knapp aus, währen man für das 25m-Band bereits auf 30MS/s umsteigen muss.
+Die Übertragung über den USB-Port kann je nach PC und Betriebssystem durchaus zum Flaschenhals werden. Dies sei an einem konkreten Beispiel erläutert:
+
+Das OSMO kann SR von 7.5 MS/s und dann Werte zwischen 10MS/2 bis 100MS/s in Intervallen von 10MS/s bereitstellen, z.B. 10, 20, 30, ... MS/s. Im Fall des 41m-Bandes müssen also 20MS/s gewählt werden. Damit geht sich auch das 31m-Band noch knapp aus, während man für das 25m-Band bereits auf 30MS/s umsteigen muss.
 
 **Rechenleistung / CPU:**
 
-Die Rechenleistung kann meist von modernen PCs ohne große Probleme aufgebracht werden. Allerdings ist die optimale Situation gegeben, wenn das Verhältnis zwischen der SR des Dongles und der SR der IQ-Datei eine ganzzahlige Potenz von 2 ist, d. h. 2<sup>N</sup>. Unter dieser
-Bedingung können Signale bis zu 5 MHz in der Regel selbst unter Windows problemlos wiedergegeben werden. So sind z. B. MW-Dateien
-mit 1250 kS/s und 16 BpS in der Regel gut geeignet.
-Bei Abtastraten, die nicht der oben genannten Regel entsprechen (z. B. 500 kS/s), kann das vom COHIWizard für das Umcodieren benutzte ffmpeg langsamer werden und die Pipeline kann blockieren/abstürzen. Auch Aufnahmen mit höhere Auflösungen als 16 Bit (24 und 32 fps) haben sich als problematisch erwiesen.
+Die Rechenleistung kann meist von modernen PCs ohne große Probleme aufgebracht werden. Allerdings ist es rechentechnisch am günstigsten, wenn das Verhältnis zwischen der SR des Dongles und der SR der IQ-Datei eine ganzzahlige Potenz von 2 ist, d. h. 2<sup>N</sup>. Unter dieser
+Bedingung können Signale bis zu 5 MHz in der Regel selbst unter Windows problemlos wiedergegeben werden. MW-Dateien
+mit einer typischen SR von 1250 kS/s und 16 BpS sind z.B. in der Regel sehr gut geeignet.
+Bei Abtastraten, die nicht der oben genannten Regel entsprechen (z. B. 500 kS/s), kann das vom COHIWizard für das Umcodieren benutzte ffmpeg langsamer werden und die Pipeline kann blockieren oder gar abstürzen. Auch Aufnahmen mit höheren Auflösungen als 16 Bit (24 und 32 fps) haben sich als problematisch erwiesen.
 Wenn die SR niedrig genug ist (z. B. 250 kS/s für LW), treten praktisch nie Probleme auf, selbst wenn sie nicht der 2<sup>N</sup>-Regel entspricht.
 
 Die Probleme können durch Ausschalten der Spektralüberwachung reduziert werden, aber dann funktioniert die Lautstärkeanzeige nicht
@@ -36,7 +39,7 @@ mehr, sodass Sie die Verstärkung nur noch „blind“ einstellen können.
 
 **Betriebssystem:**
 
-Generell hat sich der Betrieb des COHIWizard unter LINUX als deutlich stabiler erwiesen als unter Windows. Das zeigt sich deutlich beim Abspielen von KW-Aufzeichnungen. Die folgenden Beobachtungen wurden auf einem Lenovo T590 mit Intel Core i7 mit 32GB Arbeitsspeicher gemacht:
+Generell hat sich der Betrieb des COHIWizard unter LINUX als deutlich stabiler erwiesen als unter Windows. Das zeigt sich etwa beim Abspielen von KW-Aufzeichnungen. Die folgenden Beobachtungen wurden auf einem Lenovo T590 mit Intel Core i7 und 32GB Arbeitsspeicher gemacht:
 
 WINDOWS 10/11:
 

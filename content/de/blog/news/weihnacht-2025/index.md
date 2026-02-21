@@ -13,7 +13,7 @@ resources:
 
 
 <a href="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.mp4" target="_blank">
-  <img  width="2%" 
+  <img  width="50%" 
        src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Seasons_greetings_20251220.png" />
 </a>
 
