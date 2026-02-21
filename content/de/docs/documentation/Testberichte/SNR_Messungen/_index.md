@@ -19,7 +19,7 @@ Für das OSMO-fl2k ergeben sich mit N = 8 theoretisch knapp 50dB SNR bei Vollaus
  
 Für das STEMLAB ergeben sich 86dB Grund-SNR. Bei deutlich höherem Oversampling von 100 (die Abtastrate ist 125MS/s) ergit das einen SNR-Gewinn von 20dB. Daher müsste die SNR effektiv 106dB betragen
  
-## Messungen (H. Scharfetter):
+## Messungen mit SDR (H. Scharfetter):
 
 Der Signalwandler wurde über einen regelbaren Abschwächer an den Eingang A eines RSPdx von SDRplay angekoppelt. Dann worde über den COHIWizard ein Testsignal eingespielt, das per Synthesizer-Funktion erzeugt worden war. Die Abspielamplitude am COHIWizard und das gain des SDRdx wurden so eingestellt, dass gerade keine merklichen Intermodulationsprodukte im Spektrum sichtbar wurden.
 
@@ -108,9 +108,9 @@ Bei den 29 Tragern musste die Signalamplitude deutlich reduziert werden, um Übe
 
 Dennoch kann man feststellen, dass der Unterschied zumindest beim Abhören nicht wirklich störend in Erscheinung tritt, und das fl2k daher eine sehr brauchbare Lösung für die meisten Abspiel-Anwendungen darstellt, sofern man nicht auf hohe Abtastraten angewiesen ist (z.B. KW-Spektren).
 
-## Ergänzende Messungen (W. Barteczek, C.P. Gallenmiller):
+## Messungen mit Stand-Alone Spektralanalysatoren (W. Barteczek, C.P. Gallenmiller):
 
-W. Barteczek hat Messungen mit einem ???Spektralanalysator??MARKE??? an einem Dongle der Marke DeLock 62783 durchgeführt. Die Spektrumaufnahmen erfolgten mit nachgeschaltetem 17dB 2N5109-Verstärker und 2MHz Tiefpass hinter dem DeLock 62783. Als Testsignal kam die auf einem PC per COHIWizard abgespielte Aufnahme 'Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1' aus der COHI-Jukebox zum Einsatz, die 12 Carrier beinhaltet. Die Einstellung des COHIWizard war: Keine AGC/AVC, Pegelsteller bei -22dB. Abb 5. zeigt das Ergebnis bei einer Span von 500 kHz und einer RBW von 1 kHz. 
+W. Barteczek hat Messungen mit einem Spektralanalysator der Type HP 8591E (9 kHz- 1,8 GHz) an einem Dongle der Marke DeLock 62783 durchgeführt. Die Spektrumaufnahmen erfolgten mit nachgeschaltetem 17dB 2N5109-Verstärker und 2MHz Tiefpass hinter dem DeLock 62783. Als Testsignal kam die auf einem PC per COHIWizard abgespielte Aufnahme 'Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1' aus der COHI-Jukebox zum Einsatz, die 12 Carrier beinhaltet. Die Einstellung des COHIWizard war: Keine AGC/AVC, Pegelsteller bei -22dB. Abb 5. zeigt das Ergebnis bei einer Span von 500 kHz und einer RBW von 1 kHz. 
 
 <img 
   src="/images/WB_fl2k_Spektrum_bei_optimaler_Aussteuerung.jpg"
