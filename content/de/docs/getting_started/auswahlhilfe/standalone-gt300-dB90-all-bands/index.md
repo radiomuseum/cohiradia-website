@@ -17,7 +17,8 @@ wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SN
 
 * unkompliziertes Setup
 * kompakt
-* standalone
+* standalone, 
+* automatische Wiedergabe nach dem Hochfahren bei Verwendung des COHI-Player-Mini
 * exzellente SNR-Werte
 * bis 60 MHz einsetzbar, also LW, MW und alle KW-Bänder
 * Signalaufzeichnung ist mit hoher Qualität möglich

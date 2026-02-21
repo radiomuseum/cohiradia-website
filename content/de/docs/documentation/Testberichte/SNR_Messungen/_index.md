@@ -19,7 +19,7 @@ Für das OSMO-fl2k ergeben sich mit N = 8 theoretisch knapp 50dB SNR bei Vollaus
  
 Für das STEMLAB ergeben sich 86dB Grund-SNR. Bei deutlich höherem Oversampling von 100 (die Abtastrate ist 125MS/s) ergit das einen SNR-Gewinn von 20dB. Daher müsste die SNR effektiv 106dB betragen
  
-## Messungen:
+## Messungen (H. Scharfetter):
 
 Der Signalwandler wurde über einen regelbaren Abschwächer an den Eingang A eines RSPdx von SDRplay angekoppelt. Dann worde über den COHIWizard ein Testsignal eingespielt, das per Synthesizer-Funktion erzeugt worden war. Die Abspielamplitude am COHIWizard und das gain des SDRdx wurden so eingestellt, dass gerade keine merklichen Intermodulationsprodukte im Spektrum sichtbar wurden.
 
@@ -107,3 +107,24 @@ Die Single-Ton-Messungen bestätigen die theoretische SNR des fl2k (57.8 dB vs 5
 Bei den 29 Tragern musste die Signalamplitude deutlich reduziert werden, um Übersteuerung zu verhindern. Dort wurden mit dem fl2k immerhin noch 35.8 dB SNR gemessen, beim STEMLAB ergab sich wieder ein durch den Noise-floor des Spektrometers verfälschter Wert von 47.8 dB. Auch hier ist das STEMLAB natürlich überlegen. 
 
 Dennoch kann man feststellen, dass der Unterschied zumindest beim Abhören nicht wirklich störend in Erscheinung tritt, und das fl2k daher eine sehr brauchbare Lösung für die meisten Abspiel-Anwendungen darstellt, sofern man nicht auf hohe Abtastraten angewiesen ist (z.B. KW-Spektren).
+
+## Ergänzende Messungen (W. Barteczek, C.P. Gallenmiller):
+
+W. Barteczek hat Messungen mit einem ???Spektralanalysator??MARKE??? an einem Dongle der Marke DeLock 62783 durchgeführt. Die Spektrumaufnahmen erfolgten mit nachgeschaltetem 17dB 2N5109-Verstärker und 2MHz Tiefpass hinter dem DeLock 62783. Als Testsignal kam die auf einem PC per COHIWizard abgespielte Aufnahme 'Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1' aus der COHI-Jukebox zum Einsatz, die 12 Carrier beinhaltet. Die Einstellung des COHIWizard war: Keine AGC/AVC, Pegelsteller bei -22dB. Abb 5. zeigt das Ergebnis bei einer Span von 500 kHz und einer RBW von 1 kHz. 
+
+<img 
+  src="/images/WB_fl2k_Spektrum_bei_optimaler_Aussteuerung.jpg"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 5: Spektrometer-Ausgabe für fl2k
+
+Bild 6 zeigt das Ergebnis für die Untersuchung der Intermodulationsprodukte. Hier war ein Intermodulationsabstand IM3 von -40dB erreichbar. Die Oberwellenunterdrückung lag bei etwa -30dB.
+
+
+<img 
+  src="/images/WB_fl2k_DeLock62783_IM3_-40dB_OW_-30dB.jpg"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 6: Spektrometer-Ausgabe mit Span 1000kHz und Beobachtung der Intermodulationsprodukte.

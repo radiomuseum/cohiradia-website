@@ -19,6 +19,7 @@ aktuell keine
 * unkompliziertes Setup
 * kompakteste Lösung
 * standalone
+* automatische Wiedergabe nach dem Hochfahren bei Verwendung des COHI-Player-Mini
 
 **Nachteile:**
 
