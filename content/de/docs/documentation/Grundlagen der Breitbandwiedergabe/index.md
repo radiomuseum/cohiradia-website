@@ -15,7 +15,7 @@ description: >
 
 **Wenn Sie Text bevorzugen, lesen Sie bitte hier weiter:**
 
-Grundsätzlich sind eine Vielzahl von Sendern gleichzeitig im elektromagnetischen Spektrum vorhanden. Im Mittelwellenband können das bei einem 9kHz-Kanalraster knapp 130 Stationen sein. Jeder Station ist eine Trägerfrequenz zugeordnet. Im Gegensatz zu Audiosignalen, bei denen nur eine Schallquelle auf ein (mono) oder zwei (Stereo) Kanälen aufgenommen wird, sind in einem Band also viele Audiosignale gleichzeitig präsent, indem sie auf ihre jeweiligen Trägerfrequenzen aufmoduliert werden. Das ist in Abb. 1 schematisch dargestellt: Jeder Sender, der auf der Radioskala (links oben) eingestellt werden kann, entspricht einer Spitze im gesamten MW-Spektrum, hier zwischen 500 und 1700 kHz (unten). Der Rundfunkempfänger wählt dabei genau diejenige 'Spitze' aus, die dem eingestellten Sender entspricht (rechts oben), und demoduliert das Signal. So ist nur ein Kanal hörbar, obwohl natürlich weiterhin alle gleichzeitig am Antenneneingang anliegen.
+Grundsätzlich sind eine Vielzahl von Sendern gleichzeitig im elektromagnetischen Spektrum vorhanden. Im Mittelwellenband können das bei einem 9kHz-Kanalraster knapp 130 Stationen sein. Jeder Station ist eine Trägerfrequenz zugeordnet. Im Gegensatz zu Audiosignalen, bei denen nur eine Schallquelle auf ein (Mono) oder zwei (Stereo) Kanälen aufgenommen wird, sind in einem Band also viele Audiosignale gleichzeitig präsent, indem sie auf ihre jeweiligen Trägerfrequenzen aufmoduliert werden. Das ist in Abb. 1 schematisch dargestellt: Jeder Sender, der auf der Radioskala (links oben) eingestellt werden kann, entspricht einer Spitze im gesamten MW-Spektrum, hier zwischen 500 und 1700 kHz (unten). Der Rundfunkempfänger wählt dabei genau diejenige 'Spitze' aus, die dem eingestellten Sender entspricht (rechts oben), und demoduliert das Signal. So ist nur ein Kanal hörbar, obwohl natürlich weiterhin alle gleichzeitig am Antenneneingang anliegen.
 
 
 <img 
@@ -26,7 +26,7 @@ Grundsätzlich sind eine Vielzahl von Sendern gleichzeitig im elektromagnetische
 
 *Abb. 1: Sender und deren Signale im gesamten MW-Spektrum* 
 
-Will man nun dem Radio nun ein adäquates Antennensignal anbieten, das in der Vergangenheit einmal existiert hat, so muss man also in jener Vergangenheit das Gesamtspektrum in seiner vollen Breite aufgezeichnet haben. Das bedeutet anstatt 2x 20 kHz für Audio eine Bandbreite von mindestens 1200 kHz. Derart breitbandige Aufnahmen können heutzutage mit speziellen Signalwandlern, sogenannten software-defined Radios (SDR) durchgeführt werden.
+Will man dem Radio nun ein adäquates Antennensignal anbieten, das in der Vergangenheit einmal existiert hat, so muss man also in jener Vergangenheit das Gesamtspektrum in seiner vollen Breite aufgezeichnet haben. Das bedeutet anstatt 2x 20 kHz für Audio eine Bandbreite von mindestens 1200 kHz. Derart breitbandige Aufnahmen können heutzutage mit speziellen Signalwandlern, sogenannten software-defined Radios (SDR) durchgeführt werden.
 
 Die gesamte Pipeline der Aufzeichnung ist in Abb.2 dargestellt: Zunächst werden die AM-Signale über möglichst rauscharme Breitbandantennen, optional Breitband-Vorverstärker ("Anlagen") empfangen, mit SDRs digitalisiert und auf Festplatten gespeichert ("Aufzeichnung"). Danach werden die Aufzeichnungen hinsichtlich Qualität bewertet und ggf. resampled. Wenn sie als für das Archiv geeignet eingestuft werden, werden die einzelnen Sender im Band nach Möglichkeit identifiziert und annotiert. Danach werden sie auf den COHIRADIA-Server hochgeladen. Von dort kann sie jede interessierte Person herunterladen. 
 
@@ -42,7 +42,7 @@ Will man diese Signale wiedergeben, benötigt man geeignete neben wiedergabefäh
 
 ## Künstliche Generierung von Breitbandspektren (Synthese im Sinne der Jukebox)
 
-Wie bereits im vorangegangenen Kapitel beschrieben, besteht das von einem AM-Sender ausgesendete elektromagnetische Signal aus einer sinusförmigen Trägerschwingung mit der nominellen Sendefrequenz f_T und dem Nutzsignal, das dieser Trägerschwingung als Amplitudenschwankung aufgeprägt wird (siehe Abb. 4 A). Will man ein solches Signal künstlich erzeigen, hat man grundsätzlich zwei Möglichkeiten: 
+Wie bereits im vorangegangenen Kapitel beschrieben, besteht das von einem AM-Sender ausgesendete elektromagnetische Signal aus einer sinusförmigen Trägerschwingung mit der nominellen Sendefrequenz f<sub>T</sub> und dem Nutzsignal, das dieser Trägerschwingung als Amplitudenschwankung aufgeprägt wird (siehe Abb. 4 A). Will man ein solches Signal künstlich erzeigen, hat man grundsätzlich zwei Möglichkeiten: 
 
 1. Modulation eines analogen Signalgenerators mit einem Audiosignal
 2. digitale Synthese auf einem Computer aus digitalen Audioquellen (z.B. wav, mp3, o.ä.) und anschließende Digital-Analog-Wandlung /DAC).
