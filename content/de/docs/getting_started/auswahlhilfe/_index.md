@@ -12,7 +12,7 @@ description: >
 
 Diese Seite soll das rasche Zusammenstellen der für Sie geeigneten Komponenten ermöglichen. Der unten eingebaute Konfigurator ermöglicht es, je nach gewünschtem Steuercomputer für eine bestimmte Preiskategorie zu ermitteln, welcher Signalwandler für die gewünschten Anforderungen an SNR und abspielbare AM-Bänder verfügbar ist. 
 
-Die gelisteten Signalwandler sind alle mit Transmit-Ausgang und schnelle Digital-Analogwandlern sowie entsprechender Firmware-Unterstützung ausgestattet. Breitbandige Aufzeichnung von AM-Signalen direkt von einer Antenne wird hingegen nicht von allen Komponenten unterstützt. Dafür gibt es etliche kommerzielle SDRs, die allerdings häufig wiederum über keinen Transmit-Ausgang verfügen. Diese sind daher nicht Gegenstand dieser Übersicht.
+Die gelisteten Signalwandler sind alle mit Transmit-Ausgang und schnellen Digital-Analogwandlern sowie entsprechender Firmware-Unterstützung ausgestattet. Breitbandige Aufzeichnung von AM-Signalen direkt von einer Antenne wird hingegen nicht von allen Geräten unterstützt. Dafür gibt es etliche kommerzielle SDRs, die allerdings häufig wiederum über keinen Transmit-Ausgang verfügen. Diese sind daher nicht Gegenstand dieser Übersicht.
 
 Anmerkung: Wenn ein PC als Steuercomputer benutzt wird, so wird er nicht in die Preisabschätzung einbezogen, da er meist ohnehin vohanden ist. Sollte dies nicht der Fall sein, sind seine Anschaffungskosten hinzuzurechnen. Wenn man eine Stand-alone-Version möchte, die ohne PC auskommt, so wird ein Single-Board-Computer, aktuell der Raspberry-Pi, eingesetzt.
 

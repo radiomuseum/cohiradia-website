@@ -29,7 +29,8 @@ Die folgende Tabelle zeigt eine Übersicht der verfügbaren Kombinationen:
 | PC               | ADALM2000   | Windows | COHIWizard exe     |
 | PC               | ADALM2000   | Windows | COHIWizard Python     |
 | PC               | ADALM2000   | Linux | COHIWizard Python     |
-| PC               | STEMLAB       | Linux   | COHI-Player Mini   ??????|
+| PC               | STEMLAB       | Linux   | COHI-Player Mini   |
+| PC               | STEMLAB       | Windows   | COHI-Player Mini   |
 | Raspberry-Pi     | STEMLAB       | Linux   | COHIWizard Python  |
 | Raspberry-Pi     | fl2k-Dongle   | Linux   | COHIWizard Python  |
 | Raspberry-Pi     | STEMLAB       | Linux   | COHI-Player Mini   |

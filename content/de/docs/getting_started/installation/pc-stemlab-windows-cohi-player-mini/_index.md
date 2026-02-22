@@ -1,5 +1,5 @@
 ---
-title: PC + STEMLAB + Linux + COHI-Player Mini
+title: PC + STEMLAB + Windows + COHI-Player Mini
 date: 2026-01-28
 weight: 11
 _build:
@@ -9,8 +9,11 @@ description: >
   Installationsanleitung für: PC mit STEMLAB Signalwandler unter Linux mit COHI-Player Mini
 features:
   - schritt_1
-  - stemlab_SDcard_LINUX
+  - stemlab_SDcard_WINDOWS
   - schritt_2
-  - cohi_player_mini_linux.md
+  - cohi_player_mini_windows
   - finish
 ---
+
+
+TODO

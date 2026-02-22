@@ -10,8 +10,8 @@ description: >
 features:
   - schritt_1
   - stemlab_SDcard_LINUX
-  - schritt 2
-  - cohiwizard_python_linux
+  - schritt_2
+  - cohi_player_mini_linux
   - finish
 ---
 
