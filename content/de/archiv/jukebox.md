@@ -17,7 +17,7 @@ Auf den unterschiedlichen 'Sendern' findet sich einerseits ein reichhaltiges Mus
 
 Die Aufnahme hat dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnungen und kann mit denselben Softwareprodukten wiedergegeben werden, die auf den Hard/Softwareseiten von COHIRADIA beschrieben sind.
 
-Für Nutzer*innen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Das Synthese-Tool wurde mittlerweile als neues Modul in eine Beta-Version v2.0 des COHIWizard eingebaut, die auf der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) downloadbar ist. 
+Für Nutzer*innen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Das Synthese-Tool wurde mittlerweile als einegständiges Modul in den COHIWizard eingebaut, der auf der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) downloadbar ist. 
 
 Wenn die Idee der COHI Jukebox gefällt, freuen wir uns natürlich über entsprechendes Feedback.
 

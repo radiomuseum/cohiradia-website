@@ -16,7 +16,7 @@ Die gelisteten Signalwandler sind alle mit Transmit-Ausgang und schnellen Digita
 
 Anmerkung: Wenn ein PC als Steuercomputer benutzt wird, so wird er nicht in die Preisabschätzung einbezogen, da er meist ohnehin vohanden ist. Sollte dies nicht der Fall sein, sind seine Anschaffungskosten hinzuzurechnen. Wenn man eine Stand-alone-Version möchte, die ohne PC auskommt, so wird ein Single-Board-Computer, aktuell der Raspberry-Pi, eingesetzt.
 
-Die SNR-Angaben beziehen sich auf den etwaigen maximal erreichbaren theoretischen Wert für den eingesetzten DAC, wenn man mit 29 dominanten, gleich starken aber vollständig dekorrelierten Trägern im Mittelwellen-Band rechnet. Für die genaue Definition siehe [SNR-Definition](snr_definition.md). Gemessene Daten finden sich in der Rubrik Testberichte unter [SNR-Messungen](/de/docs/documentation/testberichte/snr_messungen/). Grundsätzlich kann man davon ausgehen, dass 40dB für die meisten Anwendungen auf MW und LW ausreichen.
+Die SNR-Angaben beziehen sich auf den etwaigen maximal erreichbaren theoretischen Wert, wenn man mit 29 dominanten, gleich starken aber vollständig dekorrelierten Trägern im Mittelwellen-Band rechnet. Für die genaue Definition siehe [SNR-Definition](snr_definition.md). Gemessene Daten finden sich in der Rubrik Testberichte unter [SNR-Messungen](/de/docs/documentation/testberichte/snr_messungen/). Grundsätzlich kann man davon ausgehen, dass 40dB für die meisten Anwendungen auf MW und LW ausreichen.
 
 ## Konfigurator
 
