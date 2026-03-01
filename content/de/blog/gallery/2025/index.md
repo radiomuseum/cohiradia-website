@@ -1,7 +1,7 @@
 ---
-date: 2023-09-18
-title:  Team 2023
-linkTitle:  Team 2023
+date: 2025-09-18
+title:  Team 2025
+linkTitle:  Team 2025
 description: >
  
 author: Hermann Scharfetter
