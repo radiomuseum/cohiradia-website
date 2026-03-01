@@ -1,11 +1,11 @@
 ---
 title: Getting Started
 weight: 1
+sidebar_root_for: self
 menu:
   main:
     weight: 15
 ---
-
 Ermöglicht wird COHIRADIA durch die Aufzeichnung und Wiedergabe digitalisierter Hochfrequenzsignale mittels Software-defined Radios (SDRs). Die Verwendung eines einheitlichen Datenformats garantiert dabei die Austauschbarkeit zwischen verschiedenen Plattformen.
 
 Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:

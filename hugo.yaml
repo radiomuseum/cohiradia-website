@@ -158,6 +158,8 @@ params:
     navbar_translucent_over_cover_disable: true
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: false
+    # Limit sidebar to the current section when configured via `sidebar_root_for` in front matter.
+    sidebar_root_enabled: true
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
     sidebar_search_disable: false
     # Enable light/dark mode toggle menu in the navbar
