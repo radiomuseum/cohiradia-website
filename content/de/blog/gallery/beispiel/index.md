@@ -1,12 +1,14 @@
 ---
-date: 2026-02-18
-title:  Beispiel Gallery
-linkTitle: Beispiel
+date: 2023-09-18
+title:  Fotos 2025
+linkTitle:  Fotos 2025
 description: >
-  Eine Beispiel für Gallerie.
+ 
 author: Hermann Scharfetter
 
 ---
 
-Eine Gallery Seite
 
+<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Gallery/PR_Arbeiten/loft_Studio.jpg" style="max-width: 90%; height: auto;"/>
+
+*Improvisiertes Studio für Dreharbeiten zum COHIRADIA-Video 2025* 
