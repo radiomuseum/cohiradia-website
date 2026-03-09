@@ -4,7 +4,7 @@ linkTitle: SNR_Messungen
 date: 2026-02-07
 weight: 1
 description: >
-  SNR Messungen an Signalwandlern durch CPG, WB, HS
+  SNR Messungen an Signalwandlern durch W. BArteczek, C. P. Gallenmiller und H. Scharfetter
 ---
 
 ## Theoretisch erwartete Werte
