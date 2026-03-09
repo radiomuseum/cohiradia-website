@@ -128,3 +128,94 @@ Bild 6 zeigt das Ergebnis für die Untersuchung der Intermodulationsprodukte. Hi
 />
 
 Abb. 6: Spektrometer-Ausgabe mit Span 1000kHz und Beobachtung der Intermodulationsprodukte.
+
+C.P. Gallenmiller hat zusätzlich zu den bereits oben vorgestellten Evaluierungen noch Vergleiche zwischen COHIWizard und COHI-Player mini 
+auf einem LINUX-PC durchgeführt. Die Tests wurden für 3 verschiedene Signale angestellt: 
+1) RM2006B_part1 aus dem COHIRADIA-Archiv 
+2) synthetisches AM2 mit 29 Trägern wie unter Paragraph 1. 
+
+Die Einstellungen der Meßgeräte sind jeweils gleich. Zunächst in Abb. 7 der Vergleich von RM2006_part1 und AM1 für STEMLAB und COHI-Player mini:
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image004_STL_mini_RM2006B_part1.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 7a: Spektrum RM2006B_part1 mit STEMLAB und COHI Player mini auf LINUX-PC.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image001_STL_mini_AM2.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 7b: Spektrum AM2 mit STEMLAB und COHI Player mini auf LINUX-PC.
+
+Abbildungen 8 a und b zeigen die Situation für den COHIWizard und fl2k für die selben beiden Quelldateien.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image016_fl2k_Wiz_RM2006B_part1.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 8a: Spektrum RM2006B_part1 mit STEMLAB und COHIWizard auf LINUX-PC.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image001_STL_mini_AM2.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 8b: Spektrum AM2 mit STEMLAB und COHI COHIWizard auf LINUX-PC.
+
+Besonders interessant ist ein Vergleich zwischen COHIWizard und der aktuell auf radio-bastler.de verfügbaren GNU Radio-Abspielsoftware für fl2k. Beide wurden sowohl auf einem Linux-PC als auch auf dem RaspberryPi 5 angestellt, wobei zwischen PC und Raspberry Pi keine relevanten Unterschiede festgestellt wurden. Daher werden die Ergebnisse nur für einen Raspberry Pi dargestellt. Die Tests wurden für 3 verschiedene Signale angestellt: 
+1) RM2006B_part1 aus dem COHIRADIA-Archiv 
+2) synthetisches AM2 mit 29 Trägern wie unter Paragraph 1 
+3) synthetisches Spektrum mit 14 Trägern mit Radiosendungen aus den 70er-Jahren, Kurzbezeichnung 'Europa 1'
+
+Bild 9a - c zeigt die Ergebnisse für den COHIWizard.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image016_fl2k_Wiz_RM2006B_part1.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 9a: Spektrum RM2006B_part1 mit fl2k und COHIWizard auf Raspberry Pi 5.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image014_fl2k_Wiz_AM2.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 9b: Spektrum AM2 mit fl2k und COHIWizard auf Raspberry Pi 5.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image018_fl2k_Wiz_Europa1.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 9c: Spektrum Europa 1 mit fl2k und COHIWizard auf Raspberry Pi 5.
+
+Bild 10a - c zeigt die Ergebnisse für die GNU Radio Variante.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image007_fl2k_GNUraspi_RM2006B_part1.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 10a: Spektrum RM2006B_part1 mit fl2k und GNU Radio auf Raspberry Pi 5.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image009_fl2k_GNUraspi_AM2.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 10b: Spektrum AM2 mit fl2k und GNU Radio auf Raspberry Pi 5.
+
+<img 
+  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image012_fl2k_GNUraspi_Europa1.png"
+  style="max-width: 90%; height: auto;"
+/>
+
+Abb. 10c: Spektrum Europa 1 mit fl2k und GNU Radio auf Raspberry Pi 5.
+
+Wie schon zu erwarten war, ist die Tonqualität beim STEMLab, unabhängig vom Programm mit Abstand am besten. Es tritt weder Übersteuerung noch Kreuzmodulation auf. Beim FL2K gibt es einen Qualitätsunterschiede zwischen GNU Radio und dem COHIWizard. Die GNU Radio Variante liefert einen deutlich kräftigeren Ton, der im Fall eines realen MW-Spektrums eigentlich auch gut brauchbar ist. Bei den synthetischen Spektren (AM2) schneidet das fl2k mit GNU Radio deutlich schlechter ab, da es viele Übersteuerungen und Kreuzmodulationen gibt, aber das Ergebnis erinnert an die Tonqualität bei einer realen MW-Übertragung mit Störgeräuschen und Mehrfachempfang. Beim Spektrum Europa1 mit weniger und teilweise weiter auseinander liegenden Trägern ist die Situation deutlich besser, obwohl auch noch nicht optimal. Die Wiedergabe mit COHIWizard bei FL2K Stream ist leiser, da der Ausgangspegel um ca. 30db unter dem beim GNU Radio liegt. Dafür gibt es praktisch keine Kreuzmodulationen (keine Übersteuerung), also eine deutlich sauberere Wiedergabe.
+
