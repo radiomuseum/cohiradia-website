@@ -219,3 +219,26 @@ Abb. 10c: Spektrum Europa 1 mit fl2k und GNU Radio auf Raspberry Pi 5.
 
 Wie schon zu erwarten war, ist die Tonqualität beim STEMLab, unabhängig vom Programm mit Abstand am besten. Es tritt weder Übersteuerung noch Kreuzmodulation auf. Beim FL2K gibt es einen Qualitätsunterschiede zwischen GNU Radio und dem COHIWizard. Die GNU Radio Variante liefert einen deutlich kräftigeren Ton, der im Fall eines realen MW-Spektrums eigentlich auch gut brauchbar ist. Bei den synthetischen Spektren (AM2) schneidet das fl2k mit GNU Radio deutlich schlechter ab, da es viele Übersteuerungen und Kreuzmodulationen gibt, aber das Ergebnis erinnert an die Tonqualität bei einer realen MW-Übertragung mit Störgeräuschen und Mehrfachempfang. Beim Spektrum Europa1 mit weniger und teilweise weiter auseinander liegenden Trägern ist die Situation deutlich besser, obwohl auch noch nicht optimal. Die Wiedergabe mit COHIWizard bei FL2K Stream ist leiser, da der Ausgangspegel um ca. 30db unter dem beim GNU Radio liegt. Dafür gibt es praktisch keine Kreuzmodulationen (keine Übersteuerung), also eine deutlich sauberere Wiedergabe.
 
+Die folgenden 3 Audiobeispiele geben Bandscans durch ein synthetisches Spektrum mit 29 Trägern, das C.P. Gallenmiller mit einem Telefunken 8001W aus dem Jahr 1939 aufgenommen hat.
+
+STEMLab mit COHIWizard:
+
+<audio controls>
+  <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 STEMLab_c.mp3" type="audio/mpeg">
+  Ihr Browser unterstützt das Audio-Element nicht.
+</audio>
+
+fl2k mit COHIWizard:
+
+<audio controls>
+  <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 FL2K + COHIWizard_c.mp3" type="audio/mpeg">
+  Ihr Browser unterstützt das Audio-Element nicht.
+</audio>
+
+fl2k mit GNU Radio, Version pts5 von [radiobastler.de](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313):
+
+
+<audio controls>
+  <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 FL2K + GNURadio pts5.mp3" type="audio/mpeg">
+  Ihr Browser unterstützt das Audio-Element nicht.
+</audio>
