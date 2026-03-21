@@ -1,35 +1,35 @@
 ---
-title: PC (nicht im Preis enthalten) + ADALM 2000
+title: PC (not included in price) + ADALM 2000
 date: 2026-02-04
 weight: 10
 _build:
   list: never
   render: always
 description: >
-    Auswahl für > 500€ (exklusive PC), max. SNR bei 29 gleich starken Trägern ca 50dB, Einsatz für LW, MW und KW 49m bei günstigen Samplingraten
+    Selection for > 500€ (excluding PC), max. SNR with 29 equally strong carriers approx. 50dB, suitable for LW, MW and SW 49m at favorable sampling rates
 ---
 
-Hinweis: Diese Variante wurde bisher noch am wenigsten getestet, daher noch wenig Erfahrung.
+Note: This variant has been tested least so far, therefore little experience available.
 
-**alternative Möglichkeiten bei dieser Perfomance:**
+**Alternative options at this performance level:**
 
-aktuell keine
+currently none
 
-**Vorteile:**
+**Advantages:**
 
-* Mittlere Preisklasse, < 300€
-* gute SNR-Werte
-* ADALM 2000 auch für anndere Zwecke im Laborbetrieb einsetzbar (einfache Applikationen für Oszilloskop/Signalgenerator/Logikanalysator etc.)
+* mid-range price, < 300€
+* good SNR values
+* ADALM 2000 can also be used for other purposes in laboratory operation (simple applications for oscilloscope/signal generator/logic analyzer etc.)
 
-**Nachteile:**
+**Disadvantages:**
 
-* Software-Setup für ADALM 2000 erfordert je nach Betriebssystem etwas Zusatzaufwand 
-* durch den PC nicht sehr kompakt
-* Datenrate durch USB2.0 begrenzt, daher kann es bei ungünstigen Samplingraten zu Stottern kommen, gut nur für LW und MW geeignet
+* software setup for ADALM 2000 requires some additional effort depending on operating system
+* not very compact due to the PC
+* data rate limited by USB2.0, therefore stuttering may occur at unfavorable sampling rates, only suitable for LW and MW
 
-**Software-Unterstützung:**
+**Software support:**
 
 COHIWizard
 
-Technische Evaluierung leider noch nicht verfügbar.
+Technical evaluation unfortunately not yet available.
 

@@ -1,45 +1,45 @@
 ---
-title: PC (nicht im Preis enthalten) + STEMLAB 125-14
+title: PC (not included in price) + STEMLAB 125-14
 date: 2026-02-04
 weight: 10
 _build:
   list: never
   render: always
 description: >
-    Auswahl für < 300€ (exklusive PC), max. SNR bei 29 gleich starken Trägern 90 dB, Einsatz bis 60MHz (alle AM-Bänder)
+    Selection for < 300€ (excluding PC), max. SNR with 29 equally strong carriers 90 dB, usable up to 60MHz (all AM bands)
 ---
 
-**alternative Möglichkeiten bei dieser Perfomance:**
+**Alternative options at this performance level:**
 
-wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SNR etwas geringer, aber auch noch sehr gut), Produktion leider eingestellt.
+if still available, the significantly cheaper STEMLAB 125-10 is also suitable (SNR slightly lower, but still very good), production unfortunately discontinued.
 
-**Vorteile:**
+**Advantages:**
 
-* unkompliziertes Setup
-* exzellente SNR-Werte
-* bis 60 MHz einsetzbar, also alle KW-Bänder
-* Signalaufzeichnung ist mit hoher Qualität möglich
-* STEMLAB auch für andere Zwecke im Laborbetrieb einsetzbar (einfache Applikationen für Oszilloskop/Signalgenerator/Logikanalysator etc.)
+* uncomplicated setup
+* excellent SNR values
+* usable up to 60 MHz, i.e. all shortwave bands
+* signal recording possible with high quality
+* STEMLAB can also be used for other purposes in laboratory operation (simple applications for oscilloscope/signal generator/logic analyzer etc.)
 
-**Nachteile:**
+**Disadvantages:**
 
-* Kosten typ. > 500 Euro (exklusive PC)
-* durch den PC nicht sehr kompakt
+* cost typ. > 500 Euro (excluding PC)
+* not very compact due to the PC
 
-**Software-Unterstützung:**
+**Software support:**
 
 COHIWizard, COHI-Mini-Player (projected)
 
-**Audio-Beispiel zum Testhören:**
+**Audio sample for test listening:**
 
-Bandscan durch ein synthetisches Spektrum mit 29 Trägern, das C.P. Gallenmiller mit einem Telefunken 8001W aus dem Jahr 1939 aufgenommen hat.
+Band scan through a synthetic spectrum with 29 carriers, recorded by C.P. Gallenmiller with a Telefunken 8001W from 1939.
 
 <audio controls>
   <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 STEMLab_c.mp3" type="audio/mpeg">
-  Ihr Browser unterstützt das Audio-Element nicht.
+  Your browser does not support the audio element.
 </audio>
 
-**Technische Evaluierung**
-Berichte siehe ['SNR-Messungen']({{< relref "/docs/documentation/Testberichte/snr_messungen/_index.md" >}}).
+**Technical evaluation**
+For reports see ['SNR Measurements']({{< relref "/docs/documentation/Testberichte/snr_messungen/_index.md" >}}).
 
 

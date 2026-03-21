@@ -1,31 +1,31 @@
 ---
-title: Tatsächlich < 100€, PC (nicht im Preis enthalten) + OSMO fl2k-Dongle
+title: Actually < 100€, PC (not included in price) + OSMO fl2k Dongle
 date: 2026-02-04
 weight: 10
 _build:
   list: never
   render: always
 description: >
-    Auswahl für < 100€ (exklusive PC), max. SNR bei 29 gleich starken Trägern 40dB, Bandbreite begrenzt auf LW, MW und 49m SW
+    Selection for < 100€ (excluding PC), max. SNR with 29 equally strong carriers 40dB, bandwidth limited to LW, MW and 49m SW
 ---
 
-**Diese Option ist tatsächlich für < 100€ (excl. PC) erwerbbar>:**
+**This option is actually available for < 100€ (excl. PC):**
 
-**Vorteile:**
+**Advantages:**
 
 * low cost
-* unkompliziertes Setup
-* relativ kompakt (je nach PC)
+* uncomplicated setup
+* relatively compact (depending on PC)
 
-**Nachteile:**
+**Disadvantages:**
 
-* nur 8 bit Auflösung, daher SNR begrenzt, aber ausreichend für die meisten LW und MW-Bänder sowie (meist) KW 49m
-* Datenrate durch USB-Port begrenzt; max. nutzbare Frequenz ist je nach Betriebssystem beschränkt, nähere Details siehe ['hier']({{< relref "/docs/documentation/Testberichte/OSMO_fl2k_Frequenzabdeckung/_index.md" >}})
-* höhere Rechenleistung auf dem PC gefordert als bei FPGA-gestützten Systemen
-* nur USB/VGA-Dongles mit Fresco-Chipset unterstützt, Verfügbarkeit wegen Auslaufen der Herstellung begrenzt, Zukunft ungewiss.
+* only 8 bit resolution, therefore SNR limited, but sufficient for most LW and MW bands as well as (mostly) SW 49m
+* data rate limited by USB port; max. usable frequency is limited depending on operating system, for details see ['here']({{< relref "/docs/documentation/Testberichte/OSMO_fl2k_Frequenzabdeckung/_index.md" >}})
+* higher computing power required on the PC than with FPGA-based systems
+* only USB/VGA dongles with Fresco chipset supported, availability limited due to end of production, future uncertain.
 
-**Software-Unterstützung:**
+**Software support:**
 
-COHIWizard, COHI-Mini-Player (projected) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
+COHIWizard, COHI-Mini-Player (projected) and solutions from other communities such as radio-bastler.de via GNU Radio support
 
-Technische Evaluierung siehe ['SNR-Messungen']({{< relref "/docs/documentation/Testberichte/snr_messungen/_index.md" >}}) und ['OSMO-fl2k-Frequenzabdeckung']({{< relref "/docs/documentation/Testberichte/OSMO_fl2k_Frequenzabdeckung/_index.md" >}})
+For technical evaluation see ['SNR Measurements']({{< relref "/docs/documentation/Testberichte/snr_messungen/_index.md" >}}) and ['OSMO fl2k Frequency Coverage']({{< relref "/docs/documentation/Testberichte/OSMO_fl2k_Frequenzabdeckung/_index.md" >}})

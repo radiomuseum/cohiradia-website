@@ -1,6 +1,6 @@
 ---
-title: Dokumentation
-linkTitle: Dokumentation
+title: Documentation
+linkTitle: Documentation
 weight: 2
 sidebar_root_for: self
 menu:

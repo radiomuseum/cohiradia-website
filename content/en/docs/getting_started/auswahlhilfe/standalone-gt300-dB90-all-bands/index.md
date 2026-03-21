@@ -1,46 +1,46 @@
 ---
-title: Raspberry Pi (mindestens V4, 4GB) + STEMLAB125-14
+title: Raspberry Pi (at least V4, 4GB) + STEMLAB125-14
 date: 2026-02-04
 weight: 10
 _build:
   list: never
   render: always
 description: >
-    Auswahl für > 600€, max. SNR bei 29 gleich starken Trägern min 90dB, Einsatz bis 60MHz (alle AM-Bänder)
+    Selection for > 600€, max. SNR with 29 equally strong carriers min 90dB, usable up to 60MHz (all AM bands)
 ---
 
-**alternative Möglichkeiten bei dieser Perfomance:**
+**Alternative options at this performance level:**
 
-wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SNR etwas geringer, aber noch sehr gut), Produktion leider eingestellt.
+if still available, the significantly cheaper STEMLAB 125-10 is also suitable (SNR slightly lower, but still very good), production unfortunately discontinued.
 
-**Vorteile:**
+**Advantages:**
 
-* unkompliziertes Setup
-* kompakt
-* standalone, 
-* automatische Wiedergabe nach dem Hochfahren bei Verwendung des COHI-Player-Mini
-* exzellente SNR-Werte
-* bis 60 MHz einsetzbar, also LW, MW und alle KW-Bänder
-* Signalaufzeichnung ist mit hoher Qualität möglich
-* STEMLAB auch für anndere Zwecke im Laborbetrieb einsetzbar (einfache Applikationen für Oszilloskop/Signalgenerator/Logikanalysator etc.)
+* uncomplicated setup
+* compact
+* standalone
+* automatic playback after boot-up when using COHI-Player-Mini
+* excellent SNR values
+* usable up to 60 MHz, i.e. LW, MW and all shortwave bands
+* signal recording possible with high quality
+* STEMLAB can also be used for other purposes in laboratory operation (simple applications for oscilloscope/signal generator/logic analyzer etc.)
 
 
-**Nachteile:**
+**Disadvantages:**
 
-* Kosten > 600 Euro
+* cost > 600 Euro
 
-**Software-Unterstützung:**
+**Software support:**
 
 COHIWizard, COHI-Mini-Player (projected)
 
-**Audio-Beispiel zum Testhören:**
+**Audio sample for test listening:**
 
-Bandscan durch ein synthetisches Spektrum mit 29 Trägern, das C.P. Gallenmiller mit einem Telefunken 8001W aus dem Jahr 1939 aufgenommen hat.
+Band scan through a synthetic spectrum with 29 carriers, recorded by C.P. Gallenmiller with a Telefunken 8001W from 1939.
 
 <audio controls>
   <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 STEMLab_c.mp3" type="audio/mpeg">
-  Ihr Browser unterstützt das Audio-Element nicht.
+  Your browser does not support the audio element.
 </audio>
 
-**Technische Evaluierung**
-Berichte siehe [SNR-Messungen](/de/docs/documentation/testberichte/snr_messungen/)
+**Technical evaluation**
+For reports see [SNR Measurements](/en/docs/documentation/testberichte/snr_messungen/)

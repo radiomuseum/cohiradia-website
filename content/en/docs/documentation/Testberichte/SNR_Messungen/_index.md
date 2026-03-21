@@ -96,26 +96,26 @@ For the STEMLAB, it should be noted that the measurement, due to the noise floor
 
 
 
-## Fazit:
+## Conclusion:
 
-Die Single-Ton-Messungen bestätigen die theoretische SNR des fl2k (57.8 dB vs 56 dB) innerhalb der zu erwartenden Messfehler. Beim STEMLAB konnte der theoretische Wert von 106 dB nicht nachgewiesen werden, da der Dynamikbereich des verwendeten Spektrometers (SDR) nicht ausreicht, um den Rauschpegel des Signals über den des Spektrometers zu heben. Der Messwert von 75.8 dB ist somit wahrscheinlich deutlich zu niedrig, illustriert zumindest aber die deutlich bessere Perfomance des STEMLAB.
+The single-tone measurements confirm the theoretical SNR of the fl2k (57.8 dB vs 56 dB) within the expected measurement error. For the STEMLAB, the theoretical value of 106 dB could not be verified, as the dynamic range of the spectrometer used (SDR) is insufficient to raise the noise level of the signal above that of the spectrometer. The measured value of 75.8 dB is therefore probably significantly too low, but at least illustrates the significantly better performance of the STEMLAB.
 
-Bei den 29 Tragern musste die Signalamplitude deutlich reduziert werden, um Übersteuerung zu verhindern. Dort wurden mit dem fl2k immerhin noch 35.8 dB SNR gemessen, beim STEMLAB ergab sich wieder ein durch den Noise-floor des Spektrometers verfälschter Wert von 47.8 dB. Auch hier ist das STEMLAB natürlich überlegen. 
+With 29 carriers, the signal amplitude had to be significantly reduced to prevent clipping. There, 35.8 dB SNR was still measured with the fl2k, while the STEMLAB again showed a value of 47.8 dB distorted by the noise floor of the spectrometer. Here too, the STEMLAB is of course superior.
 
-Dennoch kann man feststellen, dass der Unterschied zumindest beim Abhören nicht wirklich störend in Erscheinung tritt, und das fl2k daher eine sehr brauchbare Lösung für die meisten Abspiel-Anwendungen darstellt, sofern man nicht auf hohe Abtastraten angewiesen ist (z.B. KW-Spektren).
+Nevertheless, it can be noted that the difference is not really noticeable when listening, and the fl2k is therefore a very useful solution for most playback applications, as long as high sampling rates are not required (e.g., shortwave spectra).
 
-## Messungen mit Stand-Alone Spektralanalysatoren (W. Barteczek, C.P. Gallenmiller):
+## Measurements with Stand-Alone Spectrum Analyzers (W. Barteczek, C.P. Gallenmiller):
 
-W. Barteczek hat Messungen mit einem Spektralanalysator der Type HP 8591E (9 kHz- 1,8 GHz) an einem Dongle der Marke DeLock 62783 durchgeführt. Die Spektrumaufnahmen erfolgten mit nachgeschaltetem 17dB 2N5109-Verstärker und 2MHz Tiefpass hinter dem DeLock 62783. Als Testsignal kam die auf einem PC per COHIWizard abgespielte Aufnahme 'Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1' aus der COHI-Jukebox zum Einsatz, die 12 Carrier beinhaltet. Die Einstellung des COHIWizard war: Keine AGC/AVC, Pegelsteller bei -22dB. Abb 5. zeigt das Ergebnis bei einer Span von 500 kHz und einer RBW von 1 kHz. 
+W. Barteczek performed measurements with an HP 8591E spectrum analyzer (9 kHz - 1.8 GHz) on a DeLock 62783 dongle. The spectrum recordings were made with a downstream 17dB 2N5109 amplifier and 2MHz low-pass filter behind the DeLock 62783. The test signal used was the recording 'Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1' from the COHI Jukebox played on a PC via COHIWizard, which contains 12 carriers. The COHIWizard settings were: No AGC/AVC, level control at -22dB. Fig. 5 shows the result with a span of 500 kHz and an RBW of 1 kHz.
 
 <img 
   src="/images/WB_fl2k_Spektrum_bei_optimaler_Aussteuerung.jpg"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 5: Spektrometer-Ausgabe für fl2k
+Fig. 5: Spectrometer output for fl2k
 
-Bild 6 zeigt das Ergebnis für die Untersuchung der Intermodulationsprodukte. Hier war ein Intermodulationsabstand IM3 von -40dB erreichbar. Die Oberwellenunterdrückung lag bei etwa -30dB.
+Fig. 6 shows the result for the investigation of intermodulation products. An intermodulation distance IM3 of -40dB was achievable. The harmonic suppression was about -30dB.
 
 
 <img 
@@ -123,118 +123,117 @@ Bild 6 zeigt das Ergebnis für die Untersuchung der Intermodulationsprodukte. Hi
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 6: Spektrometer-Ausgabe mit Span 1000kHz und Beobachtung der Intermodulationsprodukte.
+Fig. 6: Spectrometer output with span 1000kHz and observation of intermodulation products.
 
-C.P. Gallenmiller hat zusätzlich zu den bereits oben vorgestellten Evaluierungen noch Vergleiche zwischen COHIWizard und COHI-Player mini 
-auf einem LINUX-PC durchgeführt. Die Tests wurden für 3 verschiedene Signale angestellt: 
-1) RM2006B_part1 aus dem COHIRADIA-Archiv 
-2) synthetisches AM2 mit 29 Trägern wie unter Paragraph 1. 
+C.P. Gallenmiller, in addition to the evaluations already presented above, also performed comparisons between COHIWizard and COHI-Player mini on a LINUX PC. The tests were conducted for 3 different signals:
+1) RM2006B_part1 from the COHIRADIA archive
+2) synthetic AM2 with 29 carriers as in Section 1.
 
-Die Einstellungen der Meßgeräte sind jeweils gleich. Zunächst in Abb. 7 der Vergleich von RM2006_part1 und AM1 für STEMLAB und COHI-Player mini:
+The measurement device settings are identical in each case. First, Fig. 7 shows the comparison of RM2006_part1 and AM1 for STEMLAB and COHI-Player mini:
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image004_STL_mini_RM2006B_part1.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 7a: Spektrum RM2006B_part1 mit STEMLAB und COHI Player mini auf LINUX-PC.
+Fig. 7a: Spectrum RM2006B_part1 with STEMLAB and COHI Player mini on LINUX PC.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image001_STL_mini_AM2.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 7b: Spektrum AM2 mit STEMLAB und COHI Player mini auf LINUX-PC.
+Fig. 7b: Spectrum AM2 with STEMLAB and COHI Player mini on LINUX PC.
 
-Abbildungen 8 a und b zeigen die Situation für den COHIWizard und fl2k für die selben beiden Quelldateien.
+Figures 8a and 8b show the situation for COHIWizard and fl2k for the same two source files.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image016_fl2k_Wiz_RM2006B_part1.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 8a: Spektrum RM2006B_part1 mit STEMLAB und COHIWizard auf LINUX-PC.
+Fig. 8a: Spectrum RM2006B_part1 with STEMLAB and COHIWizard on LINUX PC.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image001_STL_mini_AM2.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 8b: Spektrum AM2 mit STEMLAB und COHI COHIWizard auf LINUX-PC.
+Fig. 8b: Spectrum AM2 with STEMLAB and COHIWizard on LINUX PC.
 
-Besonders interessant ist ein Vergleich zwischen COHIWizard und der aktuell auf radio-bastler.de verfügbaren GNU Radio-Abspielsoftware für fl2k. Beide wurden sowohl auf einem Linux-PC als auch auf dem RaspberryPi 5 angestellt, wobei zwischen PC und Raspberry Pi keine relevanten Unterschiede festgestellt wurden. Daher werden die Ergebnisse nur für einen Raspberry Pi dargestellt. Die Tests wurden für 3 verschiedene Signale angestellt: 
-1) RM2006B_part1 aus dem COHIRADIA-Archiv 
-2) synthetisches AM2 mit 29 Trägern wie unter Paragraph 1 
-3) synthetisches Spektrum mit 14 Trägern mit Radiosendungen aus den 70er-Jahren, Kurzbezeichnung 'Europa 1'
+Particularly interesting is a comparison between COHIWizard and the GNU Radio playback software for fl2k currently available on radio-bastler.de. Both were tested on a Linux PC as well as on the Raspberry Pi 5, with no relevant differences found between PC and Raspberry Pi. Therefore, the results are only shown for a Raspberry Pi. The tests were conducted for 3 different signals:
+1) RM2006B_part1 from the COHIRADIA archive
+2) synthetic AM2 with 29 carriers as in Section 1
+3) synthetic spectrum with 14 carriers with radio broadcasts from the 70s, abbreviated 'Europa 1'
 
-Bild 9a - c zeigt die Ergebnisse für den COHIWizard.
+Fig. 9a-c shows the results for COHIWizard.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image016_fl2k_Wiz_RM2006B_part1.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 9a: Spektrum RM2006B_part1 mit fl2k und COHIWizard auf Raspberry Pi 5.
+Fig. 9a: Spectrum RM2006B_part1 with fl2k and COHIWizard on Raspberry Pi 5.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image014_fl2k_Wiz_AM2.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 9b: Spektrum AM2 mit fl2k und COHIWizard auf Raspberry Pi 5.
+Fig. 9b: Spectrum AM2 with fl2k and COHIWizard on Raspberry Pi 5.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image018_fl2k_Wiz_Europa1.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 9c: Spektrum Europa 1 mit fl2k und COHIWizard auf Raspberry Pi 5.
+Fig. 9c: Spectrum Europa 1 with fl2k and COHIWizard on Raspberry Pi 5.
 
-Bild 10a - c zeigt die Ergebnisse für die GNU Radio Variante.
+Fig. 10a-c shows the results for the GNU Radio variant.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image007_fl2k_GNUraspi_RM2006B_part1.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 10a: Spektrum RM2006B_part1 mit fl2k und GNU Radio auf Raspberry Pi 5.
+Fig. 10a: Spectrum RM2006B_part1 with fl2k and GNU Radio on Raspberry Pi 5.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image009_fl2k_GNUraspi_AM2.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 10b: Spektrum AM2 mit fl2k und GNU Radio auf Raspberry Pi 5.
+Fig. 10b: Spectrum AM2 with fl2k and GNU Radio on Raspberry Pi 5.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image012_fl2k_GNUraspi_Europa1.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 10c: Spektrum Europa 1 mit fl2k und GNU Radio auf Raspberry Pi 5.
+Fig. 10c: Spectrum Europa 1 with fl2k and GNU Radio on Raspberry Pi 5.
 
-Wie schon zu erwarten war, ist die Tonqualität beim STEMLab, unabhängig vom Programm mit Abstand am besten. Es tritt weder Übersteuerung noch Kreuzmodulation auf. Beim FL2K gibt es einen Qualitätsunterschiede zwischen GNU Radio und dem COHIWizard. Die GNU Radio Variante liefert einen deutlich kräftigeren Ton, der im Fall eines realen MW-Spektrums eigentlich auch gut brauchbar ist. Bei den synthetischen Spektren (AM2) schneidet das fl2k mit GNU Radio deutlich schlechter ab, da es viele Übersteuerungen und Kreuzmodulationen gibt, aber das Ergebnis erinnert an die Tonqualität bei einer realen MW-Übertragung mit Störgeräuschen und Mehrfachempfang. Beim Spektrum Europa1 mit weniger und teilweise weiter auseinander liegenden Trägern ist die Situation deutlich besser, obwohl auch noch nicht optimal. Die Wiedergabe mit COHIWizard bei FL2K Stream ist leiser, da der Ausgangspegel um ca. 30db unter dem beim GNU Radio liegt. Dafür gibt es praktisch keine Kreuzmodulationen (keine Übersteuerung), also eine deutlich sauberere Wiedergabe.
+As expected, the sound quality with the STEMLab is by far the best, regardless of the software used. Neither clipping nor cross-modulation occurs. With the FL2K, there are quality differences between GNU Radio and COHIWizard. The GNU Radio variant delivers a significantly stronger sound, which is actually quite usable in the case of a real MW spectrum. With synthetic spectra (AM2), the fl2k with GNU Radio performs significantly worse, as there is a lot of clipping and cross-modulation, but the result is reminiscent of the sound quality of a real MW transmission with interference and multipath reception. With the Europa1 spectrum with fewer and partially more widely spaced carriers, the situation is significantly better, although still not optimal. Playback with COHIWizard with FL2K stream is quieter, as the output level is about 30dB below that of GNU Radio. In return, there is practically no cross-modulation (no clipping), resulting in a significantly cleaner playback.
 
-Die folgenden 3 Audiobeispiele geben Bandscans durch ein synthetisches Spektrum mit 29 Trägern, das C.P. Gallenmiller mit einem Telefunken 8001W aus dem Jahr 1939 aufgenommen hat.
+The following 3 audio examples provide band scans through a synthetic spectrum with 29 carriers, recorded by C.P. Gallenmiller with a Telefunken 8001W from 1939.
 
-STEMLab mit COHIWizard:
+STEMLab with COHIWizard:
 
 <audio controls>
   <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 STEMLab_c.mp3" type="audio/mpeg">
-  Ihr Browser unterstützt das Audio-Element nicht.
+  Your browser does not support the audio element.
 </audio>
 
-fl2k mit COHIWizard:
+fl2k with COHIWizard:
 
 <audio controls>
   <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 FL2K + COHIWizard_c.mp3" type="audio/mpeg">
-  Ihr Browser unterstützt das Audio-Element nicht.
+  Your browser does not support the audio element.
 </audio>
 
-fl2k mit GNU Radio, Version pts5 von [radiobastler.de](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313):
+fl2k with GNU Radio, version pts5 from [radiobastler.de](https://www.radio-bastler.de/forum/index.php?thread/27410-cohiradia-player-unter-gnu-radio/&postID=297313&highlight=fl2k#post297313):
 
 
 <audio controls>
   <source src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/Bandscans/Bandscan AM2 FL2K + GNURadio pts5.mp3" type="audio/mpeg">
-  Ihr Browser unterstützt das Audio-Element nicht.
+  Your browser does not support the audio element.
 </audio>
