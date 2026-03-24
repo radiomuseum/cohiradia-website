@@ -74,3 +74,20 @@ installation_guide_operating_system: Operating System
 installation_guide_software: Software
 installation_guide_reset_selection: Reset selection
 installation_guide_submit: → To the Installation Guide
+
+# Selection Guide
+selection_guide_title: Hardware Selection Guide
+selection_guide_progress: Progress
+selection_guide_steps_of: of 4 steps
+selection_guide_control_device: Control Device
+selection_guide_pc_note: PC (not included in price!)
+selection_guide_standalone: Stand alone Controller
+selection_guide_price: Price
+selection_guide_price_lt100: Price under 100€
+selection_guide_price_lt300: Price under 300€
+selection_guide_price_gt300: Price over 300€
+selection_guide_snr: Signal-to-Noise Ratio (SNR)
+selection_guide_am_bands: Safely Playable AM Bands
+selection_guide_all_bands: all AM bands
+selection_guide_reset_selection: Reset selection
+selection_guide_submit: → To the Selection Options

@@ -8,12 +8,12 @@
     
     <!-- Header mit Titel und Fortschrittsanzeige -->
     <div class="mb-4">
-      <h4 class="card-title mb-3">Auswahlhilfe für Hardware</h4>
+      <h4 class="card-title mb-3">{{ i18n "selection_guide_title" }}</h4>
       
       <div class="mb-3">
         <div class="d-flex justify-content-between align-items-center mb-2">
-          <small class="text-muted">Fortschritt</small>
-          <small class="text-muted"><span id="progress-count">0</span> von 4 Schritten</small>
+          <small class="text-muted">{{ i18n "selection_guide_progress" }}</small>
+          <small class="text-muted"><span id="progress-count">0</span> {{ i18n "selection_guide_steps_of" }}</small>
         </div>
         <div class="progress" style="height: 8px;">
           <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
@@ -26,23 +26,23 @@
     <div class="mb-4" data-category="computer">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">1</span>
-        <h5 class="mb-0 fw-semibold">Kontrollgerät</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "selection_guide_control_device" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="computer"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="computer" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="computer" title="{{ i18n "selection_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="pc">
             <input class="form-check-input guide-radio me-2" type="radio" name="category-computer" id="option-stg-1" value="pc" data-category="computer">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-stg-1">PC (nicht im Preis inbegriffen !)</label>
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-stg-1">{{ i18n "selection_guide_pc_note" }}</label>
           </div>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="standalone">
             <input class="form-check-input guide-radio me-2" type="radio" name="category-computer" id="option-stg-2" value="standalone" data-category="computer">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-stg-2">stand alone Controller</label>
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-stg-2">{{ i18n "selection_guide_standalone" }}</label>
           </div>
         </div>
 
@@ -54,30 +54,30 @@
     <div class="mb-4" data-category="preis">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">2</span>
-        <h5 class="mb-0 fw-semibold">Preis</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "selection_guide_price" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="preis"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="preis" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="preis" title="{{ i18n "selection_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="lt100">
             <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-1" value="lt100" data-category="preis">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-1">Preis unter 100€</label>
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-1">{{ i18n "selection_guide_price_lt100" }}</label>
           </div>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="lt300">
             <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-2" value="lt300" data-category="preis">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-2">Preis unter 300€</label>
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-2">{{ i18n "selection_guide_price_lt300" }}</label>
           </div>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="gt300">
             <input class="form-check-input guide-radio me-2" type="radio" name="category-preis" id="option-preis-3" value="gt300" data-category="preis">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-3">Preis über 300€</label>
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-preis-3">{{ i18n "selection_guide_price_gt300" }}</label>
           </div>
         </div>
 
@@ -89,9 +89,9 @@
     <div class="mb-4" data-category="snr">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">3</span>
-        <h5 class="mb-0 fw-semibold">Signal-Rausch-Verhältnis (SNR)</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "selection_guide_snr" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="snr"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="snr" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="snr" title="{{ i18n "selection_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
@@ -122,9 +122,9 @@
     <div class="mb-4" data-category="bandwidth">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">4</span>
-        <h5 class="mb-0 fw-semibold">sicher bespielbare AM-Bänder</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "selection_guide_am_bands" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="bandwidth"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="bandwidth" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="bandwidth" title="{{ i18n "selection_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
@@ -145,7 +145,7 @@
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="all-bands">
             <input class="form-check-input guide-radio me-2" type="radio" name="category-bandwidth" id="option-all-bands" value="all-bands" data-category="bandwidth">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-all-bands">alle AM-Bänder</label>
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-all-bands">{{ i18n "selection_guide_all_bands" }}</label>
           </div>
         </div>
       </div>
@@ -154,7 +154,7 @@
 
     <!-- Submit Section -->
     <div class="mt-4 pt-4 border-top">
-      <button id="selection-submit" class="btn btn-primary btn-lg w-100" disabled>→ Zu den Auswahlmöglichkeiten</button>
+      <button id="selection-submit" class="btn btn-primary btn-lg w-100" disabled>{{ i18n "selection_guide_submit" }}</button>
     </div>
 
   </div>
