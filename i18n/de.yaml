@@ -68,3 +68,14 @@ feedback_negative: Nein
 # Table of contents
 toc_on_this_page: Auf dieser Seite
 toc_top_of_page: Zum Seitenanfang
+
+# Installation Guide
+installation_guide_title: Installations-Konfigurator
+installation_guide_progress: Fortschritt
+installation_guide_steps_of: von 4 Schritten
+installation_guide_control_computer: Control-Computer
+installation_guide_signal_converter: Signalwandler
+installation_guide_operating_system: Betriebssystem
+installation_guide_software: Software
+installation_guide_reset_selection: Auswahl zurücksetzen
+installation_guide_submit: → Zur Installationsanleitung

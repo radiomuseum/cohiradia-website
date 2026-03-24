@@ -8,9 +8,9 @@ _build:
 description: >
   Installationsanleitung für: PC mit STEMLAB Signalwandler unter Linux mit COHI-Player Mini
 features:
-  - schritt_1
+  - step_1
   - stemlab_SDcard_LINUX
-  - schritt_2
+  - step_2
   - cohi_player_mini_linux.md
   - finish
 ---

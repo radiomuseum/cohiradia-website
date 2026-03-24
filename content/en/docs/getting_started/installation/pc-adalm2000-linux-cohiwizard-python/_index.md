@@ -8,9 +8,9 @@ _build:
 description: >
   Installationsanleitung für: PC mit Adalm2000 Signalwandler unter LINUX mit COHIWizard f. Python
 features:
-  - schritt_1
+  - step_1
   - adalm2000_windows
-  - schritt_2
+  - step_2
   - cohiwizard_python_linux
   - finish
 ---

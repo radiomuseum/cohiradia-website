@@ -8,9 +8,9 @@ _build:
 description: >
   Installationsanleitung für: PC mit STEMLAB Signalwandler unter Windows mit COHIWizard Executable
 features:
-  - schritt_1
+  - step_1
   - stemlab_SDcard_WINDOWS
-  - schritt_2
+  - step_2
   - cohiwizard_python_windows
   - finish
 ---

@@ -8,9 +8,9 @@ _build:
 description: >
   Installationsanleitung für: PC mit fl2k Signalwandler unter Windows mit COHIWizard Executable
 features:
-  - schritt_1
+  - step_1
   - adalm2000_windows
-  - schritt_2
+  - step_2
   - cohiwizard_exe
   - finish
 ---

@@ -7,12 +7,12 @@
     
     <!-- Header mit Titel und Fortschrittsanzeige -->
     <div class="mb-4">
-      <h4 class="card-title mb-3">Installations-Konfigurator</h4>
+      <h4 class="card-title mb-3">{{ i18n "installation_guide_title" }}</h4>
       
       <div class="mb-3">
         <div class="d-flex justify-content-between align-items-center mb-2">
-          <small class="text-muted">Fortschritt</small>
-          <small class="text-muted"><span id="progress-count">0</span> von 4 Schritten</small>
+          <small class="text-muted">{{ i18n "installation_guide_progress" }}</small>
+          <small class="text-muted"><span id="progress-count">0</span> {{ i18n "installation_guide_steps_of" }}</small>
         </div>
         <div class="progress" style="height: 8px;">
           <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
@@ -24,9 +24,9 @@
     <div class="mb-4" data-category="computer">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">1</span>
-        <h5 class="mb-0 fw-semibold">Control-Computer</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "installation_guide_control_computer" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="computer"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="computer" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="computer" title="{{ i18n "installation_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
@@ -50,9 +50,9 @@
     <div class="mb-4" data-category="wandler">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">2</span>
-        <h5 class="mb-0 fw-semibold">Signalwandler</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "installation_guide_signal_converter" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="wandler"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="wandler" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="wandler" title="{{ i18n "installation_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
@@ -82,9 +82,9 @@
     <div class="mb-4" data-category="os">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">3</span>
-        <h5 class="mb-0 fw-semibold">Betriebssystem</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "installation_guide_operating_system" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="os"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="os" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="os" title="{{ i18n "installation_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
@@ -108,9 +108,9 @@
     <div class="mb-4" data-category="software">
       <div class="d-flex align-items-center mb-3">
         <span class="badge bg-secondary me-2 category-badge">4</span>
-        <h5 class="mb-0 fw-semibold">Software</h5>
+        <h5 class="mb-0 fw-semibold">{{ i18n "installation_guide_software" }}</h5>
         <span class="badge bg-primary ms-auto selection-summary" style="display: none;" data-category="software"></span>
-        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="software" title="Auswahl zurücksetzen">×</button>
+        <button class="btn btn-sm btn-outline-secondary ms-2 category-reset" style="display: none;" data-category="software" title="{{ i18n "installation_guide_reset_selection" }}">×</button>
       </div>
       
       <div class="row g-2">
@@ -137,7 +137,7 @@
 
     <!-- Submit Section -->
     <div class="mt-4 pt-4 border-top">
-      <button id="guide-submit" class="btn btn-primary btn-lg w-100" disabled>→ Zur Installationsanleitung</button>
+      <button id="guide-submit" class="btn btn-primary btn-lg w-100" disabled>{{ i18n "installation_guide_submit" }}</button>
     </div>
 
   </div>
