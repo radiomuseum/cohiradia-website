@@ -21,7 +21,7 @@ For each of these elements, there are several possible implementation options, d
 **Decision Aid:** To quickly arrive at a decision for a system that suits you, please use the 'Selection Guide' in the navigation bar on the left. More detailed descriptions of the elements can be found under 'Coupling Device', 'Signal Converter', and 'Computer'.
 
 
-{{% imgproc blockbild-buildingblocks_de_v1 Fit "1200x1000 webp" %}}
+{{% imgproc blockbild-buildingblocks_en_v1 Fit "1200x1000 webp" %}}
 *Figure 1:* Schematic overview of the required elements with exemplary illustration of currently used components. The data archive is not shown; it is usually located on a local storage medium on the control computer.
 {{% /imgproc %}}
 

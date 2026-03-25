@@ -15,7 +15,7 @@ For playback, the following elements are basically required:
 
 For each of these elements, there are several possible implementation options, depending on requirements and budget. While the software is written by the COHIRADIA team itself and is fundamentally open-source, commercial products are used for part of the hardware (especially computer and signal converter). Another part of the hardware (e.g., the coupling devices) can be manufactured by users with technical/electronic skills. Figure 1 gives a schematic overview including some currently tested components.
 
-{{% imgproc blockbild-buildingblocks_de_v1 Fit "1200x1000 webp" %}}
+{{% imgproc blockbild-buildingblocks_en_v1 Fit "1200x1000 webp" %}}
 *Figure 1:* Schematic overview of the required elements with exemplary illustration of currently used components. The data archive is not shown; it is usually located on a local storage medium on the control computer.
 {{% /imgproc %}}
 

@@ -19,7 +19,7 @@ Basically, a variety of stations are present simultaneously in the electromagnet
 
 
 <img 
-  src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_1.png"
+  src="breitbandaufzeichnung_1_en.png"
   style="max-width: 100%; height: auto;"
 />
 
@@ -30,13 +30,16 @@ If you want to offer the radio an adequate antenna signal that once existed in t
 
 The entire recording pipeline is shown in Fig. 2: First, the AM signals are received via low-noise broadband antennas, optionally broadband preamplifiers ("systems"), digitized with SDRs, and stored on hard drives ("recording"). After that, the recordings are evaluated for quality and resampled if necessary. If they are considered suitable for the archive, the individual stations in the band are identified and annotated if possible. They are then uploaded to the COHIRADIA server. From there, any interested person can download them.
 
-<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_pipeline_1.png" style="max-width: 80%; height: auto;"/>
+
+<img src="breitbandaufzeichnung_pipeline_1_en.png" style="max-width: 80%; height: auto;"/>
 
 *Figure 2: Recording and processing of broadband antenna signals for the archive* 
 
 To play back these signals, suitable software is required in addition to playback-capable signal converters that send the signals to them. Such software is continuously programmed, tested, and developed by members of the COHIRADIA team. Fig. 3 shows the software development pipeline schematically. Alternative projects have also been initiated outside of COHIRADIA by radio enthusiasts with, e.g., GNU Radio.
 
-<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/breitbandaufzeichnung_pipeline_2.png" style="max-width: 80%; height: auto;"/>
+<img src="breitbandaufzeichnung_pipeline_2_en.png" style="max-width: 80%; height: auto;"/>
+
+
 
 *Figure 3: Providing software for playback on analog radios.*
 
@@ -49,7 +52,7 @@ As already described in the previous chapter, the electromagnetic signal transmi
    
 If you want to generate a complete spectrum with many coexisting stations, you must combine individual signals. In case 1 (analog), you must add together several individual signals generated according to (1) with different carrier frequencies, see Fig. 4 B. In case 2 (digital), the signals of the individual transmitters are calculated from the respective audio files and then added. These sum signals are stored and provided in the same data format as directly recorded antenna signals (see Fig. 4 C). During playback, D/A conversion via the signal converter follows again.
 
-<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/spektrumsgenerierung_de.png" style="max-width: 90%; height: auto;"/>
+<img src="spektrumsgenerierung_en.png" style="max-width: 90%; height: auto;"/>
 
 *Figure 4: A: Principle of amplitude modulation. B: Generation of a spectrum by connecting analog modulators together. C: Generation of a spectrum by digital synthesis.* 
 
