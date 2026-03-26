@@ -1,8 +1,8 @@
 ---
 date: 2024-03-11
-title:  Fotos 2024
-linkTitle:  Fotos 2024
-description: >
+title:  Highlights 2024
+linkTitle:  Highlights 2024
+description: 
  
 author: Hermann Scharfetter
 

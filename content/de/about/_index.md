@@ -20,7 +20,7 @@ COHIRADIA verfolgt im Wesentlichen drei Ziele:
 
 2. aktuelle Rundfunkbänder insbesondere im AM-Bereich an verschiedenen Stellen weltweit aufzuzeichnen, um die noch existierende Landschaft aktiver Sender rechtzeitig in Archivdateien abzubilden, bevor die Technologie endgültig ausgestorben ist.
 
-3. künstliche Rundfunkbänder zu erzeugen, die es erlauben Programme zu simulieren, wie sie z.B. in der Frühzeit des Rundfunks existierten, für die es aber keine Aufzeichnungen gibt. Siehe dazu die Rubrik [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic).
+3. künstliche Rundfunkbänder zu erzeugen, die es erlauben Programme zu simulieren, wie sie z.B. in der Frühzeit des Rundfunks existierten, für die es aber keine Aufzeichnungen gibt. Siehe dazu die Rubrik [COHI Jukebox](../archiv/jukebox).
 
 
 ## Kontakt
@@ -33,7 +33,7 @@ Der Projektkoortinator von COHIRADIA ist Hermann Scharfetter. Als Mitglied des r
 Leider gibt es gerade aus der Frühzeit des Rundfunks bis herauf in die 80er Jahre praktisch keine Original-Aufzeichnungen von Hf-Breitbandsignalen im Sinne von COHIRADIA.
 Nun wäre es aber wünschenswert, gerade auf z.B. Radiogeräten der 20 - 50er Jahre Signale wiedergeben zu können, die zumindest von den Inhalten her zu diesen Geräten 'passen'. Die Rubrik 
 
-* [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic)
+* [COHI Jukebox](../archiv/jukebox)
 
 versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben.
 

@@ -11,7 +11,9 @@ description: >
 **If you prefer a video on the topic, just watch this one:**
 
 
-{{< video_ext_v2 url="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4" width="50%" align="left" showframe_time="1311" playstart="1230" playstop="1311" caption="Video on Recording Technology">}}
+{{< video_ext_v2 url="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4" width="50%" align="left" showframe_time="1375" playstart="1375" playstop="1518" caption="Video on Recording Technology">}}
+
+
 
 **If you prefer text, please continue reading here:**
 

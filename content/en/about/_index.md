@@ -6,7 +6,7 @@ menu: { main: { weight: 10 } }
 ---
 
 ## Introduction
-{{< video url="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4" width="25%" align="right" showframe_time="1432" playstart="0">}}
+{{< video url="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4" width="25%" align="right" showframe_time="1432" playstart="0">}}
 Imagine being able to tune in and listen to all the stations on the medium wave band on a specific day in 2006 on your vintage radio receiver at any time, as if all the stations were broadcasting right now. 
 Ideally, the playback should not be based on an artificial montage, but on an authentic historical recording. This is probably the wish of many collectors, whose beautiful and valuable devices will increasingly remain 'silent' due to the rapidly progressing final shutdown of AM transmitters. The COHIRADIA project fulfills exactly this wish, as this shows.
 [Demo Video](https://cohiradia.radiomuseum.org/download/COHIRADIA_Demovideo_v1.mp4)
@@ -20,7 +20,7 @@ COHIRADIA essentially pursues three goals:
 
 2. To record current broadcast bands, especially in the AM range, at various locations worldwide, in order to capture the still existing landscape of active transmitters in archive files in time, before the technology has completely died out.
 
-3. To create artificial broadcast bands that allow the simulation of programs as they existed, for example, in the early days of broadcasting, for which no recordings exist. See the [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic) section for this.
+3. To create artificial broadcast bands that allow the simulation of programs as they existed, for example, in the early days of broadcasting, for which no recordings exist. See the [COHI Jukebox](../archiv/jukebox) section for this.
 
 
 ## Contact
@@ -33,6 +33,6 @@ The project coordinator of COHIRADIA is Hermann Scharfetter. As a member of rmor
 Unfortunately, there are practically no original recordings of broadband RF signals in the COHIRADIA sense, especially from the early days of broadcasting up to the 80s.
 However, it would be desirable to be able to play back signals on, for example, radio devices from the 20s to 50s that at least fit the content of these devices. The section 
 
-* [COHI Jukebox](https://www.radiomuseum.org/dsp_cohiradia.cfm?synthetic)
+* [COHI Jukebox](../archiv/jukebox)
 
 attempts to approach this topic by providing synthetic AM bands in the long and medium wave range that have modulated content and music of that era onto a variety of common carrier frequencies.

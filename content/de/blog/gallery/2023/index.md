@@ -1,7 +1,7 @@
 ---
 date: 2023-09-18
-title:  Fotos 2023
-linkTitle:  Fotos 2023
+title:  Highlights 2023
+linkTitle:  Highlights 2023
 description: >
  
 author: Hermann Scharfetter
