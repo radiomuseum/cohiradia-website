@@ -19,7 +19,7 @@ Die Aufnahme hat dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnu
 
 Für Nutzer*innen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Das Synthese-Tool wurde mittlerweile als einegständiges Modul in den COHIWizard eingebaut, der auf der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) downloadbar ist. 
 
-Wenn die Idee der COHI Jukebox gefällt, freuen wir uns natürlich über entsprechendes Feedback.
+Wenn die Idee der COHI Jukebox gefällt, freuen wir uns natürlich über entsprechendes Feedback. **Kontakt:** Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).
 
 Die folgenden beiden Videos zeigen die Wiedergabe unserer ersten Aufnahme auf zwei alten Empfängern durch Gerald Gauert:
 

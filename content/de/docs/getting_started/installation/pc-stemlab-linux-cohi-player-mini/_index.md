@@ -14,3 +14,5 @@ features:
   - cohi_player_mini_linux.md
   - finish
 ---
+# **Coming soon ! Wir arbeiten noch an der Bereitstellung dieser Software-Version.**
+## Falls Sie über gute IT-Kenntnisse verfügen können Sie um eine Testversion bei Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de) anfragen.

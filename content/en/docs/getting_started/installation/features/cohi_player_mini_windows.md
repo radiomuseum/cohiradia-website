@@ -9,7 +9,4 @@ _build:
 
 ## Install Software as Python Version for Windows
 
-  ### **--->TODO: This option is coming soon**
-
-  We are still working on providing this software version.
-  It will be available as Python code on GitHub.
+  ### **Coming soon**

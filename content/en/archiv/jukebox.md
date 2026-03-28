@@ -19,7 +19,7 @@ The recording has the same wav-IQ format as all previous COHIRADIA recordings an
 
 For users who would like to assemble their own AM bands according to their own taste, please note: The synthesis tool has now been built as a standalone module into the COHIWizard, which can be downloaded from the [Software page](https://www.radiomuseum.org/cohiradia/software.html).
 
-If you like the idea of the COHI Jukebox, we would of course be happy to receive corresponding feedback.
+If you like the idea of the COHI Jukebox, we would of course be happy to receive corresponding feedback. **Contact:** Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).
 
 The following two videos show the playback of our first recording on two old receivers by Gerald Gauert:
 

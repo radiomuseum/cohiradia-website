@@ -9,4 +9,6 @@ _build:
 description: >
   Installationsanleitung für: Raspberry-Pi mit STEMLAB Signalwandler unter Linux mit COHI-Player Mini
 ---
-TODO
+  # **Coming soon. Ein iso-File zum Download ist gerade in Vorbereitung und wird in nächster Zeit verfügbar sein.**
+  
+  ## Falls Sie über gute IT-Kenntnisse verfügen können Sie um eine Testversion bei Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de ) anfragen.

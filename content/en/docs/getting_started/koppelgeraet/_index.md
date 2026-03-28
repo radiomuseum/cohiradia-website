@@ -4,7 +4,7 @@ linkTitle: Coupling Device
 date: 2026-01-01
 weight: 20
 description: >
-   HF isolation transformer, possibly multi-channel transformer, or also a small transmitter, either as a loop or electrically.
+   RF isolation transformer, possibly multi-channel transformer, or also a small transmitter, either as a loop or electrically.
 ---
 
 ## General and Safety Information

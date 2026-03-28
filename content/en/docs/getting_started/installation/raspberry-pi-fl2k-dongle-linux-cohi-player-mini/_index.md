@@ -9,4 +9,6 @@ _build:
 description: >
   Installationsanleitung für: Raspberry-Pi mit fl2k-Dongle Signalwandler unter Linux mit COHIWizard Python
 ---
-TODO
+  # **Coming soon. An ISO file is currently being prepared and will be available shortly.**
+  
+  ## If you have strong IT skills, you can request a test version from Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).

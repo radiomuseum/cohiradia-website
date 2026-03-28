@@ -9,8 +9,7 @@ _build:
 
 ## Software als Python-Version für LINUX installieren
 
-  ### **--->TODO: This option is coming soon**
+  ### **Coming soon**
 
-  Wir arbeiten noch an der Bereitstellung dieser Software-Version.
-  Diese wird als Python-Code unter GITHub verfügbar sein
+
 
