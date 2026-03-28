@@ -1,13 +1,14 @@
 ---
-date: 2023-09-18
+date: 
 title:  Highlights 2023
 linkTitle:  Highlights 2023
-description: >
+description: 
  
-author: Hermann Scharfetter
-
+author:
 ---
 
+
+{{< video_ext_v2 url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Gallery/Wiedergabebeispiele/RTL_last_3_minutes_on_Minerva375.mp4" width="50%" align="left" showframe_time="1" caption="Letzte Minuten der Langwellenausstrahlung von RTL aus Beidweiler auf 234 kHz, 1. Jänner 2023, Playback von <a href='https://www.radiomuseum.org/dsp_cohiradia_detail.cfm?id=28'>Aufzeichnung im Archiv</a>">}}
 
 <img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Gallery/Aufzeichnungen/Folie_Reise.png" style="max-width: 90%; height: auto;"/>
 
