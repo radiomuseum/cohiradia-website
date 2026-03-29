@@ -1,5 +1,5 @@
 ---
-date: 2025-09-18
+date: 2023-09-18
 title:  Team
 linkTitle:  Team
 description: 
@@ -8,7 +8,10 @@ author: Hermann Scharfetter
 
 ---
 
+# Das Team
 
-<img src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Gallery/Folie_Team.png" style="max-width: 90%; height: auto;"/>
+{{< video_ext_v2 url="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4" showframe_time="1734" width="100%" align="center" caption="Video-Vorstellung des Gründer-Teams 2023" >}}
 
-*Europäisches Team 2023* 
+
+
+

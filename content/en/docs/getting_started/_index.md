@@ -11,10 +11,10 @@ COHIRADIA is made possible by the recording and playback of digitized high-frequ
 For playback, the following elements are basically required:
 
 * a control computer (can also be a small single board computer like a Raspberry Pi)
-* a signal converter ([Example](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1352,1420)) 
-* a coupling device ([Example](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1420,1480)) 
-* suitable software ([Example](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1490,1562)) 
-* an archive with digitized broadband AM signals
+* a signal converter ([Example](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4#t=1505,1570)) 
+* a coupling device ([Example](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4#t=1535,1617)) 
+* suitable software ([Example](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4#t=1618,1725)) 
+* an [archive](../../archiv/index.html) with digitized broadband AM signals 
 
 For each of these elements, there are several possible implementation options, depending on requirements and budget. While the software is written by the COHIRADIA team as open-source code, commercial products are used for part of the hardware (especially computer and signal converter). Another part of the hardware (e.g., the coupling devices) can be manufactured by users with technical/electronic skills. Figure 1 gives a schematic overview including some currently tested components.
 
