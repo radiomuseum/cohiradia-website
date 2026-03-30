@@ -7,8 +7,6 @@ description: >
 author: Hermann Scharfetter
 resources:
 - src: "**technisches*.jpg"
-  params:
-    byline: "*Photo*: Hermann Scharfetter"
 ---
 
 <a href="https://www.radiomuseum.org/cohiradia/GrazLinux.html" target="_blank">
