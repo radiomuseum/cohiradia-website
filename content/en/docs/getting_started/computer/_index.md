@@ -32,7 +32,7 @@ The software has so far been developed on a Lenovo T590 with Intel Core i7 with 
 
 ## Raspberry Pi as Control Computer
 
-A Raspberry Pi 4 is suitable as the smallest single-board computer tested so far, in conjunction with software reduced to the essentials, the COHI-Player Mini, very well for pure playback on a STEMLAB. **TODO: CHECK, not yet sufficiently tested!!!!** Together with the OSMO-fl2k, the most cost-effective system to date can be realized, although it has certain limitations. **END TODO**. With a Raspberry Pi 5, you can also run the full version of the Python variant of the software written for the PC and alternative playback programs (see links under 'Projects') without any problems. For the Raspberry Pi 4 with COHI-Player Mini, 4GB of RAM is sufficient; with the Raspberry Pi 5, a 4GB version has not yet been tested, but 8GB is definitely sufficient.
+A Raspberry Pi 4 is suitable as the smallest single-board computer tested so far, in conjunction with software reduced to the essentials, the COHI-Player Mini, very well for pure playback on a STEMLAB. Beta versions of these variants have already been tested, but the software still needs to be refined before it can be released to the public. We therefore ask for your patience; the tools for public download are currently being prepared. Combined with the OSMO-flk2, this will enable the implementation of the most cost-effective system to date, although it does have certain limitations.
 
 Fig. 1 shows a Raspberry Pi 5 in a desktop housing with a 7" touch display while it couples a broadband signal into a Hornyphon W248U via an OSMO-fl2k. The COHIWizard was used as software here. (Click to go to the video):
 

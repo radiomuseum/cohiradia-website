@@ -32,7 +32,9 @@ Entwickelt wurde die Software bisher auf einem Lenovo T590 mit Intel Core i7 mit
 
 ## Raspberry Pi als Steuercomputer
 
-Ein Raspberry Pi 4 eignet sich als kleinster bisher getesteter Single-Board Computer in Zusammenspiel mit einer auf das Nötigste reduzierten Software, dem COHI-Player Mini, sehr gut für reines Abspielen auf einem STEMLAB. **TODO: CHECK, noch nicht ausreichend getestet !!!!** Zusammen mit dem OSMO-flk2 läßt sich damit das bisher kostengünstigste System realisieren, das allerdings gewisse Einschränkungen hat  **END TODO**. Mit einem Raspberry Pi 5 kann man auch die Vollversion der für den PC geschriebenen Python-Variante der Software und alternative Abspielprogramme (siehe dazu Links unter 'Projekte') problemlos betreiben. Für den Raspberry Pi 4 mit COHI-Player Mini reichen 4GB Arbeitsspeicher, beim Raspberry Pi 5 wurde bisher noch keine 4GB-Version getestet, 8GB sind aber jedenfalls ausreichend.  
+Ein Raspberry Pi 4 eignet sich als kleinster bisher getesteter Single-Board Computer in Zusammenspiel mit einer auf das Nötigste reduzierten Software, dem COHI-Player Mini, sehr gut für reines Abspielen auf einem STEMLAB. Mit einem Raspberry Pi 5 kann man auch die Vollversion des COHIWizard und alternative Abspielprogramme (siehe dazu Links unter 'Projekte') problemlos betreiben. Für den Raspberry Pi 4 mit COHI-Player Mini reichen 4GB Arbeitsspeicher, beim Raspberry Pi 5 wurde bisher noch keine 4GB-Version getestet, 8GB sind aber jedenfalls ausreichend.  
+
+Beta-Versionen dieser Varianten wurden bereits getestet, die Software muss aber vor einer allgemeinen Freigabe noch angepasst werden. Wir bitten daher hier noch um etwas Geduld, die Tools für den allgemeinen Download werden gerade vorbereitet. Zusammen mit dem OSMO-flk2 wird sich damit dann das bisher kostengünstigste System realisieren lassen, das allerdings gewisse Einschränkungen hat.
 
 Abb. 1 zeigt einen Raspberry Pi 5 in Standgehäuse mit 7"-Touch-Display, während er über ein OSMO-fl2k ein Breitbandsignal in einen Hornyphon W248U einkoppelt. Als Software wurde hier der COHIWizard eingesetzt. (Klicken, um zm Video zu gelangen): 
 
