@@ -5,6 +5,7 @@ date: 2026-01-01
 weight: 3
 nav_exclude: false
 description: >
+  Detaillierte technische Beschreibung aller für COHIRADIA entwickelten Tools (Hardware, Software, Datenformate, Qualitätskriterien) mit Stand 2023. Wichtiges Grundlagen-Dokument für alle, die sich für die Basics interessieren.
 ---
 
 Alle wichtigen technischen Details zur Implementierung von COHIRADIA wurden im [Bericht 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf) zusammengefasst. Die wichtigen Punkte sind:

@@ -4,6 +4,7 @@ linkTitle: Grundlagen der Breitbandwiedergabe
 date: 2026-01-01
 weight: 4
 description: >
+  Detaillierte Beschreibung der Methoden, die die Breitbandwiedergabe ermöglichen.
 ---
 
 ## Aufzeichnung und Wiedergabe von 'natürlichen' Breitbandspektren

@@ -4,7 +4,7 @@ linkTitle: Software
 date: 2026-01-01
 weight: 1
 description: >
-  Cohiradia Software
+  Übersicht über die für Cohiradia bereitgestellte Software.
 ---
 
 ## Allgemeines

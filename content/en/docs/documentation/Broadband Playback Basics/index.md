@@ -4,6 +4,7 @@ linkTitle: Broadband Playback Basics
 date: 2026-01-01
 weight: 4
 description: >
+  A basic description of the methods used for broadband reception and playback via appropriate SDRs.
 ---
 
 ## Recording and Playback of 'Natural' Broadband Spectra
