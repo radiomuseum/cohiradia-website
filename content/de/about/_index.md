@@ -38,3 +38,6 @@ Nun wäre es aber wünschenswert, gerade auf z.B. Radiogeräten der 20 - 50er Ja
 versucht sich diesem Thema zu nähern, indem sie synthetische AM-Bänder im Bereich der Lang- und Mittelwelle zur Verfügung stellt, die auf einer Vielzahl von üblichen Trägerfrequenzen Inhalte und Musik der damaligen Zeit aufmoduliert haben.
 
 
+## Das Gründerteam
+
+<img src="team_COHIRADIA_2026.png" style="max-width: 90%; height: auto;"/>

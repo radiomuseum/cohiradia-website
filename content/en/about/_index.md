@@ -6,10 +6,10 @@ menu: { main: { weight: 10 } }
 ---
 
 ## Introduction
-{{< video url="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4" width="25%" align="right" showframe_time="1432" playstart="0">}}
+{{< video url="https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_TimeMachine_English_YT.mp4" width="30%" align="right" showframe_time="1432" playstart="0">}}
 Imagine being able to tune in and listen to all the stations on the medium wave band on a specific day in 2006 on your vintage radio receiver at any time, as if all the stations were broadcasting right now. 
-Ideally, the playback should not be based on an artificial montage, but on an authentic historical recording. This is probably the wish of many collectors, whose beautiful and valuable devices will increasingly remain 'silent' due to the rapidly progressing final shutdown of AM transmitters. The COHIRADIA project fulfills exactly this wish, as this shows.
-[Demo Video](https://cohiradia.radiomuseum.org/download/COHIRADIA_Demovideo_v1.mp4)
+Ideally, the playback should not be based on an artificial montage, but on an authentic historical recording. This is probably the wish of many collectors, whose beautiful and valuable devices will increasingly remain 'silent' due to the rapidly progressing final shutdown of AM transmitters. The COHIRADIA project fulfills exactly this wish, as this (somewhat outdated) 
+[Demo Video](https://cohiradia.radiomuseum.org/download/COHIRADIA_Demovideo_v1.mp4) shows.
 
 COHIRADIA stands as an acronym for **CO**nservation of **HI**storical **RA**diofrequency bands by **DI**gital **A**rchiving.
 
@@ -36,3 +36,7 @@ However, it would be desirable to be able to play back signals on, for example, 
 * [COHI Jukebox](../archiv/jukebox)
 
 attempts to approach this topic by providing synthetic AM bands in the long and medium wave range that have modulated content and music of that era onto a variety of common carrier frequencies.
+
+## The founding team
+
+<img src="team_COHIRADIA_2026.png" style="max-width: 90%; height: auto;"/>
