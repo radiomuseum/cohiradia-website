@@ -9,7 +9,7 @@ description: >
 
 ## Allgemeines
 
-Der Signalwandler hat die Aufgabe, einen digitalen Datenstrom vom Steuercomputer zu übernehmen und in das analoge Antennensignal für den Empfänger umzuwandeln. Grob vereinfacht kann man das als Digital-Analog-wandler ansehen, 
+Der Signalwandler hat die Aufgabe, einen digitalen Datenstrom vom Steuercomputer zu übernehmen und in das analoge Antennensignal für den Empfänger umzuwandeln. Grob vereinfacht kann man diese Komponente als Digital-Analog-Wandler ansehen, 
 die meisten verwendbaren Geräte sind aber komplexer. Aufgrund des Gerätetreiber-Konzepts der offiziellen COHIRADIA-Software ist es grundsätzlich möglich, unterschiedliche Hardwareprodukte für die Signalwandlung zu verwenden. 
 
 ## Unterstützte Hardware

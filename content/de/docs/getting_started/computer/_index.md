@@ -22,9 +22,6 @@ Wird hingegen z.B. der OSMO fl2k-Dongle benutzt, wird gewisse Rechenleistung ben
 * Acer Swift, AMD Ryzen 5 4500U, 8GB RAM
 * Acer Aspire 5, Intel-Core i7-1165G7, 16GB RAM
 * HP250G6 ,Intel (R) Core (TM) i3-6006U CPU @ 2,00 GHz, 8GB RAM
-* TODO: Rechner von Claus-Peter
-
-
 
 
 Entwickelt wurde die Software bisher auf einem Lenovo T590 mit Intel Core i7 mit 32GB Arbeitsspeicher. Getestet wurde die Software auf PCs bisher unter Windows 10, Windows 11 und LINUX Debian 12 und Debian 13.

@@ -22,7 +22,6 @@ However, if, for example, the OSMO fl2k dongle is used, a certain amount of comp
 * Acer Swift, AMD Ryzen 5 4500U, 8GB RAM
 * Acer Aspire 5, Intel-Core i7-1165G7, 16GB RAM
 * HP250G6, Intel (R) Core (TM) i3-6006U CPU @ 2.00 GHz, 8GB RAM
-* TODO: Computer from Claus-Peter
 
 
 

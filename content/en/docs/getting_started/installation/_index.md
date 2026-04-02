@@ -34,6 +34,7 @@ The following table shows an overview of the available combinations:
 | Raspberry Pi     | STEMLAB          | Linux   | COHIWizard Python  |
 | Raspberry Pi     | fl2k Dongle      | Linux   | COHIWizard Python  |
 | Raspberry Pi     | STEMLAB          | Linux   | COHI-Player Mini   |
+| Raspberry Pi     | fl2k Dongle      | Linux   | COHI-Player Mini   |
 
 
 

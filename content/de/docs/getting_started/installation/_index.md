@@ -10,7 +10,7 @@ description: >
 
 ## Installationsanleitung
 
-Wähle deine Hardware- und Softwarekonfiguration, um zur passenden Installationsanleitung zu gelangen:
+Wählen Sie Ihre Hardware- und Softwarekonfiguration, um zur passenden Installationsanleitung zu gelangen:
 
 {{< installation-guide >}}
 
@@ -34,6 +34,7 @@ Die folgende Tabelle zeigt eine Übersicht der verfügbaren Kombinationen:
 | Raspberry-Pi     | STEMLAB       | Linux   | COHIWizard Python  |
 | Raspberry-Pi     | fl2k-Dongle   | Linux   | COHIWizard Python  |
 | Raspberry-Pi     | STEMLAB       | Linux   | COHI-Player Mini   |
+| Raspberry Pi     | fl2k Dongle      | Linux   | COHI-Player Mini   |
 
 
 
