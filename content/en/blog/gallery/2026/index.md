@@ -9,4 +9,8 @@ author:
 
 {{< video_ext_v2 url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Gallery/Wiedergabebeispiele/minerva_ukw_rahmenantenne_COHIRADIA.mp4" width="50%" align="left" showframe_time="1" caption="Bandscan through a synthetic spectrum on a Minerva transistor receiver from 1960 ([Model see here](https://www.radiomuseum.org/ressources_webpage/Gallery/Wiedergabebeispiele/minerva_ukw_transistor_60_611.html)).">}}
 
-
+TESTTEST
+<a href="https://youtu.be/TO7UMjGUK_A" target="_blank">
+  <img width="300" height="150" 
+       src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Gallery/Wiedergabebeispiele/minerva_ukw_rahmenantenne_COHIRADIA.mp4" />
+</a>
