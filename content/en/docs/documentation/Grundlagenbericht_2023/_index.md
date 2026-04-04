@@ -8,7 +8,7 @@ description: >
   This document contains all technical basics of COHIRADIA in much detail. Also some detailed descriptions of hardware are included. 
 ---
 
-All important technical details for the implementation of COHIRADIA were summarized in the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_dt.pdf). The important points are:
+All important technical details for the implementation of COHIRADIA were summarized in the [Report 2023](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_Report2023_engl.pdf). The important points are:
 
 * Organization of COHIRADIA
 * Structure and rules for building the archive
