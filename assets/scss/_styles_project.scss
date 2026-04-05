@@ -12,6 +12,10 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 main {
   background-color: #ffffee;
 }
+
+[data-bs-theme="dark"] main {
+  background-color: #1a1a18;
+}
 .td-content p,
 .td-content article li {
   text-align: justify;
