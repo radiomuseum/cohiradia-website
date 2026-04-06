@@ -17,7 +17,7 @@ resources:
 
 On April 10 and 11, COHIRADIA participates in the [Graz LINUX Days](https://www.linuxtage.at/de/). 
 So if you have time and interest, you will have the opportunity to experience the entire COHIRADIA system 
-in operation at this event. The special feature: You can admire the platform in all variants supported so far:
+in operation at this [info booth](https://www.linuxtage.at/de/infostaende-2026/#cohiradia). The special feature: You can admire the platform in all variants supported so far:
 
 <div style="clear: both;"></div>
 
