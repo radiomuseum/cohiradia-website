@@ -13,7 +13,7 @@ ui_all: alle
 # Footer text
 footer_all_rights_reserved: Alle Rechte vorbehalten
 
-footer_privacy_policy: Datenschutzrichtlinie
+footer_privacy_policy: Impressum
 
 # Post (blog, article, etc.)
 post_byline_by: Von
