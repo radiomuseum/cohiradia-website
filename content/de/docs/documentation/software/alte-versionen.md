@@ -8,7 +8,7 @@ description: >
 ---
 ## Auswahlhilfe:
 
-Wenn Sie lediglich ein einfaches, leicht bedienbares Wiedergabewerkzeug benötigen, können Sie den älteren **RFCorder** benutzen. Dieser Player ermöglicht Wiedergabe von Aufnahmen auf dem STEMLAB 125 und einfaches Resampling. Er wird allerdings nicht weiterentwickelt und wird daher keine zukünftige Unterstützung für alternative Hardware bieten. Wenn Sie ein laufend gewartetes Universalwerkzeug mit vielen Zusatzfunktionen bevorzugen, empfiehlt sich der <strong>COHIWizard</strong>. Er bietet alle Funktionen des RFCorders (Wiedergabe, Aufnahme) und darüber hinaus nützliche Werkzeuge etwa zur Inspektion der Spektren, zur Kommentierung der eigenen Aufnahme und zum erweiterten Resampling. Allerdings benötigt er etwas mehr Speicherplatz und für bestimmte Funktionen (z.B. Resampling) einiges an CPU-Leistung. Unter Windows ist für beide Versionen eine ausführbare Version (exe) verfügbar. Der COHIWizard ist darüber hinaus ab v1.2 als offener Python-Quellcode auf [Github](https://github.com/hermy-sf/COHIWizard) sowohl für [Windows](#windows) als auch für [Linux](#linux) verfügbar. Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md). Wer die neueste Version ausprobieren möchte, sei auf die Rubrik [Experimentelle Version](#experimentelleV) verwiesen.
+Wenn Sie lediglich ein einfaches, leicht bedienbares Wiedergabewerkzeug benötigen, können Sie den älteren **RFCorder** benutzen. Dieser Player ermöglicht Wiedergabe von Aufnahmen auf dem STEMLAB 125 und einfaches Resampling. Er wird allerdings nicht weiterentwickelt und wird daher keine zukünftige Unterstützung für alternative Hardware bieten. Wenn Sie ein laufend gewartetes Universalwerkzeug mit vielen Zusatzfunktionen bevorzugen, empfiehlt sich der <strong>COHIWizard</strong>. Er bietet alle Funktionen des RFCorders (Wiedergabe, Aufnahme) und darüber hinaus nützliche Werkzeuge etwa zur Inspektion der Spektren, zur Kommentierung der eigenen Aufnahme und zum erweiterten Resampling. Allerdings benötigt er etwas mehr Speicherplatz und für bestimmte Funktionen (z.B. Resampling) einiges an CPU-Leistung. Unter Windows ist für beide Versionen eine ausführbare Version (exe) verfügbar. Der COHIWizard ist darüber hinaus ab v1.2 als offener Python-Quellcode auf [Github](https://github.com/hermy-sf/COHIWizard) sowohl für [Windows](#windows) als auch für [Linux](#linux) verfügbar. Um die jeweilige alte Version herunterzuladen muss man den entsprechenden Branch cohiwizard_vx.y auschecken, wobei x.y für die Versionsnummer steht. Wer den COHIWizard unter Python ausführen möchte, findet die Installationsanleitung auf dem GITHUB-Repository in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md) des jeweiligen Branches
 
 <a id="windows"></a>
 
@@ -62,9 +62,9 @@ Diese Version beinhaltet neben einigen kleinen Änderungen (z.B. Einbau eines Mo
 <a id="linux"></a>
 
 ## LINUX
-Die Python-Version wurde unter Debian 10 erfolgreich gestartet, aber noch nicht ausführlich getestet- Mit dem Player konnten Hf-Signale erfolgreich abgespielt werden und mit dem Synthesizer konnten erfolgreich korrekte SDR-wav-Dateien erstellt werden. Auch eine Annotation mit dem Annotator wurde an einer Aufzeichnung exemplarisch durchgeführt. Umfangreichere Tests werden in der Zukunft durchgeführt werden.
+Die Python-Version wurde unter Debian 12 und 13 erfolgreich gestartet- Mit dem Player konnten Hf-Signale erfolgreich abgespielt werden und mit dem Synthesizer konnten erfolgreich korrekte SDR-wav-Dateien erstellt werden. Auch eine Annotation mit dem Annotator wurde an einer Aufzeichnung exemplarisch durchgeführt. Umfangreichere Tests werden in der Zukunft durchgeführt werden.
 
-Für die Installation klonen Sie bitte das Repository von [Github](https://github.com/hermy-sf/COHIWizard). Genauere Hinweise finden sich in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
+Für die Installation klonen Sie bitte das Repository vom jeweiligen Branch auf [Github](https://github.com/hermy-sf/COHIWizard). Genauere Hinweise finden sich in der [README-Datei](https://github.com/hermy-sf/COHIWizard/blob/main/README.md) des jeweiligen Branches.
 
 Wenn Sie ein lokales git verwenden, können Sie auch auf den Branch cohiwizard_v1.3 zugreifen der der aktuelle Entwicklungsbranch für Version 1.3. 
 
@@ -88,10 +88,6 @@ Es ist geplant, in Zukunft weitere Treiber zu entwickeln, sofern Bedarf danach b
 
 Sollte sich das neue Tool bewähren, wird es in zukünftigen Releases die alte Variante ablösen. 
 
-Bugreports zu Version 2.2.x sind aufgrund der noch nicht sehr exzessiven Tests willkommen.
-
 Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie jetzt bereits auf den Branch [cohiwizard_v2.0](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2) zugreifen der der aktuelle Entwicklungsbranch für Version 2 ist und als experimentell eingestuft werden muss. Die stabile Version ist im branch 'main' verfügbar.
-
-Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
 
 
