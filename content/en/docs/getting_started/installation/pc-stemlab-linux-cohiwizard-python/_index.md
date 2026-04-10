@@ -11,7 +11,7 @@ features:
   - step_1
   - stemlab_SDcard_LINUX
   - step_2
-  - cohi_player_mini_linux
+  - cohiwizard_python_linux
   - finish
 ---
 

@@ -15,4 +15,4 @@ Die exe-Version kann als Zip-Datei heruntergeladen werden und enthält auch ein 
 
 ## Vorgängerversionen
 
-Wer bereist Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet unter [diesem Link](https://www.radiomuseum.org/cohiradia/L3Software_L4software_previous_vs.html) alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.
+Wer bereits Vorgängerversionen des aktuellen COHIWizard kennt und ggf. installiert hat, findet im [Software Archiv](../../../documentation/software/alte-versionen.html) alte Versionen bis hin zum RFCorder, der die erste einfache Abspielsoftware darstellt, die für COHIRADIA entstanden ist. Alle diese Vorgängerversionen müssen aber als veraltet angesehen werden und werden auch nicht mehr gewartet.

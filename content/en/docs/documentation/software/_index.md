@@ -48,7 +48,8 @@ I am grateful for [reports](https://www.radiomuseum.org/forum/software_fuer_cohi
 
 ## Previous Versions
 
-Those who already know previous versions of the current COHIWizard and may have installed them will find [under this link](https://www.radiomuseum.org/cohiradia/L3Software_L4software_previous_vs.html) old versions right up to the RFCorder, which was the first simple playback software created for COHIRADIA. All of these previous versions should be considered outdated and are no longer maintained.
+Those who already know previous versions of the current COHIWizard and may have installed them will find [in the software archive](alte-versionen.html) old versions right up to the RFCorder, which was the first simple playback software created for COHIRADIA. All of these previous versions should be considered outdated and are no longer maintained.
+
 
 ## Hardware Support
 
