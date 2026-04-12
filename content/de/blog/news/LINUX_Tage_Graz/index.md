@@ -17,26 +17,40 @@ resources:
 </a>
 
 
-Am 10. und 11. April nimmt COHIRADIA an den [Grazer LINUX-Tagen](https://www.linuxtage.at/de/)  teil. 
-Wer also Zeit und Lust hat, bekommt bei dieser Veranstaltung die Möglichkeit, das gesamte COHIRADIA-System an diesem [Info-Stand](https://www.linuxtage.at/de/infostaende-2026/#cohiradia)
-im Betrieb zu erleben. Die Besonderheit: Sie können die Plattform in allen bisher unterstützten Varianten bewundern:
+Am 10. und 11. April nahm COHIRADIA an den [Grazer LINUX-Tagen](https://www.linuxtage.at/de/) mit einem [Info-Stand](https://www.linuxtage.at/de/infostaende-2026/#cohiradia) teil. Die Grazer LINUX-Tage bilden die größte österreichische LINUX-Konferenz mit mehreren Hundert Teilnehmern und Teilnehmerinnen. Wer den Stand besuchte, bekam die Möglichkeit, das gesamte COHIRADIA-System
+im Betrieb zu erleben. 
+
+<img src="SEL_20260411_104722_cut.png" style="max-width: 80%; height: auto;"/>
+
+<br><br/>
+**Die Besonderheit:** Man konnte die Plattform in allen bisher unterstützten Varianten bewundern:
 
 <div style="clear: both;"></div>
 
 * Klassisches Setup mit PC und COHIWizard
 * Miniatur-Version mit dem Raspberry Pi und COHI-Player mini von CP. Gallenmiller. 
-Beide Systeme werden dort zum einen mit einem klassischen Röhrenempfänger aus den 50er-Jahren per Kabel
-und andererseits mit einem Transistor-Kofferradio aus den 1960ern über eine kleine Loop-Antenne zusammenspielen.
-Als Wiedergabeeinheiten werden zum einen das Red Pitaya STEMLAB und zum anderen der OSMO-fl2k USB/VGA-Konverter zum
-Einsatz kommen. Damit wird die gesamte Bandbreite an bisher implementierten COHIRADIA-Systemen auf einmal zu sehen sein.
 
-Falls jemand in der Nähe ist und sich aus erster Hand informieren will, ist das eine gute Gelegenheit. 
-Es werden auch Amateurfunk-Gruppen auf der selben Veranstaltung anwesend sein.
+Beide Systeme waren zum einen mit einem klassischen Röhrenempfänger aus den 50er-Jahren per Kabel
+und andererseits mit zwei Transistor-Kofferradios aus den 1960ern über einen  Loopantennen-Kleinsender gekoppelt.
+Als Wiedergabeeinheiten kamen zum einen das Red Pitaya STEMLAB und zum anderen der OSMO-fl2k USB/VGA-Konverter zum
+Einsatz. Damit war die gesamte Bandbreite an bisher implementierten COHIRADIA-Systemen auf einmal zu sehen.
+<br><br/>
 
-Kleines Special: Gleich am Nachbarstand können Sie ein voll funktionsfähiges, an der TU Graz gebautes 
-Niedrigfeld-MRT-Gerät bestaunen und darin evt. sogar einen Scan Ihres eigenen Gehirns machen lassen. 
-Mit COHIRADIA verbindet dieses Gerät das RedPitaya STEMLAB, das in beiden Projekten als zentraler 
-Signalwandler benutzt wird.
+<img src="AUFBAU_DOKU_20260411_171353_cut.png" style="max-width: 80%; height: auto;"/>
+
+<br><br/>
+
+Das Interesse war relativ groß, viele, auch junge Menschen interessierten sich für das System. Das Publikum war sehr gemischt, natürlich waren auch Amateurfunker dabei und alle Teilnehmer und Teilnehmerinnen vereinte das gemeinsame Interesse an LINUX-Anwendungen.
+
+<br><br/>
+
+<img src="SEL_20260411_092054_cut.jpg" style="max-width: 60%; height: auto;"/>
+
+
+
+
+
+
 
 
 
