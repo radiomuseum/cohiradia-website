@@ -12,7 +12,7 @@ resources:
 ---
 
 <a href="https://www.radiomuseum.org/cohiradia/GrazLinux.html" target="_blank">
-  <img align="left" width="15%" 
+  <img align="left" width="10%" 
        src="https://cohiradia.radiomuseum.org/download//docs/ressources_webpage/linuxpinguin_logo.webp" />
 </a>
 
