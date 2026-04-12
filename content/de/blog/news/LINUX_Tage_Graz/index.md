@@ -22,7 +22,7 @@ im Betrieb zu erleben.
 
 <br><br/>
 
-<img src="SEL_20260411_104722_cut.png" style="max-width: 80%; height: auto;"/>
+<img src="SEL_20260411_104722_cut.png" style="max-width: 70%; height: auto;"/>
 
 <br><br/>
 **Die Besonderheit:** Man konnte die Plattform in allen bisher unterstützten Varianten bewundern:
@@ -38,7 +38,7 @@ Als Wiedergabeeinheiten kamen zum einen das Red Pitaya STEMLAB und zum anderen d
 Einsatz. Damit war die gesamte Bandbreite an bisher implementierten COHIRADIA-Systemen auf einmal zu sehen.
 <br><br/>
 
-<img src="AUFBAU_DOKU_20260411_171353_cut.png" style="max-width: 80%; height: auto;"/>
+<img src="AUFBAU_DOKU_20260411_171353_cut.png" style="max-width: 70%; height: auto;"/>
 
 <br><br/>
 
