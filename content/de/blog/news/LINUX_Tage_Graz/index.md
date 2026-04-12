@@ -20,6 +20,8 @@ resources:
 Am 10. und 11. April nahm COHIRADIA an den [Grazer LINUX-Tagen](https://www.linuxtage.at/de/) mit einem [Info-Stand](https://www.linuxtage.at/de/infostaende-2026/#cohiradia) teil. Die Grazer LINUX-Tage bilden die größte österreichische LINUX-Konferenz mit mehreren Hundert Teilnehmern und Teilnehmerinnen. Wer den Stand besuchte, bekam die Möglichkeit, das gesamte COHIRADIA-System
 im Betrieb zu erleben. 
 
+<br><br/>
+
 <img src="SEL_20260411_104722_cut.png" style="max-width: 80%; height: auto;"/>
 
 <br><br/>
