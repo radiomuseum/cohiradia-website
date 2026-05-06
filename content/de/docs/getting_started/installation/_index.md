@@ -40,4 +40,4 @@ Die folgende Tabelle zeigt eine Übersicht der verfügbaren Kombinationen:
 
 
 
-**Hinweis:** Diese Kombinationen sind aktuell verfügbar. Weitere Kombinationen folgen in Kürze.
+**Hinweis:** Diese Kombinationen sind aktuell verfügbar. Weitere Kombinationen können in Zukunft folgen.

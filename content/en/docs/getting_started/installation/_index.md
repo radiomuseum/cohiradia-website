@@ -40,4 +40,4 @@ The following table shows an overview of the available combinations:
 
 
 
-**Note:** These combinations are currently available. More combinations will follow soon.
+**Note:** These combinations are currently available. More combinations can follow on availability of new hard/software components.

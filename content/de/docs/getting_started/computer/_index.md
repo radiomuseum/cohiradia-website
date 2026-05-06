@@ -33,7 +33,7 @@ Ein Raspberry Pi 4 eignet sich als kleinster bisher getesteter Single-Board Comp
 
 Beta-Versionen dieser Varianten wurden bereits getestet, die Software muss aber vor einer allgemeinen Freigabe noch angepasst werden. Wir bitten daher hier noch um etwas Geduld, die Tools für den allgemeinen Download werden gerade vorbereitet. Zusammen mit dem OSMO-flk2 wird sich damit dann das bisher kostengünstigste System realisieren lassen, das allerdings gewisse Einschränkungen hat.
 
-Abb. 1 zeigt einen Raspberry Pi 5 in Standgehäuse mit 7"-Touch-Display, während er über ein OSMO-fl2k ein Breitbandsignal in einen Hornyphon W248U einkoppelt. Als Software wurde hier der COHIWizard eingesetzt. (Klicken, um zm Video zu gelangen): 
+Abb. 1 zeigt einen Raspberry Pi 5 in Standgehäuse mit 7"-Touch-Display, während er über ein OSMO-fl2k ein Breitbandsignal in einen Hornyphon W248U einkoppelt. Als Software wurde hier der COHIWizard eingesetzt. (Klicken, um zum Video zu gelangen): 
 
 {{< video_ext url="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Raspi5_COHIRADIA_Demo_1_20260208_144840.mp4" width="60%" align="left" showframe_time="0" caption="Abb. 1: Raspberry Pi 5 in Zusammenspiel mit einem Hornyphon W248U." >}}
 

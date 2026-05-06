@@ -9,7 +9,7 @@ description: >
 
 ## Allgemeines und Gefahrenhinweise
 
-**ACHTUNG**: Der Antenneneingang vieler alter Röhrenempfänger ist häufig keineswegs berührungssicher im Sinne moderner Sicherheitsforschriften für elektrische Geräte. 
+**ACHTUNG**: Der Antenneneingang vieler alter Röhrenempfänger ist häufig keineswegs berührungssicher im Sinne moderner Sicherheitsvorschriften für elektrische Geräte. 
 Bei sogenannten Allstromgeräten liegt bekanntermaßen das Chassis an einem der Leiter des Netzsteckers und ist somit nach dem Anstecken ans Netz je nach Einsteckrichtung 
 entweder mit dem Nullleiter oder dem Phasenleiter verbunden. Es kann demnach gegen Erde eine Spannung von 230V in Europa annehmen. Normalerweise sind zwar die Eingänge für 
 Erde und Antenne durch Kondensatoren vom Chassis und damit damit galvanisch gekoppelten Teilen getrennt, aber die vergleichsweise hohen Kapazitäten können durchaus merkliche Ströme bei Netzfrequenz bewirken. So ergeben z.B. 10nF bei 230V und 50Hz etwa 0.72 mA Strom. Das ist bei Berührung deutlich fühlbar. An den unbelasteten Eingängen kann jedenfalls die Netzspannung anliegen. 
@@ -69,7 +69,7 @@ Die Verstärkung kann zur Vermeidung von Übersteuerung ggf. auf max 5 reduziert
 *Abbildung 3:* Ankopplung der Rahmenantenne an den Treiberverstärker (AD811) durch einen Balun.(Anm: Das PCB unter dem Ringkern dient nur als Träger für den SMA-Stecker, der 'Transistor' unterhalb der Mitte des Ringkerns ist defekt und funktionslos.)
 {{% /imgproc %}}
 
-Natürlich können auch andere Verstärker in diesem Kontext verwendet werden, sofern sie für den frequenzbereich geeignet sind und ausreichend Strom treiben können. 
+Natürlich können auch andere Verstärker in diesem Kontext verwendet werden, sofern sie für den Frequenzbereich geeignet sind und ausreichend Strom treiben können. 
 
 Die Auswahl von Windungszahl, Schleifengeometrie und Verstärker hängt vom Anwendungsfall ab. Normalerweise möchte man Geräte in einer Entfernung von wenigen Metern noch mit ausreichend Signal versorgen, ohne darüber hinaus Störungen in der weiteren Umgebung zu verursachen. Wie Berechnungen in 
 <a href="/pdf/Berechnungen_Loop_Antenne_TX_fuer_Webpage_v2_reduced.pdf" target="_blank" rel="noopener noreferrer">
