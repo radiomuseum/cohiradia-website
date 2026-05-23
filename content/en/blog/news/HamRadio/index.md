@@ -14,7 +14,7 @@ resources:
 
 ## We are at the HAM RADIO 2026
 
-From June 26 to 28, 2026, COHIRADIA will be participating in the [HAM RADIO](https://www.hamradio-friedrichshafen.de/) in Friedrichshafen. The project will be on display (and audible) at the GFGF booth, which has kindly provided us with space there ([Hall A3, Booth 17](https://www.gfgf.org/de/veranstaltungen.html)). So if you have the time and interest, this event offers you the opportunity to experience the entire platform in action across all currently supported variants, just as was the case [at the Linuxtage in Graz](https://www.cohiradia.org/de/blog/2026/01/01/highlights-2026/):
+From June 26 to 28, 2026, COHIRADIA will be participating in the [HAM RADIO](https://www.hamradio-friedrichshafen.de/) in Friedrichshafen. The project will be on display (and audible) at the GFGF booth, which has kindly provided us with space there ([Hall A3, Booth 17](https://www.gfgf.org/de/veranstaltungen.html)). So if you have the time and interest, this event offers you the opportunity to experience the entire platform in action across all currently supported variants, just as was the case [at the Linux Day in Graz](https://www.cohiradia.org/en/blog/2026/02/18/cohiradia-participates-in-linux-days-graz/):
 
 (1) Classic setup with PC and COHIWizard </br>
 (2) Compact version with the [Raspberry Pi 5](https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/Raspi5_COHIRADIA_Demo_1_20260208_144840.mp4), COHIWizard and COHI-Player mini by Claus Peter Gallenmiller.  </br>
