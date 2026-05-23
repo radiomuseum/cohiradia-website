@@ -21,3 +21,73 @@ main {
   text-align: justify;
   text-justify: inter-word;
 }
+
+// Latest News section on homepage
+.latest-news {
+  padding: 1.5rem 0;
+
+  &__title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    color: #333;
+  }
+
+  &__card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    height: 100%;
+    background: #fff;
+    transition: box-shadow 0.2s ease, transform 0.15s ease;
+
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+
+  &__card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  &__date {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.3rem;
+  }
+
+  &__card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #1a73e8;
+  }
+
+  &__desc {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0;
+    line-height: 1.4;
+  }
+}
+
+[data-bs-theme="dark"] .latest-news {
+  &__title { color: #eee; }
+  &__card {
+    background: #2a2a28;
+    border-color: #444;
+  }
+  &__card-title { color: #6db3f8; }
+  &__desc { color: #bbb; }
+  &__date { color: #999; }
+}
