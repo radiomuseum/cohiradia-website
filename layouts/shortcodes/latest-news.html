@@ -1,26 +1,15 @@
-{{ $count := .Get "count" | default 3 }}
+{{ $count := .Get "count" | default 1 }}
 {{ $section := .Get "section" | default "blog" }}
 {{ $pages := where .Site.RegularPages "Section" $section }}
 {{ $pages = $pages | first $count }}
 
-<div class="latest-news">
-  <h2 class="latest-news__title">Neueste Beiträge</h2>
-  <div class="row justify-content-center">
-    {{ range $pages }}
-    <div class="col-md-4 mb-3">
-      <a href="{{ .RelPermalink }}" class="latest-news__card-link">
-        <div class="latest-news__card">
-          <div class="latest-news__date">{{ .Date.Format "02.01.2006" }}</div>
-          <h3 class="latest-news__card-title">{{ .Title }}</h3>
-          {{ with .Description }}
-          <p class="latest-news__desc">{{ . }}</p>
-          {{ end }}
-        </div>
-      </a>
-    </div>
-    {{ end }}
-  </div>
-  <div class="text-center mt-2">
-    <a href="/{{ .Page.Language.Lang }}/blog/news/" class="btn btn-outline-primary btn-sm">Alle News →</a>
-  </div>
+<div class="latest-news-badge">
+  <div class="latest-news-badge__label"><i class="fa-solid fa-newspaper"></i> News</div>
+  {{ range $pages }}
+  <a href="{{ .RelPermalink }}" class="latest-news-badge__link">
+    <span class="latest-news-badge__date">{{ .Date.Format "02.01.2006" }}</span>
+    <span class="latest-news-badge__title">{{ .Title }}</span>
+  </a>
+  {{ end }}
+  <a href="/{{ .Page.Language.Lang }}/blog/news/" class="latest-news-badge__all">alle →</a>
 </div>
