@@ -1,3 +1,7 @@
+# Latest News badge
+latest_news_label: News
+latest_news_all: all →
+
 # UI strings. Buttons and similar.
 ui_pager_prev: Previous
 ui_pager_next: Next

@@ -4,12 +4,12 @@
 {{ $pages = $pages | first $count }}
 
 <div class="latest-news-badge">
-  <div class="latest-news-badge__label"><i class="fa-solid fa-newspaper"></i> News</div>
+  <div class="latest-news-badge__label"><i class="fa-solid fa-newspaper"></i> {{ i18n "latest_news_label" }}</div>
   {{ range $pages }}
   <a href="{{ .RelPermalink }}" class="latest-news-badge__link">
     <span class="latest-news-badge__date">{{ .Date.Format "02.01.2006" }}</span>
     <span class="latest-news-badge__title">{{ .Title }}</span>
   </a>
   {{ end }}
-  <a href="/{{ .Page.Language.Lang }}/blog/news/" class="latest-news-badge__all">alle →</a>
+  <a href="/{{ .Page.Language.Lang }}/blog/news/" class="latest-news-badge__all">{{ i18n "latest_news_all" }}</a>
 </div>
