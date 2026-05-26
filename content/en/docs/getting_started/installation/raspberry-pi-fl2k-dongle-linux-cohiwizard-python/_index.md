@@ -11,4 +11,6 @@ description: >
 ---
   # **Coming soon. An ISO file is currently being prepared and will be available shortly.**
   
-  ## If you have strong IT skills, you can request a test version from Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).
+  <br/>
+  
+**If you have strong IT skills, you can request a test version from Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).**

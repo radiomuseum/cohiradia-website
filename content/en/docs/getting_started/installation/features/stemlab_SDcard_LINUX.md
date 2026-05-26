@@ -28,7 +28,7 @@ These are listed as, e.g., sdb1, sdb2 or similar. Then unmount the SD devices an
 ```bash
 sudo umount /dev/YOURSDDEVICE*
 ```
-YOURSDDEVICE is then what your lsblk lists, in my example sbd. Then:
+YOURSDDEVICE is then what your lsblk lists, in my example sdb. Then:
 
 ```bash
 sudo dd if=redpitaya_full.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync

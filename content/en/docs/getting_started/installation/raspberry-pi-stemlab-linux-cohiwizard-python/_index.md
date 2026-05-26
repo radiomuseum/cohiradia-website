@@ -7,9 +7,26 @@ _build:
   list: never
   render: always
 description: >
-  Installationsanleitung für: Raspberry-Pi mit STEMLAB Signalwandler unter Linux mit COHIWizard Python
+  Installation guide for: Raspberry-Pi with STEMLAB under Linux with COHIWizard Python
+features:
+  - step_1
+  - stemlab_SDcard_WINDOWS
+  - stemlab_SDcard_LINUX_asalternative
+  - step_2
+  - Preface_Raspi_Wizard
+  - Raspberry5_SDcard
+  - Postfix_Raspi
 ---
 
-  # **Coming soon. An ISO file is currently being prepared and will be available shortly.**
   
-  ## If you have strong IT skills, you can request a test version from Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).
+  <!-- - step_1
+  - stemlab_SDcard_WINDOWS
+  - stemlab_SDcard_LINUX_asalternative
+  - step_2
+  - Preface_Raspi
+  - title_RAspi4
+  - Raspberry4_SDcard
+  - title_RAspi5
+  - Raspberry5_SDcard
+  - Postfix_Raspi
+  - finish -->

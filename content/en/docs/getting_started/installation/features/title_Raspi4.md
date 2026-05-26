@@ -6,4 +6,4 @@ _build:
   render: always
 ---
 
-## If you chose a Raspberry Pi 4 with 3.5" display, type RPI-35LCD:
+#### If you chose a Raspberry Pi 4 with 3.5" display, type RPI-35LCD:

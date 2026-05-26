@@ -6,4 +6,4 @@ _build:
   render: always
 ---
 
-## If you chose a Raspberry Pi 5 with 7" display, type RPI-7LCD2:
+#### If you chose a Raspberry Pi 5 with 7" display, type RPI-7LCD2:
