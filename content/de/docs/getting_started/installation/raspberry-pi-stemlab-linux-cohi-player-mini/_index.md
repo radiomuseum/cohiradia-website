@@ -7,8 +7,17 @@ _build:
   list: never
   render: always
 description: >
-  Installationsanleitung für: Raspberry-Pi mit STEMLAB Signalwandler unter Linux mit COHI-Player Mini
+  Installationsanleitung für: Raspberry-Pi mit STEMLAB Signalwandler mit COHI-Player Mini
+features:
+  - schritt_1
+  - stemlab_SDcard_WINDOWS
+  - stemlab_SDcard_LINUX_asalternative
+  - schritt_2
+  - Preface_Raspi
+  - title_RAspi4
+  - Raspberry4_SDcard
+  - title_RAspi5
+  - Raspberry5_SDcard
+  - Postfix_Raspi
+  - finish
 ---
-  # **Coming soon. Ein iso-File zum Download ist gerade in Vorbereitung und wird in nächster Zeit verfügbar sein.**
-  
-  ## Falls Sie über gute IT-Kenntnisse verfügen können Sie um eine Testversion bei Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de ) anfragen.
