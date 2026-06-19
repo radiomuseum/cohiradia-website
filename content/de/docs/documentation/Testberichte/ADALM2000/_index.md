@@ -61,22 +61,22 @@ Falls bei der Wiedergabe bestimmter Aufzeichnungen weiterhin Störungen, beispie
 
 Der ADALM2000 arbeitet mit einer festen Abtastrate von 75 MS/s. Für eine Bandbreite von beispielsweise 1,8 MHz wären theoretisch mindestens 3,6 MS/s erforderlich, um das Nyquist-Kriterium zu erfüllen. Diese Abtastrate sollte für geringe Rechenlast und Datenübertragungsrate möglichst niedrig gewählt werden. Die Software ermittelt daher automatisch den kleinsten ganzzahligen Teiler, durch den die interne Abtastrate von 75 MS/s dividiert werden kann, ohne das Nyquist-Kriterium zu verletzen. Dieser Teiler wird als *Oversampling Ratio* (OSR) bezeichnet.
 
-Im vorliegenden Beispiel ergibt sich damit eine Abtastrate von 3,75 MS/s, entsprechend einem OSR-Wert von 20. Das Signal wird damit effektiv um den Faktor 20 überabgetastet. Allerdings erscheint die erste Alias-Komponente bereits bei 1,95 MHz und damit nur 150 kHz oberhalb des Bandendes.
+Im vorliegenden Beispiel ergibt sich damit eine Abtastrate von 3,75 MS/s, entsprechend einem OSR-Wert von 20. Das Signal wird damit effektiv um den Faktor 20 überabgetastet. Allerdings erscheint die erste Alias-Komponente eines auf 1.8MHz begrenzten Bandes dann bereits bei 1,95 MHz und damit nur 150 kHz oberhalb des Bandendes.
 
-Ein Beispiel zeigt Abb. 3, wo das Spektrum einer synthetischen Aufzeichnung (Bandende ca. 1,4 MHz) bis 10 MHz dargestellt ist.
+Ein Beispiel mit Bandgrenze bei 1.4 MHz zeigt Abb. 3, wo das Spektrum einer synthetischen Aufzeichnung bis 10 MHz dargestellt ist.
 
 <img 
   src="log_ADALM2000_OSR1_0.PNG"
   style="max-width: 70%; height: auto;"
 />
 
-**Abb. 3:** Spektrum einer Aufzeichnung (bandende 1.3 MHz) mit allen Aliases bis 10 MHz.
+**Abb. 3:** Spektrum einer Aufzeichnung (Bandende 1.4 MHz) mit allen Aliases bis 10 MHz.
 
 Die untere Grenze der ersten Alias-Komponente liegt damit bei:
 
 3.75 - 1.4 = 2,35 (MHz)
 
-Zur ausreichenden Unterdrückung dieser Alias-Signale wäre ein sehr steilflankiger Filter erforderlich. Deshalb wurde ein sogenannter *Relaxation Factor* (*relaxfactor_OSR*) eingeführt, der die OSR auf einen entsprechend kleineren ganzzahligen Wert reduziert.
+Zur ausreichenden Unterdrückung dieser Alias-Signale wäre auch noch ein sehr steilflankiger Filter erforderlich. Deshalb wurde ein sogenannter *Relaxation Factor* (*relaxfactor_OSR*) eingeführt, der die OSR auf einen entsprechend kleineren ganzzahligen Wert reduziert.
 
 Dieser Faktor ist im File *config_wizard.yaml* einstellbar:
 
