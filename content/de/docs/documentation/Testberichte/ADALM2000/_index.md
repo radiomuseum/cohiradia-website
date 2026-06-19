@@ -36,27 +36,20 @@ Dieses Problem trat insbesondere bei COHIWizard Versionen bis 2.2.4 auf, da dort
 
 Nach Bekanntwerden dieses Problems wurde daher in Version 2.2.5 des COHIWizard eine Möglichkeit zur Reduktion der Oversampling-Rate des ADALM2000 eingeführt. Dadurch liegt die effektive Abtastrate während der Upconversion höher als in den vorherigen Versionen. Die Alias-Signale werden somit zu höheren Frequenzen verschoben, sodass weniger anspruchsvolle Ausgangsfilter eingesetzt werden können.
 
-Dennoch wird dringend empfohlen, zwischen dem Ausgang des ADALM2000 und den angeschlossenen Empfängern einen externen Tiefpass oder Bandpass vorzusehen. Für Anwendungen im Mittelwellenbereich (MW) sollte die Grenzfrequenz des Filters etwa bei 1,7 bis 1,8 MHz liegen, also am oberen Ende des Mittelwellenrundfunkbandes.
+**Fazit: Es wird jedenfalls empfohlen, zwischen dem Ausgang des ADALM2000 und den angeschlossenen Empfängern einen externen Tiefpass oder Bandpass vorzusehen.** Für Anwendungen im Mittelwellenbereich (MW) sollte die obere Grenzfrequenz des Filters etwa bei 1,7 bis 1,8 MHz liegen, also am oberen Ende des Mittelwellenrundfunkbandes. Für LW sollte man ein Filter mit Cutoff bei ca 300 kHz vorsehen.
 
-H. Scharfetter erzielte gute Ergebnisse mit einem passiven Butterworth-Tiefpass 4. Ordnung. Die Filterparameter wurden mit dem Programm auf [www.changpuak.ch/electronics/chebyshev_bandpass.php](http://www.changpuak.ch/electronics/chebyshev_bandpass.php) (Version 11. 01. 2014) berechnet; die nachfolgenden Schaltungsdiagramme wurden ebenfalls von dort übernommen.
-
-<img 
-  src="MWFilter_f_Webpage_cut_Chebi.png"
-  style="max-width: 50%; height: auto;"
-/>
-
-**Abb. 2:** Antialiasing Filter für MW, 4. Ordnung, 
-
-Die Parametrierung ist:
+H. Scharfetter erzielte für MW gute Ergebnisse mit einem passiven Butterworth-Bandpass 4. Ordnung. Die Filterparameter wurden mit dem [Chebyshev Bandpass Filter Designer](http://www.changpuak.ch/electronics/chebyshev_bandpass.php) (Version 11. 01. 2014) für ein Chebyshev-Tiefpassfilter mit center-frequency = 1.1 MHz, Bandwidth = 1.2 MHz, Order = 4, impedance = 50 Ohm, passband-ripple = 1%, 'first element' = 'shunt' berechnet. Die resultierende Parametrierung des Filters ist:
 
 Element 1 , Orientation : shunt 
-C = 5568.114 pF, L = 3759.644 nH
+C = 5568 pF, L = 3759 nH
 Element 2 , Orientation : series 
-C = 2965.746 pF, L = 7058.64 nH
+C = 2965 pF, L = 7058 nH
 Element 3 , Orientation : shunt 
-C = 7510 pF, L = 2787.501 nH
+C = 7510 pF, L = 2787 nH
 Element 4 , Orientation : series 
-C = 4000.052 pF, L = 5233.464 nH
+C = 4000 pF, L = 5233 nH
+
+Für die Realisierung wurden die jeweils nächstliegenden Werte aus der E12-Reihe benutzt.
 
 **Übersteuerung bei AVC**
 Bei einigen synthetisierten Aufnahmen mit hohem Crest-Faktor wurde beobachtet, dass es zu starkem Rauschen und unbrauchbarer Wiedergabe kommt, wenn die AVC (automatic volume control) des COHIWizard aktiviert ist. Die Ursache ist nicht vollständig geklärt, ist aber im ADALM2000 selbst zu suchen. Deaktivieren der AVC und manuelles Herunterregeln des 'volume' hilft hier weiter. Ab Version 2.2.5 wird bei hohem Crest-Faktor im Signal automatisch der AVC-Threshold abgesenkt und somit sollte der Fehler normalerweise nicht mehr auftreten.
