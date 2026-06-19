@@ -11,7 +11,7 @@ description: >
 
 T. Nickel berichtete über den Betrieb eines ADALM2000 an einem Windows-PC mit der COHIWizard-Version 2.2.4. Er konnte einige Aufzeichnungen erfolgreich wiedergeben, stellte jedoch bei bestimmten synthetischen Aufnahmen zusätzliches Rauschen sowie Fehlfunktionen der AVC fest. 
 
-Nach einer Problemanalyse wurden mehrere Änderungen vorgenommen, die nun ab Version 2.2.5 zu einer verbesserten Wiedergabequalität führen. Wer noch ältere COHIWizard-Vesrionen mit einem ADALM2000 benutzt, sollte daher die aktuelle Version downloaden und installieren.
+Nach einer Problemanalyse wurden mehrere Änderungen vorgenommen, die nun ab Version 2.2.5 zu einer verbesserten Wiedergabequalität führen. Wer noch ältere COHIWizard-Versionen mit einem ADALM2000 benutzt, sollte daher die aktuelle Version downloaden und installieren.
 
 ### Identifizierte Probleme
 
