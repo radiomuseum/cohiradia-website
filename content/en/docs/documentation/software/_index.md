@@ -20,6 +20,8 @@ The COHIWizard is available for both [Windows](#windows) and [Linux](#linux). An
 
 If you want to run the COHIWizard under Python, you can find the installation instructions on the GITHUB repository in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
 
+**The user manual of the current version** can be [downloaded here](https://github.com/hermy-sf/COHIWizard/blob/cohiwizard_v2.2/documentation/UserManual_COHIWizard_v2.2_en.pdf). It may happen that your browser doesn't display the pdf correctly, but you can still download the file from the GITHub repository.
+
 If you want to access the latest version still under development, please refer to the [Experimental Version](#experimentelleV) section.
 
 Bug reports for version 2.2.x are welcome.
@@ -30,7 +32,7 @@ Bug reports for version 2.2.x are welcome.
 ## Windows 10/11
 The exe version can be downloaded as a zip file and also includes a user manual.
 
-<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.1.zip)
+<img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.5b.zip)
 
 <a id="linux"></a>
 
