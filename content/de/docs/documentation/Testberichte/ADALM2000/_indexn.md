@@ -1,6 +1,6 @@
 ---
 title: Test-Reports zum ADALM2000
-linkTitle: Test-und Erfahrungs-Reports zum ADALM2000
+linkTitle: Test-Reports zum ADALM2000
 date: 2026-06-16
 weight: 1
 description: >
