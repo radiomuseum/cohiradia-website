@@ -113,7 +113,7 @@ Beispiele für 1.5 und 2.0 sind in Abb. 5 zu sehen.
   style="max-width: 70%; height: auto;"
 />
 
-**Abb. 5:** Spektren einer Aufzeichnung (Bandende 1.4 MHz) mit allen Aliases bis 10 MHz bei OSR = 13 und 10 (relaxfactor_OSR = 1.5 und 2.0). Man beachte die zunehmende Verschiebung der Aliases zu höheren Frequenzen. 
+**Abb. 5:** Spektren einer Aufzeichnung (Bandende 1.4 MHz) mit allen Aliases bis 10 MHz bei OSR = 13 (oben) und 10 (unten) (entsprechend relaxfactor_OSR = 1.5 bzw. 2.0). Man beachte die zunehmende Verschiebung der Aliases zu höheren Frequenzen. 
 
 **ACHTUNG:** Normalerweise sollte die datei *config_wizard.yaml* nicht verändert werden. Dort speichert der COHIWizard nämlich wichtige Einstellungen und auch z.B. die zuletzt verwendeten Dateipfade und z.B. die IP-Adresse des STEMLAB. Unkontrollierte Veränderungen können evt. zur Funktionsunfähigkeit des COHIWizard führen. Machen Sie daher vor Veränderungen immer eine Sicherungskopie dieser Datei, um sie ggf. wiederherstellen zu können, falls etwas schief geht. Im Notfall kann man sie auch löschen, dann wird bei Neustart eine neue Version angelegt. Allerdings gehen die bisherigen Einstellungen dann verloren.
 
@@ -125,6 +125,6 @@ relaxfactor_OSR: 1.0
 
 verwendet werden. Allerdings ist dann ein sehr steilflankiges Ausgangsfilter (siehe etwa Abb. 1) erforderlich, um die Alias-Komponenten ausreichend zu unterdrücken.
 
-Das COHIRAdia-Team bedankt sich herzlich bei T. Nickel für die tatkräftige Unterstützung bei der Problemanalyse.
+Das COHIRADIA-Team bedankt sich herzlich bei T. Nickel für die tatkräftige Unterstützung bei der Problemanalyse.
 
 ---
