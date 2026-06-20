@@ -7,7 +7,7 @@ description: >
 
 ---
 
-## Erfahrungsbericht von T. Nickel
+## Erfahrungsbericht zum Einsatz des ADALM2000
 
 T. Nickel berichtete über den Betrieb eines ADALM2000 an einem Windows-PC mit der COHIWizard-Version 2.2.4. Er konnte einige Aufzeichnungen erfolgreich wiedergeben, stellte jedoch bei bestimmten synthetischen Aufnahmen zusätzliches Rauschen sowie Fehlfunktionen der AVC fest. 
 
@@ -23,9 +23,9 @@ In Version 2.2.5 wurde die Datenverarbeitung optimiert, wodurch eine etwas besse
 
 **Alias-Signale am DAC-Ausgang**
 
-Leider verfügt der ADALM2000 am Ausgang seines DACs nicht über ausreichend wirksame Antialiasing-Filter. Es gibt lediglich ein fixes Filter, das über 30MHz wirksam wird. Dadurch erscheinen bei LW- und MW-Wiedergabe Alias-Signale des Nutzbandes im Ausgangsspektrum. Obwohl diese Anteile oberhalb des nominellen oberen Bandendes der wiedergegebenen Frequenbänder liegen, können sie in angeschlossenen Empfängern Störsignale verursachen. Dies führt dann oft zu einem deutlich schlechteren Signal-Rausch-Verhältnis (SNR), als man es von einem 12-Bit-DAC erwarten würde.
+Leider verfügt der ADALM2000 am Ausgang seines DACs nicht über passive Antialiasing-Filter. Dadurch erscheinen durch das Upsampling des Originalbandes auf die Abtastrate des AD9963 bei LW- und MW-Wiedergabe Alias-Signale des Nutzbandes im Ausgangsspektrum. Obwohl diese Anteile oberhalb des nominellen oberen Bandendes der wiedergegebenen Frequenbänder liegen, können sie in angeschlossenen Empfängern Störsignale verursachen. Dies führt dann oft zu einem deutlich schlechteren Signal-Rausch-Verhältnis (SNR), als man es von einem 12-Bit-DAC erwarten würde. Leider sind aktuell keine Methoden bekannt, das interne Interpolationsfilter des AD9963 zu aktivieren.
 
-Dieses Problem trat insbesondere bei COHIWizard Versionen bis 2.2.4 auf, da dort die Abtastrate sehr nahe an der doppelten Nyquist-Frequenz gewählt wurde. Um die Images im Spektrum zu unterdrücken, setzte T. Nickel zwischen den Ausgang des ADALM2000 und den Empfänger einen steilflankigen Tiefpass 8. Ordnung, siehe Abb. 1.
+Dieses Problem trat insbesondere bei COHIWizard Versionen bis 2.2.4 auf, da dort die Abtastrate sehr nahe an der doppelten Nyquist-Frequenz gewählt wurde. Um die Images im Spektrum zu unterdrücken, setzte T. Nickel zwischen den Ausgang des ADALM2000 und den Empfänger einen steilflankigen Tiefpass 7. Ordnung, siehe Abb. 1.
 
 <img 
   src="1,7MHz-Filter_V2.JPG"
@@ -38,7 +38,7 @@ Nach Bekanntwerden dieses Problems wurde daher in Version 2.2.5 des COHIWizard e
 
 **Fazit: Es wird jedenfalls empfohlen, zwischen dem Ausgang des ADALM2000 und den angeschlossenen Empfängern einen externen Tiefpass oder Bandpass vorzusehen.** Für Anwendungen im Mittelwellenbereich (MW) sollte die obere Grenzfrequenz des Filters etwa bei 1,7 bis 1,8 MHz liegen, also am oberen Ende des Mittelwellenrundfunkbandes. Für LW sollte man ein Filter mit Cutoff bei ca 300 kHz vorsehen.
 
-H. Scharfetter erzielte für MW gute Ergebnisse mit einem passiven Butterworth-Bandpass 4. Ordnung. Die Filterparameter wurden mit dem [Chebyshev Bandpass Filter Designer](http://www.changpuak.ch/electronics/chebyshev_bandpass.php) (Version 11. 01. 2014) für ein Chebyshev-Tiefpassfilter mit center-frequency = 1.1 MHz, Bandwidth = 1.2 MHz, Order = 4, impedance = 50 Ohm, passband-ripple = 1%, 'first element' = 'shunt' berechnet. Die resultierende Parametrierung des Filters ist:
+H. Scharfetter erzielte für MW gute Ergebnisse mit einem passiven Butterworth-Bandpass 8. Ordnung. Die Filterparameter wurden mit dem [Chebyshev Bandpass Filter Designer](http://www.changpuak.ch/electronics/chebyshev_bandpass.php) (Version 11. 01. 2014) für ein Chebyshev-Tiefpassfilter mit center-frequency = 1.1 MHz, Bandwidth = 1.2 MHz, Order = 4, impedance = 50 Ohm, passband-ripple = 1%, 'first element' = 'shunt' berechnet. Die resultierende Parametrierung des Filters ist:
 
 Element 1 , Orientation : shunt 
 C = 5568 pF, L = 3759 nH
@@ -49,7 +49,7 @@ C = 7510 pF, L = 2787 nH
 Element 4 , Orientation : series 
 C = 4000 pF, L = 5233 nH
 
-Für die Realisierung wurden die jeweils nächstliegenden Werte aus der E12-Reihe benutzt.
+Für die Realisierung wurden die jeweils nächstliegenden Werte aus der E12-Reihe benutzt. Anmerkung: Das Setting 'Order = 4' im Calculator bedeutet nicht die tatsächliche Filterordnung, sondern die Anzahl der LC-Paare.
 
 **Übersteuerung bei AVC**
 Bei einigen synthetisierten Aufnahmen mit hohem Crest-Faktor wurde beobachtet, dass es zu starkem Rauschen und unbrauchbarer Wiedergabe kommt, wenn die AVC (automatic volume control) des COHIWizard aktiviert ist. Die Ursache ist nicht vollständig geklärt, ist aber im ADALM2000 selbst zu suchen. Deaktivieren der AVC und manuelles Herunterregeln des 'volume' hilft hier weiter. Ab Version 2.2.5 wird bei hohem Crest-Faktor im Signal automatisch der AVC-Threshold abgesenkt und somit sollte der Fehler normalerweise nicht mehr auftreten.
@@ -90,7 +90,7 @@ Für das obige Beispiel gilt:
 
 4.6875 − 1.4 = 3.2875 (MHz)
 
-Der erste Alias beginnt also bei knapp 3.3 MHz, wie Abb. 4 zeigt. Dies reicht in der Regel aus, um die Störsignale auch mit einem Filter 4. Ordnung ausreichend zu unterdrücken.
+Der erste Alias beginnt also bei knapp 3.3 MHz, wie Abb. 4 zeigt. Damit bekommt man etwas mehr Reserve für die Dämpfung der unerwünschten Signalanteile nach dem Tiefpass.
 
 
 <img 
@@ -123,7 +123,7 @@ Beispiele für 1.5 und 2.0 sind in Abb. 5 zu sehen.
 relaxfactor_OSR: 1.0
 ```
 
-verwendet werden. Allerdings ist dann ein sehr steilflankiges Ausgangsfilter (siehe etwa Abb. 1) erforderlich, um die Alias-Komponenten ausreichend zu unterdrücken.
+verwendet werden. Allerdings ist dann ein sehr steilflankiges Ausgangsfilter erforderlich, um die Alias-Komponenten ausreichend zu unterdrücken.
 
 Das COHIRADIA-Team bedankt sich herzlich bei T. Nickel für die tatkräftige Unterstützung bei der Problemanalyse.
 
