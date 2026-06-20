@@ -19,7 +19,7 @@ Nach einer Problemanalyse wurden mehrere Änderungen vorgenommen, die nun ab Ver
 
 Wie bereits beim FL2K muss die Hochmischung (Upconversion) der IQ-Basisbanddaten in den Ziel-Frequenzbereich auf dem PC erfolgen, was eine erhebliche Rechenleistung erfordert. Daher können ältere Rechner mit geringer Leistung Paketverzögerungen und periodische Unterbrechungen des Wiedergabestreams verursachen.
 
-In Version 2.2.5 wurde die Datenverarbeitung optimiert, wodurch eine etwas bessere Performance erreicht werden konnte. Dennoch wurden weiterhin Probleme beobachtet, beispielsweise auf einem Laptop mit einem Intel-i7-Prozessor mit 2.67 GHz und 8 GB RAM.
+In Version 2.2.5 wurde die Datenverarbeitung optimiert, wodurch eine etwas bessere Performance erreicht werden konnte. Dennoch wurden weiterhin Probleme beobachtet, beispielsweise auf älteren Laptops wie etwa einem Toshiba R700 mit einem Intel-i7-Prozessor, 2.6 GHz und 8 GB RAM.
 
 **Alias-Signale am DAC-Ausgang**
 
@@ -102,7 +102,7 @@ Der erste Alias beginnt also bei knapp 3.3 MHz, wie Abb. 4 zeigt. Damit bekommt 
 
 **Abb. 4:** Spektrum einer Aufzeichnung (Bandende 1.4 MHz) mit allen Aliases bis 10 MHz. Hier wurde OSR auf 16 gesetzt (relaxfactor_OSR = 1.2)
 
-Je größer der Wert von *relaxfactor_OSR* gewählt wird, desto geringer ist die Überabtastung und desto weiter werden die Aliases zu höheren Frequenzen verschoben, was deren Ausfilterung natürlich erleichtert. Gleichzeitig steigen jedoch der Rechenaufwand für das Upsampling sowie die erforderliche Datenübertragungsrate. Daher werden Werte größer als 1,5 bei durchschnittlichen PC-Leistungen nicht empfohlen.
+Je größer der Wert von *relaxfactor_OSR* gewählt wird, desto geringer ist die Überabtastung und desto weiter werden die Aliases zu höheren Frequenzen verschoben, was deren Ausfilterung natürlich erleichtert. Gleichzeitig steigen jedoch der Rechenaufwand für das Upsampling sowie die erforderliche Datenübertragungsrate. Daher werden Werte deutlich größer als 1,5 bei durchschnittlichen PC-Leistungen nicht empfohlen. Auf einem PC mit AMD Ryzen Pro 4650G mit 3,7 GHz und 16GB RAM konnte unter Windows11 bis zu einem Wert von 1.6 unterbrechungsfrei übertragen werden.
 
 Beispiele für 1.5 und 2.0 sind in Abb. 5 zu sehen.
 
