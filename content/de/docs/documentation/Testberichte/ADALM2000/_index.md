@@ -51,6 +51,8 @@ C = 4000 pF, L = 5233 nH
 
 Für die Realisierung wurden die jeweils nächstliegenden Werte aus der E12-Reihe benutzt. Anmerkung: Das Setting 'Order = 4' im Calculator bedeutet nicht die tatsächliche Filterordnung, sondern die Anzahl der LC-Paare.
 
+Beide gezeigten Filter müssen mit 50 Ohm abgeschlossen werden, damit sie korrekten Frequenzgang haben. Dies ist bei Anschluss an ein Radio über einen Trenn-Übertrager zu beachten, da man dort von vornherein meist keinen gut definierten Abschluss hat.
+
 **Übersteuerung bei AVC**
 Bei einigen synthetisierten Aufnahmen mit hohem Crest-Faktor wurde beobachtet, dass es zu starkem Rauschen und unbrauchbarer Wiedergabe kommt, wenn die AVC (automatic volume control) des COHIWizard aktiviert ist. Die Ursache ist nicht vollständig geklärt, ist aber im ADALM2000 selbst zu suchen. Deaktivieren der AVC und manuelles Herunterregeln des 'volume' hilft hier weiter. Ab Version 2.2.5 wird bei hohem Crest-Faktor im Signal automatisch der AVC-Threshold abgesenkt und somit sollte der Fehler normalerweise nicht mehr auftreten.
 
