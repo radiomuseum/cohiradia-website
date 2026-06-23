@@ -19,7 +19,7 @@ Das zweite File namens **Europa 1** ist strenggenommen noch nicht fertig aber de
 
 Die Aufnahmen haben dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnungen und kann mit denselben Softwareprodukten wiedergegeben werden, die auf den Hard/Softwareseiten von COHIRADIA beschrieben sind.
 
-Für Nutzer*innen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Das Synthese-Tool wurde mittlerweile als einegständiges Modul in den COHIWizard eingebaut, der auf der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) downloadbar ist. 
+Für Nutzerer und Nutzerinnen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Das Synthese-Tool wurde mittlerweile als einegständiges Modul in den COHIWizard eingebaut, der auf der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) downloadbar ist. 
 
 Wenn die Idee der COHI Jukebox gefällt, freuen wir uns natürlich über entsprechendes Feedback. **Kontakt:** Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).
 
