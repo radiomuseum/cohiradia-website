@@ -11,11 +11,13 @@ COHIRADIA is fundamentally committed to the conservation of historical broadband
 However, it would be desirable to be able to play back signals on, for example, radio devices from the 20s to 50s that at least fit the content of these devices. The **COHI Jukebox** section attempts to approach this topic by providing synthetic AM bands in the long and medium wave range that have modulated content and music of that era onto a variety of common carrier frequencies. To make this possible, Claus Peter Gallenmiller and Hermann Scharfetter started a joint pilot project in which software for generating such AM band signals was first developed and initial test data was generated.
 
 ## Echoes of Bygone Radio Broadcasts
-The series of recordings is now opened by a recording **Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1**, which very impressively conveys how radio actually might have sounded back then.
+The series of recordings is opened by a recording **Echoes of Bygone Radio Broadcasts: from 20's to 50's, Vol.1**, which very impressively conveys how radio actually might have sounded back then.
 
 On the various 'stations' you will find, on the one hand, a rich music program from Claus Peter Gallenmiller's shellac collection and, on the other hand, a selection of excerpts from archive recordings of historical radio broadcasts.
 
-The recording has the same wav-IQ format as all previous COHIRADIA recordings and can be played back with the same software products described on the Hard/Software pages of COHIRADIA.
+The second file , titled **Europa 1**, is not yet complete, but it marks the beginning of a collection of radio broadcasts that were actually aired on the frequencies assigned to the respective broadcasters at the time. The broadcasts date from 1960 to 1983 and come partly from private tape recordings and partly from public archives such as archive.org. Special thanks go to A. Knedlik, who has provided numerous files from his fantastic archive (see digiandi.de). We are currently working on expanding the collection to include additional important European stations.
+
+The recordings have the same wav-IQ format as all previous COHIRADIA recordings and can be played back with the same software products described on the Hard/Software pages of COHIRADIA.
 
 For users who would like to assemble their own AM bands according to their own taste, please note: The synthesis tool has now been built as a standalone module into the COHIWizard, which can be downloaded from the [Software page](https://www.radiomuseum.org/cohiradia/software.html).
 

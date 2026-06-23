@@ -15,7 +15,9 @@ Eröffnet wird der Reigen der Recordings nun durch eine Aufnahme **Echoes of Byg
 
 Auf den unterschiedlichen 'Sendern' findet sich einerseits ein reichhaltiges Musikprogramm aus der Schellack Sammlung von Claus Peter Gallenmiller und andererseits eine Auswahl von Ausschnitten aus Archivaufnahmen historischer Radiosendungen.
 
-Die Aufnahme hat dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnungen und kann mit denselben Softwareprodukten wiedergegeben werden, die auf den Hard/Softwareseiten von COHIRADIA beschrieben sind.
+Das zweite File namens **Europa 1** ist strenggenommen noch nicht fertig aber der Beginn einer Sammlung von tatsächlich ausgestrahlten Rundfunksendungen auf zum damaligen Zeitpunkt zugeordneten Frequenzen der jeweiligen Rundfunkanstalten. Die Sendungen datieren aus 1960 bis 1983 und stammen z.T. aus privaten Bandaufzeichnungen, z.T. aber auch aus öffentlichen Archiven wie archive.org. Besonderer Dank geht an A. Knedlik, der etliche Files aus seinem fantastischen Archiv (siehe digiandi.de) bereitgestellt hat. Eine laufende Erweiterung um weitere wichtige europäische Stationen ist in Arbeit.
+
+Die Aufnahmen haben dasselbe wav-IQ-Format wie alle bisherigen COHIRADIA Aufzeichnungen und kann mit denselben Softwareprodukten wiedergegeben werden, die auf den Hard/Softwareseiten von COHIRADIA beschrieben sind.
 
 Für Nutzer*innen, die gern selbst AM-Bänder nach eigenem Geschmack zusammenstellen möchten sei angekündigt: Das Synthese-Tool wurde mittlerweile als einegständiges Modul in den COHIWizard eingebaut, der auf der [Software-Seite](https://www.radiomuseum.org/cohiradia/software.html) downloadbar ist. 
 
