@@ -52,7 +52,7 @@ Image 5: Nighttime recording of the final hours of BBC4 on LW (Photo: H. Scharfe
 
 <img src="RW_Vitus_20260626_115859.png" style="max-width: 70%; height: auto;"/>
 
-Figure 6: Rüdiger Walz tunes his Vitus tube receiver to MW and LW signals from the concert station (Photo: H. Scharfetter).
+Figure 6: Rüdiger Walz tunes his Vitus tube receiver to MW and LW signals from the 'concert transmitter' (Photo: H. Scharfetter).
 
 <br><br/>
 
