@@ -38,4 +38,9 @@ Afterwards it can be inserted into the SD card slot of the Raspberry Pi which th
 
 <br/>
 
+
+### Alternative installation directly from the source code
+
+Alternatively, for Step 2, you can also perform a custom installation directly from the [source code on GitHub](https://github.com/CPG-Archive/COHI-Player/). This may be useful if you already have a suitable OS (Trixie) installed on your Raspberry Pi or if you simply want to update the COHIA Player software.
+
 **For special questions concerning the software for Raspberry Pi please contact Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).**

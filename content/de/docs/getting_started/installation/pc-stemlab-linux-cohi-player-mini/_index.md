@@ -14,5 +14,8 @@ features:
   - cohi_player_mini_linux.md
   - finish
 ---
-# **Coming soon ! Wir arbeiten noch an der Bereitstellung dieser Software-Version.**
-## Falls Sie über gute IT-Kenntnisse verfügen können Sie um eine Testversion bei Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de) anfragen.
+### Installation direkt aus dem Quellcode
+
+Sie können den COHI-Player Mini aus dem [Quellcode auf GitHub](https://github.com/CPG-Archive/COHI-Player/) installieren. Befolgen Sie dazu die Installationsanleitung in der README-Datei dieses Repositorys.
+
+**Bei speziellen Fragen zur Software für den Raspberry Pi wenden Sie sich bitte an Claus Peter Gallenmiller: [E-Mail](mailto:cpg-radio@gmx.de).**

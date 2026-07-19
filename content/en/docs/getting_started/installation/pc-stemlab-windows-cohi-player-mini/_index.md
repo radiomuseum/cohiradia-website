@@ -14,6 +14,3 @@ features:
   - cohi_player_mini_windows
   - finish
 ---
-
-# **Coming soon! We are still working on releasing this software version.**
-## If you have strong IT skills, you can request a test version from Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).
