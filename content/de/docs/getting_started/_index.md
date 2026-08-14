@@ -16,7 +16,7 @@ Für die Wiedergabe benötigt man grundsätzlich folgende Elemente:
 * geeignete Software ([Beispiel](https://cohiradia.radiomuseum.org/download/docs/Documentation/COHIRADIA_deutsch_v2AbspannJazz.mp4#t=1490,1562)) 
 * ein Archiv mit digitalisierten Breitband-AM-Signalen
 
-Für jedes dieser Elemente gibt es mehrere mögliche Realisierungsmöglichkeiten, je nach Anforderung und Budget. Wir weisen an dieser Stelle explizit darauf hin, dass über COHIRADIA keine Produkte verkauft werden, sondern dass die Plattform lediglich Informationen und Anleitungen sowie open-source-Software bereitstellt. Letztere wird vom COHIRADIA-Team selbst geschrieben, es gibt aber auch Alternativen von anderen SDR-affinen Gruppen (siehe Links am Ende dieses Kapitels).Für einen Teil der Hardware (insbesondere Computer und Signalwandler) werden kommerzielle Produkte eingesetzt. Es wird darauf hingewiesen, dass COHIRADIA keine kommerziellen Verbindungen zu Herstellern dieser Produkte hat und Marken- sowie Firmennamen lediglich zum Zweck der Information nennt. Ein anderer Teil der Hardware (z.B. die Koppelgeräte) kann von handwerklich/elektronisch geschickten Anwendern und Anwenderinnen selbst gefertigt werden. Abbildung 1 gibt einen schematischen Überblick unter Einbeziehung einiger aktuell getesteter Komponenten. 
+Für jedes dieser Elemente gibt es mehrere mögliche Realisierungsmöglichkeiten, je nach Anforderung und Budget. Wir weisen an dieser Stelle explizit darauf hin, dass über COHIRADIA keine Produkte verkauft werden, sondern dass die Plattform lediglich Informationen und Anleitungen sowie open-source-Software bereitstellt. Letztere wird vom COHIRADIA-Team selbst geschrieben, es gibt aber auch Alternativen von anderen SDR-affinen Gruppen (siehe Links am Ende dieses Kapitels). Für einen Teil der Hardware (insbesondere Computer und Signalwandler) werden kommerzielle Produkte eingesetzt. Ein anderer Teil der Hardware (z.B. die Koppelgeräte) kann von handwerklich/elektronisch geschickten Anwendern und Anwenderinnen selbst gefertigt werden. Abbildung 1 gibt einen schematischen Überblick unter Einbeziehung einiger aktuell getesteter Komponenten. 
 
 **Entscheidungshilfe:** Um schnell zu einer Entscheidung für ein zu Ihnen passendes System zu kommen, benutzen Sie bitte die 'Auswahlhilfe' in der Navigationsleiste. Genauere Beschreibungen der Elemente finden Sie unter 'Koppelgerät', 'Signalwandler' und 'Computer'
 
@@ -33,6 +33,6 @@ Für das Abspielen von COHIRADIA-Aufzeichnungen kann auch andere Software als de
 
 ### Interessante alternative Hardware-Lösungen
 
-[radiolab81](https://github.com/radiolab81) biete auch einige gute Ideen für alternative Hardware, die z.T. sehr kostengünstig ist, allerdings auch etwas Bastelgeschick erfordert. Zu erwähnen sind insbesondere [parlioSDR](https://github.com/radiolab81/parlioSDR) und [smisdr](https://github.com/radiolab81/smisdr). 
+[radiolab81](https://github.com/radiolab81) bietet auch einige gute Ideen für alternative Hardware, die z.T. sehr kostengünstig ist, allerdings auch etwas Bastelgeschick erfordert. Zu erwähnen sind insbesondere [parlioSDR](https://github.com/radiolab81/parlioSDR) und [smisdr](https://github.com/radiolab81/smisdr). Bisher wurden diese Ansätze noch nicht vom COHIRADIA-Team getestet, aber wir planen, dies in naher Zukunft zu tun.
 
 

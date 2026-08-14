@@ -28,7 +28,7 @@ Für das Abspielen von COHIRADIA-Aufzeichnungen kann auch andere Software als de
 
 ### Interessante alternative Hardware-Lösungen
 
-[radiolab81](https://github.com/radiolab81) biete auch einige gute Ideen für alternative Hardware, die z.T. sehr kostengünstig ist, allerdings auch etwas Bastelgeschick erfordert. Zu erwähnen sind insbesondere [parlioSDR](https://github.com/radiolab81/parlioSDR) und [smisdr](https://github.com/radiolab81/smisdr).
+[radiolab81](https://github.com/radiolab81) bietet auch einige gute Ideen für alternative Hardware, die z.T. sehr kostengünstig ist, allerdings auch etwas Bastelgeschick erfordert. Zu erwähnen sind insbesondere [parlioSDR](https://github.com/radiolab81/parlioSDR) und [smisdr](https://github.com/radiolab81/smisdr). Bisher wurden diese Ansätze noch nicht vom COHIRADIA-Team getestet, aber wir planen, dies in naher Zukunft zu tun.
 
 
 ### GNU-Radio-Lösungen 
