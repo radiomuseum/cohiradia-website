@@ -29,7 +29,7 @@ Wenn gewünscht, so ist eine breitbandige Aufzeichnung von AM-Signalen direkt vo
 
 ### Interessante alternative Software-Projekte:
 
-Für das Abspielen von COHIRADIA-Aufzeichnungen kann auch andere Software als der offiziell von COHIRADIA bereitgestellte **COHIWizard** verwendet werden. Für alle, die unter LINUX arbeiten, kommen z.B. die sehr interesanten Codes des GITHUB-Repositories [radiolab81](https://github.com/radiolab81) in Frage. Insbesondere der [COHIRADIA-Streamer](https://github.com/radiolab81/COHIRADIAStreamer) und [AMWavSynth](https://github.com/radiolab81/AMWaveSynth) sind hier erwähnenswert. Die User sollten allerdings etwas IT-affin sein, um diese Tools effektiv einsetzen zu können. Inzwischen wurden auch neue Device-Treiber basierend auf einzelnen Codes dieses Repositories in experimentelle Versionen des COHIWizard eingebaut.
+Für das Abspielen von COHIRADIA-Aufzeichnungen kann auch andere Software als der COHIWizard verwendet werden. Für alle, die unter LINUX arbeiten, kommen z.B. die sehr interesanten Codes des GITHUB-Repositories [radiolab81](https://github.com/radiolab81) in Frage. Insbesondere der [COHIRADIA-Streamer](https://github.com/radiolab81/COHIRADIAStreamer) und [AMWavSynth](https://github.com/radiolab81/AMWaveSynth) sind hier erwähnenswert. Die User sollten allerdings etwas IT-affin sein, um diese Tools effektiv einsetzen zu können. Inzwischen wurden auch neue Device-Treiber basierend auf einzelnen Codes dieses Repositories in experimentelle Versionen des COHIWizard eingebaut.
 
 ### Interessante alternative Hardware-Lösungen
 
