@@ -104,6 +104,14 @@
       <a href="https://opendatacommons.org/licenses/odbl/" rel="nofollow" target="_blank">Open Data Commons Open Database License (ODbL)</a>
     </div>
   </div>
+  <div class="row d-none" id="attachmentsRow">
+    <div class="col-md-3">
+      <strong id="labelAttachments"></strong>
+    </div>
+    <div class="col-md-9">
+      <ul class="list-unstyled mb-0" id="attachmentsList"></ul>
+    </div>
+  </div>
   <p>&nbsp;</p>
   <div class="row">
     <div class="col-md-3">
@@ -166,6 +174,7 @@
         country: "Country",
         programme: "Programme",
         txSite: "TX Site",
+        attachments: "Anhänge",
         noStations: "Keine Radiostationen in dieser Aufnahme gefunden.",
         redirectUrl: "/de/archiv"
       },
@@ -196,6 +205,7 @@
         country: "Country",
         programme: "Programme",
         txSite: "TX Site",
+        attachments: "Attachments",
         noStations: "No radio stations found in this recording.",
         redirectUrl: "/en/archiv"
       }
@@ -222,6 +232,7 @@
       document.getElementById("labelRemarks").textContent = t.remarks;
       document.getElementById("labelUploadedBy").textContent = t.uploadedBy;
       document.getElementById("labelLicense").textContent = t.license;
+      document.getElementById("labelAttachments").textContent = t.attachments;
       document.getElementById("labelDownload").textContent = t.download;
       document.getElementById("downloadLink").textContent = t.downloadLabel;
       document.getElementById("labelStationsTitle").textContent = t.stations;
@@ -239,6 +250,26 @@
         const data = await response.json();
 
         document.getElementById("downloadLink").href = `${Cohiradia.baseUrl}/view/recordings/${id}`;
+
+        // Attachments are optional: the endpoint returns 404 when there are none
+        fetch(`${Cohiradia.baseUrl}/api/metadata/${id}/attachments`)
+          .then(res => res.ok ? res.json() : [])
+          .then(attachments => {
+            if (!Array.isArray(attachments) || attachments.length === 0) return;
+            const list = document.getElementById("attachmentsList");
+            attachments.forEach(att => {
+              const li = document.createElement("li");
+              const link = document.createElement("a");
+              link.href = att.url;
+              link.target = "_blank";
+              link.rel = "nofollow";
+              link.textContent = att.name;
+              li.appendChild(link);
+              list.appendChild(li);
+            });
+            document.getElementById("attachmentsRow").classList.remove("d-none");
+          })
+          .catch(error => console.error("Could not load attachments:", error));
 
         // Helper function to set element text content
         const setField = (id, value) => {
