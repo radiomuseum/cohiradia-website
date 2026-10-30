@@ -57,3 +57,20 @@ Will man ein ganzes Spektrum mit vielen nebeneinander existierenden Sendern erze
 
 
 <!-- comment -->
+
+## Spektren mit Webradio-Streams und lokalen Audiodateien
+
+Die in Abb. 4 C gezeigte digitale Synthese ist nicht auf historische Tonaufnahmen beschränkt. Als Audioquellen für die einzelnen Träger kommen sowohl lokale Audiodateien als auch Webradio-Streams in Frage. Grundsätzlich gibt es zwei Arten der Verarbeitung:
+
+1. **Offline-Synthese (lokale Audiodateien):** Aus beliebigen Audiodateien (z. B. wav oder mp3) wird vorab ein komplettes Spektrum berechnet und – wie ein aufgezeichnetes Antennensignal – als IQ-Datei gespeichert. Jede Audiodatei wird dabei auf einen eigenen Träger mit frei wählbarer Frequenz aufmoduliert. Diese Variante bietet der Synthesizer des [COHIWizard](/de/docs/documentation/software/#cohiwizard). Die entstehende Datei kann anschließend beliebig oft und mit jeder COHIRADIA-Abspielsoftware wiedergegeben werden.
+
+2. **Echtzeit-Synthese (Webradio-Streams und lokale Audiodateien):** Hier werden die Audiodaten laufend gelesen bzw. empfangen und decodiert, in Echtzeit auf ihre jeweiligen Träger aufmoduliert, addiert und ohne Zwischendatei direkt an den Signalwandler übergeben. Bei Live-Inhalten aus dem Internet ist dies der einzig mögliche Weg, da eine Vorabberechnung nicht möglich ist. Auf diese Weise lassen sich aktuelle Radioprogramme – etwa Sender mit Musik aus der Blütezeit des Röhrenradios – auf einem historischen Empfänger hören, so als würden sie auf Mittelwelle ausgestrahlt. Diese Betriebsart bietet der [COHI-Player](/de/docs/documentation/software/#cohi-player) (COHI-Stream). Jeder Träger wird dabei aus einer Stream-Adresse oder einer M3U-Playlist gespeist; eine solche Playlist kann neben Internet-Adressen auch lokale Audiodateien enthalten. So können eigene Audioinhalte ohne vorherige Berechnung einer IQ-Datei direkt als Sender ausgestrahlt werden.
+
+Beide Ansätze lassen sich auch mit einer statischen IQ-Aufzeichnung kombinieren: Der COHI-Player kann zu einer laufenden Aufzeichnung – sei es ein natürliches, von der Antenne aufgezeichnetes Spektrum oder ein offline synthetisiertes – zusätzliche, von Webradio-Streams oder lokalen Audiodateien (über M3U-Playlists) modulierte Träger **hineinmischen** (Betriebsart COHI-Player+Stream). Damit entsteht etwa ein historisches Mittelwellenband, in dem auf einigen freien Frequenzen zusätzlich aktuelle Programme oder eigene Audioinhalte zu hören sind.
+
+Dabei sind einige technische Randbedingungen zu beachten:
+
+* **Frequenzwahl:** Die zusätzlichen Träger sollten auf Frequenzen liegen, die in der Aufzeichnung frei sind, und untereinander ausreichend Abstand haben (im Mittelwellenbereich typischerweise 9 kHz Kanalraster), damit sich die Seitenbänder nicht überlappen. Wichtig ist außerdem, die zugemischten Träger genau auf das 9-kHz-Raster des Wellenplans zu legen, der der IQ-Aufzeichnung zugrunde liegt. Liegt ein zugemischter Träger außerhalb dieses Rasters, entstehen durch Schwebung mit dem Träger der benachbarten Rasterfrequenz hörbare **Pfeifstörungen**. Die Tonhöhe des Pfeiftons entspricht typischerweise der Differenz zwischen der Frequenz des zugemischten Trägers und der benachbarten Rasterfrequenz im IQ-Spektrum – ein Träger auf 1000 kHz neben einem Sender auf der Rasterfrequenz 999 kHz erzeugt also z. B. einen Pfeifton von 1 kHz.
+* **Audiobandbreite:** Die Audiobandbreite jedes Trägers wird begrenzt (z. B. auf 4,5 kHz), was der Bandbreite damaliger AM-Sender entspricht und Störungen benachbarter Kanäle vermeidet.
+* **Rechenleistung:** Da die Modulation in Echtzeit erfolgt, ist die Zahl gleichzeitiger Träger durch die Rechenleistung begrenzt – beim Raspberry Pi 4 auf einige Dutzend, beim Raspberry Pi 5 entsprechend mehr. Beim fl2k-Dongle, der anders als das STEMLAB keine eigene Signalverarbeitung (FPGA) besitzt, sind die Grenzen enger (siehe [Plattformen und Leistungsfähigkeit](/de/docs/documentation/software/#cohi-player)).
+* **Netzwerk:** Für eine unterbrechungsfreie Wiedergabe von Webradio-Streams ist eine stabile Internetverbindung nötig, am besten über LAN-Kabel.

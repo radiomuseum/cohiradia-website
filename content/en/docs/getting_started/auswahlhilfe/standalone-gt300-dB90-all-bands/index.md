@@ -18,7 +18,8 @@ if still available, the significantly cheaper STEMLAB 125-10 is also suitable (S
 * uncomplicated setup
 * compact
 * standalone
-* automatic playback after boot-up when using COHI-Player-Mini
+* automatic playback after boot-up when using the COHI-Player
+* with the COHI-Player, playback of internet radio streams is also possible, even mixed into IQ recordings
 * excellent SNR values
 * usable up to 60 MHz, i.e. LW, MW and all shortwave bands
 * signal recording possible with high quality
@@ -31,7 +32,7 @@ if still available, the significantly cheaper STEMLAB 125-10 is also suitable (S
 
 **Software support:**
 
-COHIWizard, COHI-Mini-Player (projected)
+COHIWizard, [COHI-Player](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md) (incl. internet radio streams)
 
 **Audio sample for test listening:**
 

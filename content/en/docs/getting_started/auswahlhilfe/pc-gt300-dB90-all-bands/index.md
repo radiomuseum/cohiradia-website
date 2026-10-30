@@ -28,7 +28,7 @@ if still available, the significantly cheaper STEMLAB 125-10 is also suitable (S
 
 **Software support:**
 
-COHIWizard, COHI-Mini-Player (projected)
+COHIWizard, [COHI-Player](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md) (incl. internet radio streams)
 
 **Audio sample for test listening:**
 

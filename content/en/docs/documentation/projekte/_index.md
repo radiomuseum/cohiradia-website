@@ -24,7 +24,7 @@ There are now several initiatives related to COHIRADIA that make use of recordin
 
 ### Interesting alternative software projects:
 
-Software other than COHIWizard can also be used to play back COHIRADIA recordings. For those working on Linux, for example, the very interesting code in the GITHUB repository [radiolab81](https://github.com/radiolab81) is worth considering. In particular, the [COHIRADIA Streamer](https://github.com/radiolab81/COHIRADIAStreamer) and [AMWavSynth](https://github.com/radiolab81/AMWaveSynth) are worth mentioning here. However, users should have some IT expertise to use these tools effectively. Meanwhile, new device drivers based on individual code snippets from this repository have also been integrated into experimental versions of COHIWizard.
+Software other than that officially supported by COHIRADIA ([COHIWizard](/en/docs/documentation/software/#cohiwizard), [COHI-Player](/en/docs/documentation/software/#cohi-player)) can also be used to play back COHIRADIA recordings. For those working on Linux, for example, the very interesting code in the GITHUB repository [radiolab81](https://github.com/radiolab81) is worth considering. In particular, the [COHIRADIA Streamer](https://github.com/radiolab81/COHIRADIAStreamer) and [AMWavSynth](https://github.com/radiolab81/AMWaveSynth) are worth mentioning here. However, users should have some IT expertise to use these tools effectively. Meanwhile, new device drivers based on individual code snippets from this repository have also been integrated into experimental versions of COHIWizard.
 
 ### Interesting Alternative Hardware Solutions
 

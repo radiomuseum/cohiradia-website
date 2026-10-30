@@ -29,15 +29,17 @@ Die folgende Tabelle zeigt eine Übersicht der verfügbaren Kombinationen:
 | PC               | ADALM2000   | Windows | COHIWizard exe     |
 | PC               | ADALM2000   | Windows | COHIWizard Python     |
 | PC               | ADALM2000   | Linux | COHIWizard Python     |
-| PC               | STEMLAB       | Linux   | COHI-Player Mini   |
-| PC               | STEMLAB       | Windows   | COHI-Player Mini   |
+| PC               | STEMLAB       | Linux   | COHI-Player   |
+| PC               | STEMLAB       | Windows   | COHI-Player   |
+| PC               | fl2k-Dongle   | Linux   | COHI-Player   |
+| Raspberry-Pi     | STEMLAB       | Linux   | COHI-Player   |
+| Raspberry-Pi     | fl2k-Dongle   | Linux   | COHI-Player   |
+
+<!-- Vorübergehend deaktiviert (COHIWizard ist auf den neuen Raspberry-Pi-Images nicht vorinstalliert, Tests ausständig):
 | Raspberry-Pi     | STEMLAB       | Linux   | COHIWizard Python  |
 | Raspberry-Pi     | fl2k-Dongle   | Linux   | COHIWizard Python  |
-| Raspberry-Pi     | STEMLAB       | Linux   | COHI-Player Mini   |
-| Raspberry Pi     | fl2k Dongle      | Linux   | COHI-Player Mini   |
-
-
-
-
+-->
 
 **Hinweis:** Diese Kombinationen sind aktuell verfügbar. Weitere Kombinationen können in Zukunft folgen.
+
+Eine Beschreibung des COHI-Players und seiner Betriebsarten (u. a. Wiedergabe von Webradio-Streams) finden Sie unter [Dokumentation → Software](/de/docs/documentation/software/#cohi-player).

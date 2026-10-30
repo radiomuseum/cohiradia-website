@@ -28,7 +28,7 @@ aktuell keine
 
 **Software-Unterstützung:**
 
-COHIWizard, COHI-Mini-Player (projected) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
+COHIWizard, [COHI-Player](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md) (inkl. Webradio-Streams) und Lösungen anderer Communities wie radio-bastler.de per GNU-Radio Support
 
 **Audio-Beispiel zum Testhören:**
 

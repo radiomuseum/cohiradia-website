@@ -1,16 +1,25 @@
 ---
-title: Raspberry-Pi + fl2k-Dongle + Linux + COHIWizard Python
-linkTitle: Raspberry-Pi / fl2k-Dongle / Linux / COHIWizard Python
+title: Raspberry-Pi + fl2k-Dongle + Linux + COHI-Player
+linkTitle: Raspberry-Pi / fl2k-Dongle / Linux / COHI-Player
 date: 2026-01-28
 weight: 14
 _build:
   list: never
   render: always
 description: >
-  Installationsanleitung für: Raspberry-Pi mit fl2k-Dongle Signalwandler unter Linux mit COHIWizard Python
+  Installation guide for: Raspberry-Pi with fl2k dongle signal converter under Linux with COHI-Player
+features:
+  - step_1
+  - Preface_Raspi
+  - title_Raspi4
+  - Raspberry4_SDcard
+  - title_Raspi5
+  - Raspberry5_SDcard
+  - Postfix_Raspi
+  - cohi_player_source_raspi
+  - step_2
+  - fl2k_raspi
+  - step_3
+  - cohi_player_config
+  - finish
 ---
-  # **Coming soon. An ISO file is currently being prepared and will be available shortly.**
-
-  <br/>
-  
-**If you have strong IT skills, you can request a test version from Claus Peter Gallenmiller [email](mailto:cpg-radio@gmx.de).**

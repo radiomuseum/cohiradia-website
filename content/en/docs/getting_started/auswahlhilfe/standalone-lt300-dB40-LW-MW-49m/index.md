@@ -19,7 +19,8 @@ currently none
 * uncomplicated setup
 * most compact solution
 * standalone
-* automatic playback after boot-up when using COHI-Player-Mini
+* automatic playback after boot-up when using the COHI-Player
+* with the COHI-Player, playback of internet radio streams is also possible, even mixed into IQ recordings
 
 **Disadvantages:**
 
@@ -30,7 +31,7 @@ currently none
 
 **Software support:**
 
-COHIWizard, COHI-Mini-Player (projected) and solutions from other communities such as radio-bastler.de via GNU Radio support
+COHIWizard, [COHI-Player](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md) (incl. internet radio streams) and solutions from other communities such as radio-bastler.de via GNU Radio support
 
 **Audio sample for test listening:**
 

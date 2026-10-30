@@ -16,17 +16,11 @@ features:
   - Preface_Raspi_Wizard
   - Raspberry5_SDcard
   - Postfix_Raspi
+  - step_3
+  - cohiwizard_python_raspi
+  - finish
 ---
 
-  
-  <!-- - step_1
-  - stemlab_SDcard_WINDOWS
-  - stemlab_SDcard_LINUX_asalternative
-  - step_2
-  - Preface_Raspi
-  - title_RAspi4
-  - Raspberry4_SDcard
-  - title_RAspi5
-  - Raspberry5_SDcard
-  - Postfix_Raspi
-  - finish -->
+<!-- This combination is temporarily disabled in the installation guide (see layouts/shortcodes/installation-guide.html) until testing is complete. -->
+
+**Note:** This configuration is currently being tested.

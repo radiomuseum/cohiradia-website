@@ -129,7 +129,7 @@
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="option-card p-3 border rounded" data-option-id="cohi-player-mini">
             <input class="form-check-input guide-radio me-2" type="radio" name="category-software" id="option-cohi-player-mini" value="cohi-player-mini" data-category="software">
-            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-cohi-player-mini">COHI-Player Mini</label>
+            <label class="form-check-label w-100 user-select-none cursor-pointer" for="option-cohi-player-mini">COHI-Player</label>
           </div>
         </div>
       </div>
@@ -152,7 +152,7 @@
       computer: { pc: "PC", "raspberry-pi": "Raspberry-Pi" },
       wandler: { stemlab: "STEMLAB", "fl2k-dongle": "fl2k-Dongle", adalm2000: "ADALM2000" },
       os: { windows: "Windows", linux: "Linux" },
-      software: { "cohiwizard-exe": "COHIWizard exe", "cohiwizard-python": "COHIWizard Python", "cohi-player-mini": "COHI-Player Mini" }
+      software: { "cohiwizard-exe": "COHIWizard exe", "cohiwizard-python": "COHIWizard Python", "cohi-player-mini": "COHI-Player" }
     },
     
     validCombos: [
@@ -167,10 +167,13 @@
       { computer: "pc", wandler: "fl2k-dongle", os: "linux", software: "cohiwizard-python" },
       { computer: "pc", wandler: "stemlab", os: "linux", software: "cohi-player-mini" },
       { computer: "pc", wandler: "stemlab", os: "windows", software: "cohi-player-mini" },
-      { computer: "raspberry-pi", wandler: "stemlab", os: "linux", software: "cohiwizard-python" },
+      { computer: "pc", wandler: "fl2k-dongle", os: "linux", software: "cohi-player-mini" },
       { computer: "raspberry-pi", wandler: "stemlab", os: "linux", software: "cohi-player-mini" },
-      { computer: "raspberry-pi", wandler: "fl2k-dongle", os: "linux", software: "cohi-player-mini" },
-      { computer: "raspberry-pi", wandler: "fl2k-dongle", os: "linux", software: "cohiwizard-python" }
+      { computer: "raspberry-pi", wandler: "fl2k-dongle", os: "linux", software: "cohi-player-mini" }
+      // Vorübergehend deaktiviert (COHIWizard ist auf den neuen Raspberry-Pi-Images nicht vorinstalliert, Tests ausständig).
+      // Zum Reaktivieren Zeilen wieder einkommentieren (Komma nach der vorigen Zeile ergänzen):
+      // { computer: "raspberry-pi", wandler: "stemlab", os: "linux", software: "cohiwizard-python" },
+      // { computer: "raspberry-pi", wandler: "fl2k-dongle", os: "linux", software: "cohiwizard-python" }
     ]
   };
   

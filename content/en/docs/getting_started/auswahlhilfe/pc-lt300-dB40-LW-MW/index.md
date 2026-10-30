@@ -26,7 +26,7 @@ description: >
 
 **Software support:**
 
-COHIWizard, COHI-Mini-Player (projected) and solutions from other communities such as radio-bastler.de via GNU Radio support
+COHIWizard, [COHI-Player](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md) (incl. internet radio streams) and solutions from other communities such as radio-bastler.de via GNU Radio support
 
 
 <!-- ...existing code... -->

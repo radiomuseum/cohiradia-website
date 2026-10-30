@@ -9,7 +9,18 @@ description: >
 
 ## General
 
-The official software provided for COHIRADIA on the RM is the COHIWizard. It enables playback of broadband recordings hosted in the archive on analog radios, but also provides several useful tools. Currently, these are:
+Two equivalent, officially provided programs are available for COHIRADIA on the RM, complementing each other in their purpose:
+
+* **[COHIWizard](#cohiwizard):** the comprehensive software for PC (Windows and Linux) and Raspberry Pi 5. Besides playback of the broadband recordings, it offers numerous tools, e.g. for viewing, annotating, resampling and synthesizing recordings. It supports the STEMLAB, OSMO fl2k and ADALM2000 signal converters.
+* **[COHI-Player](#cohi-player):** the lean playback software that needs no manual interaction, particularly for stand-alone systems with the Raspberry Pi 4/5 (but also for PCs). It automatically plays IQ recordings after switch-on and can additionally output internet radio streams as AM carriers or mix them into IQ recordings. It supports the STEMLAB and OSMO fl2k signal converters.
+
+The [installation guide](/en/docs/getting_started/installation/) shows which combination of computer, signal converter and software suits you.
+
+<a id="cohiwizard"></a>
+
+## COHIWizard
+
+The COHIWizard enables playback of broadband recordings hosted in the archive on analog radios, but also provides several useful tools. Currently, these are:
 * Viewer for inspecting spectra
 * Annotator for commenting on your own recordings
 * Resampling of recordings to sampling rates supported by the STEMLAB125-14
@@ -29,31 +40,31 @@ Bug reports for version 2.2.x are welcome.
 
 <a id="windows"></a>
 
-## Windows 10/11
+### Windows 10/11
 The exe version can be downloaded as a zip file and also includes a user manual.
 
 <img src="https://cohiradia.radiomuseum.org/download/software/COHIWizard_V2.1.1_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/COHIWizard_v2.2.5b.zip)
 
 <a id="linux"></a>
 
-## LINUX
+### LINUX
 The Python version was implemented under Debian 12 and 13 in Python. For installation, please clone the repository from [Github](https://github.com/hermy-sf/COHIWizard) and follow the instructions in the [README file](https://github.com/hermy-sf/COHIWizard/blob/main/README.md).
 
 
 <a id="experimentelleV"></a>
 
-## Experimental Versions
+### Experimental Versions
 
 If you use a local GIT and the source codes, you can also access the development branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2). However, it is experimental and constantly changing. Code loaded from there may show unexpected behavior and is therefore not officially recommended.
 
 I am grateful for [reports](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) and bug reports, as they help to quickly eliminate problems.
 
-## Previous Versions
+### Previous Versions
 
 Those who already know previous versions of the current COHIWizard and may have installed them will find [in the software archive](alte-versionen.html) old versions right up to the RFCorder, which was the first simple playback software created for COHIRADIA. All of these previous versions should be considered outdated and are no longer maintained.
 
 
-## Hardware Support
+### Hardware Support
 
 The player part of the COHIWizard is equipped with a device driver system. This makes it possible to use different hardware products suitable for COHIRADIA for generating the analog antenna signals.
 
@@ -67,7 +78,43 @@ So far, three device drivers have been implemented:
 
 Both (2) and (3) score with significantly lower costs than a STEMLAB, but require significantly more computing power on the PC, since they do not have an FPGA for the necessary recoding of the complex baseband data like the STEMLAB. The ADALM2000 and the fl2k are therefore not equivalent alternatives to the STEMLAB, whose performance remains unrivaled.
 
+<a id="cohi-player"></a>
 
+## COHI-Player
 
+The COHI-Player by Claus Peter Gallenmiller is a lean playback software that turns a Raspberry Pi or PC into a small "broadcast station" for vintage radios. It needs no manual interaction: after start-up it automatically plays all broadband IQ recordings stored on a USB stick or in an internal directory. This makes it particularly suitable for collections, exhibitions and museums. The STEMLAB (Red Pitaya) and the OSMO fl2k dongle are supported as signal converters.
+
+### Operating modes
+
+* **COHI-Player:** playback of broadband IQ recordings (wav files), e.g. historical recordings of the complete medium wave band from the COHIRADIA archive.
+* **COHI-Stream:** current **internet radio streams** (MP3/AAC/M3U) are output simultaneously as AM carriers on freely selectable frequencies – each station with its own carrier frequency and audio bandwidth. Local audio files can also be used as a source via M3U playlists. An example list with 31 internet radio stations (many of them with music of the 1920s–1960s) is included, and the station list can be edited directly in the program.
+* **COHI-Player+Stream:** a combination of both – internet radio streams (or local audio files via M3U playlists) are **mixed into** a static IQ recording as additional carriers.
+
+Internet radio streams require an internet connection; a wired LAN connection is strongly recommended to avoid dropouts in the sound.
+
+### Platforms and performance
+
+All three operating modes are available under Linux and Raspberry Pi OS. Under Windows only the COHI-Player mode (playback of IQ recordings) is possible, because the C++ tools required for the streams are not provided for Windows.
+
+According to the user manual, the following approximate limits apply on the Raspberry Pi (estimates, depending on data rate and stability of the streams):
+
+| Operating mode | Raspberry Pi 4 | Raspberry Pi 5 |
+|---|---|---|
+| COHI-Player with STEMLAB or fl2k | ✔ | ✔ |
+| COHI-Stream with STEMLAB | < 25 streams | > 50 streams |
+| COHI-Stream with fl2k | < 14 streams | > 40 streams |
+| COHI-Player+Stream with STEMLAB | IQ recording + < 25 streams | IQ recording + > 50 streams |
+| COHI-Player+Stream with fl2k | not possible | IQ recording + > 40 streams |
+
+On PCs, performance depends heavily on the installed CPU.
+
+### Important notes
+
+* The COHI-Player only finds recordings whose file name ends with **`_0.wav`** (e.g. `MW_Berlin_1936_0.wav`). Subdirectories are searched as well, and follow-up files (`_1.wav`, `_2.wav`, …) are played automatically.
+* The output delivers a real RF signal in the medium wave band. Connect it to the radio only by cable via a [coupling device](/en/docs/getting_started/koppelgeraet/) with an insulating transformer, and observe the regulations in your country.
+
+### Source code, user manual and installation
+
+The source code is freely available on GitHub in the repository [COHI-Player-Universal](https://github.com/CPG-Archive/COHI-Player-Universal). The complete operating and configuration instructions can be found in the [README file](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md). Pre-configured images are available for the Raspberry Pi 4 and 5; the step-by-step instructions can be found in the [installation guide](/en/docs/getting_started/installation/).
 
 <!-- comment -->

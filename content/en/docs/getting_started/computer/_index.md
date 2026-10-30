@@ -31,7 +31,9 @@ The software has so far been developed on a Lenovo T590 with Intel Core i7 with 
 
 ## Raspberry Pi as Control Computer
 
-A Raspberry Pi 4 is suitable as the smallest single-board computer tested so far, in conjunction with software reduced to the essentials, the COHI-Player Mini, very well for pure playback on a STEMLAB. Beta versions of these variants have already been tested, but the software still needs to be refined before it can be released to the public. We therefore ask for your patience; the tools for public download are currently being prepared. Combined with the OSMO-flk2, this will enable the implementation of the most cost-effective system to date, although it does have certain limitations.
+A Raspberry Pi 4 is suitable as the smallest single-board computer tested so far, in conjunction with software reduced to the essentials, the COHI-Player, very well for pure playback on a STEMLAB or an OSMO fl2k dongle. In addition, the COHI-Player can output current internet radio streams as AM carriers on freely selectable frequencies or mix them into a static IQ recording; for this combination and for many simultaneous streams a Raspberry Pi 5 is recommended. With a Raspberry Pi 5 you can also run the full version of the COHIWizard and alternative playback programs (see links under 'Projects') without problems. For the Raspberry Pi 4 with COHI-Player, 4GB of RAM are sufficient; for the Raspberry Pi 5 no 4GB version has been tested so far, but 8GB are sufficient in any case.
+
+Ready-made images with the COHI-Player are available for the Raspberry Pi 4 and 5, see the installation guide. Combined with the OSMO-fl2k, this enables the most cost-effective system to date, although it does have certain limitations. The user manual of the COHI-Player can be found in the [README file on GitHub](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md).
 
 Fig. 1 shows a Raspberry Pi 5 in a desktop housing with a 7" touch display while it couples a broadband signal into a Hornyphon W248U via an OSMO-fl2k. The COHIWizard was used as software here. (Click to go to the video):
 

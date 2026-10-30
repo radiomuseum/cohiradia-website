@@ -18,7 +18,8 @@ wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SN
 * unkompliziertes Setup
 * kompakt
 * standalone, 
-* automatische Wiedergabe nach dem Hochfahren bei Verwendung des COHI-Player-Mini
+* automatische Wiedergabe nach dem Hochfahren bei Verwendung des COHI-Player
+* mit dem COHI-Player auch Wiedergabe von Webradio-Streams möglich, auch hineingemischt in IQ-Aufzeichnungen
 * exzellente SNR-Werte
 * bis 60 MHz einsetzbar, also LW, MW und alle KW-Bänder
 * Signalaufzeichnung ist mit hoher Qualität möglich
@@ -31,7 +32,7 @@ wenn noch verfügbar ist auch das deutlich billigere STEMLAB 125-10 geeignet (SN
 
 **Software-Unterstützung:**
 
-COHIWizard, COHI-Mini-Player (projected)
+COHIWizard, [COHI-Player](https://github.com/CPG-Archive/COHI-Player-Universal/blob/master/README.md) (inkl. Webradio-Streams)
 
 **Audio-Beispiel zum Testhören:**
 

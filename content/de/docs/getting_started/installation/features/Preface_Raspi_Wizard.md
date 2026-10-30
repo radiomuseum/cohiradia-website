@@ -6,10 +6,11 @@ _build:
   render: always
 ---
 
-### Bereiten Sie die SD-Karte mit dem Betriebssystem und dem Player für den Raspberry Pi vor:
+### Bereiten Sie die SD-Karte mit dem Betriebssystem für den Raspberry Pi vor:
 
 Es gibt viele verschiedene Möglichkeiten, den COHIWizard auf einem Raspberry Pi auszuführen. Derzeit unterstützen wir nur den Raspberry Pi 5, da der Pi 4 nicht genügend Ressourcen für eine stabile Leistung bietet. Auf dem Markt sind viele verschiedene Display-Typen erhältlich, die spezifische Konfigurationen und die Installation der richtigen Treiber erfordern. Auf unserem vorgefertigten Image unterstützen wir direkt nur das offizielle 7"-Display vom Typ RPI-7LCD2. Dieses benötigt dann keine weiteren Anpassungen oder zusätzlichen Installationen. Sollten Sie sich für einen anderen Displaytyp entscheiden, installieren Sie bitte die erforderlichen Treiber manuell.
 
+**Bitte beachten Sie:** Das vorgefertigte Image enthält das Betriebssystem und den COHI-Player, aber **nicht den COHIWizard**. Dieser wird anschließend direkt auf dem Raspberry Pi nachinstalliert.
 
 **Erstellen Sie wie folgt eine neue SD-Karte für den Raspberry Pi:**
 

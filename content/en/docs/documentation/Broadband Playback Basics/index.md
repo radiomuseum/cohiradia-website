@@ -62,3 +62,20 @@ If you want to generate a complete spectrum with many coexisting stations, you m
 
 
 <!-- comment -->
+
+## Spectra with Internet Radio Streams and Local Audio Files
+
+The digital synthesis shown in Fig. 4 C is not limited to historical sound recordings. Both local audio files and internet radio streams can serve as audio sources for the individual carriers. In principle, there are two ways of processing:
+
+1. **Offline synthesis (local audio files):** A complete spectrum is calculated in advance from any audio files (e.g., wav or mp3) and stored as an IQ file – just like a recorded antenna signal. Each audio file is modulated onto its own carrier at a freely selectable frequency. This option is offered by the synthesizer of the [COHIWizard](/en/docs/documentation/software/#cohiwizard). The resulting file can then be played back as often as desired with any COHIRADIA playback software.
+
+2. **Real-time synthesis (internet radio streams and local audio files):** Here, the audio data are continuously read or received and decoded, modulated onto their respective carriers in real time, added up and passed directly to the signal converter without an intermediate file. For live content from the internet this is the only possible way, since pre-calculation is not possible. In this way, current radio programs – for example stations playing music from the heyday of the tube radio – can be heard on a historical receiver as if they were being broadcast on medium wave. This operating mode is offered by the [COHI-Player](/en/docs/documentation/software/#cohi-player) (COHI-Stream). Each carrier is fed from a stream address or an M3U playlist; such a playlist can contain local audio files as well as internet addresses. This way, your own audio content can be broadcast directly as a station without first calculating an IQ file.
+
+Both approaches can also be combined with a static IQ recording: the COHI-Player can **mix** additional carriers modulated by internet radio streams or local audio files (via M3U playlists) **into** a running recording – be it a natural spectrum recorded from the antenna or an offline-synthesized one (operating mode COHI-Player+Stream). This results, for example, in a historical medium wave band in which current programs or your own audio content can additionally be heard on some free frequencies.
+
+A few technical constraints must be observed:
+
+* **Choice of frequencies:** The additional carriers should be placed on frequencies that are free in the recording and sufficiently spaced from each other (typically a 9 kHz channel raster in the medium wave band) so that the sidebands do not overlap. It is also important to place the added carriers exactly on the 9 kHz raster of the frequency plan underlying the IQ recording. If an added carrier lies outside this raster, beating with the carrier on the neighbouring raster frequency produces audible **whistling interference**. The pitch of the whistle typically corresponds to the difference between the frequency of the added carrier and the neighbouring raster frequency in the IQ spectrum – a carrier at 1000 kHz next to a station on the raster frequency 999 kHz, for example, produces a 1 kHz whistle.
+* **Audio bandwidth:** The audio bandwidth of each carrier is limited (e.g., to 4.5 kHz), which corresponds to the bandwidth of AM transmitters of the time and avoids interference with adjacent channels.
+* **Computing power:** Since modulation takes place in real time, the number of simultaneous carriers is limited by the computing power – to a few dozen on the Raspberry Pi 4, correspondingly more on the Raspberry Pi 5. With the fl2k dongle, which, unlike the STEMLAB, has no signal processing of its own (FPGA), the limits are tighter (see [Platforms and performance](/en/docs/documentation/software/#cohi-player)).
+* **Network:** Uninterrupted playback of internet radio streams requires a stable internet connection, preferably via LAN cable.
