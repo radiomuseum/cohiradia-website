@@ -21,7 +21,7 @@ in action.
 <div style="clear: both;"></div>
 
 * Classic setup with PC and COHIWizard
-* Miniature version with the Raspberry Pi and COHI-Player by CP. Gallenmiller. 
+* Miniature version with the Raspberry Pi and COHI-Player mini by CP. Gallenmiller. 
 
 Both systems were connected, on the one hand, to a classic tube receiver from the 1950s via cable
 and, on the other hand, to two transistor portable radios from the 1960s via a  small low power transmitter with loop antenna .

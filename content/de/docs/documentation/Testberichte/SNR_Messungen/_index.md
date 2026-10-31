@@ -129,26 +129,26 @@ Bild 6 zeigt das Ergebnis für die Untersuchung der Intermodulationsprodukte. Hi
 
 Abb. 6: Spektrometer-Ausgabe mit Span 1000kHz und Beobachtung der Intermodulationsprodukte.
 
-C.P. Gallenmiller hat zusätzlich zu den bereits oben vorgestellten Evaluierungen noch Vergleiche zwischen COHIWizard und COHI-Player 
+C.P. Gallenmiller hat zusätzlich zu den bereits oben vorgestellten Evaluierungen noch Vergleiche zwischen COHIWizard und COHI-Player mini 
 auf einem LINUX-PC durchgeführt. Die Tests wurden für 3 verschiedene Signale angestellt: 
 1) RM2006B_part1 aus dem COHIRADIA-Archiv 
 2) synthetisches AM2 mit 29 Trägern wie unter Paragraph 1. 
 
-Die Einstellungen der Meßgeräte sind jeweils gleich. Zunächst in Abb. 7 der Vergleich von RM2006_part1 und AM1 für STEMLAB und COHI-Player:
+Die Einstellungen der Meßgeräte sind jeweils gleich. Zunächst in Abb. 7 der Vergleich von RM2006_part1 und AM1 für STEMLAB und COHI-Player mini:
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image004_STL_mini_RM2006B_part1.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 7a: Spektrum RM2006B_part1 mit STEMLAB und COHI-Player auf LINUX-PC.
+Abb. 7a: Spektrum RM2006B_part1 mit STEMLAB und COHI Player mini auf LINUX-PC.
 
 <img 
   src="https://cohiradia.radiomuseum.org/download/docs/ressources_webpage/documentation/test_data/SNR_signal_converters/Spectra_cpg/cpg_image001_STL_mini_AM2.png"
   style="max-width: 90%; height: auto;"
 />
 
-Abb. 7b: Spektrum AM2 mit STEMLAB und COHI-Player auf LINUX-PC.
+Abb. 7b: Spektrum AM2 mit STEMLAB und COHI Player mini auf LINUX-PC.
 
 Abbildungen 8 a und b zeigen die Situation für den COHIWizard und fl2k für die selben beiden Quelldateien.
 

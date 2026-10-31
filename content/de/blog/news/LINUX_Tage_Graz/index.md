@@ -30,7 +30,7 @@ im Betrieb zu erleben.
 <div style="clear: both;"></div>
 
 * Klassisches Setup mit PC und COHIWizard
-* Miniatur-Version mit dem Raspberry Pi und COHI-Player von CP. Gallenmiller. 
+* Miniatur-Version mit dem Raspberry Pi und COHI-Player mini von CP. Gallenmiller. 
 
 Beide Systeme waren zum einen mit einem klassischen Röhrenempfänger aus den 50er-Jahren per Kabel
 und andererseits mit zwei Transistor-Kofferradios aus den 1960ern über einen  Loopantennen-Kleinsender gekoppelt.
