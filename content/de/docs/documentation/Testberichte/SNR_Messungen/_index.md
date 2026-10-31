@@ -129,7 +129,7 @@ Bild 6 zeigt das Ergebnis für die Untersuchung der Intermodulationsprodukte. Hi
 
 Abb. 6: Spektrometer-Ausgabe mit Span 1000kHz und Beobachtung der Intermodulationsprodukte.
 
-C.P. Gallenmiller hat zusätzlich zu den bereits oben vorgestellten Evaluierungen noch Vergleiche zwischen COHIWizard und COHI-Player mini 
+C.P. Gallenmiller hat zusätzlich zu den bereits oben vorgestellten Evaluierungen noch Vergleiche zwischen COHIWizard und COHI-Player mini (Vorgänger der aktuell unterstützten neuen Version 'COHI-Player') 
 auf einem LINUX-PC durchgeführt. Die Tests wurden für 3 verschiedene Signale angestellt: 
 1) RM2006B_part1 aus dem COHIRADIA-Archiv 
 2) synthetisches AM2 mit 29 Trägern wie unter Paragraph 1. 

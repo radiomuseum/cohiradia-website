@@ -125,7 +125,7 @@ Fig. 6 shows the result for the investigation of intermodulation products. An in
 
 Fig. 6: Spectrometer output with span 1000kHz and observation of intermodulation products.
 
-C.P. Gallenmiller, in addition to the evaluations already presented above, also performed comparisons between COHIWizard and COHI-Player mini on a LINUX PC. The tests were conducted for 3 different signals:
+C.P. Gallenmiller, in addition to the evaluations already presented above, also performed comparisons between COHIWizard and COHI-Player mini (predecessor of the currently supported new version 'COHI-Player') on a LINUX PC. The tests were conducted for 3 different signals:
 1) RM2006B_part1 from the COHIRADIA archive
 2) synthetic AM2 with 29 carriers as in Section 1.
 
