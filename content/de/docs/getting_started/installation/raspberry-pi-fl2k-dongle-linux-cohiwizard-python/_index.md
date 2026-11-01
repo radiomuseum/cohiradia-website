@@ -17,6 +17,7 @@ features:
   - cohiwizard_python_raspi
   - schritt_3
   - fl2k_raspi
+  - raspi_network_config
   - finish
 ---
 

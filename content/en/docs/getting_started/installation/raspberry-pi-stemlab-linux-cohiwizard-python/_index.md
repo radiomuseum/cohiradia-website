@@ -18,6 +18,7 @@ features:
   - Postfix_Raspi
   - step_3
   - cohiwizard_python_raspi
+  - raspi_network_config
   - finish
 ---
 

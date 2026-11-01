@@ -15,4 +15,5 @@ features:
   - step_3
   - cohi_player_config_windows
   - finish
+  - cohi_player_manual_hint
 ---

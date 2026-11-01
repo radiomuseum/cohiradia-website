@@ -10,7 +10,7 @@ _build:
 
 **Dieser Abschnitt ist nur nötig, wenn Sie das Raspberry 3,5-Zoll-Touchscreen-Display vom Typ RPI-35LCD verwenden. In allen anderen Fällen können Sie ihn überspringen.**
 
-Im RasPi4-3,5"-Image ist das Display von ICUQ vorkonfiguriert. Der Treiber kann sehr einfach für das Raspberry 3,5-Zoll-Touchscreen-Display, Typ RPI-35LCD, umkonfiguriert werden:
+Im RasPi4-3,5"-Image ist das Display von CUQI vorkonfiguriert. Der Treiber kann sehr einfach für das Raspberry 3,5-Zoll-Touchscreen-Display, Typ RPI-35LCD, umkonfiguriert werden:
 
 1. SSH-Verbindung zum Raspberry Pi mit PuTTY aufbauen.
 2. Mit User `pi` und Passwort `pi` einloggen.
@@ -20,7 +20,7 @@ Im RasPi4-3,5"-Image ist das Display von ICUQ vorkonfiguriert. Der Treiber kann 
 bash config_display_2.sh
 ```
 
-Die Konfiguration für das ICUQ-Display kann mit
+Die Konfiguration für das CUQI-Display kann mit
 
 ```bash
 bash config_display_1.sh

@@ -22,6 +22,8 @@ features:
   - cohi_player_source_raspi
   - step_3
   - cohi_player_config
+  - raspi_network_config
   - finish
+  - cohi_player_manual_hint
   - display_35_config
 ---
