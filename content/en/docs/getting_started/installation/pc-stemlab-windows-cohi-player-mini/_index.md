@@ -13,6 +13,6 @@ features:
   - step_2
   - cohi_player_mini_windows
   - step_3
-  - cohi_player_config
+  - cohi_player_config_windows
   - finish
 ---

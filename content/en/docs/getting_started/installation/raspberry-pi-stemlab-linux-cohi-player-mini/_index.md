@@ -23,4 +23,5 @@ features:
   - step_3
   - cohi_player_config
   - finish
+  - display_35_config
 ---

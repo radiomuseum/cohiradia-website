@@ -36,4 +36,17 @@ Anschließend kann sie in den SD-Kartensteckplatz des Raspberry Pi eingesetzt we
 
 **ACHTUNG: dd muss mit großer Vorsicht verwendet werden. Wenn Sie das falsche Ziel angeben, können wichtige Systemlaufwerke gelöscht werden. Überprüfen Sie daher bitte dreimal, was Sie tun!**
 
+Die Images legen einen User `pi` mit dem Passwort `pi` an.
+
+Ein integriertes SAMBA-Interface ermöglicht, das Verzeichnis `/home/pi` auf einem anderen Rechner als R/W-Laufwerk zu mounten:
+
+```text
+User:     pi
+Passwort: Ras#Pi
+```
+
+Damit lassen sich sehr einfach Spektrumsdateien und Programmupdates für den COHI-Player übertragen. Dazu muss am Windows-PC ein Netzwerklaufwerk mit der Serveradresse `\\[IP-Adresse des Raspberry Pi]` verbunden werden; als Ordner wird dabei `\\[IP-Adresse des Raspberry Pi]\pi` eingetragen (siehe Abbildung):
+
+![Windows-Dialog „Netzlaufwerk verbinden“ mit dem Ordner \\192.168.178.115\pi](/images/Per_Samba_verbinden_image018.png)
+
 <br/>

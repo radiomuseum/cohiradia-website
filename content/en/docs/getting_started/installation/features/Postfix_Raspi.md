@@ -36,4 +36,17 @@ Afterwards it can be inserted into the SD card slot of the Raspberry Pi which th
 
 **ATTENTION: dd must be used with great caution. If you specify the wrong target, important system drives may be erased. So please check three times what you are doing!**
 
+The images create a user `pi` with the password `pi`.
+
+An integrated SAMBA interface allows the directory `/home/pi` to be mounted on another computer as a read/write drive:
+
+```text
+User:     pi
+Password: Ras#Pi
+```
+
+This makes it very easy to transfer spectrum files and program updates for the COHI-Player. To do so, a network drive with the server address `\\[IP address of the Raspberry Pi]` must be connected on the Windows PC; enter `\\[IP address of the Raspberry Pi]\pi` as the folder (see figure, taken from a German Windows version):
+
+![Windows dialog "Map Network Drive" with the folder \\192.168.178.115\pi](/images/Per_Samba_verbinden_image018.png)
+
 <br/>
