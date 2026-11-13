@@ -23,7 +23,7 @@ sudo umount /dev/YOURSDDEVICE*
 YOURSDDEVICE is then what your lsblk lists, in my example sda. Then:
 
 ```bash
-sudo dd if=redpitaya_full.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync
+sudo dd if=cohiradia_STEMLAB125_v1.0.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync
 ```
 Now the card will be written. When it's finished, eject the card:
 

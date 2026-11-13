@@ -31,7 +31,7 @@ sudo umount /dev/YOURSDDEVICE*
 YOURSDDEVICE ist dann was Ihr lsblk listet, in meinem Beispiel sbd. Danach:
 
 ```bash
-sudo dd if=redpitaya_full.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync
+sudo dd if=cohiradia_STEMLAB125_v1.0.img of=/dev/YOURSDDEVICE bs=4M status=progress conv=fsync
 ```
 Nun wird die Karte beschrieben. Wenn sie fertig ist, Karte auswerfen:
 
