@@ -49,6 +49,9 @@ Besides a few small changes (e.g. a monitor for the currently playing spectrum) 
 
 <img src="https://cohiradia.radiomuseum.org/download/software/Synthesizer_Screenshot_v0.PNG" width="400" height="200" />
 
+### COHIWizard 2.2 (stable version until the end of 2026)
+
+This version was supported until the end of 2026 and already had a well-structured driver concept. If you are using a local Git repository and the source codes, you can still access the relevant branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2).
 
 # LINUX
 <a id="linux"></a>

@@ -43,6 +43,10 @@ Diese Version beinhaltet neben einigen kleinen Änderungen (z.B. Einbau eines Mo
 
 <img src="https://cohiradia.radiomuseum.org/download/software/Synthesizer_Screenshot_v0.PNG" width="400" height="200" />
 
+### COHIWizard 2.2 (stabile Version bis Ende 2026)
+
+Diese Version wurde bis Ende 2026 gewartet und hatte bereits ein gut aufgebautes Treiberkonzept. Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie weiterhin auf den entsprechenden Branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2) zugreifen. 
+
 ### RFCorder Version 2.0 (November 2023)
 
 <img src="https://cohiradia.radiomuseum.org/download/software/RFCorder2_Screenshot.PNG" width="400" height="200" /> [<img src="https://cohiradia.radiomuseum.org/download/software/Button_Download.PNG" width="200" height="70" />](https://cohiradia.radiomuseum.org/download/software/RFCorder_v2_0.zip)

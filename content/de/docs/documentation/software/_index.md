@@ -54,7 +54,7 @@ Die Python-Version wurde unter Debian 12 und 13 unter Python implementiert. Für
 
 ### Experimentelle Versionen
 
-Wenn Sie ein lokales GIT und die Source-Codes verwenden, können Sie auch auf den Entwicklungs-Branch [cohiwizard_v2.2](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.2) zugreifen. Er ist allerdings experimentell und in ständigem Wandel. Von dort geladene Codes können unerwartetes Verhalten zeigen und werden daher nicht offiziell empfohlen.
+Wenn Sie experimentierfreudig sind, können Sie auf den aktuellen Entwicklungsbranch [cohiwizard_v2.3](https://github.com/hermy-sf/COHIWizard/tree/cohiwizard_v2.3) zugreifen. Dort finden Sie die gerade in Weiterentwicklung befindliche letzte Version der Software, für die es nun sehr bequeme Installer gibt, sowohl für LINUX als auch [für Windows](https://cohiradia.radiomuseum.org/download/software/COHI_installer_v1.1/Output/COHIWizard_Setup_2.3.exe). Alle nötigen Anleitungen können Sie im [README](https://github.com/hermy-sf/COHIWizard/blob/cohiwizard_v2.3/README.md) nachlesen, ud hier finden Sie auch die aktuelle [Dokumentation](https://github.com/hermy-sf/COHIWizard/blob/cohiwizard_v2.3/documentation/User_Manual_COHIWizard_v2.3_en.pdf). Die dort gehostete Software beinhaltet immer die neuesten Werkzeuge, kann aber als experimentelle Version auch unerwartetes Verhalten zeigen. Sie wird daher nicht offiziell empfohlen, obwohl sie meist problemlos läuft.
 
 Für [Berichte](https://www.radiomuseum.org/forum/software_fuer_cohiradia_details_und_problemloesungen.html) und Bugreports bin ich dankbar, denn sie helfen dabei, Probleme rasch zu beseitigen.
 
